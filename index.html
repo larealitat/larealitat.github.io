@@ -8,8 +8,8 @@ layout: default
       
       <h2 class="universe"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-      <div class="prose">
-        {{ post.content | truncatewords:40}}
+      <div class="entry">
+        {{ post.content | truncatewords:20}}
       </div>
       
       <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines red"> Read More </a></div>
