@@ -177,10 +177,10 @@ $(function() {
 	   var st = $(this).scrollTop();
 	   if (st > lastScrollTop){
 		   // downscroll code
-		   $('#footer').addClass('line-top red anm-shake');
+		   $('#footer').addClass('line-top red anm-bounce');
 	   } else {
 		  // upscroll code
-		   $('#footer').removeClass('line-top red anm-shake');
+		   $('#footer').removeClass('line-top red anm-bounce');
 	   }
 	   lastScrollTop = st;
 	});
