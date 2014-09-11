@@ -17,7 +17,7 @@ Això aporta dinamisme, seguretat i facilitat d'ús al conjunt d'administradors 
 
 El codi font de la web és accessible per a qualsevol programador a través de la plataforma Github, des d'on pot ser analitzat, descarregat, modificat i usat lliurement per a la construcció de llocs similars.
 
-<div class="button-centered"><a href="https://github.com/ComunistesdeCatalunya/comunistesdecatalunya.github.io" class="button lines red" title="Comunistes de Catalunya a Github">https://github.com/ComunistesdeCatalunya</a></div>
+<div class="button-centered"><a href="https://github.com/ComunistesdeCatalunya/comunistesdecatalunya.github.io" class="button flat red" title="Comunistes de Catalunya a Github">https://github.com/ComunistesdeCatalunya</a></div>
 
 ### CMS
 
