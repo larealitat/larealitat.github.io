@@ -44,17 +44,45 @@
 	</head>
 	<body>
   
-	<nav id="side-menu" class="nav-side universe flat asphalt fixed top scrollable closed">
-		<h4>Menu</h4>
-		{% include navigation.html %}
-	</nav>
-	
-	<div class="fixed top s">
-		<a class="button-icon circled flat asphalt open-side-menu symbol-iching-heaven"></a>
-	</div>
-	
 	<div class="page" id="page">
-	
+
+		<header id="header" class="anm-zoomIn">
+			<div class="content">
+				<div class="cell-1">
+					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image"><img src="{{ site.avatar }}" alt="www.comunistes.cat"></a>
+				</div>
+				<div class="cell-11">
+					<nav class="rounded">
+						<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
+						<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
+						<div id="nav-collapse" class="togglecollapsed anm-rotatePullTop">
+							<a href="http://bloc.comunistes.cat" title="Bloc dels i les Comunistes de Catalunya">Bloc</a>
+							<a href="http://imatges.comunistes.cat" title="Imatges dels i les Comunistes de Catalunya">Imatges</a>
+							<a href="http://videos.comunistes.cat" title="Vídeos dels i les Comunistes de Catalunya">Vídeos</a>
+							<a href="http://publicacions.comunistes.cat" title="Publicacions dels i les Comunistes de Catalunya">Publicacions</a>
+							<a href="http://persones.comunistes.cat" title="Persones Comunistes de Catalunya">Persones</a>
+							<a href="http://comunistes.cat/lluites" title="Lluites dels i les Comunistes de Catalunya">Lluites</a>
+							<a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya">Organització</a>
+							<form class="form-search anm-moveFromTopFade delay-1000" action="http://www.google.com/cse"> 
+								<input type="hidden" name="cx" value="007620493827235173837:iw6nd8cvpza"> 
+								<input type="text" name="q" class="terms" placeholder="cerca"> 
+								<input type="submit" name="sa" class="search" value="·"> 
+							</form>
+						</div>
+					</nav>
+				</div>
+				<hr class="no-margin">
+			</div>
+		</header>
+		
+		<header id="page-header" class="header-banner universe flat soft-grey anm-scaleUpDown">
+				<h1 class="g anm-zoomInDown delay-500"><a href="{{ site.baseurl }}/" title="Home">{{ site.name }} <br class="visible-phone"><small>{{ site.description }}</small></a></h1>
+				<div class="button-centered">
+					<a href="http://comunistes.cat/docs/contact.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a>
+					<a href="http://comunistes.cat/docs/collaboration.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb el PCC"> Actua </a>
+					<a href="http://comunistes.cat/docs/milite.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
+				</div>
+		</header>	
 		<header class="flat asphalt universe thin">
 			<h1 class="g anm-zoomInDown delay-500"><a href="{{ site.baseurl }}/" title="Home">{{ site.name }} <br class="visible-phone"><small>{{ site.description }}</small></a></h1>
 		</header>
