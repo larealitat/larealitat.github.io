@@ -8,11 +8,11 @@ layout: default
       
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-      <div class="entry">
+      <div class="l">
         {{ post.content | truncatewords:30}}
       </div>
       
-      <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey"> Llegir més </a></div>
+      <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l"> Llegir més </a></div>
     </article>
   {% endfor %}
 </div>
