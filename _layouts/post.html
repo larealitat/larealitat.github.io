@@ -4,11 +4,10 @@ layout: default
 				<article class="anm-zoomInLeft">
 				  	<header>
 						<h2 class="universe thin">{{ page.title }}</h2>
-						<p class="universe thin l">Written on {{ page.date | date: "%B %e, %Y" }}</p>
+						<p class="universe thin l">Escrit el {{ page.date | date: "%e de %B de %Y" }}</p>
 					</header>
 					<div class="entry">
 					{{ content }}
 					</div>
 					<hr>
-					{% include disqus.html disqus_identifier=page.disqus_identifier %}
 				</article>
