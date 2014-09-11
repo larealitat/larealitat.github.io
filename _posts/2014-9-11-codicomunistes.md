@@ -11,12 +11,13 @@ Per a construir la web dels i les Comunistes de Catalunya hem partit d'una conce
 
 Per això, hem apostat per una estructura completament descentralitzada i veritablement en xarxa, absolutament oposada a l'estructura clàssica de servidor central.
 
-Això aporta dinamisme, seguretat i facilitat d'ús al conjunt d'administradors de la pàgina web, al mateix que aporta transparència als usuaris i les usuàries de la pàgina, especialment als qui vulguin aprofundir en el seu codi font.
+Això aporta dinamisme, seguretat i facilitat d'ús al conjunt d'administradors de la pàgina web, al mateix temps que aporta transparència als usuaris i les usuàries de la pàgina, especialment als qui vulguin aprofundir en el seu codi font.
 
 ### Codi font
 
 El codi font de la web és accessible per a qualsevol programador a través de la plataforma Github, des d'on pot ser analitzat, descarregat, modificat i usat lliurement per a la construcció de llocs similars.
 
+<div class="button-centered"><a href="https://github.com/ComunistesdeCatalunya/comunistesdecatalunya.github.io" class="button lines red" title="Comunistes de Catalunya a Github">https://github.com/ComunistesdeCatalunya</a></div>
 
 ### CMS
 
