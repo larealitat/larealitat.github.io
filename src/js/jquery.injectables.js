@@ -16,9 +16,9 @@ $(function() {
 	// Social-buttons 
 	
 	$('.sharing-buttons').html('<div>'+
-		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button flat blue" target="blank" title="Share now">Share on Facebook</a>'+
-		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button flat soft-red" target="blank" title="Share now">Share on Google +</a>'+
-		'<a href="http://twitter.com/?status='+ url +'" class="button flat soft-blue" target="blank" title="Tweet now">Share on Twitter</a>'+
+		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button rounded flat blue" target="blank" title="Share now">Share on Facebook</a>'+
+		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button rounded flat soft-red" target="blank" title="Share now">Share on Google +</a>'+
+		'<a href="http://twitter.com/?status='+ url +'" class="button rounded flat soft-asphalt" target="blank" title="Tweet now">Share on Twitter</a>'+
 	'</div>');
 	
 	// Translating list 
