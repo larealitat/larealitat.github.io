@@ -47,7 +47,7 @@
   
 	<div class="page" id="page">
 
-		<header id="header" class="anm-zoomIn">
+		<header id="header" class="">
 			<div class="content">
 				<div class="cell-1">
 					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image"><img src="{{ site.avatar }}" alt="www.comunistes.cat"></a>
@@ -76,19 +76,8 @@
 			</div>
 		</header>
 		
-		<header id="page-header" class="flat soft-granate universe anm-scaleUpDown">
-				<h1 class="anm-zoomInDown delay-500"><a href="{{ site.baseurl }}/" title="Home">{{ site.name }}</a></h1>
-		</header>	
-		
-		<main id="content">
-			<div class="content anm-zoomInUp">
+		{{ content }}
 			
-				{{ content }}
-			
-				<hr>
-			</div><!-- /.content -->
-		</main>
-		
 		<footer id="footer" class="universe">
 			<div class="content">
 				{% include svg-icons.html %}
