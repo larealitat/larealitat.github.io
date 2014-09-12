@@ -4,5 +4,5 @@
 	transform: translateZ(0);
 }
 #page-header h1 {
-	transform: translateZ(-1px);
+	transform: translateZ(-10px);
 }
