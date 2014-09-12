@@ -8,17 +8,17 @@ $(function() {
 	// Sharing-list 
 	
 	$('.sharing-list').html('<ul>'+
-		'<li><a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" target="blank" title="Share now">Share on Facebook</a></li>'+
-		'<li><a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" target="blank" title="Share now">Share on Google +</a></li>'+
-		'<li><a href="http://twitter.com/?status='+ url +'" target="blank" title="Tweet now">Share on Twitter</a></li>'+
+		'<li><a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" target="blank" title="Share now">Facebook</a></li>'+
+		'<li><a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" target="blank" title="Share now">Google +</a></li>'+
+		'<li><a href="http://twitter.com/?status='+ url +'" target="blank" title="Tweet now">Twitter</a></li>'+
 	'</ul>');
 	
 	// Social-buttons 
 	
 	$('.sharing-buttons').html('<div>'+
-		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button rounded flat blue" target="blank" title="Share now">Share on Facebook</a>'+
-		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button rounded flat soft-red" target="blank" title="Share now">Share on Google +</a>'+
-		'<a href="http://twitter.com/?status='+ url +'" class="button rounded flat soft-asphalt" target="blank" title="Tweet now">Share on Twitter</a>'+
+		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button rounded flat blue" target="blank" title="Share now">Facebook</a>'+
+		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button rounded flat soft-red" target="blank" title="Share now">Google +</a>'+
+		'<a href="http://twitter.com/?status='+ url +'" class="button rounded flat soft-asphalt" target="blank" title="Tweet now">Twitter</a>'+
 	'</div>');
 	
 	// Translating list 
