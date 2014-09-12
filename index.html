@@ -2,17 +2,28 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="universe thin">    
-      
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+<header id="page-header" class="flat soft-granate universe anm-scaleUpDown">
+	<h1 class="anm-zoomInDown delay-500">{{ site.name }}</h1>
+	<p class="universe thin l">{{ page.description }}</p>
+</header>	
 
-      <div class="l">
-        {{ post.content | truncatewords:30}}
-      </div>
-      
-      <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l"> Llegir més </a></div>
-    </article>
-  {% endfor %}
-</div>
+<main id="content">
+	<div class="content anm-zoomInUp">
+
+		  {% for post in site.posts %}
+			<article class="universe thin">    
+	  
+			  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+			  <div class="l">
+				{{ post.content | truncatewords:30}}
+			  </div>
+	  
+			  <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l"> Llegir més </a></div>
+			</article>
+		  {% endfor %}
+		  
+		<hr>
+		
+	</div><!-- /.content -->
+</main>
