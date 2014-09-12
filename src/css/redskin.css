@@ -1,8 +1,2 @@
 /* Red skin */
 
-#page-header {
-	transform: translateZ(0);
-}
-#page-header h1 {
-	transform: translateZ(-10px);
-}
