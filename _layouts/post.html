@@ -5,26 +5,23 @@ layout: default
 		<header id="page-header" class="flat soft-granate universe anm-scaleUpDown">
 			<h5 class="anm-fadeIn thin"><a href="{{ site.url }}" title="{{ site.name }}"> {{ site.name }} </a></h5>
 			<h1 class="anm-zoomInDown delay-500">{{ page.title }}</h1>
-			<p class="s thin">Escrit el {{ page.date | date: "%e / %m / %Y" }}</p>
+			<p>Escrit el {{ page.date | date: "%e / %m / %Y" }}</p>
 		</header>	
 		
 		<main id="content">
 			<div class="content anm-zoomInUp">
 			
-				<div class="cell-2 universe">
-					
-				</div>
-				<div class="cell-8">
+				<div class="cell-8 pushed-2">
 					{{ content }}
 				</div>
 				<div class="cell-2 universe">
-					<div class="button-centered">
-						<a class="droptrigger button base" title="Compartir a diferents serveis">Compartir</a>
-						<div class="dropmenu"><div class="sharing-list"></div></div>
+					<div class="button-group">
+						<a class="droptrigger button block base" title="Compartir a diferents serveis">Compartir</a>
+						<ul class="dropmenu"><div class="sharing-list"></div></ul>
 					</div>
 				</div>
 				<hr>
 				
-			</div><!-- /.content -->
+			</div>
 		</main>
 		
