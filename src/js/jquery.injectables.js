@@ -32,24 +32,24 @@ $(function() {
 	// Sharing-icons (squared)
 
 	$('.sharing-icons').html('<div>'+
-		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon squared flat blue" target="blank" title="Comparteix">Fb</a>'+
-		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon squared flat soft-red" target="blank" title="Comparteix">G +</a>'+
-		'<a href="http://twitter.com/?status='+ url +'" class="button-icon squared flat soft-blue" target="blank" title="Comparteix">Tw</a>'+
+		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon squared flat blue" target="blank" title="Comparteix">Fb</a><br class="hidden-phone">'+
+		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon squared flat soft-red" target="blank" title="Comparteix">G +</a><br class="hidden-phone">'+
+		'<a href="http://twitter.com/?status='+ url +'" class="button-icon squared flat soft-blue" target="blank" title="Comparteix">Tw</a><br class="hidden-phone">'+
 	'</div>');
 	
 	// Sharing-icons (rounded)
 
 	$('.sharing-icons-rounded').html('<div>'+
-		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon rounded flat blue" target="blank" title="Comparteix">Fb</a>'+
-		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon rounded flat soft-red" target="blank" title="Comparteix">G +</a>'+
+		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon rounded flat blue" target="blank" title="Comparteix">Fb</a><br class="hidden-phone">'+
+		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon rounded flat soft-red" target="blank" title="Comparteix">G +</a><br class="hidden-phone">'+
 		'<a href="http://twitter.com/?status='+ url +'" class="button-icon rounded flat soft-blue" target="blank" title="Comparteix">Tw</a>'+
 	'</div>');
 	
 	// Sharing-icons (circled)
 
 	$('.sharing-icons-circled').html('<div>'+
-		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon circled flat blue" target="blank" title="Comparteix">Fb</a>'+
-		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon circled flat soft-red" target="blank" title="Comparteix">G +</a>'+
+		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon circled flat blue" target="blank" title="Comparteix">Fb</a><br class="hidden-phone">'+
+		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon circled flat soft-red" target="blank" title="Comparteix">G +</a><br class="hidden-phone">'+
 		'<a href="http://twitter.com/?status='+ url +'" class="button-icon circled flat soft-blue" target="blank" title="Comparteix">Tw</a>'+
 	'</div>');
 	
@@ -81,13 +81,13 @@ $(function() {
 	// Translating icons 
 	
 	$('.translating-icons').html('<div>'+
-		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=ca&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Catalan</a>'+
-		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=de&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Deutsch</a>'+
-		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=en&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">English</a>'+
-		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=fr&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">French</a>'+
-		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=it&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Italian</a>'+
-		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=pt&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Portuguese</a>'+
-		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Spanish</a>'+
+		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=ca&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Catalan</a><br class="hidden-phone">'+
+		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=de&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Deutsch</a><br class="hidden-phone">'+
+		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=en&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">English</a><br class="hidden-phone">'+
+		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=fr&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">French</a><br class="hidden-phone">'+
+		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=it&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Italian</a><br class="hidden-phone">'+
+		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=pt&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Portuguese</a><br class="hidden-phone">'+
+		'<a href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u='+ url +'" class="button-icon" target="blank" title="Translate with Google Translate">Spanish</a><br class="hidden-phone">'+
 	'</div>');
 	
 });
