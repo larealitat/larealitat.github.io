@@ -2,43 +2,43 @@
 layout: default
 ---
 
-<header id="page-header" class="header-banner skin-grid flat soft-granate universe anm-flipInLeft">
-	<h1 class="symbol-radioactive anm-zoomInDown delay-200">{{ site.name }}</h1>
-	<p class="universe thin l anm-fadeIn delay-200">{{ site.description }}</p>
-</header>	
+	<header id="page-header" class="header-banner skin-grid flat soft-granate universe anm-flipInLeft">
+		<h1 class="symbol-radioactive anm-zoomInDown delay-200">{{ site.name }}</h1>
+		<p class="universe thin l anm-fadeIn delay-200">{{ site.description }}</p>
+	</header>	
 
-<main id="content">
-	<div class="content">
+	<main id="content">
+		<div class="content">
 
-		<div class="white-space"></div>
+			<div class="white-space"></div>
 
-		<div class="cell-2 universe">
-			<div class="button-centered">
-				<div class="sharing-buttons"></div>
+			<div class="cell-2">
+				<div class="button-centered">
+					<div class="sharing-buttons"></div>
+				</div>
+				<hr>
 			</div>
-			<hr>
-		</div>
 				
-		<div class="cell-8">
-		  {% for post in site.posts %}
-			<article class="universe anm-moveFromBottom">    
-			  <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-			  <p>{{ post.content | truncatewords:30}}</p>
-			  <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l anm-scaleUp delay-500"> Llegir més </a></div>
-			</article>
-		  {% endfor %}
-		  <hr>
-		<div>
+			<div class="cell-8">
+			  {% for post in site.posts %}
+				<div class="universe anm-moveFromBottom">    
+				  <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+				  <p>{{ post.content | truncatewords:50}}</p>
+				  <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l anm-scaleUp delay-500"> Llegir més </a></div>
+				</div>
+			  {% endfor %}
+			  <hr>
+			<div>
 		
-		<div class="cell-2 universe">
-			<div class="button-centered">
-				<a href="http://comunistes.cat/pages/info.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a><br class="hidden-phone">
-				<a href="http://comunistes.cat/docs/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb el PCC"> Actua </a><br class="hidden-phone">
-				<a href="http://comunistes.cat/docs/milita.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a><br class="hidden-phone">
+			<div class="cell-2">
+				<div class="button-centered">
+					<a href="http://comunistes.cat/pages/info.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a><br class="hidden-phone">
+					<a href="http://comunistes.cat/docs/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb el PCC"> Actua </a><br class="hidden-phone">
+					<a href="http://comunistes.cat/docs/milita.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a><br class="hidden-phone">
+				</div>
+				<hr>
 			</div>
 			<hr>
-		</div>
-		<hr>
 				
-	</div><!-- /.content -->
-</main>
+		</div><!-- /.content -->
+	</main>
