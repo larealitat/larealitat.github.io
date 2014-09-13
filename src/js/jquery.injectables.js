@@ -21,6 +21,12 @@ $(function() {
 		'<a href="http://twitter.com/?status='+ url +'" class="button rounded flat soft-asphalt" target="blank" title="Tweet now">Twitter</a>'+
 	'</div>');
 	
+	$('.sharing-icons').html('<div>'+
+		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon rounded flat blue" target="blank" title="Share now">Fb</a>'+
+		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon rounded flat soft-red" target="blank" title="Share now">G +</a>'+
+		'<a href="http://twitter.com/?status='+ url +'" class="button-icon rounded flat soft-asphalt" target="blank" title="Tweet now">Tw</a>'+
+	'</div>');
+	
 	// Translating list 
 
 	$('.translating-list').html('<ul>'+
