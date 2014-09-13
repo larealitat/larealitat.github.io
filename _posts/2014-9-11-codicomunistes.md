@@ -3,7 +3,7 @@ layout: post
 title: El codi dels i les Comunistes
 ---
 
-<blockquote class="lines-quote">el món és ple de problemes fascinants esperant a ser resolts</blockquote>
+<blockquote class="lines-quote">el món és ple de problemes fascinants esperant a ser resolts <cite>Proverbi hacker</cite></blockquote><hr>
 
 No és cap metàfora dir que els i les comunistes volem hackejar la societat, que compartim la màxima dels i les hackers que "el món és ple de problemes fascinants esperant a ser resolts".
 
