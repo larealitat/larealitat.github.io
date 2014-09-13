@@ -3,7 +3,11 @@ layout: post
 title: El codi dels i les Comunistes
 ---
 
-La web dels i les Comunistes de Catalunya està realitzada en llenguatges oberts HTML5, CSS i Javascript. Tot la web ha estat construïda sobre els principis del Codi Obert i des d'una filosofia cooperativa i oberta de treball.
+No és cap metàfora dir que els i les comunistes volem hackejar la societat, que compartim la màxima dels i les hackers que "el món és ple de problemes fascinants esperant a ser resolts".
+
+Els i les comunistes de Catalunya pensem que els valors universals del socialisme científic són germans dels principis del Codi Obert i el Programari lliure.
+
+Per això, la web dels i les Comunistes de Catalunya està realitzada en llenguatges oberts HTML5, CSS i Javascript. Tot la web ha estat construïda sobre els principis del Codi Obert i des d'una filosofia cooperativa i oberta de treball.
 
 ### Filosofia
 
@@ -23,7 +27,7 @@ El codi font de la web és accessible per a qualsevol programador a través de l
 
 El lloc web de Comunistes de Catalunya no utilitza cap CMS, Content Management System o Sistema de Gestió de Continguts, perquè no allotja cap contingut en un servidor central. Per a la gestió de la informació s'utilitzen diferents plataformes específiques centrades en el tipus de continguts.
 
-### Estructura de la informació
+### Transparència i dret a la informació
 
 Per als i les Comunistes de Catalunya, la defensa del dret a la informació és un pilar fonamental de qualsevol sistema que es pretengui democràtic. És en aquest sentit que hem desenvolupat la nostra web des d'una completa voluntat de transparència.
 
