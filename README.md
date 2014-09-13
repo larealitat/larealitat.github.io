@@ -48,9 +48,9 @@ Així mateix per a la gestió d'events hem optat per treballar amb la popular ll
 
 ### Seguretat
 
-La major part de les vulnerabilitats d'un servidor es troben en el programari per a gestionar-lo. Per això, la web dels i les Comunistes de Catalunya està realitzada mitjançant pàgines estàtiques d'HTML en un servidor Apache. Les pàgines són allotjades paral·lelament en tres o més servidors que sincronitzen els seus contintguts a través de P2P. Lès còpies de seguretat del lloc web són allotjades per la militància a través d'un simple arxiu torrent.
+La major part de les vulnerabilitats d'un servidor es troben en el programari per a gestionar-lo. Per això, la web dels i les Comunistes de Catalunya està realitzada mitjançant pàgines estàtiques d'HTML en un servidor Apache. Les pàgines són allotjades paral·lelament en tres o més servidors que sincronitzen els seus contintguts a través de còpies locals compartides en P2P. En altres paraules, les còpies de seguretat del lloc web són allotjades per la militància a través d'un simple arxiu torrent.
 
-Gràcies a aquesta forma de treball el lloc web pot ser clonat en qualsevol servidor FTP per qualsevol militant en menys de 5 minuts.
+Gràcies a aquesta forma de treball el lloc web pot ser clonat en qualsevol servidor FTP per qualsevol militant en menys de 5 minuts, sense necessitat de cap instal·lació.
 
 ### Política de galetes (cookies)
 
@@ -59,4 +59,4 @@ Gràcies a aquesta forma de treball el lloc web pot ser clonat en qualsevol serv
 
 ### Scripts externs i butons socials
 
-La web de comunistes.cat no utilitza scripts de serveis externs com Facebook o Twitter per als botons de compartir, sinó simples enllaços. Això permet una càrrega més lleugera de les pàgines, mentre es manté la funció bàsica d'aquests botons: convidar als usuaris a compartir els continguts en les principals xarxes relacionals. Com a contrapartida, tanamteix, es perd el rànquing de clics emesos.
+La web de comunistes.cat no utilitza scripts de serveis externs com Facebook o Twitter per als botons de compartir, sinó simples enllaços. Això permet una càrrega més lleugera de les pàgines, mentre es manté la funció bàsica d'aquests botons: convidar als usuaris a compartir els continguts en les principals xarxes relacionals. Com a contrapartida, tanmateix, es perd el rànquing de clics emesos, essent aquesta una prestació que considerem menor i supèrflua.
