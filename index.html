@@ -8,18 +8,18 @@ layout: default
 </header>	
 
 <main id="content">
-	<div class="content anm-zoomInUp">
+	<div class="content">
 
 		  {% for post in site.posts %}
-			<article class="universe thin">    
+			<article class="universe anm-moveFromBottom">    
 	  
-			  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+			  <h2><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 
-			  <p class="l">
+			  <p>
 				{{ post.content | truncatewords:30}}
 			  </p>
 	  
-			  <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l"> Llegir més </a></div>
+			  <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l anm-scaleUp delay-500"> Llegir més </a></div>
 			</article>
 		  {% endfor %}
 		  
