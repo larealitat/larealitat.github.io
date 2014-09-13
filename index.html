@@ -14,7 +14,7 @@ layout: default
 
 			<div class="cell-2">
 				<div class="button-centered">
-					<div class="sharing-buttons"></div>
+					<a href="https://github.com/ComunistesdeCatalunya" class="button-icon squared metal-soft" title="Comunistes de Catalunya a Github">Git</a>
 				</div>
 				<hr>
 			</div>
@@ -22,7 +22,7 @@ layout: default
 			<div class="cell-8">
 			  {% for post in site.posts %}
 				<article class="universe anm-moveFromBottom">    
-				  <h2><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+				  <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 				  <p>{{ post.content | truncatewords:50}}</p>
 				  <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l anm-scaleUp delay-500"> Llegir més </a></div>
 				</article>
