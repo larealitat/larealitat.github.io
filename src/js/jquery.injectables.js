@@ -8,49 +8,49 @@ $(function() {
 	// Sharing-list 
 	
 	$('.sharing-list').html('<ul>'+
+		'<li><a href="http://twitter.com/?status='+ url +'" target="blank" title="Comparteix">Twitter</a></li>'+
 		'<li><a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" target="blank" title="Comparteix">Facebook</a></li>'+
 		'<li><a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" target="blank" title="Comparteix">Google +</a></li>'+
-		'<li><a href="http://twitter.com/?status='+ url +'" target="blank" title="Comparteix">Twitter</a></li>'+
 	'</ul>');
 	
 	// Sharing-buttons (squared)
 	
 	$('.sharing-buttons').html('<div>'+
+		'<a href="http://twitter.com/?status='+ url +'" class="button squared flat soft-blue" target="blank" title="Comparteix">Twitter</a>'+
 		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button squared flat blue" target="blank" title="Comparteix">Facebook</a>'+
 		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button squared flat soft-red" target="blank" title="Comparteix">Google +</a>'+
-		'<a href="http://twitter.com/?status='+ url +'" class="button squared flat soft-blue" target="blank" title="Comparteix">Twitter</a>'+
 	'</div>');
 	
 	// Sharing-buttons (rounded)
 	
 	$('.sharing-buttons-rounded').html('<div>'+
+		'<a href="http://twitter.com/?status='+ url +'" class="button rounded flat soft-blue" target="blank" title="Comparteix">Twitter</a>'+
 		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button rounded flat blue" target="blank" title="Comparteix">Facebook</a>'+
 		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button rounded flat soft-red" target="blank" title="Comparteix">Google +</a>'+
-		'<a href="http://twitter.com/?status='+ url +'" class="button rounded flat soft-blue" target="blank" title="Comparteix">Twitter</a>'+
 	'</div>');
 	
 	// Sharing-icons (squared)
 
 	$('.sharing-icons').html('<div>'+
+		'<a href="http://twitter.com/?status='+ url +'" class="button-icon squared flat soft-blue" target="blank" title="Comparteix">Tw</a><br class="hidden-phone">'+
 		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon squared flat blue" target="blank" title="Comparteix">Fb</a><br class="hidden-phone">'+
 		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon squared flat soft-red" target="blank" title="Comparteix">G +</a><br class="hidden-phone">'+
-		'<a href="http://twitter.com/?status='+ url +'" class="button-icon squared flat soft-blue" target="blank" title="Comparteix">Tw</a><br class="hidden-phone">'+
 	'</div>');
 	
 	// Sharing-icons (rounded)
 
 	$('.sharing-icons-rounded').html('<div>'+
+		'<a href="http://twitter.com/?status='+ url +'" class="button-icon rounded flat soft-blue" target="blank" title="Comparteix">Tw</a>'+
 		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon rounded flat blue" target="blank" title="Comparteix">Fb</a><br class="hidden-phone">'+
 		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon rounded flat soft-red" target="blank" title="Comparteix">G +</a><br class="hidden-phone">'+
-		'<a href="http://twitter.com/?status='+ url +'" class="button-icon rounded flat soft-blue" target="blank" title="Comparteix">Tw</a>'+
 	'</div>');
 	
 	// Sharing-icons (circled)
 
 	$('.sharing-icons-circled').html('<div>'+
+		'<a href="http://twitter.com/?status='+ url +'" class="button-icon circled flat soft-blue" target="blank" title="Comparteix">Tw</a>'+
 		'<a href="http://www.facebook.com/sharer.php?u='+ url +'&t=title" class="button-icon circled flat blue" target="blank" title="Comparteix">Fb</a><br class="hidden-phone">'+
 		'<a href="https://plusone.google.com/_/+1/confirm?hl=en&url='+ url +'" class="button-icon circled flat soft-red" target="blank" title="Comparteix">G +</a><br class="hidden-phone">'+
-		'<a href="http://twitter.com/?status='+ url +'" class="button-icon circled flat soft-blue" target="blank" title="Comparteix">Tw</a>'+
 	'</div>');
 	
 	
