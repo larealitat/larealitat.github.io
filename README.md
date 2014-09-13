@@ -34,9 +34,29 @@ Aquesta filosofia descentralitzada ens permet centrar-nos en els continguts i po
 
 Així mateix, el treball simultani en diferents plataformes ens garanteix la independència d'un o altre servei en concret. 
 
+### Llibreries CSS i Javascript
+
+Per a la construcció de les pàgines web hem optat per adaptar la llibreria CSS d'Hipertextos a les nostres necessitats. Aquesta llibreria està centrada en la tipografia, funciona en unitats relatives (el que permet una perfecta escalabilitat), disposa d'un sistema adaptable (RWD) i utilitza classes senzilles i descriptives, properes a un llenguatge natural. La tria ha tingut en consideració també la lleugeresa d'aquesta llibreria enfront Bootstrap i altres alternatives més pesades que requereixen pre-processadors de CSS en Javascript i fan més pesada l'actualització. 
+
+Podeu accedir a la documentació en el següent enllaç:
+
+<div class="button-centered"><a href="https://github.com/hipertextos/hipertextosfw-v0.8" class="button flat asphalt" title="Hipertextos Framework a Github">hipertextos</a></div>
+
+Així mateix per a la gestió d'events hem optat per treballar amb la popular llibreria jQuery, simplificant al màxim tots els scripts que permeten la construcció de components colapsables (com acordions, pestanyes, diàlegs emergents,...).
+
+<div class="button-centered"><a href="https://github.com/jquery/jquery" class="button flat asphalt" title="jQuery a Github">jQuery</a></div>
+
 ### Seguretat
 
-La web dels i les Comunistes de Catalunya és completament segura perquè està realitzada mitjançant pàgines estàtiques d'HTML. Les pàgines són allotjades paral·lelament en tres o més servidors que sincronitzen els seus contintguts a través de P2P. Lès còpies de seguretat del lloc web són allotjades per la militància a través d'un simple arxiu torrent.
+La major part de les vulnerabilitats d'un servidor es troben en el programari per a gestionar-lo. Per això, la web dels i les Comunistes de Catalunya està realitzada mitjançant pàgines estàtiques d'HTML en un servidor Apache. Les pàgines són allotjades paral·lelament en tres o més servidors que sincronitzen els seus contintguts a través de P2P. Lès còpies de seguretat del lloc web són allotjades per la militància a través d'un simple arxiu torrent.
 
 Gràcies a aquesta forma de treball el lloc web pot ser clonat en qualsevol servidor FTP per qualsevol militant en menys de 5 minuts.
 
+### Política de galetes (cookies)
+
+<p>La web dels i les comunistes utilitza únicament cookies de Google Analytics per a obtenir informació sobre el nombre de visitants i la seva procedència. Aquesta tecnologia no proporciona a la nostra organització informació concreta de cap usuari, sinó informació estadística global del conjunt de visitants al domini comunistes.cat. La informació obtinguda és utilitzada únicament amb la finalitat de millorar progressivament la qualitat del lloc.</p>
+<p>La política de privacitat d'aquest servei és descrita a la pàgina web específica de Google Analytics: <a href="http://www.google.com/policies/privacy/" title="Google Privacy & Terms">Google Privacy & Terms</a></p>
+
+### Scripts externs i butons socials
+
+La web de comunistes.cat no utilitza scripts de serveis externs com Facebook o Twitter per als botons de compartir, sinó simples enllaços. Això permet una càrrega més lleugera de les pàgines, mentre es manté la funció bàsica d'aquests botons: convidar als usuaris a compartir els continguts en les principals xarxes relacionals. Com a contrapartida, tanamteix, es perd el rànquing de clics emesos.
