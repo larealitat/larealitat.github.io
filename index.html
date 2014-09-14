@@ -21,7 +21,7 @@ layout: default
 				
 			<div class="cell-8">
 			  {% for post in site.posts %}
-				<article class="universe anm-moveFromBottom">    
+				<article class="universe anm-moveFromBottomFade delay-200">    
 				  <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}#page-header" title="{{ post.title }}">{{ post.title }}</a></h2>
 				  <p>{{ post.content | truncatewords:50}}</p>
 				  <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l anm-scaleUp delay-500"> Llegir més </a></div>
