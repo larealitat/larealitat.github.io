@@ -30,6 +30,176 @@
     
 })(jQuery);
 
+// Basic on scroll animations
+
+		var win = $(window);
+		var dinflash = $('.din-flash');
+		var dinshake = $('.din-shake');
+		var dinbounce = $('.din-bounce');
+		var dintada = $('.din-tada');
+		var dinwobble = $('.din-wobble');
+		var dinpulse = $('.din-pulse');
+		var dinfadeIn = $('.din-fadeIn');
+		var dinscaleUp = $('.din-scaleUp');
+		var dinscaleUpDown = $('.din-scaleUpDown');
+		var dinzoomIn = $('.din-zoomIn');
+		var dinrotateIn = $('.din-rotateIn');
+		var dinmoveFromLeftFade = $('.din-moveFromLeftFade');
+		var dinmoveFromRightFade = $('.din-moveFromRightFade');
+		var dinmoveFromTopFade = $('.din-moveFromTopFade');
+		var dinmoveFromBottomFade = $('.din-moveFromBottomFade');
+		win.scroll(function(event) {
+		  dinflash.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-flash slow'); 
+			} else {
+			  el.removeClass('anm-flash slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinshake.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-shake slow'); 
+			} else {
+			  el.removeClass('anm-shake slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinbounce.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-bounce slow'); 
+			} else {
+			  el.removeClass('anm-bounce slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dintada.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-tada slow'); 
+			} else {
+			  el.removeClass('anm-tada slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinwobble.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-wobble slow'); 
+			} else {
+			  el.removeClass('anm-wobble slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinpulse.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-pulse slow'); 
+			} else {
+			  el.removeClass('anm-pulse slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinfadeIn.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-fadeIn slow'); 
+			} else {
+			  el.removeClass('anm-fadeIn slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinscaleUp.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-scaleUp slow'); 
+			} else {
+			  el.removeClass('anm-scaleUp slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinscaleUpDown.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-scaleUpDown slow'); 
+			} else {
+			  el.removeClass('anm-scaleUpDown slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinzoomIn.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-zoomIn slow'); 
+			} else {
+			  el.removeClass('anm-zoomIn slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinrotateIn.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-rotateIn slow'); 
+			} else {
+			  el.removeClass('anm-rotateIn slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinmoveFromLeftFade.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-moveFromLeftFade slow'); 
+			} else {
+			  el.removeClass('anm-moveFromLeftFade slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinmoveFromRightFade.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-moveFromRightFade slow'); 
+			} else {
+			  el.removeClass('anm-moveFromRightFade slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinmoveFromTopFade.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-moveFromTopFade slow'); 
+			} else {
+			  el.removeClass('anm-moveFromTopFade slow'); 
+			} 
+		  });
+		});
+		win.scroll(function(event) {
+		  dinmoveFromBottomFade.each(function(i, el) {
+			var el = $(el);
+			if (el.visible(true)) {
+			  el.addClass('anm-moveFromBottomFade slow'); 
+			} else {
+			  el.removeClass('anm-moveFromBottomFade slow'); 
+			} 
+		  });
+		});
+
+
 // Animation on slides
 
 var PageTransitions = (function($) {
