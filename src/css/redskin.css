@@ -3,3 +3,12 @@
 .skin-grid {
 	background-image: url('../../img/base.png');
 }
+
+
+@media (max-width: 720px) {
+
+	footer {
+		text-align: center;
+	}
+
+}
