@@ -3,7 +3,7 @@
 	<head>
 		<!-- meta -->
 		<meta charset="utf-8">
-		<title>Comunistes.cat</title>
+		<title>Comunistes.cat: informa't/informa'ns</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="www.comunistes.cat">
 		<meta name="keywords" content="classe treballadora república catalana">
@@ -22,8 +22,6 @@
 		<!--[if lt IE 9]><script src="../src/js/html5shiv.js"></script><![endif]-->
 		<!-- If JS disabled -->
 		<noscript><link href="../src/css/noscript.css" rel="stylesheet" media="screen"></noscript>
-		<!-- Site Feed -->
-		<link rel="alternate" type="application/rss+xml" title="rss" href="FEEDURL">
 		<!-- Page Icons -->
 		<link rel="shortcut icon" href="../src/ics/favicon.ico">
 		<link rel="apple-touch-icon" sizes="57x57" href="../src/ics/apple-touch-icon-57x57.png">
@@ -50,10 +48,12 @@
 	
 		<header id="header">
 			<div class="content">
-				<div class="cell-1">
+				<div class="cell-1 hidden-phone">
 					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image anm-moveFromTopFade"><img src="../src/ics/icon.png" alt="www.comunistes.cat"></a>
 				</div>
 				<div class="cell-11">
+					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image absolute top left visible-phone anm-moveFromTopFade"><img src="../src/ics/icon.png" alt="www.comunistes.cat"></a>
+					<br class="visible-phone">
 					<nav>
 						<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
 						<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
@@ -64,7 +64,7 @@
 							<a href="http://documents.comunistes.cat" title="Documents i publicacions dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-400">Documents</a>
 							<a href="http://persones.comunistes.cat" title="Persones Comunistes de Catalunya" class="anm-moveFromTopFade delay-500">Persones</a>
 							<a href="http://comunistes.cat/lluites" title="Lluites dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-600">Lluites</a>
-							<a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-800">Organització</a>
+							<a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya" class="line-bottom red anm-moveFromTopFade delay-800">Organització</a>
 							<form class="form-search anm-moveFromTopFade delay-1000" action="http://www.google.com/cse"> 
 								<input type="hidden" name="cx" value="007620493827235173837:iw6nd8cvpza"> 
 								<input type="text" name="q" class="terms" placeholder="cerca"> 
@@ -91,9 +91,10 @@
 			<div class="content">
 				<div class="cell-5 universe">
 					<section>
+						<h3 class="lines green symbol-right-hand">Contacte</h3>
 						<div class="white-space"></div>           
 						<form id="form1" name="form1" class="" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://comunistescat.wufoo.com.mx/forms/z1fga8ct09j27h3/#public">
-							<input id="Field2" name="Field2" type="email" spellcheck="false" class="ovaled l universe anm-scaleUpDown" value="" placeholder="email" maxlength="255" tabindex="1" required>
+							<input id="Field2" name="Field2" type="email" spellcheck="false" class="ovaled block l universe anm-scaleUpDown" value="" placeholder="email" maxlength="255" tabindex="1" required>
 							<textarea id="Field3" name="Field3" class="rounded l universe anm-fadeIn delay-500" spellcheck="true" rows="1" cols="50" tabindex="0" onkeyup="" required placeholder="El teu missatge"></textarea>
 							<input id="saveForm" name="saveForm" class="button ovaled l anm-scaleUp delay-500" type="submit" value="Envia-ho">
 
@@ -106,7 +107,7 @@
 					</section>
 				</div>
 				<div class="cell-7">
-					<section class="">
+					<section class="line-top green">
 						<h3 class="symbol-star lines green">Sol·licita’ns informació</h3>
 						<p>Els i les comunistes som una organització profundament democràtica i completament transparent.  Estem sempre oberts a respondre’t qualsevol qüestió. Pots contactar amb nosaltres a través d’aquest formulari de contacte, venint als nodes rojos, a través del correu electrònic o les xarxes socials. Tan aviat com ens sigui possible, et farem arribar una resposta.</p>
 						<hr>
@@ -117,7 +118,7 @@
 						<p>Els i les comunistes defensem la política en mans del poble i la classe treballadora. Per això considerem que conversar i debatre sobre criteris raonables és fonamental per arribar a acords i millorar la societat. Et convidem a iniciar una conversa amb nosaltres, sobre allò que tu vulguis, sobre allò que t’afecti, sobre allò què penses de la societat que ens envolta.</p>
 							<dl>
 								<dt class="symbol-star lines soft-green">Als nodes rojos</dt>
-								<dd>Els nodes rojos són el conjunt de seus socials i espais compartits de treball que els i les comunistes tenim arreu del territori. La seu central de la nostra organització és al Portal de l’Àngel, 42-48, de Barcelona. Pots trobar el Node Roig més proper en el directori de <a href="http://comunistes.cat/organitzacio/nodesrojos.html" class="lines green" title="Localitza el teu Node Roig">Nodes Rojos</a>.</dd>
+								<dd>Els nodes rojos són el conjunt de seus socials i espais compartits de treball que els i les comunistes tenim arreu del territori. La seu central de la nostra organització és al Portal de l’Àngel, 42-48, de Barcelona. Pots trobar el Node Roig més proper en el <a href="../organitzacio/territori.html" class="lines green" title="Localitza el teu Node Roig">mapa dels i les comunistes en el territori</a>.</dd>
 							</dl>
 							<dl>
 								<dt class="symbol-star lines soft-green">Per correu electrònic</dt>
@@ -125,11 +126,15 @@
 							</dl>
 							<dl>
 								<dt class="symbol-star lines soft-green">A les xarxes socials</dt>
-								<dd>Els i les comunistes som presents a les xarxes socials més populars, des d’on participem activament en la conversa col·lectiva de la ciutadania, en el debat públic amb els moviments socials, per la construcció d’un sistema social més just i més democràtic. Pots descobrir els principals perfils de les organitzacions comunistes en el <a href="http://comunistes.cat/organitzacio/xarxesroges.html" class="lines green" title="Localitza el teu Node Roig">directori de xarxes roges</a>.</dd>
+								<dd>Els i les comunistes som presents a les xarxes socials més populars, des d’on participem activament en la conversa col·lectiva de la ciutadania, en el debat públic amb els moviments socials, per la construcció d’un sistema social més just i més democràtic. Pots descobrir els principals perfils de les organitzacions comunistes en el <a href="../organitzacio/xarxesroges.html" class="lines green" title="Localitza el teu Node Roig">directori de xarxes roges</a>.</dd>
 							</dl>
 						<hr>
 						<h3 class="symbol-star lines green">Informa’t sobre com col·laborar o militar</h3>
 						<p>Si vols col·laborar o militar amb nosaltres i organitzar-te per a denunciar els abusos del capitalisme, per participar en la construcció d’una alternativa progressista, científica i revolucionària a la barbàrie del mercat, pots adreçar-te a les seccions Col·labora o Milita.</p>
+						<div class="button-centered">
+							<a href="../organitzacio/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb el PCC"> Actua </a>
+							<a href="../organitzacio/milita.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
+						</div>
 					</section>
 				</div>
 				<hr>
@@ -139,20 +144,21 @@
 		
 		<footer id="footer-social" class="flat hard-grey">
 			<div class="content s">
-				<div class="cell-2">
-					<a class="button-image xl" href="http://comunistes.cat" title="www.comunistes.cat"><img src="../logo/logocomunistes-falcimartell-negative.png"></a>
+				<div class="cell-1">
+					<a class="button-image l" href="http://comunistes.cat" title="www.comunistes.cat"><img src="../logo/logocomunistes-falcimartell-negative.png"></a>
 				</div>
-				<div class="cell-4">
+				<div class="cell-3">
 						<h4>Comunistes de Catalunya</h4>
 						<adress class="">
-							<span class="location symbol-flower">Av Portal de l´Àngel, 42-48, 08001, Barcelona</span>  <br>
+							<span class="location symbol-gear">Av Portal de l´Àngel, 42-48, 2on, Barcelona</span>  <br>
 							<span class="website symbol-hyperlink"><a href="http://comunistes.cat" title="www.comunistes.cat">www.comunistes.cat</a></span>  <br>
 							<span class="email symbol-email"><a href="mailto:info@comunistes.cat" title="Escriu">info@comunistes.cat</a></span>  <br>
 							<span class="phone symbol-blackphone"><a href="tel:+0034933184282" title="truca">(0034) 93 318 42 82</a></span>  <br>
 							<span class="vcard symbol-right-hand"><a href="http://comunistes.cat/pages/comunistes.vcard" download="Comunistes de Catalunya" title="Vcard">vCard </a></span>  <br>
 						</adress>
 				</div>
-				<div class="cell-3">
+				<hr class="visible-phone lines grey">
+				<div class="cell-4 universe">
 					<h4>Comunistes.cat</h4>
 						<ul class="list-block">
 							<li><a href="http://www.comunistes.cat" title="Pàgina principal dels i les Comunistes de Catalunya">Portada</a></li>
@@ -165,15 +171,28 @@
 							<li><a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya">Organització</a></li>
 						</ul>
 				</div>
-				<div class="cell-3">
-						<h4>Segueix-nos!</h4>
+				<hr class="visible-phone lines grey">
+				<div class="cell-4 universe">
+						<h4 class="">Segueix-nos!</h4>
 						<div class="">
 							<a href="http://bloc.comunistes.cat/feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a>
-							<a href="http://www.twitter.com/comunistesdecatalunya" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
-							<a href="https://plus.google.com/u/0/114312260461772838369/" class="button-icon circled flat soft-granate" target="blank" title="Segueix-nos a Google +"> G+ </a><br class="visible-phone">
+							<a href="http://www.twitter.com/comunistescat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
+							<a href="https://plus.google.com/+ComunistesdeCatalunya" class="button-icon circled flat soft-granate" target="blank" title="Segueix-nos a Google +"> G+ </a>
 							<a href="http://www.facebook.com/comunistesdecatalunya" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
 							<a href="http://comunistescat.tumblr.com/" class="button-icon circled flat asphalt" target="blank" title="Segueix-nos a Tumblr"> Tmblr </a>
-							<a href="https://www.youtube.com/user/comunistescat" class="button-icon circled flat soft-red" target="blank" title="Segueix-nos a YouTube"> Yt </a><br>
+							<a href="https://www.youtube.com/user/comunistescat" class="button-icon circled flat soft-red" target="blank" title="Segueix-nos a YouTube"> Yt </a>
+							<a href="https://www.flickr.com/photos/comunistes" class="button-icon circled flat soft-magenta" target="blank" title="Segueix-nos a Flickr"> Flckr </a>
+						</div>
+						<br>
+						<hr class="visible-phone lines grey">
+						<div id="mc_embed_signup" class="">
+							<form action="//pcc.us5.list-manage.com/subscribe/post?u=8f62fda1531f8aa526553ca23&amp;id=ff39fdd22d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+								<input type="email" value="" name="EMAIL" class="ovaled l universe" id="mce-EMAIL" placeholder="elteu@email.com">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								<div style="position: absolute; left: -5000px;"><input type="text" name="b_8f62fda1531f8aa526553ca23_ff39fdd22d" tabindex="-1" value=""></div>
+								<div class="clear"><input type="submit" value="Subscriu-te" name="subscribe" id="mc-embedded-subscribe" class="button ovaled l"></div>
+							</form>
 						</div>
 				</div>
 				<hr>
@@ -181,7 +200,7 @@
 		</footer>
 		<footer id="footer-terms" class="flat black">
 			<div class="content s">
-				<span class="license symbol-copyright">Comunistes de Catalunya <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">Reconeixment - No comercial - Compartir igual (By-nc-sa)</a> </span>  
+				<span class="license symbol-copyright"> 2014 Comunistes de Catalunya. <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">Reconeixement - No comercial - Compartir igual (By-nc-sa)</a> </span>  
 				<span class="legal symbol-justice"><a href="http://comunistes.cat/docs/avislegal.html" title="Informació legal">Avís legal</a></span> 
 				<span class="legal symbol-radioactive"><a href="http://codi.comunistes.cat" title="Informació sobre el codi font">Codi font</a></span> 
 			</div>
