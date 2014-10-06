@@ -12,3 +12,11 @@
 	}
 
 }
+
+.post img {
+	border-radius: 50%;
+	float: left;
+	height: 4em;
+	margin: 0 .5em;
+	width: 4em;
+}
