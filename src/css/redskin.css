@@ -24,3 +24,7 @@
 	margin: 0 .5em;
 	width: 8em;
 }
+.post-item {
+	display: block;
+	margin: 0 auto 1em;
+}
