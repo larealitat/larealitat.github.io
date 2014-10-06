@@ -7,12 +7,16 @@
 
 @media (max-width: 768px) {
 
+	
 	footer {
 		text-align: center;
 	}
 
 }
 
+.post {
+	margin: 0;
+}
 .post img {
 	border-radius: 50%;
 	float: left;
