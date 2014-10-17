@@ -61,16 +61,6 @@
 						<div id="nav-collapse" class="togglecollapsed">
 							<a href="http://www.comunistes.cat" title="www.comunistes.cat" class="anm-moveFromTopFade delay-100"><b>Comunistes.cat</b></a>
 							<a href="http://bloc.comunistes.cat" title="Bloc dels i les Comunistes de Catalunya" class="line-bottom red anm-moveFromTopFade delay-200">Bloc</a>
-							<a href="http://imatges.comunistes.cat" title="Imatges dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-300">Imatges</a>
-							<a href="http://videos.comunistes.cat" title="Vídeos dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-400">Vídeos</a>
-							<a href="http://persones.comunistes.cat" title="Persones Comunistes de Catalunya" class="anm-moveFromTopFade delay-500">Persones</a>
-							<a href="http://comunistes.cat/lluites" title="Lluites dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-600">Lluites</a>
-							<a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-800">Organització</a>
-							<form class="form-search anm-moveFromTopFade delay-1000" action="http://www.google.com/cse"> 
-								<input type="hidden" name="cx" value="007620493827235173837:iw6nd8cvpza"> 
-								<input type="text" name="q" class="terms" placeholder="cerca"> 
-								<input type="submit" name="sa" class="search" value="·"> 
-							</form>
 						</div>
 					</nav>
 				</div>
@@ -78,128 +68,107 @@
 			</div>
 		</header>
 		<hr class="no-margin">
-		<header id="page-header" class="flat soft-granate universe">
-				<h1 class="thin anm-zoomInDown delay-1000"><a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a></h1>
-				<p><$BlogDescription$></p>
-		</header>
 		
-		<nav class="nav-inline universe metal">
+		<MainOrArchivePage>
+		<header id="page-header" class="flat soft-granate universe">
+				<h1 class="anm-zoomInDown delay-1000"><a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a></h1>
+				<p class="anm-moveFromBottomFade delay-2000"><$BlogDescription$></p>
+		</header>
+		<nav class="nav-inline universe metal anm-fadeIn">
 			<div class="content">
 				<a href="http://bloc.comunistes.cat/search/label/Actualitat" title="Notícies d'actualitat">Actualitat</a>
 				<a href="http://bloc.comunistes.cat/search/label/Accions" title="Lluites i mobilitzacions">Accions</a>
 				<a href="http://bloc.comunistes.cat/search/label/Anàlisi" title="Articles i opinions">Anàlisi</a>
 			</div>
 		</nav>
-		
 		<main id="main" class="anm-moveFromBottom">
 			<div class="content">
-				<div class="cell-2">
-					<section class="universe">
-						<h3><small>Contacta!</small></h3>
-						<div class="button-centered">
-							<a href="http://comunistes.cat/docs/contact.html" class="button-icon circled flat green" title="Sol·licita'ns o envia'ns informació"> Informa </a><br class="hidden-phone">
-							<a href="http://comunistes.cat/docs/collaboration.html" class="button-icon circled flat orange" title="Col·labora amb el PCC"> Actua </a><br class="hidden-phone">
-							<a href="http://comunistes.cat/docs/milite.html" class="button-icon circled flat red" title="Milita amb nosaltres"> Milita </a><br class="hidden-phone">
-						</div>
-					</section>
-				</div>
-				<div class="cell-8">
-						<MainOrArchivePage>
-						<div id="blog">
-							<Blogger>
-								<BlogDateHeader><h2 class="universe"><small><$BlogDateHeaderDate$></small></h2></BlogDateHeader>
-									<article class="post base" id="<$BlogItemNumber$>">
-										<h3 class=""><a href="<$blogItemPermalinkUrl$>" title="<$BlogItemPermalinkUrl$>"><$BlogItemTitle$></a></h3>
-										<a class="" href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a>
-										<div class="prose level-9">
-											<$BlogItemBody$>
-										</div>
-										<hr>
-									</article>
-							</Blogger>
-							<hr />
-							<nav class="pagination"><$BlogPaginationLinks$></nav>
-						</div>
-						</MainOrArchivePage>
-						<ItemPage>
-						<div id="blog-item">
-							<Blogger>
-								<article id="<$BlogItemNumber$>" class="post-item">
-									<h3><$BlogItemTitle$></h3>
-									<p><small><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></small></p>
-									<div class="prose">
-										<$BlogItemBody$>
-									</div>
-									<footer>
-										<h4 class="universe">Font</h4>
-										<p class="universe"><a href="<$BlogItemUrl$>" title="Veure la font en una nova pàgina" target="blank"><$BlogItemUrl$></a></p>
-										<hr />
-										<h4 class="universe">Comparteix</h4>
-										<div class="button-centered">
-											<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon circled flat soft-blue tw" title="Share with Twitter">Tw</a>
-											<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon circled flat blue fb" title="Share with Facebook">Fb</a>
-											<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon circled flat red gp" title="Share with Google +">G+</a>
-										</div>
-									</footer>
-									<BlogItemCommentsEnabled>
-									<aside id="comment-form">
-										   <h4 class="universe"><$BlogItemCommentCount$> Comentari(s):</h4>
-										   <BlogItemComments>
-											  <a name="<$BlogCommentNumber$>"></a>
-												<div class="conversation-a">
-													<p><strong><$BlogCommentAuthor$> says:</strong><br /><$BlogCommentBody$></p>
-													<p>at <a href="#<$BlogCommentNumber$>"><$BlogCommentDateTime$></a><$BlogCommentDeleteIcon$></p>
-												</div>
-											  <hr />
-										   </BlogItemComments>
-										   <div class="button-centered"><a class="button-icon circled flat green" title="Publica un comentari" href="<$BlogItemCommentCreate$>" <$BlogItemCommentFormOnClick$>>+</a></div>
-									</aside>
-									</BlogItemCommentsEnabled>
-								</article>
-							</Blogger>
-							<hr />
-							<nav class="pagination"><$BlogPaginationLinks$></nav>
-							<hr />
-							<div class="universe jcollapser">
-								<a class="button-icon circled flat soft-red jtrigger" title="Veure l'arxiu">Arxiu</a>
-								<nav class="jcollapsed universe">
-									<ul> 
-										<script type="text/javascript"> 								
-											var archives = new Array(); 
-											<BloggerArchives> archives[archives.length] = new Array('<$BlogArchiveURL$>', '<$BlogArchiveName$>');</BloggerArchives> 									
-											for (var i=archives.length-1;i>=0;i--) 
-											{ document.write('<li><a href=\"' + archives[i][0] + '\">' + archives[i][1] + '</a></li>'); } 
-										</script> 
-									</ul>
-								</nav>
+			
+				<div class="cell">
+					<Blogger>
+					<BlogDateHeader>
+					<div class="cell">
+						<h2 class="universe"><small><$BlogDateHeaderDate$></small></h2>
+					</div>
+					</BlogDateHeader>
+					<div class="cell">
+						<article class="post" id="<$BlogItemNumber$>">
+							<h3><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+							<a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a>
+							<div class="prose level-9">
+								<$BlogItemBody$>
 							</div>
-							<hr />
-							<h2 class="universe"> <small>Anteriors</small> </h2>
-							<nav class="universe">
-									<BloggerPreviousItems><ul class="list-unlisted">
-										<li><a href="<$BlogItemPermalinkURL$>"><$BlogPreviousItemTitle$></a></li>
-									</ul></BloggerPreviousItems>
-							</nav>
-						</div><!--/#blog-item -->
-						</ItemPage>
-						<hr />	
+							<hr>
+						</article>
+					</div>
+				</Blogger>
 				</div>
-				<div class="cell-2">
-					<section class="universe">
-						<h3><small>Segueix-nos!</small></h3>
-							<div class="button-centered">
-								<a href="<$BlogSiteFeedUrl$>" class="button-icon circled flat orange" title="Segueix-nos amb RSS"> RSS </a><br class="hidden-phone" />
-								<a href="https://plus.google.com/u/0/114312260461772838369/" class="button-icon circled flat red" title="Segueix-nos a Google +"> G+ </a><br class="hidden-phone" />
-								<a href="http://www.twitter.com/comunistes" class="button-icon circled flat soft-blue" title="Segueix-nos a Twitter"> Tw </a><br class="hidden-phone" />
-								<a href="http://www.facebook.com/pcdecatalunya" class="button-icon circled flat blue" title="Segueix-nos a Facebook"> Fb </a><br class="hidden-phone" />
-								<a href="http://comunistescat.tumblr.com/" class="button-icon circled flat asphalt" title="Segueix-nos a Tumblr"> Tmblr </a><br class="hidden-phone" />
-								<a href="https://www.youtube.com/user/comunistescat" class="button-icon circled flat soft-red" title="Segueix-nos a YouTube"> Yt </a><br class="hidden-phone" />
-							</div>
-					</section>
-				</div>
+				<hr>
+				<nav class="pagination"><$BlogPaginationLinks$></nav>
 				<hr>
 			</div>
 		</main>
+		</MainOrArchivePage>
+		
+		<ItemPage>
+		<header id="page-header" class="flat soft-granate universe">
+			<Blogger>
+			<h1 class="anm-zoomInDown delay-1000"><small><$BlogItemTitle$></small></h1>
+			<h2 class="s anm-moveFromBottomFade delay-2000"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h2>
+			</Blogger>
+		</header>
+		<main id="post" class="anm-moveFromBottom">
+			<div class="content">
+				<div class="cell-2">
+					<div class="button-centered">
+						<Blogger>
+						<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon flat soft-blue tw" title="Share with Twitter">Tw</a><br>
+						<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon flat blue fb" title="Share with Facebook">Fb</a><br>
+						<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon flat red gp" title="Share with Google +">G+</a>
+						</Blogger>
+					</div>
+				</div>
+				<div class="cell-8">
+					<Blogger>
+					<div class="post-item prose">
+						<$BlogItemBody$>
+					</div>
+					<hr class="lines grey">
+					<p class="universe"><a href="<$BlogItemUrl$>" title="Veure la font en una nova pàgina" target="blank"><$BlogItemUrl$></a></p>
+					<hr>
+					<BlogItemCommentsEnabled>
+					<aside id="comment-form">
+						   <h4 class="universe"><$BlogItemCommentCount$> Comentari(s):</h4>
+						   <BlogItemComments>
+							  <a name="<$BlogCommentNumber$>"></a>
+								<div class="conversation-a">
+									<p><strong><$BlogCommentAuthor$> ha dit:</strong><br /><$BlogCommentBody$></p>
+									<p>at <a href="#<$BlogCommentNumber$>"><$BlogCommentDateTime$></a><$BlogCommentDeleteIcon$></p>
+								</div>
+							  <hr />
+						   </BlogItemComments>
+						   <div class="button-centered"><a class="button-icon flat green" title="Publica un comentari" href="<$BlogItemCommentCreate$>" <$BlogItemCommentFormOnClick$>>+</a></div>
+					</aside>
+					</BlogItemCommentsEnabled>
+					<hr>
+					</Blogger>
+				</div>
+				<div class="cell-2">
+					<section class="line-left grey">
+						<h2 class=""> <small>Anteriors</small> </h2>
+						<nav class="">
+								<BloggerPreviousItems><ul class="list-unlisted">
+									<li><a href="<$BlogItemPermalinkURL$>"><$BlogPreviousItemTitle$></a></li>
+								</ul></BloggerPreviousItems>
+						</nav>
+					</section>
+				</div>
+				<hr>
+				<nav class="pagination"><$BlogPaginationLinks$></nav>
+				<hr>
+			</div>
+		</main>
+		</ItemPage>
 		
 		<footer id="footer-social" class="flat hard-grey">
 			<div class="content s">
@@ -209,7 +178,7 @@
 				<div class="cell-3">
 						<h4>Comunistes de Catalunya</h4>
 						<adress class="">
-							<span class="location symbol-gear">Av Portal de l´Àngel, 42-48, 2on, Barcelona</span>  <br>
+							<span class="location symbol-gear">carrer Liuva, 39-45, Barcelona</span>  <br>
 							<span class="website symbol-hyperlink"><a href="http://comunistes.cat" title="www.comunistes.cat">www.comunistes.cat</a></span>  <br>
 							<span class="email symbol-email"><a href="mailto:info@comunistes.cat" title="Escriu">info@comunistes.cat</a></span>  <br>
 							<span class="phone symbol-blackphone"><a href="tel:+0034933184282" title="truca">(0034) 93 318 42 82</a></span>  <br>
@@ -218,16 +187,9 @@
 				</div>
 				<hr class="visible-phone lines grey">
 				<div class="cell-4 universe">
-					<h4>Comunistes.cat</h4>
+					<h4><a href="http://www.comunistes.cat" title="Pàgina principal dels i les Comunistes de Catalunya">Comunistes.cat</a></h4>
 						<ul class="list-block">
-							<li><a href="http://www.comunistes.cat" title="Pàgina principal dels i les Comunistes de Catalunya">Portada</a></li>
 							<li><a href="http://bloc.comunistes.cat" title="Bloc dels i les Comunistes de Catalunya">Bloc</a></li>
-							<li><a href="http://imatges.comunistes.cat" title="Imatges dels i les Comunistes de Catalunya">Imatges</a></li>
-							<li><a href="http://videos.comunistes.cat" title="Vídeos dels i les Comunistes de Catalunya">Vídeos</a></li>
-							<li><a href="http://documents.comunistes.cat" title="Documents i publicacions dels i les Comunistes de Catalunya">Documents</a></li>
-							<li><a href="http://persones.comunistes.cat" title="Persones Comunistes de Catalunya">Persones</a></li>
-							<li><a href="http://comunistes.cat/lluites" title="Lluites dels i les Comunistes de Catalunya">Lluites</a></li>
-							<li><a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya">Organització</a></li>
 						</ul>
 				</div>
 				<hr class="visible-phone lines grey">
@@ -235,7 +197,7 @@
 						<h4 class="">Segueix-nos!</h4>
 						<div class="">
 							<a href="http://bloc.comunistes.cat/feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a>
-							<a href="http://www.twitter.com/comunistescat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
+							<a href="http://www.twitter.com/comunistes" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
 							<a href="https://plus.google.com/+ComunistesdeCatalunya" class="button-icon circled flat soft-granate" target="blank" title="Segueix-nos a Google +"> G+ </a>
 							<a href="http://www.facebook.com/comunistesdecatalunya" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
 							<a href="http://comunistescat.tumblr.com/" class="button-icon circled flat asphalt" target="blank" title="Segueix-nos a Tumblr"> Tmblr </a>
