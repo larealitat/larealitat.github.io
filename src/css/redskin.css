@@ -7,7 +7,6 @@
 
 @media (max-width: 768px) {
 
-	
 	footer {
 		text-align: center;
 	}
@@ -27,4 +26,7 @@
 .post-item img {
 	display: block;
 	margin: 0 auto 1em;
+}
+p.blogger-labels {
+	display: none;
 }
