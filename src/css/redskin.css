@@ -9,7 +9,7 @@
 }
 .header-logo {
 	background-size: 20%;
-	background-position: 10% 50%;
+	background-position: 10% 0;
 }
 
 @media (max-width: 768px) {
