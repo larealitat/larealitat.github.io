@@ -3,7 +3,9 @@
 .skin-grid {
 	background-image: url('../../img/base.png');
 }
-
+.skin-hammersickle {
+	background-image: url('../../logo/logocomunistes-falcimartell-white.png');
+}
 
 @media (max-width: 768px) {
 
