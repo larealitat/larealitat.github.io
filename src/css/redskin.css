@@ -7,6 +7,9 @@
 	background-image: url('../../logo/logocomunistes-falcimartell-trans.png');
 	background-repeat: no-repeat;
 }
+.header-logo {
+	background-size: 50%;
+}
 
 @media (max-width: 768px) {
 
