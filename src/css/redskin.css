@@ -4,7 +4,8 @@
 	background-image: url('../../img/base.png');
 }
 .skin-hammersickle {
-	background-image: url('../../logo/logocomunistes-falcimartell-white.png');
+	background-image: url('../../logo/logocomunistes-falcimartell-trans.png');
+	background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
