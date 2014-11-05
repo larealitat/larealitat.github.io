@@ -20,13 +20,14 @@
 
 }
 
-.post, .post-item,
-#comment-form {
+.post, .post-item, #comment-form {
 	background: #ffffff;
+  border: thin solid #fafafa;
 	margin: 0;
 	padding: 1em;
 }
 .post img {
+  border: thick solid transparent;
 	border-radius: 50%;
 	float: left;
 	height: 8em;
@@ -34,8 +35,19 @@
 	width: 8em;
 }
 .post-item img {
+  border: thick solid transparent;
 	display: block;
 	margin: 0 auto 1em;
+}
+.post [href*=jpg]:hover,
+.post [href*=gif]:hover,
+.post [href*=jpeg]:hover,
+.post [href*=png]:hover,
+.post-item [href*=jpg]:hover,
+.post-item [href*=gif]:hover,
+.post-item [href*=jpeg]:hover,
+.post-item [href*=png]:hover {
+	border: thick solid #eeeeee;  
 }
 .blogger-labels {
 	display: none;

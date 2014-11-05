@@ -64,32 +64,52 @@
 		</div>
   	</div>
   	
+  	<header class="flat red">
+  		<div class="content">
+  			<nav>
+	  			<a href="<$BlogUrl$>" title="Inici"><$BlogTitle$></a>
+	  		</nav>
+  		</div>
+  	</header>
+  	
 	<!-- Page content -->
 	<div class="page" id="page">
 	
 		<MainOrArchivePage>
-		<header id="page-header" class="flat red universe">
+		<header id="page-header" class="flat soft-granate universe">
+			<div class="content">
 				<h1 class="anm-zoomInDown delay-1000"><a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a></h1>
 				<p class="anm-moveFromBottomFade delay-2000"><$BlogDescription$></p>
+			</div>
 		</header>
+		<nav class="nav-inline universe metal anm-fadeIn">
+			<div class="content">
+				<a href="http://bloc.comunistes.cat/search/label/Actualitat" title="Notícies d'actualitat">Actualitat</a>
+				<a href="http://bloc.comunistes.cat/search/label/Accions" title="Lluites i mobilitzacions">Accions</a>
+				<a href="http://bloc.comunistes.cat/search/label/Anàlisi" title="Articles i opinions">Anàlisi</a>
+			</div>
+		</nav>
 		<main id="main" class="anm-moveFromBottom">
 			<div class="content">
 			
-				<div class="cell-8 pushed-2">
+				<div class="cell">
 					<Blogger>
-						<BlogDateHeader>
-							<h2 class="universe"><small><$BlogDateHeaderDate$></small></h2>
-						</BlogDateHeader>
+					<BlogDateHeader>
+					<div class="cell">
+						<h2 class="universe"><small><$BlogDateHeaderDate$></small></h2>
+					</div>
+					</BlogDateHeader>
+					<div class="cell">
 						<article class="post" id="<$BlogItemNumber$>">
-							<h3><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>					
-							<a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a>
+							<h3><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+							<p class=""><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></p>
 							<div class="prose level-9">
 								<$BlogItemBody$>
 							</div>
 							<hr>
 						</article>
-						<hr>
-					</Blogger>
+					</div>
+				</Blogger>
 				</div>
 				<hr>
 				<nav class="pagination"><$BlogPaginationLinks$></nav>
@@ -99,11 +119,13 @@
 		</MainOrArchivePage>
 		
 		<ItemPage>
-		<header id="page-header" class="flat red universe">
-			<Blogger>
-			<h1 class="anm-zoomInDown delay-1000"><small><$BlogItemTitle$></small></h1>
-			<h2 class="s anm-moveFromBottomFade delay-2000"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h2>
-			</Blogger>
+		<header id="page-header" class="universe">
+			<div class="content">
+				<Blogger>
+					<h1 class="anm-zoomInDown delay-1000"><$BlogItemTitle$></h1>
+					<h2 class="s anm-moveFromBottomFade delay-2000"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h2>
+				</Blogger>
+			</div>
 		</header>
 		<main id="post" class="anm-moveFromBottom">
 			<div class="content">
@@ -133,7 +155,6 @@
 					<hr>
 					</Blogger>
 				</div>
-
 				<hr>
 				<nav class="pagination"><$BlogPaginationLinks$></nav>
 				<hr>
