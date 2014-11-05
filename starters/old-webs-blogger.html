@@ -45,7 +45,7 @@
 	</head>
 	<body>
 	
-	<div class="container">
+	<div class="container skin-hole">
 		<div class="content">
 			<section class="alert line-top red anm-moveFromTopFade delay-500" id="dialog-5">
 				<h4 class="title universe lines red">Avís important</h4>
@@ -64,13 +64,15 @@
 		</div>
   	</div>
   	
-  	<header class="flat red">
+  	<ItemPage>
+  	<header class="flat soft-granate">
   		<div class="content">
   			<nav>
 	  			<a href="<$BlogUrl$>" title="Inici"><$BlogTitle$></a>
 	  		</nav>
   		</div>
   	</header>
+  	</ItemPage>
   	
 	<!-- Page content -->
 	<div class="page" id="page">
@@ -94,12 +96,7 @@
 			
 				<div class="cell">
 					<Blogger>
-					<BlogDateHeader>
-					<div class="cell">
-						<h2 class="universe"><small><$BlogDateHeaderDate$></small></h2>
-					</div>
-					</BlogDateHeader>
-					<div class="cell">
+						<BlogDateHeader><h2 class="universe"><small><$BlogDateHeaderDate$></small></h2></BlogDateHeader>
 						<article class="post" id="<$BlogItemNumber$>">
 							<h3><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
 							<p class=""><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></p>
@@ -108,8 +105,8 @@
 							</div>
 							<hr>
 						</article>
-					</div>
-				</Blogger>
+						<hr>
+					</Blogger>
 				</div>
 				<hr>
 				<nav class="pagination"><$BlogPaginationLinks$></nav>

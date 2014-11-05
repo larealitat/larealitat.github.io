@@ -7,6 +7,9 @@
 	background-image: url('../../logo/logocomunistes-falcimartell-trans.png');
 	background-repeat: no-repeat;
 }
+.skin-hole {
+	background: #666;
+}
 .header-bg {
 	background-size: 20%;
 	background-position: 10% 0;
