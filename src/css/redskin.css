@@ -11,9 +11,7 @@
 	background-size: 20%;
 	background-position: 10% 0;
 }
-.skin-hole {
-	background: #333;
-}
+
 @media (max-width: 768px) {
 
 	footer {
@@ -22,7 +20,7 @@
 
 }
 
-.post, .post-item, #comment-form {
+.post, .post-item {
 	background: #ffffff;
   border: thin solid #fafafa;
 	margin: 0;
