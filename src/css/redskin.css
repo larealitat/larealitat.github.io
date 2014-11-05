@@ -39,15 +39,16 @@
 	display: block;
 	margin: 0 auto 1em;
 }
-.post [href*=jpg]:hover,
-.post [href*=gif]:hover,
-.post [href*=jpeg]:hover,
-.post [href*=png]:hover,
-.post-item [href*=jpg]:hover,
-.post-item [href*=gif]:hover,
-.post-item [href*=jpeg]:hover,
-.post-item [href*=png]:hover {
-	border: thick solid #eeeeee;  
+.post [href*=jpg] img:hover,
+.post [href*=gif] img:hover,
+.post [href*=jpeg] img:hover,
+.post [href*=png] img:hover,
+.post-item [href*=jpg] img:hover,
+.post-item [href*=gif] img:hover,
+.post-item [href*=jpeg] img:hover,
+.post-item [href*=png] img:hover {
+	border: thick solid #eeeeee;
+	border-radius: 48px;
 }
 .blogger-labels {
 	display: none;
