@@ -22,12 +22,12 @@
 
 .post, .post-item {
 	background: #ffffff;
-  border: thin solid #fafafa;
+	border: thin solid #fafafa;
 	margin: 0;
 	padding: 1em;
 }
 .post img {
-  border: thick solid transparent;
+	border: thick solid transparent;
 	border-radius: 50%;
 	float: left;
 	height: 8em;
@@ -42,7 +42,9 @@
 .post [href*=jpg] img:hover,
 .post [href*=gif] img:hover,
 .post [href*=jpeg] img:hover,
-.post [href*=png] img:hover,
+.post [href*=png] img:hover {
+	border: thick solid #eeeeee;
+}
 .post-item [href*=jpg] img:hover,
 .post-item [href*=gif] img:hover,
 .post-item [href*=jpeg] img:hover,
