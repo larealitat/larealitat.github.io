@@ -20,8 +20,11 @@
 
 }
 
-.post {
+.post, .post-item,
+#comment-form {
+	background: #ffffff;
 	margin: 0;
+	padding: 1em;
 }
 .post img {
 	border-radius: 50%;

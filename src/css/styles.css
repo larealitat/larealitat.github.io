@@ -136,6 +136,17 @@ h6 small {
 	letter-spacing: .1em;
 }
 
+@media (max-width: 767px) {
+	header h1 {
+		font-size: 2em;
+	}
+}
+@media (max-width: 480px) {
+	header h1 {
+		font-size: 1.6em;
+	}
+}
+
 /* Breaks */
 
 hr, 
@@ -1127,7 +1138,7 @@ nav .form-unified input {
 }
 .form-unified input[type=submit] {
 	background: transparent;
-	content: 'ý';
+	content: 'Ý';
 	width: 2.5em;
 }
 @media (max-width: 767px) {

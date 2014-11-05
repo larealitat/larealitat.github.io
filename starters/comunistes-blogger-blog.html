@@ -71,8 +71,10 @@
 		
 		<MainOrArchivePage>
 		<header id="page-header" class="flat soft-granate universe">
+			<div class="content">
 				<h1 class="anm-zoomInDown delay-1000"><a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a></h1>
 				<p class="anm-moveFromBottomFade delay-2000"><$BlogDescription$></p>
+			</div>
 		</header>
 		<nav class="nav-inline universe metal anm-fadeIn">
 			<div class="content">
@@ -94,7 +96,7 @@
 					<div class="cell">
 						<article class="post" id="<$BlogItemNumber$>">
 							<h3><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
-							<a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a>
+							<p class=""><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></p>
 							<div class="prose level-9">
 								<$BlogItemBody$>
 							</div>
@@ -111,24 +113,18 @@
 		</MainOrArchivePage>
 		
 		<ItemPage>
-		<header id="page-header" class="flat soft-granate universe">
-			<Blogger>
-			<h1 class="anm-zoomInDown delay-1000"><small><$BlogItemTitle$></small></h1>
-			<h2 class="s anm-moveFromBottomFade delay-2000"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h2>
-			</Blogger>
+		<header id="page-header" class="universe">
+			<div class="content">
+				<Blogger>
+					<h1 class="anm-zoomInDown delay-1000"><$BlogItemTitle$></h1>
+					<h2 class="s anm-moveFromBottomFade delay-2000"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h2>
+				</Blogger>
+			</div>
 		</header>
 		<main id="post" class="anm-moveFromBottom">
 			<div class="content">
-				<div class="cell-2">
-					<div class="button-centered">
-						<Blogger>
-						<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon flat soft-blue tw" title="Share with Twitter">Tw</a><br>
-						<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon flat blue fb" title="Share with Facebook">Fb</a><br>
-						<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon flat red gp" title="Share with Google +">G+</a>
-						</Blogger>
-					</div>
-				</div>
-				<div class="cell-8">
+
+				<div class="cell-8 pushed-2">
 					<Blogger>
 					<div class="post-item prose">
 						<$BlogItemBody$>
@@ -152,16 +148,6 @@
 					</BlogItemCommentsEnabled>
 					<hr>
 					</Blogger>
-				</div>
-				<div class="cell-2">
-					<section class="line-left grey">
-						<h2 class=""> <small>Anteriors</small> </h2>
-						<nav class="">
-								<BloggerPreviousItems><ul class="list-unlisted">
-									<li><a href="<$BlogItemPermalinkURL$>"><$BlogPreviousItemTitle$></a></li>
-								</ul></BloggerPreviousItems>
-						</nav>
-					</section>
 				</div>
 				<hr>
 				<nav class="pagination"><$BlogPaginationLinks$></nav>
