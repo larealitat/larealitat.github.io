@@ -49,8 +49,8 @@
 .post-item [href*=gif] img:hover,
 .post-item [href*=jpeg] img:hover,
 .post-item [href*=png] img:hover {
-	border: thick solid #eeeeee;
-	border-radius: 48px;
+	border: thin solid #ddd;
+	box-shadow: 0 0 10em rgba(0,0,0,.5),  0 0 .5em rgba(0,0,0,.75);
 }
 .blogger-labels {
 	display: none;
