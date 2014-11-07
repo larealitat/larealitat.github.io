@@ -27,7 +27,7 @@
 	padding: 1em;
 }
 .post img {
-	border: thick solid transparent;
+	border: thin solid transparent;
 	border-radius: 50%;
 	float: left;
 	height: 8em;
@@ -35,7 +35,7 @@
 	width: 8em;
 }
 .post-item img {
-  border: thick solid transparent;
+	border: thin solid transparent;
 	display: block;
 	margin: 0 auto 1em;
 }
@@ -43,7 +43,8 @@
 .post [href*=gif] img:hover,
 .post [href*=jpeg] img:hover,
 .post [href*=png] img:hover {
-	border: thick solid #eeeeee;
+	border: thin solid #ddd;
+	box-shadow: 0 0 10em rgba(0,0,0,.5),  0 0 .5em rgba(0,0,0,.75);
 }
 .post-item [href*=jpg] img:hover,
 .post-item [href*=gif] img:hover,
