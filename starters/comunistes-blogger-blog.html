@@ -78,12 +78,19 @@
 		</header>
 		<main id="main" class="anm-fadeIn delay-1000">
 			<div class="content">
-				<div class="cell-8 pushed-2">
+				<div class="cell-2">
+					<aside>
+					<div class="button-centered">
+						<a href="http://bloc.comunistes.cat/2014/10/signa-la-crida.html" title="Crida a la construcció d’un nou partit comunista a Catalunya" class="button flat green anm-pulse">Signa la Crida</a>
+					</div>
+					</aside>
+				</div>
+				<div class="cell-8">
 					<Blogger>
 						<BlogDateHeader><h2 class="universe"><small><$BlogDateHeaderDate$></small></h2></BlogDateHeader>
 						<article class="post" id="<$BlogItemNumber$>">
 							<h3><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
-							<p class=""><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></p>
+							<h6 class="title"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
 							<div class="prose level-9">
 								<$BlogItemBody$>
 							</div>
@@ -91,6 +98,13 @@
 						</article>
 						<hr>
 					</Blogger>
+				</div>
+				<div class="cell-2">
+					<div class="button-centered">
+							<a href="http://twitter.com/?status=<$BlogURL$>" class="button-icon flat soft-blue anm-zoomInRight delay-200" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
+							<a href="http://www.facebook.com/sharer.php?u=<$BlogURL$>&t=<$BlogItemTitle$>" class="button-icon flat blue anm-zoomInRight delay-300" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
+							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogURL$>" class="button-icon flat red anm-zoomInRight delay-400" title="Comparteix a Google +">G+</a>
+					</div>
 				</div>
 				<hr>
 				<nav class="pagination"><$BlogPaginationLinks$></nav>
@@ -103,50 +117,62 @@
 		<header id="page-header" class="flat soft-granate universe">
 			<div class="content">
 				<Blogger>
-				<p class="anm-fadeIn"><strong>Article</strong></p>
+					<p class="anm-fadeIn"><strong>Article</strong></p>
 					<h1 class="anm-zoomInDown delay-700"><$BlogItemTitle$></h1>
 					<h2 class="s anm-moveFromBottomFade delay-900"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h2>
 				</Blogger>
 			</div>
 		</header>
-		<main id="post" class="anm-fadeIn delay-1000">
+		<main id="post" class="anm-fadeIn delay-100">
 			<div class="content">
-				<div class="cell-8 pushed-2">
-					<Blogger>
-					<div class="post-item prose">
-						<$BlogItemBody$>
+				<div class="cell-2 hidden-phone">
+					<div class="button-centered">
+						<a href="http://bloc.comunistes.cat/2014/10/signa-la-crida.html" title="Crida a la construcció d’un nou partit comunista a Catalunya" class="button flat green">Signa la Crida</a>
 					</div>
+				</div>
+				<div class="cell-8">
+					<Blogger>
+						<div class="post-item prose">
+							<$BlogItemBody$>
+						</div>
+						<hr>
+						<p class="universe"><a href="<$BlogItemUrl$>" title="Veure la font en una nova pàgina" target="blank"><$BlogItemUrl$></a></p>
+						<hr>
+					</Blogger>
+					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>
-					<p class="universe"><a href="<$BlogItemUrl$>" title="Veure la font en una nova pàgina" target="blank"><$BlogItemUrl$></a></p>
-					<hr>
-					<BlogItemCommentsEnabled>
-					<aside id="comment-form">
+					<Blogger>
+						<BlogItemCommentsEnabled>
+						<aside id="comment-form">
 						   <h4 class="universe"><$BlogItemCommentCount$> Comentari(s):</h4>
 						   <BlogItemComments>
-							  <a name="<$BlogCommentNumber$>"></a>
+								<a name="<$BlogCommentNumber$>"></a>
 								<div class="conversation-a">
 									<p><strong><$BlogCommentAuthor$> ha dit:</strong><br /><$BlogCommentBody$></p>
 									<p>at <a href="#<$BlogCommentNumber$>"><$BlogCommentDateTime$></a><$BlogCommentDeleteIcon$></p>
 								</div>
-							  <hr />
-						   </BlogItemComments>
+								<hr />
+							</BlogItemComments>
 						   <div class="button-centered"><a class="button-icon flat green" title="Publica un comentari" href="<$BlogItemCommentCreate$>" <$BlogItemCommentFormOnClick$>>+</a></div>
-					</aside>
-					</BlogItemCommentsEnabled>
-					<hr>
+						</aside>
+						<hr>
+						</BlogItemCommentsEnabled>
 					</Blogger>
 				</div>
 				<div class="cell-2">
-						<div class="button-centered">
-							<Blogger>
-							<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon flat soft-blue tw" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
-							<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon flat blue fb" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
-							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon flat red gp" title="Comparteix a Google +">G+</a>
-							</Blogger>
-						</div>
+					<div class="button-centered">
+						<Blogger>
+							<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon flat soft-blue anm-zoomInRight delay-200" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
+							<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon flat blue anm-zoomInRight delay-300" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
+							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon flat red anm-zoomInRight delay-400" title="Comparteix a Google +">G+</a>
+						</Blogger>
+					</div>
+					<div class="button-centered visible-phone">
+						<a href="http://codi.comunistes.cat/organitzacio/info.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a><br>
+						<a href="http://codi.comunistes.cat/organitzacio/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb Comunistes de Catalunya"> Actua </a><br>
+						<a href="http://codi.comunistes.cat/organitzacio/milita.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
+					</div>
 				</div>
-				<hr>
-				<nav class="pagination"><$BlogPaginationLinks$></nav>
 				<hr>
 			</div>
 		</main>
