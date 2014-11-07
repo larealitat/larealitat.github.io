@@ -2798,7 +2798,11 @@ div { /* block */ }
 .gallery .article-content { 
 	display: none; 
 }
-
+@media (max-width: 1200px) {
+	.gallery article { 
+		width: 33.3333333333%;
+	}
+}
 @media (max-width: 969px) {
 	.gallery article { 
 		width: 47.9999999999%;
