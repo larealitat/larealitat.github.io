@@ -2800,7 +2800,7 @@ div { /* block */ }
 }
 @media (max-width: 1200px) {
 	.gallery article { 
-		width: 33.3333333333%;
+		width: 31.3333333333%;
 	}
 }
 @media (max-width: 969px) {
