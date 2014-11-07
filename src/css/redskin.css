@@ -31,7 +31,7 @@
 	border-radius: 50%;
 	float: left;
 	height: 8em;
-	margin: 0 .5em;
+	margin: .5em;
 	width: 8em;
 }
 .post-item img {
@@ -44,7 +44,7 @@
 .post [href*=jpeg] img:hover,
 .post [href*=png] img:hover {
 	border: thin solid #ddd;
-	box-shadow: 0 0 .5em rgba(0,0,0,.75);
+	box-shadow: 0 0 .25em rgba(0,0,0,.75);
 }
 .post-item [href*=jpg] img:hover,
 .post-item [href*=gif] img:hover,
