@@ -64,10 +64,28 @@
 	display: none;
 }
 .post-item .blogger-labels {
-	color: transparent;
+	color: #333;
+	font-size: 0;
+	margin: 12px 0 0;
+	text-align: center;
+}
+.post-item .blogger-labels:before {
+	border-bottom: 1px solid #999;
+	display: block;
+	content: 'Etiquetes';
+	font-size: 16px;
+	margin: 16px;
 }
 .post-item .blogger-labels a {
 	background: #666;
 	border-radius: .5em;
 	color: #ffffff;
+	font-size: 16px;
+	margin: 0 .25em;
+	padding: .5em 1em;
+	text-decoration: none;
 }
+.post-item .blogger-labels a:hover {
+	background: #dd0000;
+}
+
