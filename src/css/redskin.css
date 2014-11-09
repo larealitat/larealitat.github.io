@@ -63,5 +63,11 @@
 .post .blogger-labels {
 	display: none;
 }
-
-
+.post-item .blogger-labels {
+	color: transparent;
+}
+.post-item .blogger-labels a {
+	background: #666;
+	border-radius: .5em;
+	color: #ffffff;
+}
