@@ -7,6 +7,10 @@
 	background-image: url('../../logo/logocomunistes-falcimartell-trans.png');
 	background-repeat: no-repeat;
 }
+.bg-senyera {
+	background-image: url('../../logo/logocomunistes-senyera.png');
+	background-repeat: no-repeat;
+}
 .header-bg {
 	background-size: 20%;
 	background-position: 10% 0;

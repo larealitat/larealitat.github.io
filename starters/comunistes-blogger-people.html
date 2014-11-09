@@ -61,9 +61,9 @@
 						<div id="nav-collapse" class="togglecollapsed">
 							<a href="http://www.comunistes.cat" title="www.comunistes.cat" class="anm-moveFromTopFade delay-100"><b>Comunistes.cat</b></a>
 							<a href="http://bloc.comunistes.cat" title="Bloc dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-200">Bloc</a>
-							<a href="http://imatges.comunistes.cat" title="Imatges dels i les Comunistes de Catalunya" class="line-bottom red anm-moveFromTopFade delay-300">Imatges</a>
+							<a href="http://imatges.comunistes.cat" title="Imatges dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-300">Imatges</a>
 							<a href="http://videos.comunistes.cat" title="Vídeos dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-400">Vídeos</a>
-							<a href="http://persones.comunistes.cat" title="Persones Comunistes de Catalunya" class="anm-moveFromTopFade delay-500">Persones</a>
+							<a href="http://persones.comunistes.cat" title="Persones Comunistes de Catalunya" class="line-bottom red anm-moveFromTopFade delay-500">Persones</a>
 							<a href="http://comunistes.cat/lluites" title="Lluites dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-600">Lluites</a>
 							<a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-800">Organització</a>
 							<form class="form-search anm-moveFromTopFade delay-1000" action="http://www.google.com/cse"> 
@@ -85,13 +85,13 @@
 				<p class="anm-moveFromBottomFade delay-2000"><$BlogDescription$></p>
 		</header>
 		<main id="main">
-			<div class="content col-4">
+			<div class="content gallery">
 				<Blogger>
 					<a href="<$BlogItemPermalinkUrl$>" title="Coneix <$BlogItemTitle$>">
-						<div class="cell">
-							<figure class="figure-profile"><img src="<$BlogItemUrl$>" alt="<$BlogItemTitle$>" /></figure>
-							<h3 class="universe"><$BlogItemTitle$></h3>
-						</div>
+						<article id="<$BlogItemNumber$>">
+							<figure class="figure-profile s anm-scaleUpDown"><img src="<$BlogItemUrl$>" alt="<$BlogItemTitle$>" /></figure>
+							<h3 class="article-title"><a href="<$blogItemPermalinkUrl$>" title="<$BlogItemPermalinkUrl$>"><$BlogItemTitle$></a></h3>
+						</article>
 					</a>
 				</Blogger>
 				<hr />
@@ -102,12 +102,11 @@
 		</MainOrArchivePage>
 		
 		<ItemPage>
-		<header id="page-header" class="flat soft-granate universe">
+		<header id="page-header" class="header-app bg-hammersickle flat soft-granate universe">
 			<div class="content">
 				<Blogger>
-				<p class="anm-fadeIn"><strong>Article</strong></p>
+					<h6 class="anm-fadeIn"><strong><a href="<$BlogUrl$>" title="<$BlogTitle$>">Persones</a></strong></h6>
 					<h1 class="anm-zoomInDown delay-700"><$BlogItemTitle$></h1>
-					<h2 class="s anm-moveFromBottomFade delay-900"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h2>
 				</Blogger>
 			</div>
 		</header>
@@ -122,11 +121,10 @@
 				</div>
 				<div class="cell-8">
 					<Blogger>
+						<figure class="figure-profile anm-scaleUpDown delay-200"><img src="<$BlogItemUrl$>" alt="<$BlogItemTitle$>" /></figure>
 						<div class="post-item prose">
 							<$BlogItemBody$>
 						</div>
-						<hr>
-						<p class="universe"><a href="<$BlogItemUrl$>" title="Veure la font en una nova pàgina" target="blank"><$BlogItemUrl$></a></p>
 						<hr>
 					</Blogger>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
@@ -158,8 +156,8 @@
 						</Blogger>
 					</div>
 					<div class="button-centered visible-phone">
-						<a href="http://codi.comunistes.cat/organitzacio/info.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a><br>
-						<a href="http://codi.comunistes.cat/organitzacio/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb Comunistes de Catalunya"> Actua </a><br>
+						<a href="http://codi.comunistes.cat/organitzacio/info.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a>
+						<a href="http://codi.comunistes.cat/organitzacio/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb Comunistes de Catalunya"> Actua </a>
 						<a href="http://codi.comunistes.cat/organitzacio/milita.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
 					</div>
 				</div>
