@@ -68,6 +68,8 @@
 	display: none;
 }
 .post-item .blogger-labels {
+  display: block;
+  clear: both;
 	color: #333;
 	font-size: 0;
 	margin: 12px 0 0;
@@ -92,4 +94,7 @@
 .post-item .blogger-labels a:hover {
 	background: #dd0000;
 }
-
+.article-title {
+  font-weight: bold;  
+  font-weight: 500;  
+}
