@@ -1,5 +1,7 @@
 /* Red skin */
 
+/* Backgrounds */
+
 .bg-grid {
 	background-image: url('../../img/base.png');
 }
@@ -16,6 +18,8 @@
 	background-position: 10% 0;
 }
 
+/* Responsive hacks */
+
 @media (max-width: 768px) {
 
 	footer {
@@ -23,6 +27,8 @@
 	}
 
 }
+
+/* Blog */
 
 .post h3 {
 	font-weight: 500;
@@ -74,8 +80,8 @@
 	display: none;
 }
 .post-item .blogger-labels {
-  display: block;
-  clear: both;
+	display: block;
+	clear: both;
 	color: #333;
 	font-size: 0;
 	margin: 12px 0 0;
@@ -101,6 +107,13 @@
 	background: #dd0000;
 }
 .article-title {
-  font-weight: bold;  
-  font-weight: 500;  
+	font-weight: bold;  
+	font-weight: 500;  
+}
+
+/* Twitter timeline */
+
+.twitter-timeline {
+	display: block;
+	margin: 0 auto;
 }
