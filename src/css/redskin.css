@@ -125,8 +125,13 @@
 	height: 24em;
 	overflow: hidden;
 }
+.feed .button-profile {
+	float: left;
+}
 .feed .profile-name {
-	font-size: 0.9em;
-	text-align: center;
-	text-transform: uppercase;
+
+}
+.feed .posts {
+	border-top: 1px solid #ddd;
+	clear: both;
 }
