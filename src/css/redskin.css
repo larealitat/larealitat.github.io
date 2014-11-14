@@ -122,15 +122,14 @@
 /* Feeds */
 
 .feed {
-	height: 24em;
+	height: 22em;
 	overflow: hidden;
 }
 .feed .button-profile {
 	float: left;
 }
-.feed .profile-name {
-
-}
+.feed .prose {}
+.feed .profile-name {}
 .feed .posts {
 	border-top: 1px solid #ddd;
 	clear: both;
