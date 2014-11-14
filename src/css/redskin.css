@@ -125,3 +125,8 @@
 	height: 24em;
 	overflow: hidden;
 }
+.feed .profile-name {
+	font-size: 0.9em;
+	text-align: center;
+	text-transform: uppercase;
+}
