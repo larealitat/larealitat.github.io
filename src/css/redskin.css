@@ -111,10 +111,7 @@
 
 /* Feeds */
 
-.feed {
-	height: 22em;
-	overflow: hidden;
-}
+.feed {}
 .feed .button-profile {
 	float: left;
 }
@@ -123,6 +120,9 @@
 .feed .posts {
 	border-top: 1px solid #ddd;
 	clear: both;
+	height: 17em;
+	margin: 0 0 1em;
+	overflow: hidden;
 }
 
 
