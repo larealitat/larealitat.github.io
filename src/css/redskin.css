@@ -39,7 +39,7 @@
 	margin: 0;
 	padding: 1em;
 }
-.post img {
+.post img, .feed .prose img {
 	border: thin solid transparent;
 	border-radius: 50%;
 	float: left;
@@ -52,14 +52,14 @@
 	display: block;
 	margin: 0 auto 1em;
 }
-.post [href*=jpg] img:hover,
-.post [href*=gif] img:hover,
-.post [href*=jpeg] img:hover,
-.post [href*=png] img:hover,
-.gallery [href*=jpg] img:hover,
-.gallery [href*=gif] img:hover,
-.gallery [href*=jpeg] img:hover,
-.gallery [href*=png] img:hover {
+[href*=jpg] img:hover,
+[href*=gif] img:hover,
+[href*=jpeg] img:hover,
+[href*=png] img:hover,
+[href*=jpg] img:hover,
+[href*=gif] img:hover,
+[href*=jpeg] img:hover,
+[href*=png] img:hover {
 	border: thin solid #ddd;
 	box-shadow: 0 0 .25em rgba(0,0,0,.75);
 	cursor: -webkit-zoom-in; 
