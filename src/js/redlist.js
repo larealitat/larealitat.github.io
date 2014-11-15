@@ -60,6 +60,10 @@ $(document).ready(function () {
 		snippet: true,
 		limit: 2
 	});	
+	$('#feed-videos-last-five').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
+		snippet: true,
+		limit: 5
+	});	
 	$('#feed-videos-parlament').rssfeed('http://videos.comunistes.cat/feeds/posts/default/-/Parlament',{
 		snippet: false,
 		limit: 1
