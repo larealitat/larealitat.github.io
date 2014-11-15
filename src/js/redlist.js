@@ -33,7 +33,7 @@ $(document).ready(function () {
 		snippet: false,
 		limit: 1
 	});	
-	$('#feed-bloc-noticies').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Notícies',{
+	$('#feed-bloc-actualitat').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Actualitat',{
 		snippet: false,
 		limit: 1
 	});	
