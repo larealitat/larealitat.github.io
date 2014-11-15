@@ -36,6 +36,10 @@ $(document).ready(function () {
 	$('#feed-bloc-actualitat').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Actualitat',{
 		snippet: false,
 		limit: 1
+	});
+	$('#feed-bloc-campanyes').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Campanyes',{
+		snippet: false,
+		limit: 1
 	});	
 	
 	// Feeds filtrats de imatges
