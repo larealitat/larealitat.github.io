@@ -127,11 +127,18 @@
 .feed-large .posts {
 	border-top: 1px solid #ddd;
 	clear: both;
-	height: 17em;
 	margin: 0 0 1em;
 	overflow: hidden;
 }
-
+.feed .posts {
+	height: 17em;
+}
+.feed-large .posts {
+	height: 30em;
+}
+.feed-image .posts {
+	height: auto;
+}
 
 /* Responsive hacks */
 
