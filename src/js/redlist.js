@@ -39,7 +39,7 @@ $(document).ready(function () {
 	});
 	$('#feed-bloc-campanyes').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Campanyes',{
 		snippet: false,
-		limit: 2
+		limit: 3
 	});	
 	
 	// Feeds filtrats de imatges
