@@ -119,7 +119,8 @@
 }
 .feed .prose {}
 .feed .profile-name,
-.feed-image .profile-name {
+.feed-image .profile-name,
+.feed-large .profile-name {
 	display: none;
 }
 .feed .posts,
