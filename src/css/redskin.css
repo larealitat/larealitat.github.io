@@ -118,7 +118,8 @@
 	float: left;
 }
 .feed .prose {}
-.feed .profile-name {
+.feed .profile-name,
+.feed-image .profile-name {
 	display: none;
 }
 .feed .posts,
