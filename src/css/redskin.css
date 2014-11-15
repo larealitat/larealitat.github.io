@@ -116,8 +116,11 @@
 	float: left;
 }
 .feed .prose {}
-.feed .profile-name {}
-.feed .posts {
+.feed .profile-name {
+	display: none;
+}
+.feed .posts,
+.blog posts {
 	border-top: 1px solid #ddd;
 	clear: both;
 	height: 17em;
