@@ -56,9 +56,9 @@ $(document).ready(function () {
 		snippet: false,
 		limit: 1
 	});	
-	$('#feed-videos-last-five').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
+	$('#feed-videos-last-two').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
 		snippet: true,
-		limit: 5
+		limit: 2
 	});	
 	$('#feed-videos-parlament').rssfeed('http://videos.comunistes.cat/feeds/posts/default/-/Parlament',{
 		snippet: false,
