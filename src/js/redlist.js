@@ -53,11 +53,11 @@ $(document).ready(function () {
 	// Feeds filtrats de videos
 
 	$('#feed-videos-last-one').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
-		snippet: false,
+		snippet: true,
 		limit: 1
 	});	
 	$('#feed-videos-last-two').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
-		snippet: false,
+		snippet: true,
 		limit: 2
 	});	
 	$('#feed-videos-parlament').rssfeed('http://videos.comunistes.cat/feeds/posts/default/-/Parlament',{
