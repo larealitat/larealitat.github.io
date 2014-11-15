@@ -25,6 +25,10 @@ $(document).ready(function () {
 	
 	// Feeds filtrats del bloc
 
+	$('#feed-bloc-campanyes').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Campanyes',{
+		snippet: false,
+		limit: 2
+	});	
 	$('#feed-bloc-comunicats').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Comunicats',{
 		snippet: false,
 		limit: 1
@@ -37,10 +41,6 @@ $(document).ready(function () {
 		snippet: false,
 		limit: 1
 	});
-	$('#feed-bloc-campanyes').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Campanyes',{
-		snippet: false,
-		limit: 3
-	});	
 	
 	// Feeds filtrats de imatges
 
