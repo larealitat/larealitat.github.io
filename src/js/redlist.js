@@ -53,6 +53,88 @@ $(document).ready(function () {
 		limit: 1
 	});	
 	
+	// Temes
+	
+	$('#feed-treballdigne').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23TreballDigne',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-rendagarantida').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23RendaGarantida',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-salutpublica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23SalutPública',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-dretalhabitatge').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23DretAlHabitatge',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-escolapublica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23EscolaPública',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-universitatpublica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23UniversitatPública',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-lliureinformacio').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23LliureInformació',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-tecnologiesobertes').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23TecnologiesObertes',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-feminisme').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23Feminisme',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-igualtatdedrets').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23IgualtatDeDrets',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-dretsdelainfancia').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23DretsDeLaInfància',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-racismemaimes').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23RacismeMaiMés',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-rupturademocratica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23RupturaDemocràtica',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-memoriahistorica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23MemòriaHistòrica',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-mediambient').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23MediAmbient',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-culturapopular').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23CulturaPopular',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-pau').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23Pau',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-solidaritat').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23Solidaritat',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-republicacatalana').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23RepúblicaCatalana',{
+		snippet: false,
+		limit: 5
+	});	
+	$('#feed-classetreballadora').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23ClasseTreballadora',{
+		snippet: false,
+		limit: 5
+	});	
 	
 	// Feeds filtrats de videos
 

@@ -123,18 +123,18 @@
 .feed-large .profile-name {
 	display: none;
 }
-.feed .posts,
-.feed-blog .posts,
-.feed-large .posts {
-	border-top: 1px solid #ddd;
+.feed .posts .prose,
+.feed-blog .posts .prose,
+.feed-large .posts .prose {
+	border-bottom: 1px solid #ddd;
 	clear: both;
 	margin: 0 0 1em;
 	overflow: hidden;
 }
-.feed .posts {
-	height: 17em;
+.feed .posts .prose {
+	height: 10em;
 }
-.feed-large .posts {
+.feed-large .posts .prose {
 	height: 30em;
 }
 .feed-image .posts {
