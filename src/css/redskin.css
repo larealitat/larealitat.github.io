@@ -157,28 +157,37 @@
 .prev-next,
 .prev-next .blog-paging-control-container  {
 	position: absolute;
-	top: 0;
 	left: 0;
 	right: 0;
 	width: 100%;
 }
-.prev-next .blog-paging-control-container .blog-paging-control {
-	font-size: 2em;
-	visibility: hidden;
+.prev-next .blog-paging-control-container .blog-paging-control,
+.prev-next .blog-paging-control-container .blog-paging-control:after {
+	display: block;
+	height: 2em;
+	width: 2em;
+	position: absolute;
+	text-decoration: none;
+	top: .5em;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1),
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
-	text-decoration: none;
-	top: 0;
+	visibility: hidden;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1) {
-	left: 0; right: auto;
+	left: 2em; right: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
-	right: 0; left: auto;
+	right: 2em; left: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	display: block;
+	font-weight: bold;
+	height: 2em;
+	width: 2em;
 	visibility: visible;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after {
