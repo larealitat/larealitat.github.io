@@ -5,9 +5,9 @@
 		<meta charset="utf-8">
 		<title><$BlogPageTitle$></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="www.jcc.cat">
-		<meta name="keywords" content="classe treballadora joventut república catalana">
-		<meta name="author" content="Joventut Comunista de Catalunya">
+		<meta name="description" content="<$BlogTitle$> - <$BlogDescription$>">
+		<meta name="keywords" content="classe treballadora república catalana">
+		<meta name="author" content="Comunistes de Catalunya">
 		<!-- Metadata: GeoTags -->
 		<meta name="geo.region" content="Catalunya">
 		<meta name="geo.placename" content="Barcelona">
@@ -44,53 +44,48 @@
 		<meta name="msapplication-config" content="http://codi.comunistes.cat/src/ics/browserconfig.xml">
 	</head>
 	<body>
-	
-	<div class="container soft-red">
-		<div class="content">
-			<section class="alert line-top red anm-moveFromTopFade delay-500" id="dialog-5">
-				<h4 class="title universe lines red">Avís important</h4>
-				<div class="cell-1"><a href="http://jcc.cat"><img src="http://comunistes.cat/img/logojcc.png"></a></div>
-				<div class="cell-11">
-					<p>Amb motiu de la refundació de la JCC (Joventut Comunista de Catalunya), fruit del procés d'unitat juvenil comunista protagonitzat per CJC-Joventut Comunista (Col·lectius de Joves Comunistes - Joventut Comunista) i JC (Joves Comunistes), així com per d'altres sectors i persones que es reclamen de l'ideal comunista, aquesta pàgina queda definitivament tancada.</p>
-					<p>Podeu seguir l'actualitat de la Joventut a: <a href="http://jcc.cat">www.jcc.cat</a>.</p>
-				</div>
-				<hr>
-				<div class="button-centered">
-					<a class="button metal" href="http://noticies.cjc.cat/2014/07/declaracio-de-dissolucio-dels-cjc-cap.html">Més informació</a>
-					<a class="button metal" href="http://jcc.cat">Anar al web www.jcc.cat</a>
-				</div>
-				<button class="button-close">X</button>
-			</section>
-		</div>
-  	</div>
-  	
+  
 	<!-- Page content -->
 	<div class="page" id="page">
 	
-		<MainOrArchivePage>
-		<header id="page-header" class="flat soft-red universe">
+		<header id="header">
 			<div class="content">
-				<h1 class="anm-zoomInDown delay-1000"><a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a></h1>
-				<p class="anm-moveFromBottomFade delay-2000"><$BlogDescription$></p>
+				<div class="cell-1 blocked-quarter">
+					<a href="http://fpereardiaca.cat" title="www.fpereardiaca.cat" class="button-image anm-moveFromTopFade"><img src="http://comunistes.cat/img/logofpa.png" alt="Fundació Pere Aardiaca"></a>
+				</div>
+				<div class="cell-11 blocked-half">
+					<hr class="visible-phone">
+					<nav class="">
+						<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
+						<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
+						<div id="nav-collapse" class="togglecollapsed">
+							<a href="http://www.fpereardiaca.cat" title="www.fpereardiaca.cat" class="anm-moveFromTopFade delay-100"><b>fpereardiaca.cat</b></a>
+							<a href="http://fundacio.fpereardiaca.cat" title="Informació sobre la Fundació Pere Ardiaca" class="anm-moveFromTopFade delay-200">la Fundació</a>
+							<a href="http://activitats.fpereardiaca.cat" title="Activitats de la Fundació Pere Ardiaca" class="anm-moveFromTopFade delay-200">Activitats</a>
+							<a href="http://cursos.fpereardiaca.cat" title="Cursos de la Fundació Pere Ardiaca" class="anm-moveFromTopFade delay-200">Cursos</a>
+							<a href="http://espurna.fpereardiaca.org" title="l'Espurna: revista de pensament, història i cultura" class="anm-moveFromTopFade delay-200">l'espurna</a>
+						</div>
+					</nav>
+				</div>
+				<hr class="no-margin">
 			</div>
 		</header>
-		<nav class="universe">
+		<hr class="no-margin">
+		
+		<MainOrArchivePage>
+		<header id="page-header" class="header-app bg-fpereardiaca flat grey universe">
 			<div class="content">
-				<a href="http://cjc.cat" title="Col·lectius de Joves Comunistes">CJC</a>
-				<a href="http://joventut.cjc.cat" title="la Joventut">Joventut</a>
-				<a href="http://lluites.cjc.cat" title="les Lluites de la Joventut">Lluites</a>
-				<a href="http://accio.cjc.cat" title="l'Acció Comunista">Acció</a>
+				<h1 class="anm-zoomInDown delay-700"><a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a></h1>
+				<p class="anm-moveFromBottomFade delay-900"><$BlogDescription$></p>
 			</div>
-		</nav>
-		<main id="main" class="anm-moveFromBottom">
+		</header>
+		<main id="main" class="anm-fadeIn delay-1000">
 			<div class="content">
-			
-				<div class="cell-8 pushed-2">
+				<div class="cell-8">
 					<Blogger>
-						<BlogDateHeader><h2 class="universe"><small><$BlogDateHeaderDate$></small></h2></BlogDateHeader>
 						<article class="post" id="<$BlogItemNumber$>">
 							<h3><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
-							<p class=""><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></p>
+							<h6 class="title"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
 							<div class="prose level-9">
 								<$BlogItemBody$>
 							</div>
@@ -98,6 +93,26 @@
 						</article>
 						<hr>
 					</Blogger>
+				</div>
+				<div class="cell-4">
+					<h4 class="universe">Segueix-nos</h4>
+					<div class="button-centered">
+						<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat soft-asphalt" title="Follow us with RSS"> RSS </a>
+						<a href="http://www.twitter.com/fpereardiaca" class="button-icon circled flat soft-blue" title="Follow us with Twitter"> Tw </a>
+						<a href="http://www.facebook.com/groups/44486868142/" class="button-icon circled flat blue" title="Follow us with Facebook"> Fb </a>
+					</div>
+					<br>
+					<aside>
+						<h4 class="universe">Destaquem</h4>
+						<a href="http://noticies.fpereardiaca.cat/2013/06/inscripcio-oberta-curs-2013-2014-iii.html"><img src="http://comunistes.cat/img/bannerfpereardiacaportada.jpg" /></a>
+					</aside>
+					<br>
+					<h4 class="universe">Agenda</h4>
+						<aside>
+							<div class="map">
+								<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;hl=ca&amp;bgcolor=%23FFFFFF&amp;src=kl8romlkeg3t25jcviisrf2he8%40group.calendar.google.com&amp;color=%234E5D6C&amp;src=8ueo7bog80bdc172jjf8oc3msk%40group.calendar.google.com&amp;color=%23711616&amp;src=n88bdqgnclvg1ices073kp40sc%40group.calendar.google.com&amp;color=%23B1440E&amp;src=rk19i2a838tj0jrm8bjq7q0jhc%40group.calendar.google.com&amp;color=%23691426&amp;src=ht3jlfaac5lfd6263ulfh4tql8%40group.calendar.google.com&amp;color=%23333333&amp;ctz=Europe%2FMadrid" style=" border-width:0 " width="400" height="600" frameborder="0" scrolling="no"></iframe>
+							</div>
+						</aside>
 				</div>
 				<hr>
 				<nav class="pagination"><$BlogPaginationLinks$></nav>
@@ -107,18 +122,10 @@
 		</MainOrArchivePage>
 		
 		<ItemPage>
-		<nav class="universe">
-			<div class="content">
-				<a href="http://cjc.cat" title="Col·lectius de Joves Comunistes">CJC</a>
-				<a href="http://joventut.cjc.cat" title="la Joventut">Joventut</a>
-				<a href="http://lluites.cjc.cat" title="les Lluites de la Joventut">Lluites</a>
-				<a href="http://accio.cjc.cat" title="l'Acció Comunista">Acció</a>
-			</div>
-		</nav>
-		<header id="page-header" class="flat soft-red universe">
+		<header id="page-header" class="flat grey universe">
 			<div class="content">
 				<Blogger>
-					<p class="anm-fadeIn"><strong>Article</strong></p>
+					<h6 class="anm-fadeIn"><strong><a href="<$BlogUrl$>" title="<$BlogTitle$>">Article</a></strong></h6>
 					<h1 class="anm-zoomInDown delay-700"><$BlogItemTitle$></h1>
 					<h2 class="s anm-moveFromBottomFade delay-900"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h2>
 				</Blogger>
@@ -126,7 +133,7 @@
 		</header>
 		<main id="post" class="anm-fadeIn delay-100">
 			<div class="content">
-				<div class="cell-8 pushed-2">
+				<div class="cell-8">
 					<Blogger>
 						<div class="post-item prose">
 							<$BlogItemBody$>
@@ -155,15 +162,23 @@
 						</BlogItemCommentsEnabled>
 					</Blogger>
 				</div>
+				<div class="cell-4">
+					<div class="button-centered">
+						<Blogger>
+							<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon flat soft-blue anm-zoomInRight delay-200" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
+							<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon flat blue anm-zoomInRight delay-300" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
+							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon flat red anm-zoomInRight delay-400" title="Comparteix a Google +">G+</a>
+						</Blogger>
+					</div>
+				</div>
 				<hr>
 			</div>
 		</main>
 		</ItemPage>
-
 		
 		<footer id="footer-terms" class="flat black">
 			<div class="content s">
-				<span class="license symbol-copyright"> 2014 Joventut Comunista de Catalunya. <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">Reconeixement - No comercial - Compartir igual (By-nc-sa)</a> </span>  
+				<span class="license symbol-copyright"> 2014 Fundació Pere Ardiaca. <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">Reconeixement - No comercial - Compartir igual (By-nc-sa)</a> </span>  
 			</div>
 		</footer>
 
@@ -171,8 +186,7 @@
    
     <!-- Scripts
     ================================================== -->
-	<script src="http://codi.comunistes.cat/src/js/ga-cjc.js" type="text/javascript"></script>
-	<script src="http://codi.comunistes.cat/src/js/jquery.js" type="text/javascript"></script>
-	<script src="http://codi.comunistes.cat/src/js/jquery.components.js" type="text/javascript"></script>
+	<script src="http://codi.comunistes.cat/src/js/ga-fpa.js" type="text/javascript"></script>
+
   </body>
 </html>
