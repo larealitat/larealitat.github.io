@@ -20,6 +20,11 @@
 
 /* Blog */
 
+header h6 {
+	display: block;
+	margin: 0 auto;
+	width:75%;
+}
 .post h3 {
 	font-weight: 500;
 }
@@ -169,6 +174,7 @@
 	position: absolute;
 	text-decoration: none;
 	top: -.25em;
+	z-index: 1000;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1),
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
