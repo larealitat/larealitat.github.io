@@ -41,6 +41,12 @@ article.post {
 .post h6 {
 	border-top: thin solid #ddd;
 	border-bottom: thin solid #ddd;
+	padding: .1em 0 .2em;
+}
+.post h6 time {
+	color: #999;
+	font-weight: normal;
+	font-weight: 300;
 }
 .post, .post-item {
 	background: #ffffff;
