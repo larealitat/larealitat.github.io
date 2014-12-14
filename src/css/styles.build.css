@@ -2201,8 +2201,8 @@ figure:hover > .caption-onhover {
 	clear: both;
 	margin-bottom: 1.5em;
 	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 2.25em;
+	padding-bottom: 56%;
+	padding-top: 0;
 	height: 0;
 	overflow: hidden;
 	z-index: 100;
