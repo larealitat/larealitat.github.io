@@ -3550,14 +3550,15 @@ button.depth:active,
 .paper-float {
 	box-shadow: 0 .9em .9em -.2em rgba(0,0,0,.6);
 }
-.paper-hover { 
+.paper-hover {
+	box-shadow: 0 0 .1em rgba(0,0,0,.6);
 	z-index: 0;
 	/*Transition*/
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s lineal;
+	-moz-transition: all 0.5s lineal;
+	-ms-transition: all 0.5s lineal;
+	-o-transition: all 0.5s lineal;
+	transition: all 0.5s lineal;
 }
 .paper-hover:nth-child(2n+1) {
 	/*Transform*/
@@ -3569,29 +3570,30 @@ button.depth:active,
 }
 .paper-hover:nth-child(2n+2) {
 	/*Transform*/
-	-webkit-transform: perspective(500px) rotateX( -02deg );
-	-moz-transform: perspective(500px) rotateX( -02deg );
-	-ms-transform: perspective(500px) rotateX( -02deg );
-	-o-transform: perspective(500px) rotateX( -02deg );
-	transform: perspective(500px) rotateX( -02deg );
+	-webkit-transform: perspective(500px) rotateX( -01deg );
+	-moz-transform: perspective(500px) rotateX( -01deg );
+	-ms-transform: perspective(500px) rotateX( -01deg );
+	-o-transform: perspective(500px) rotateX( -01deg );
+	transform: perspective(500px) rotateX( -01deg );
 }
 .paper-hover:hover {
+	box-shadow: 0 .9em .9em -.2em rgba(0,0,0,.6);
 	z-index: 1;
 	/*Transform*/
-	-webkit-transform: scale(1.05) rotateX( 0deg ) translatez(100px);
-	-moz-transform: scale(1.05) rotateX( 0deg ) translatez(100px);
-	-ms-transform: scale(1.05) rotateX( 0deg ) translatez(100px);
-	-o-transform: scale(1.05) rotateX( 0deg ) translatez(100px);
-	transform: scale(1.05) rotateX( 0deg ) translatez(100px);
+	-webkit-transform: rotateX( 0deg );
+	-moz-transform: rotateX( 0deg );
+	-ms-transform: rotateX( 0deg );
+	-o-transform: rotateX( 0deg );
+	transform: rotateX( 0deg );
 }
 .paper-hover:hover + .post {
 	z-index: 0;
 	/*Transform*/
-	-webkit-transform: scale(1.01) perspective(500px) rotateX( -07deg );
-	-moz-transform: scale(1.01) perspective(500px) rotateX( -07deg );
-	-ms-transform: scale(1.01) perspective(500px) rotateX( -07deg );
-	-o-transform: scale(1.01) perspective(500px) rotateX( -07deg );
-	transform: scale(1.01) perspective(500px) rotateX( -07deg );  
+	-webkit-transform: perspective(500px) rotateX( -02deg );
+	-moz-transform: perspective(500px) rotateX( -02deg );
+	-ms-transform: perspective(500px) rotateX( -02deg );
+	-o-transform: perspective(500px) rotateX( -02deg );
+	transform: perspective(500px) rotateX( -02deg );  
 }
 
 /* Backgrounds (non combinables) */
