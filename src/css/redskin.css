@@ -3,7 +3,7 @@
 /* Backgrounds */
 
 .bg-grid {
-	background-image: url('../../img/bg-base.png');
+	background-image: url('../../img/base.png');
 }
 .bg-hammersickle {
 	background-image: url('../../logo/logocomunistes-falcimartell-trans.png');
@@ -41,12 +41,6 @@ article.post {
 .post h6 {
 	border-top: thin solid #ddd;
 	border-bottom: thin solid #ddd;
-	padding: .1em 0 .2em;
-}
-.post h6 time {
-	color: #999;
-	font-weight: normal;
-	font-weight: 300;
 }
 .post, .post-item {
 	background: #ffffff;
@@ -54,9 +48,7 @@ article.post {
 	margin: 0;
 	padding: 1em;
 }
-.post img, 
-.feed .prose img,
-.feed-blog .prose img {
+.post img {
 	border: thin solid transparent;
 	border-radius: 50%;
 	float: left;
@@ -141,32 +133,38 @@ article.post {
 
 /* Feeds */
 
-.feed {}
-.feed-blog .button-profile {
+[class*='feed'] {
+	padding: 0;
+}
+[class*='feed'] .button-profile {
 	float: left;
+	margin: -.5em 1em 1em 0;
 }
-.feed .prose {}
-.feed .profile-name,
-.feed-image .profile-name,
-.feed-large .profile-name {
-	display: none;
+[class*='feed'] header {
+	border: none;
 }
-.feed .posts .prose,
-.feed-blog .posts .prose,
-.feed-large .posts .prose {
-	border-bottom: 1px solid #ddd;
+.feed article {
 	clear: both;
-	margin: 0 0 1em;
+	height: 16em;
 	overflow: hidden;
 }
-.feed .posts .prose {
-	height: 10em;
+.feed-large article {
+	height: 32em;
+	overflow: hidden;
 }
-.feed-large .posts .prose {
-	height: 30em;
-}
-.feed-image .posts {
+.feed-image article {
 	height: auto;
+}
+.feed-small header,
+.feed-image header,
+.feed-large header {
+	display: none
+}
+.feed article img {
+	border-radius: 0px !important;
+	float: none !important;
+	height: auto !important;
+	width: 100% !important;
 }
 
 /* Responsive hacks */

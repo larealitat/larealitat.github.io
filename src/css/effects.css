@@ -52,7 +52,8 @@
 }
 .blur,
 .blur-nonhover,
-.blur-onhover:hover {
+.blur-onhover:hover,
+.blur-check:checked ~ .blur-able {
 	/*Blur*/
 	filter:blur(2px);
 	-webkit-filter:blur(2px);
@@ -62,27 +63,30 @@
  }
 .brightness,
 .brightness-nonhover,
-.brightness-onhover:hover {
+.brightness-onhover:hover,
+.brightness-check:checked ~ .brightness-able {
 	/*Hue Brightness*/
-	filter:brightness(2);
-	-webkit-filter:brightness(2);
-	-moz-filter:brightness(2);
-	-ms-filter:brightness(2);
-	-o-filter:brightness(2);
+	filter:brightness(1.5);
+	-webkit-filter:brightness(1.5);
+	-moz-filter:brightness(1.5);
+	-ms-filter:brightness(1.5);
+	-o-filter:brightness(1.5);
  }
 .brightless,
 .brightless-nonhover,
-.brightless-onhover:hover {
+.brightless-onhover:hover,
+.brightless-check:checked ~ .brightless-able {
 	/*Hue Brightness*/
-	filter:brightness(0.5);
-	-webkit-filter:brightness(0.5);
-	-moz-filter:brightness(0.5);
-	-ms-filter:brightness(0.5);
-	-o-filter:brightness(0.5);
+	filter: brightness(0.75);
+	-webkit-filter: brightness(0.75);
+	-moz-filter: brightness(0.75);
+	-ms-filter: brightness(0.75);
+	-o-filter: brightness(0.75);
  }
 .contrast, 
 .contrast-nonhover, 
-.contrast-onhover:hover {
+.contrast-onhover:hover,
+.contrast-check:checked ~ .contrast-able {
 	/*Hue Contrast*/
 	filter:contrast(2);
 	-webkit-filter:contrast(2);
@@ -92,7 +96,8 @@
  }
 .grayscale, 
 .grayscale-nonhover, 
-.grayscale-onhover:hover {
+.grayscale-onhover:hover,
+.grayscale-check:checked ~ .grayscale-able {
 	/*Grayscale*/
 	filter:grayscale(1);
 	-webkit-filter:grayscale(1);
@@ -102,7 +107,8 @@
  }
 .huerotate, 
 .huerotate-nonhover, 
-.huerotate-onhover:hover {
+.huerotate-onhover:hover,
+.huerotate-check:checked ~ .huerotate-able {
 	/*Hue Rotate*/
 	filter:hue-rotate(180deg);
 	-webkit-filter:hue-rotate(180deg);
@@ -112,7 +118,8 @@
  }
 .invert, 
 .invert-nonhover, 
-.invert-onhover:hover {
+.invert-onhover:hover,
+.invert-check:checked ~ .invert-able {
 	/*Invert*/
 	filter:invert(1);
 	-webkit-filter:invert(1);
@@ -122,12 +129,14 @@
  }
 .reflect,
 .reflect-nonhover,
-.reflect-onhover:hover {
+.reflect-onhover:hover,
+.reflect-check:checked ~ .reflect-able {
     -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.4)));
 }
 .saturate, 
 .saturate-nonhover, 
-.saturate-onhover:hover {
+.saturate-onhover:hover,
+.saturate-check:checked ~ .saturate-able {
 	/*Saturate*/
 	filter:saturate(4);
 	-webkit-filter:saturate(4);
@@ -137,17 +146,19 @@
 }
 .antisaturate, 
 .antisaturate-nonhover, 
-.antisaturate-onhover:hover {
+.antisaturate-onhover:hover,
+.antisaturate-check:checked ~ .antisaturate-able {
 	/*Saturate*/
-	filter:saturate(.25);
-	-webkit-filter:saturate(.25);
-	-moz-filter:saturate(.25);
-	-ms-filter:saturate(.25);
-	-o-filter:saturate(.25);
+	filter:saturate(.5);
+	-webkit-filter:saturate(.5);
+	-moz-filter:saturate(.5);
+	-ms-filter:saturate(.5);
+	-o-filter:saturate(.5);
 }
 .sepia, 
 .sepia-nonhover, 
-.sepia-onhover:hover {
+.sepia-onhover:hover,
+.sepia-check:checked ~ .sepia-able {
 	/*Sepia*/
 	filter:sepia(1);
 	-webkit-filter:sepia(1);

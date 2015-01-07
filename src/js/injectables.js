@@ -1,4 +1,4 @@
-// hipertextos Injectables: jQuery & CSS basics
+// hipertextos Injectables: sharing and translate buttons
 // by Acozar [www.hipertextos.net]
 
 $(function() {

@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-	border-bottom: thin solid #ddd;
+	border-bottom: thin solid #333;
 }
 h1,
 h2,
@@ -52,19 +52,29 @@ a, a:link, a:visited {
 	font-weight: bold; 
 	text-decoration: underline; 
 }
-a:link:after { 
+a:after { 
 	content: " (" attr(href) ") "; 
 }
-nav,
-footer,
-style,
-script,
+img {
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid;
+}
+button,
 dialog,
+embed,
+form,
+iframe,
+input,
+nav,
 progress,
+script,
+style,
 .no-js,
 [class*='alert'],
-[class*='menu'],
-[class*='dialog'] {
+[class*='button'],
+[class*='dialog'],
+[class*='menu'] {
 	display: none;
 }
 pre {
@@ -74,6 +84,9 @@ pre {
 	margin: 2%;
 	padding: 2%;
 	width: 92%;
+}
+pre, code {
+	font-family: monospace;
 }
 pre *, code, code *, cite, small, strong,
 i, em, span {

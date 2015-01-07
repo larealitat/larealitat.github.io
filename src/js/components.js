@@ -4,7 +4,7 @@
 
 $(function() {
 	
-	// Collapse dropmenu, accordion and tabs
+	// Collapse, accordion and tabs
 	$('.jcollapser .jcollapsed').toggleClass('closed');
 	$('.jcollapser .jtrigger').click(function(e){
 		$(this).next('.jcollapsed').toggleClass('closed anime anm-fadeIn').siblings('.jcollapsed:visible').toggleClass('closed anime anm-fadeIn');
@@ -43,6 +43,14 @@ $(function() {
            $("#page").removeClass('page-side');
        }; 
     });
+
+	// Side Menu
+	
+	$(".open-side-menu").click(function(e) {
+		$("#side-menu").toggleClass('closed left anm-moveFromLeft delay-500');
+    	$("#page").toggleClass('page-side toright anm-fadeIn delay-500');
+    	$(".open-side-menu").toggleClass('symbol-iching-heaven symbol-remove');
+	});
 	
 	// Dialogs
 	
@@ -161,15 +169,7 @@ $(function() {
 		var mousey = e.pageY - 24; //Get Y coordinates
 		$('.tooltip').css({ top: mousey, left: mousex })
 	});
-	
-	// Side Menu
-	
-	$(".open-side-menu").click(function(e) {
-		$("#side-menu").toggleClass('closed left anm-moveFromLeft delay-500');
-    	$("#page").toggleClass('page-side toright anm-fadeIn delay-500');
-    	$(".open-side-menu").toggleClass('symbol-iching-heaven symbol-remove');
-	});
-	
+
 	// Alert on end scroll
 	
 	var lastScrollTop = 0;

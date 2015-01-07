@@ -25,6 +25,9 @@
  *
  **/
 
+
+/* Modified version by Hipertextos (www.hipertextos.net) - Jan 1, 2015 */
+
 (function($){
 
 	$.fn.rssfeed = function(url, options, fn) {	
@@ -62,7 +65,7 @@
 			if (options.ssl) s = 's';
 			
 			// Add feed class to user div
-			if (!$e.hasClass('rssFeed')) $e.addClass('rssFeed');
+			if (!$e.hasClass('feed')) $e.addClass('feed');
 			
 			// Check for valid url
 			if(url == null) return false;
@@ -117,6 +120,7 @@
 		var rowIndex = 0;
 		var html = '';	
 		var row = 'odd';
+		var feedImage = $(e).find('img').attr('src');
 		
 		// Get XML data for media (parseXML not used as requires 1.5+)
 		if (options.media) {
@@ -126,12 +130,12 @@
 		
 		// Add header if required
 		if (options.header)
-			html +=	'<h4 class="profile-name">' +
-				'<a href="'+feeds.link+'" title="'+ feeds.description +'">'+ feeds.title +'</a>' +
-				'</h4>';
+			html +=	'<header>' +
+				'<h3><a class="button-profile xs"><img src="'+feedImage+'" alt="'+ feeds.title +'"></a> <a href="'+feeds.link+'" title="'+ feeds.description +'">'+ feeds.title +'</a></h3>' +
+				'</header>';
 			
 		// Add body
-		html += '<div class="posts">';
+		html += '<div class="articles">';
 
 
 		// Add feeds
@@ -183,9 +187,9 @@
 			
 			// Add feed row
 			if (options.linkredirect) feedLink = encodeURIComponent(feedLink);
-			rowArray[rowIndex]['html'] = '<'+ options.titletag +'><a href="'+ options.linkredirect + feedLink +'" title="Llegir '+ feeds.title +'">'+ entry.title +'</a></'+ options.titletag +'>'
+			rowArray[rowIndex]['html'] = '<'+ options.titletag +'><a href="'+ options.linkredirect + feedLink +'" title="View '+ feeds.title +'">'+ entry.title +'</a></'+ options.titletag +'>'
 
-			if (options.date && pubDate) rowArray[rowIndex]['html'] += '<p><small>'+ pubDate +'</small></p>'
+			if (options.date && pubDate) rowArray[rowIndex]['html'] += '<h5><small>'+ pubDate +'</small></h5>'
 			if (options.content) {
 			
 				// Use feed snippet if available and optioned
@@ -247,7 +251,7 @@
 		// Add rows to output
 		$.each(rowArray, function(e) {
 
-			html += '<div class="rssRow '+row+'">' + rowArray[e]['html'] + '</div>';
+			html += '<article class="'+row+'">' + rowArray[e]['html'] + '</article>';
 
 			// Alternate row classes
 			if (row == 'odd') {
