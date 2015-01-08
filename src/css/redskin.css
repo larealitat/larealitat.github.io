@@ -83,7 +83,7 @@ article.post {
 	font-size: 16px;
 	margin: 0 .25em;
 	padding: .25em 1em;
-	text-decoration: non !important;
+	text-decoration: none !important;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	hyphens: none;
