@@ -252,5 +252,9 @@ $(document).ready(function () {
 		snippet: true,
 		limit: 1
 	});	
+	$('#feed-sfr').rssfeed('http://seguintfilroig.blogspot.com/feeds/posts/default',{
+		snippet: true,
+		limit: 1
+	});	
 	
 });
