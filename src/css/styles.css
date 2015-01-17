@@ -340,6 +340,10 @@ address {
     opacity: 0.8;
 	-moz-opacity: 0.8;
 }
+.condensed {
+	line-height: 1em;
+	margin: 0;
+}
 .header-title {
 	line-height: 1em;
 	margin: 0;
@@ -1974,15 +1978,13 @@ header, main, footer {
 	position: relative;
 }
 header {
-	border-bottom: thin solid #aaaaaa;
-	border-bottom: thin solid currentColor;
+	border-bottom: thin solid rgba(0,0,0,.4);
 }
 main {
 	background-color: #fcfcfc;
 }
 footer {
-	border-top: thin solid #aaaaaa;
-	border-top: thin solid currentColor;
+	border-top: thin solid rgba(0,0,0,.4);
 }
 
 /* Header Variations */
@@ -4787,7 +4789,7 @@ a[class*='depth'],
 	margin: 0 auto;
 	overflow: hidden;
 	width: 100%;
-	min-height: 20em;
+	min-height: 10em;
 	position: relative;
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
@@ -4797,8 +4799,7 @@ a[class*='depth'],
 .panel-flip-onhover .front,
 .panel-flip .back,
 .panel-flip-onhover .back {
-	margin: 1em;
-	min-height: 18em;
+	padding: 1em;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -4844,24 +4845,11 @@ a[class*='depth'],
 	-moz-transform: rotateX(0deg) rotateY(0deg);
 	transform: rotateX(0deg) rotateY(0deg);
 }
-.button-flip,
-.footer-flip {
-	display: block;
-	position: absolute;
-}
-.footer-flip {
-	background: rgba(0,0,0,.3);
-	border: none;
-	height: 4em;
-	padding: .1em .5em;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 991;
-}
 .button-flip {
-	padding: .1em;
+	display: block;
 	height: 2em;
+	padding: .1em;
+	position: absolute;
 	bottom: .1em;
 	right: 2em;
 	width: 2em;
@@ -4879,42 +4867,20 @@ a[class*='depth'],
 	list-style: none;
 	padding: 0;
 }
-.tabs label {
+.tabs-control label,
+.tabs-control a {
+	border: thin solid #555;
+	border-bottom: none;
 	cursor:pointer;
-	display: inline-block;
-	line-height: 2em;
-	margin: .25em -.2em;
 	padding: .25em 1em;
 	text-decoration: none !important;
-}
-.tabs-control label,
-.tabs-nav label.tab-active {
-	border: thin solid rgba(0,0,0,.4);
-	border-bottom: thin solid transparent;
-}
-.tabs-nav label {
-	border: thin solid transparent;
-	border-bottom: thin solid rgba(0,0,0,.4);
 }
 .tabs-panel {
 	display: none;
 }
 li .tabs-check:checked ~ .tabs-panel {
 	display: block;
-}
-@media (max-width: 479px) {
-	.tabs-control label span {
-		display: none;
-	}
-	.tabs-control label,
-	.tabs-nav label,
-	.tabs-nav label.tab-active {
-		border: thin solid rgba(0,0,0,.4);
-		display: block;
-		line-height: 1.5em;
-		margin: .1em;
-		padding: .05em .5em;
-	}
+
 }
 
 /* Carousel */
