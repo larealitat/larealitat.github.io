@@ -1267,7 +1267,7 @@ nav a {
 	display: inline;
 	display: inline-block;
 	margin: 0;
-	padding: .5em;
+	padding: .5em .25em;
 	text-decoration: none;
 }
 nav a:hover,
@@ -1288,7 +1288,7 @@ nav li a {
 }
 nav a img, nav a svg {
 	height: 1em;
-	margin: 0 .5em;
+	margin: 0 auto;
 	width: 1em;
 }
 
