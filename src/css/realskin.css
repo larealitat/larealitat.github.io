@@ -1,9 +1,7 @@
 /* Realskin */
 
-.tab-active:after {
-	content: 'X';
-	display: block;
-	
+.tab-active {
+	background: url('http://codi.comunistes.cat/src/ics/close.svg') no-repeat center 80%;	
 }
 .tab-active svg {
 	display: none;
