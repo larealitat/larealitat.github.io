@@ -71,11 +71,16 @@ a, a:link, a:visited {
 a:after { 
 	content: " (" attr(href) ") "; 
 }
-img {
+img, figure {
+	display: block;
+	margin: 1em auto;
+	width: 80%;
     page-break-before: auto;
     page-break-after: auto;
     page-break-inside: avoid;
 }
+#header,
+#footer,
 button,
 dialog,
 embed,
