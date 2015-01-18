@@ -1,7 +1,9 @@
 /* Realskin */
 
-.tab-active {
+.tab-active:after {
 	content: 'X';
+	display: block;
+	
 }
 .tab-active svg {
 	display: none;
