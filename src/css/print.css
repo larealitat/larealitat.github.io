@@ -36,8 +36,8 @@ body {
 	width: 100%;
 	word-break: break-word;
 }
-h1 { font-size: 32pt; }
-h2 { font-size: 24pt; }
+h1 { font-size: 22pt; }
+h2 { font-size: 20pt; }
 h3 { font-size: 18pt; }
 h4 { font-size: 16pt; }
 h5 { font-size: 14pt; }
@@ -84,6 +84,7 @@ img, figure {
 #header-site,
 #footer,
 #footer-social,
+#footer-terms,
 button,
 dialog,
 embed,
