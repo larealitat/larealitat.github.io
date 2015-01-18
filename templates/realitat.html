@@ -56,7 +56,7 @@
 						<nav class="l"><a class="idtrigger" href="#sub-nav"><svg version="1.1" id="icon-search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="538.844px" viewBox="0 0 512 538.844" enable-background="new 0 0 512 538.844" xml:space="preserve"> <rect id="rect1947" x="23.19" y="370.584" width="464.91" height="66.416"/> <rect id="rect2836" x="23.19" y="104.922" width="464.91" height="66.416"/> <rect id="rect9063" x="23.19" y="237.753" width="464.91" height="66.415"/> </svg></a></nav>
 				</div>
 				<div class="thumb-10">
-					<h1 class="condensed"><a href="http://realitat.cat" title="www.realitat.cat" class="anm-moveFromTopFade">realitat</a></h1>
+					<h1 class="condensed" id="title"><a href="http://realitat.cat" title="www.realitat.cat" class="anm-moveFromTopFade">realitat</a></h1>
 				</div>
 				<div class="thumb-1">
 					<nav class="l"><a class="idtrigger" href="#sub-search"><svg id="icon-list" width="517.4070434570312" height="517.406982421875" viewBox="0 0 517.4070434570312 517.406982421875" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g><path d="M 496.131,435.698L 374.855,332.551c-12.537-11.283-25.945-16.463-36.776-15.963C 366.707,283.054, 384,239.549, 384,192 C 384,85.961, 298.039,0, 192,0C 85.962,0,0,85.961,0,192c0,106.039, 85.961,192, 192,192c 47.549,0, 91.054-17.293, 124.588-45.922 c-0.5,10.831, 4.68,24.239, 15.963,36.776l 103.147,121.276c 17.661,19.623, 46.511,21.277, 64.11,3.678S 515.754,453.359, 496.131,435.698z M 192,320c-70.692,0-128-57.308-128-128S 121.308,64, 192,64s 128,57.308, 128,128S 262.693,320, 192,320z"></path></g></svg></a></nav>
@@ -82,35 +82,19 @@
 				</div>
 			</div>
 		</header>
-		<header id="page-header" class="universe">
+		<header id="page-header" class="universe lines grey">
 			<div class="content">
-				<div class="white-space xl"></div>
-				<h6 class="elegant">"Les coses són senceres allò que aparenten, i darrera d'elles... no hi ha res"</h6>
+				<div class="white-space l"></div>
+				<h6 class="">"Les coses són senceres allò que aparenten<span class="hidden-phone">, i darrera d'elles... no hi ha res</span>"</h6>
 			</div>
 		</header>
 		
 		<main id="main" class="anm-moveFromBottom">
 
-			<div class="content col-3">
-				<div class="cell">
-					<section class="line-top red anm-flipInLeft delay-500">
-						<h3>Section</h3>
-						<hr class="white-space xl">
-					</section>
-				</div>
-				<div class="cell">
-					<section class="line-top red anm-flipInTop delay-500">
-						<h3>Section</h3>
-						<hr class="white-space xl">
-					</section>
-				</div>
-				<div class="cell">
-					<section class="line-top red anm-flipInRight delay-500">
-						<h3>Section</h3>
-						<hr class="white-space xl">
-						<div class="sharing-buttons"></div>
-					</section>
-				</div>
+			<div class="content">
+
+				
+
 				<hr>
 			</div>
 			
@@ -182,7 +166,8 @@
 			$('.idtrigger').click(function(e){
 				e.preventDefault(); 
 				var currentPanel = $(this).attr('href');
-				$(this).toggleClass('tab-active').siblings('.idtrigger').removeClass('tab-active');
+				$(this).toggleClass('tab-active');
+				$(".tab-active").not(this).removeClass("tab-active");
 				$(currentPanel).toggleClass('closed anime anm-fadeIn').siblings('.idpanel:visible').toggleClass('closed anime anm-fadeIn');
 				if ($('.idpanel:visible').length) {
 				} else {
