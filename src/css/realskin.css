@@ -1,7 +1,7 @@
 /* Realskin */
 
 .tab-active {
-	content: ' ';
+	content: 'X';
 }
 .tab-active svg {
 	display: none;
