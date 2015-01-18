@@ -81,7 +81,9 @@ img, figure {
     page-break-inside: avoid;
 }
 #header,
+#header-site,
 #footer,
+#footer-social,
 button,
 dialog,
 embed,
