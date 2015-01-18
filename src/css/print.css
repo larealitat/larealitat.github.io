@@ -50,6 +50,7 @@ h4,
 h5,
 h6 {
 	border-bottom: thin solid #333;
+	line-height: 1.25em;
 	page-break-after: avoid;
 }
 h1,
@@ -92,6 +93,9 @@ progress,
 script,
 style,
 .no-js,
+.pagination,
+[class*='prev'],
+[class*='next'],
 [class*='alert'],
 [class*='button'],
 [class*='dialog'],
@@ -130,4 +134,16 @@ th { border: 1px solid #ddd; display: table-cell; width: auto; }
 	height: 1em;
 	margin: 0 .5em;
 	width: 1em;
+}
+.verse {
+	text-align: left;
+}
+.reverse {
+	text-align: right;
+}
+.universe {
+	text-align: center;
+}
+.prose {
+	text-align: justify;
 }
