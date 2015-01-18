@@ -3,3 +3,6 @@
 .tab-active {
 	content: ' ';
 }
+.tab-active svg {
+	display: none;
+}
