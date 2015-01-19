@@ -2089,6 +2089,14 @@ article, aside, section {
 	margin: 1em;
 	padding: 1em;
 }
+article .prose,
+article .verse,
+article .reverse,
+article .universe {
+	font-size: 1.25em;
+	font-weight: 200;
+	line-height: 1.6em;
+}
 
 /* ------------------------------------------------------------ The span */
 
