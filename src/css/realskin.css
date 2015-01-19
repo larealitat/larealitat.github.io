@@ -5,6 +5,9 @@
 .tab-active {
 	background: url('http://codi.comunistes.cat/src/png/close.png') no-repeat center;
 	content: ' ';
+	diplay: block;
+	height: 2em;
+	width: 2em;
 }
 .tab-active svg {
 	display: none;
