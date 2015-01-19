@@ -3,11 +3,14 @@
 /* Navigation tabs */
 
 .tab-active:after {
+	background: #000;
+	border-radius: 50%;
+	color: #fff;
 	content: 'X';
 	display: block;
-	font-size: 2em;
-	height: 2em;
-	width: 2em;
+	font-size: 4em;
+	height: 1em;
+	width: 1em;
 }
 .tab-active svg {
 	display: none;
