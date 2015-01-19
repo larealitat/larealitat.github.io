@@ -1,15 +1,198 @@
 /* Realskin */
 
+/* Navigation tabs */
+
 .tab-active:after {
-	content: 'X';
+	background: url('http://codi.comunistes.cat/src/ics/close.svg') no-repeat 100% center;
+	content: ' ';
 	display: block;
 	font-weight: bold;	
 }
 .tab-active svg {
 	display: none;
 }
-@media (max-width: 767px) {
+
+/* Blog */
+
+header h6 {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width:70%;
+}
+article.post {
+	border: 1px solid #ddd;
+	margin: .5em;
+	padding: .5em;
+}
+.post h3 {
+	font-weight: 500;
+}
+@media (max-width: 481px) {
+	.post h3 {
+		font-size: 1.4em
+	}
+}
+.post h6 {
+	border-top: thin solid #ddd;
+	border-bottom: thin solid #ddd;
+}
+.post, .post-item {
+	background: #ffffff;
+	border: thin solid #fafafa;
+	margin: 0;
+	padding: 1em;
+}
+.post img {
+	border: thin solid transparent;
+	border-radius: 50%;
+	float: left;
+	height: 8em;
+	margin: .5em;
+	width: 8em;
+}
+.post-item img {
+	border: thin solid transparent;
+	display: block;
+	margin: 0 auto 1em;
+}
+
+/* Blogger labels */
+
+.blogger-labels {
+	display: block;
+	clear: both;
+	color: #333;
+	font-size: 0;
+	margin: 12px 0 0;
+	text-align: center;
+}
+.blogger-labels:before {
+	border-bottom: 1px solid #999;
+	display: block;
+	content: 'Etiquetes';
+	font-size: 16px;
+	margin: 16px;
+}
+.blogger-labels a {
+	background: #666;
+	border-radius: .5em;
+	color: #ffffff !important;
+	font-size: 16px;
+	margin: 0 .25em;
+	padding: .25em 1em;
+	text-decoration: none !important;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+.blogger-labels a:hover {
+	background: #dd0000;
+}
+.post .blogger-labels {
+	display: none;
+}
+.article-title {
+	font-weight: bold;  
+	font-weight: 500;  
+}
+
+/* Twitter timeline */
+
+.twitter-timeline {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Feeds */
+
+[class*='feed'] {
+	padding: 0;
+}
+[class*='feed'] .button-profile {
+	float: left;
+	margin: -.5em 1em 1em 0;
+}
+[class*='feed'] header {
+	border: none;
+}
+.feed article {
+	clear: both;
+	height: 16em;
+	overflow: hidden;
+}
+.feed-large article {
+	height: 32em;
+	overflow: hidden;
+}
+.feed-image article {
+	height: auto;
+}
+.feed-small header,
+.feed-image header,
+.feed-large header {
+	display: none
+}
+.feed article img {
+	border-radius: 0px !important;
+	float: none !important;
+	height: auto !important;
+	width: 100% !important;
+}
+
+/* Responsive hacks */
+
+@media (max-width: 768px) {
+
 	footer {
 		text-align: center;
 	}
+
+}
+
+/* Prev/next */
+
+.prev-next,
+.prev-next .blog-paging-control-container  {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+.prev-next .blog-paging-control-container .blog-paging-control,
+.prev-next .blog-paging-control-container .blog-paging-control:after {
+	display: block;
+	height: 2em;
+	width: 2em;
+	position: absolute;
+	text-decoration: none;
+	top: -.25em;
+	z-index: 1000;
+}
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(1),
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
+	visibility: hidden;
+}
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(1) {
+	left: 2em; right: auto;
+}
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
+	right: 2em; left: auto;
+}
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	display: block;
+	font-weight: bold;
+	height: 2em;
+	width: 2em;
+	visibility: visible;
+}
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after {
+	content: '<';
+}
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
+	content: '>';
 }
