@@ -2,13 +2,14 @@
 
 /* Navigation tabs */
 
-.tab-active:after {
+.tab-active {
 	background: #000;
 	border-radius: 50%;
 	color: #fff;
 	content: 'X';
 	display: block;
-	font-size: 5em;
+	font-size: 6em;
+	padding: .25em;
 	height: 2em;
 	width: 2em;
 }
