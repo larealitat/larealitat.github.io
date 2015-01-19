@@ -2,7 +2,7 @@
 
 /* Navigation tabs */
 
-.tab-active {
+.tab-active:after {
 	background: #000;
 	border-radius: 50%;
 	color: #fff;
@@ -10,6 +10,7 @@
 	display: block;
 	font-size: 6em;
 	padding: .25em;
+	position: absolute;
 	height: 2em;
 	width: 2em;
 }
