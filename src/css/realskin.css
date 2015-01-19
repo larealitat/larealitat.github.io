@@ -3,7 +3,7 @@
 /* Navigation tabs */
 
 .tab-active:after {
-	background: url('http://codi.comunistes.cat/src/ics/close.svg') no-repeat 100% center;
+	background: url('http://codi.comunistes.cat/src/svg/close.svg') no-repeat 100% center;
 	content: ' ';
 	display: block;
 	font-weight: bold;	
