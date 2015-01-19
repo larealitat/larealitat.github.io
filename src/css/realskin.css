@@ -2,10 +2,10 @@
 
 /* Navigation tabs */
 
-.tab-active {
-	background: url('http://codi.comunistes.cat/src/png/close.png') no-repeat center;
-	content: ' ';
+.tab-active:after {
+	content: 'X';
 	display: block;
+	font-size: 2em;
 	height: 2em;
 	width: 2em;
 }
