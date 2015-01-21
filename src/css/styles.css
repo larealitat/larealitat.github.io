@@ -4658,6 +4658,7 @@ a[class*='depth'],
 	bottom: 0;
 }
 .no-margin {
+	height: 0;
 	margin: 0;
 }
 .no-padding {
