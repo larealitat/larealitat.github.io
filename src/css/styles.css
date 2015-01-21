@@ -2013,9 +2013,12 @@ footer {
 	margin: 0;
 	padding: 0;
 } 
+<<<<<<< HEAD
 .header-slim {
-	padding: .5em;
+	padding: .25em;
 }
+=======
+>>>>>>> parent of 1e7649f... Styles
 .header-image,
 .header-cover, 
 .header-banner,
@@ -4668,10 +4671,8 @@ a[class*='depth'],
 	bottom: 0;
 }
 .no-margin {
-	margin: 0 !important;
-}
-.no-padding {
-	padding: 0 !important;
+	height: 0;
+	margin: 0;
 }
 .overflow-hidden {
 	overflow: hidden;
