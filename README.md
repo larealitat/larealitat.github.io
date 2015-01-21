@@ -16,7 +16,11 @@ Això aporta dinamisme, seguretat i facilitat d'ús al conjunt d'administradors 
 
 El codi font de la web és accessible per a qualsevol programador a través de la plataforma Github, des d'on pot ser analitzat, descarregat, modificat i usat lliurement per a la construcció de llocs similars.
 
+<<<<<<< HEAD
 <div class="button-centered"><a href="https://github.com/ComunistesdeCatalunya/comunistesdecatalunya.github.io" class="button flat red" title="Comunistes de Catalunya a Github">https://github.com/ComunistesdeCatalunya</a></div>
+=======
+Your Jekyll blog will often be viewable immediately at <http://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+>>>>>>> FETCH_HEAD
 
 ### CMS
 
@@ -24,7 +28,11 @@ El lloc web de Comunistes de Catalunya no utilitza cap CMS, Content Management S
 
 ### Transparència i dret a la informació
 
+<<<<<<< HEAD
 Per als i les Comunistes de Catalunya, la defensa del dret a la informació és un pilar fonamental de qualsevol sistema que es pretengui democràtic. És en aquest sentit que hem desenvolupat la nostra web des d'una completa voluntat de transparència.
+=======
+Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <http://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
+>>>>>>> FETCH_HEAD
 
 En el lloc web de comunistes.cat no hi ha àrees privades amb informació reservada, ni intranets, ni servidors privats. Tota la informació dels i les Comunistes és pública i oberta a tothom: des dels nostres valors fins la nostra estratègia revolucionària, passant per la nostra forma d'organització.
 
@@ -40,7 +48,15 @@ Així mateix, el treball simultani en diferents plataformes ens garanteix la ind
 
 ### Llibreries CSS i Javascript
 
+<<<<<<< HEAD
 Per a la construcció de les pàgines web hem optat per adaptar la llibreria CSS d'Hipertextos a les nostres necessitats. Aquesta llibreria està centrada en la tipografia, funciona en unitats relatives (el que permet una perfecta escalabilitat), disposa d'un sistema adaptable (RWD) i utilitza classes senzilles i descriptives, properes a un llenguatge natural. La tria ha tingut en consideració també la lleugeresa d'aquesta llibreria enfront Bootstrap i altres alternatives més pesades que requereixen pre-processadors de CSS en Javascript i fan més pesada l'actualització. 
+=======
+1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
+2. Clone down your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
+3. Serve the site and watch for markup/sass changes `jekyll serve`
+4. View your website at http://0.0.0.0:4000
+5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+>>>>>>> FETCH_HEAD
 
 Podeu accedir a la documentació en el següent enllaç:
 
@@ -52,7 +68,20 @@ Així mateix per a la gestió d'events hem optat per treballar amb la popular ll
 
 ### Seguretat
 
+<<<<<<< HEAD
 La major part de les vulnerabilitats d'un servidor es troben en el programari per a gestionar-lo. Per això, la web dels i les Comunistes de Catalunya està realitzada mitjançant pàgines estàtiques d'HTML en un servidor Apache. Les pàgines són allotjades paral·lelament en tres o més servidors que sincronitzen els seus contintguts a través de còpies locals compartides en P2P. En altres paraules, les còpies de seguretat del lloc web són allotjades per la militància a través d'un simple arxiu torrent.
+=======
+✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
+✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
+✓ Sass/Coffeescript support using Jekyll 2.0  
+✓ Free hosting on your GitHub Pages user site  
+✓ Markdown blogging  
+✓ Syntax highlighting  
+✓ Disqus commenting  
+✓ Google Analytics integration  
+✓ SVG social icons for your footer  
+✓ 3 http requests, including your avatar  
+>>>>>>> FETCH_HEAD
 
 Gràcies a aquesta forma de treball el lloc web pot ser clonat en qualsevol servidor FTP per qualsevol militant en menys de 5 minuts, sense necessitat de cap instal·lació.
 
@@ -61,6 +90,28 @@ Gràcies a aquesta forma de treball el lloc web pot ser clonat en qualsevol serv
 <p>La web dels i les comunistes utilitza únicament cookies de Google Analytics per a obtenir informació sobre el nombre de visitants i la seva procedència. Aquesta tecnologia no proporciona a la nostra organització informació concreta de cap usuari, sinó informació estadística global del conjunt de visitants al domini comunistes.cat. La informació obtinguda és utilitzada únicament amb la finalitat de millorar progressivament la qualitat del lloc.</p>
 <p>La política de privacitat d'aquest servei és descrita a la pàgina web específica de Google Analytics: <a href="http://www.google.com/policies/privacy/" title="Google Privacy & Terms">Google Privacy & Terms</a></p>
 
+<<<<<<< HEAD
 ### Scripts externs i butons socials
+=======
+## Other forkable themes
+
+You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
+
+- [Hyde](https://github.com/poole/hyde) by MDO
+- [Lanyon](https://github.com/poole/lanyon) by MDO
+- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
+- [Left](https://github.com/holman/left) by Zach Holman
+- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
+- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
+
+## Credits
+
+- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
+- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful. 
+- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
+- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
+- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
+- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
+>>>>>>> FETCH_HEAD
 
 La web de comunistes.cat no utilitza scripts de serveis externs com Facebook o Twitter per als botons de compartir, sinó simples enllaços. Això permet una càrrega més lleugera de les pàgines, mentre es manté la funció bàsica d'aquests botons: convidar als usuaris a compartir els continguts en les principals xarxes relacionals. Com a contrapartida, tanmateix, es perd el rànquing de clics emesos, essent aquesta una prestació que considerem menor i supèrflua.
