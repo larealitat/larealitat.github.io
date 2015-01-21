@@ -2014,7 +2014,7 @@ footer {
 	padding: 0;
 } 
 .header-slim {
-	padding: 0;
+	padding: .25em;
 }
 .header-image,
 .header-cover, 
