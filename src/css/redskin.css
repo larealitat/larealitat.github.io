@@ -122,11 +122,12 @@ article.post {
 }
 [class*='feed']:after {
 	background: #fff;
-	box-shadow: 0 -.5em .5em -.2em #fff;
-	content: ' ';
+	box-shadow: 0 -.5em .5em .2em #fff;
+	content: '...';
 	position: absolute;
 	bottom: 0;
-	height: 1em;
+	text-align: center;
+	height: 2em;
 	width: 100%;
 	z-index: 1;
 }
@@ -148,7 +149,7 @@ article.post {
 }
 .feed-small article img {
 	float: left;
-	margin: .25em .25em;
+	margin: .25em 1em .25em .25em;
 	width: 50%;
 }
 
