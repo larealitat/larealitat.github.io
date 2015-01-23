@@ -116,36 +116,42 @@ article.post {
 [class*='feed'] {
 	padding: 0;
 }
+[class*='feed'] header,
+[class*='feed'] article {
+	border: none;
+}
+[class*='feed']:after {
+	background: #fff;
+	box-shadow: 0 -.5em .5em -.2em #fff;
+	content: ' ';
+	position: absolute;
+	bottom: 0;
+	height: 1em;
+	width: 100%;
+	z-index: 1;
+}
 [class*='feed'] .button-profile {
 	float: left;
-	margin: -.5em 1em 1em 0;
-}
-[class*='feed'] header {
-	border: none;
+	margin: -.5em 1em 3em 0;
 }
 .feed article {
 	clear: both;
-	height: 16em;
+	max-height: 25em;
 	overflow: hidden;
 }
 .feed-large article {
-	height: 32em;
+	height: 34em;
 	overflow: hidden;
 }
-.feed-image article {
-	height: auto;
-}
-.feed-small header,
-.feed-image header,
-.feed-large header {
+.feed-small header {
 	display: none
 }
-.feed article img {
-	border-radius: 0px !important;
-	float: none !important;
-	height: auto !important;
-	width: 100% !important;
+.feed-small article img {
+	float: left;
+	margin: .25em .25em;
+	width: 50%;
 }
+
 
 /* Responsive hacks */
 
