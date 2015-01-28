@@ -14,10 +14,6 @@ $(document).ready(function () {
 		snippet: false,
 		limit: 1
 	});
-	$('#feed-lluites').rssfeed('http://lluites.comunistes.cat/feeds/posts/default',{
-		snippet: true,
-		limit: 1
-	});
 	$('#feed-persones').rssfeed('http://persones.comunistes.cat/feeds/posts/default',{
 		snippet: true,
 		limit: 1
@@ -41,17 +37,14 @@ $(document).ready(function () {
 		snippet: false,
 		limit: 1
 	});
-	
-	// Feeds filtrats de imatges
-
-	$('#feed-imatges-cartells').rssfeed('http://imatges.comunistes.cat/feeds/posts/default/-/Cartells',{
+	$('#feed-bloc-accions').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Accions',{
 		snippet: false,
 		limit: 1
-	});	
-	$('#feed-imatges-grafismes').rssfeed('http://imatges.comunistes.cat/feeds/posts/default/-/Grafismes',{
+	});
+	$('#feed-bloc-opinions').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Opinions',{
 		snippet: false,
 		limit: 1
-	});	
+	});
 	
 	// Temes
 	
