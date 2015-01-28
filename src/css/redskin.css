@@ -142,7 +142,9 @@ article.post {
 }
 .feed-image article {
 	height: 80em;
-	overflow: hidden;
+}
+.feed-large article {
+	height: auto;
 }
 .feed-small header {
 	display: none
