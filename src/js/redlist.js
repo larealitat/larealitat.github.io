@@ -45,6 +45,10 @@ $(document).ready(function () {
 		snippet: false,
 		limit: 1
 	});
+	$('#feed-bloc-analisi').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Anàlisi',{
+		snippet: false,
+		limit: 1
+	});
 	
 	// Temes
 	
