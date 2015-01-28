@@ -141,7 +141,8 @@ article.post {
 	overflow: hidden;
 }
 .feed-image article {
-	height: 80em;
+	max-height: 100em;
+	overflow: hidden;
 }
 .feed-large article {
 	height: auto;
