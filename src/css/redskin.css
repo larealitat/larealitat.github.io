@@ -140,7 +140,7 @@ article.post {
 	max-height: 25em;
 	overflow: hidden;
 }
-.feed-large article {
+.feed-image article {
 	height: 80em;
 	overflow: hidden;
 }
