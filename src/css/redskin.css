@@ -135,7 +135,8 @@ article.post {
 	float: left;
 	margin: -.5em 1em 3em 0;
 }
-.feed article {
+.feed article,
+.feed-blog article {
 	clear: both;
 	max-height: 25em;
 	overflow: hidden;
@@ -144,13 +145,13 @@ article.post {
 	max-height: 100em;
 	overflow: hidden;
 }
-.feed-large article {
+.feed-expanded article {
 	height: auto;
 }
-.feed-small header {
+.feed-condensed header {
 	display: none
 }
-.feed-small article img {
+.feed-condensed article img {
 	float: left;
 	margin: .25em 1em .25em .25em;
 	width: 50%;
