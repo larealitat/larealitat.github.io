@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 	// Feeds comunistes.cat
 
-	$('#feed-bloc').rssfeed('http://bloc.comunistes.cat/feeds/posts/default',{
+	$('#feed-bloc').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default',{
 		snippet: false,
 		limit: 1
 	});
@@ -21,110 +21,110 @@ $(document).ready(function () {
 	
 	// Feeds filtrats del bloc
 
-	$('#feed-bloc-campanyes').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Campanyes',{
+	$('#feed-bloc-campanyes').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/Campanyes',{
 		snippet: false,
 		limit: 1
 	});	
-	$('#feed-bloc-comunicats').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Comunicats',{
+	$('#feed-bloc-comunicats').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/Comunicats',{
 		snippet: false,
 		limit: 1
 	});	
-	$('#feed-bloc-documents').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Documents',{
+	$('#feed-bloc-documents').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/Documents',{
 		snippet: false,
 		limit: 1
 	});	
-	$('#feed-bloc-actualitat').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Actualitat',{
+	$('#feed-bloc-actualitat').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/Actualitat',{
 		snippet: false,
 		limit: 1
 	});
-	$('#feed-bloc-accions').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Accions',{
+	$('#feed-bloc-accions').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/Accions',{
 		snippet: false,
 		limit: 1
 	});
-	$('#feed-bloc-opinions').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/Opinions',{
+	$('#feed-bloc-opinions').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/Opinions',{
 		snippet: false,
 		limit: 1
 	});
 	
 	// Temes
 	
-	$('#feed-treballdigne').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23TreballDigne',{
+	$('#feed-treballdigne').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23TreballDigne',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-rendagarantida').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23RendaGarantida',{
+	$('#feed-rendagarantida').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23RendaGarantida',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-salutpublica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23SalutPública',{
+	$('#feed-salutpublica').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23SalutPública',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-dretalhabitatge').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23DretAlHabitatge',{
+	$('#feed-dretalhabitatge').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23DretAlHabitatge',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-escolapublica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23EscolaPública',{
+	$('#feed-escolapublica').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23EscolaPública',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-universitatpublica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23UniversitatPública',{
+	$('#feed-universitatpublica').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23UniversitatPública',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-lliureinformacio').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23LliureInformació',{
+	$('#feed-lliureinformacio').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23LliureInformació',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-tecnologiesobertes').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23TecnologiesObertes',{
+	$('#feed-tecnologiesobertes').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23TecnologiesObertes',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-feminisme').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23Feminisme',{
+	$('#feed-feminisme').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23Feminisme',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-igualtatdedrets').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23IgualtatDeDrets',{
+	$('#feed-igualtatdedrets').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23IgualtatDeDrets',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-dretsdelainfancia').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23DretsDeLaInfància',{
+	$('#feed-dretsdelainfancia').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23DretsDeLaInfància',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-racismemaimes').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23RacismeMaiMés',{
+	$('#feed-racismemaimes').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23RacismeMaiMés',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-rupturademocratica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23RupturaDemocràtica',{
+	$('#feed-rupturademocratica').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23RupturaDemocràtica',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-memoriahistorica').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23MemòriaHistòrica',{
+	$('#feed-memoriahistorica').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23MemòriaHistòrica',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-mediambient').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23MediAmbient',{
+	$('#feed-mediambient').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23MediAmbient',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-culturapopular').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23CulturaPopular',{
+	$('#feed-culturapopular').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23CulturaPopular',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-pau').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23Pau',{
+	$('#feed-pau').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23Pau',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-solidaritat').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23Solidaritat',{
+	$('#feed-solidaritat').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23Solidaritat',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-republicacatalana').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23RepúblicaCatalana',{
+	$('#feed-republicacatalana').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23RepúblicaCatalana',{
 		snippet: false,
 		limit: 5
 	});	
-	$('#feed-classetreballadora').rssfeed('http://bloc.comunistes.cat/feeds/posts/default/-/%23ClasseTreballadora',{
+	$('#feed-classetreballadora').rssfeed('http://bloccomunistes.blogspot.com/feeds/posts/default/-/%23ClasseTreballadora',{
 		snippet: false,
 		limit: 5
 	});	
