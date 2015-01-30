@@ -14,6 +14,10 @@ $(document).ready(function () {
 		snippet: false,
 		limit: 1
 	});
+	$('#feed-som').rssfeed('http://som.comunistes.cat/feeds/posts/default',{
+		snippet: false,
+		limit: 1
+	});
 	$('#feed-videos-last').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
 		snippet: false,
 		limit: 3
