@@ -156,7 +156,9 @@ article.post {
 	margin: .25em 1em .25em .25em;
 	width: 50%;
 }
-
+.feed-headlines .prose {
+	display: none;
+}
 
 /* Responsive hacks */
 
