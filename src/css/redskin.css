@@ -149,7 +149,8 @@ article.post {
 	height: auto;
 }
 .feed-condensed header,
-.feed-expanded header {
+.feed-expanded header,
+.feed-image header {
 	display: none
 }
 .feed-condensed article img {
