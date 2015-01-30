@@ -126,11 +126,11 @@ article.post {
 [class*='feed']:after {
 	background: #fff;
 	box-shadow: 0 -.5em .5em .2em #fff;
-	content: '...';
+	content: ' ';
 	position: absolute;
 	bottom: 0;
 	text-align: center;
-	height: 2em;
+	height: 1em;
 	width: 100%;
 	z-index: 1;
 }
