@@ -120,6 +120,9 @@ article.post {
 [class*='feed'] article {
 	border: none;
 }
+[class*='feed'] .prose {
+	margin: 0 0 1em;
+}
 [class*='feed']:after {
 	background: #fff;
 	box-shadow: 0 -.5em .5em .2em #fff;
@@ -156,7 +159,9 @@ article.post {
 	margin: .25em 1em .25em .25em;
 	width: 50%;
 }
-.feed-headlines .prose {
+.feed-headlines .prose,
+.feed-headlines .button,
+.feed-headlines h5 {
 	display: none;
 }
 
