@@ -114,7 +114,7 @@ article.post {
 /* Feeds */
 
 [class*='feed'] {
-	padding: 0;
+	padding: 0 0 1em;
 }
 [class*='feed'] header,
 [class*='feed'] article {
