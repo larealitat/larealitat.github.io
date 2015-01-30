@@ -203,7 +203,7 @@
 					content = '<a href="'+ options.linkredirect + feedLink +'" title="View '+ feeds.title +'">'+ content +'</a>'
 				}
 				
-				rowArray[rowIndex]['html'] += '<div class="prose">'+ content +'</div><div class="button-centered"><a class="button" href="'+ options.linkredirect + feedLink +'" title="Llegir'+ feeds.title +'">+</a></div>'
+				rowArray[rowIndex]['html'] += '<div class="prose">'+ content +'</div>'
 			}
 			
 			// Add any media

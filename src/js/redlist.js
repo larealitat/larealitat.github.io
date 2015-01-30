@@ -16,7 +16,7 @@ $(document).ready(function () {
 	});
 	$('#feed-videos-last').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
 		snippet: false,
-		limit: 5
+		limit: 3
 	});
 	
 	// Feeds filtrats del bloc
