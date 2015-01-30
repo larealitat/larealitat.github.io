@@ -136,15 +136,15 @@ $(document).ready(function () {
 	// Feeds filtrats de videos
 
 	$('#feed-videos-last-one').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});	
 	$('#feed-videos-last-two').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
-		snippet: true,
+		snippet: false,
 		limit: 2
 	});	
 	$('#feed-videos-last-five').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
-		snippet: true,
+		snippet: false,
 		limit: 5
 	});	
 	$('#feed-videos-parlament').rssfeed('http://videos.comunistes.cat/feeds/posts/default/-/Parlament',{
@@ -152,15 +152,15 @@ $(document).ready(function () {
 		limit: 1
 	});
 	$('#feed-videos-mobilitzacions').rssfeed('http://videos.comunistes.cat/feeds/posts/default/-/Mobilitzacions',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	$('#feed-videos-campanyes').rssfeed('http://videos.comunistes.cat/feeds/posts/default/-/Campanyes',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	$('#feed-videos-cinema').rssfeed('http://videos.comunistes.cat/feeds/posts/default/-/Cinema',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	
