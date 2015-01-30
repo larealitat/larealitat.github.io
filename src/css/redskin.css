@@ -114,14 +114,11 @@ article.post {
 /* Feeds */
 
 [class*='feed'] {
-	padding: 0 .5em .5em;
+	padding: 0 .5em;
 }
 [class*='feed'] header,
 [class*='feed'] article {
 	border: none;
-}
-[class*='feed'] .prose {
-	margin: 0 0 .5em;
 }
 [class*='feed'] article:after {
 	background: #fff;
