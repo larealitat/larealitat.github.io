@@ -187,7 +187,7 @@
 			
 			// Add feed row
 			if (options.linkredirect) feedLink = encodeURIComponent(feedLink);
-			rowArray[rowIndex]['html'] = '<'+ options.titletag +'><a href="'+ options.linkredirect + feedLink +'" title="View '+ feeds.title +'">'+ entry.title +'</a></'+ options.titletag +'>'
+			rowArray[rowIndex]['html'] = '<'+ options.titletag +'><a href="'+ options.linkredirect + feedLink +'" title="Llegir '+ feeds.title +'">'+ entry.title +'</a></'+ options.titletag +'>'
 
 			if (options.date && pubDate) rowArray[rowIndex]['html'] += '<h5><small>'+ pubDate +'</small></h5>'
 			if (options.content) {
@@ -203,7 +203,7 @@
 					content = '<a href="'+ options.linkredirect + feedLink +'" title="View '+ feeds.title +'">'+ content +'</a>'
 				}
 				
-				rowArray[rowIndex]['html'] += '<div class="prose">'+ content +'</div>'
+				rowArray[rowIndex]['html'] += '<div class="prose">'+ content +'</div><div class="button-centered"><a class="button" href="'+ options.linkredirect + feedLink +'" title="Llegir'+ feeds.title +'">'+ entry.title +'</a></div>'
 			}
 			
 			// Add any media
