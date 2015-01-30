@@ -160,8 +160,7 @@ article.post {
 	width: 50%;
 }
 .feed-headlines .prose,
-.feed-headlines .button,
-.feed-headlines h5 {
+.feed-headlines .button {
 	display: none;
 }
 
