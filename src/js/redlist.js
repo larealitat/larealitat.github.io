@@ -14,9 +14,9 @@ $(document).ready(function () {
 		snippet: false,
 		limit: 1
 	});
-	$('#feed-persones').rssfeed('http://persones.comunistes.cat/feeds/posts/default',{
-		snippet: true,
-		limit: 1
+	$('#feed-videos-last').rssfeed('http://videos.comunistes.cat/feeds/posts/default',{
+		snippet: false,
+		limit: 5
 	});
 	
 	// Feeds filtrats del bloc
