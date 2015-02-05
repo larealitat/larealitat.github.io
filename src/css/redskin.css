@@ -50,11 +50,13 @@ article.post {
 	padding: 1em;
 }
 .post img {
-	border: thin solid transparent;
+	border: thin solid rgba(0,0,0,.2);
 	border-radius: 50%;
 	float: left;
 	height: 8em;
 	margin: .5em;
+	object-fit: cover;
+	overflow: hidden;
 	width: 8em;
 }
 .post-item img {
