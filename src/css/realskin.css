@@ -2,35 +2,20 @@
 
 /* Navigation tabs */
 
-.tab-active:after {
-	background: #000;
-	border-radius: 50%;
-	color: #fff;
-	content: 'X';
-	display: block;
-	font-size: 6em;
-	font-weight: bold;
-	padding: .5em .25em;
-	position: absolute;
-	height: 1.5em;
-	width: 1.5em;
-}
-.tab-active svg {
-	display: none;
+main {
+	background: #fefefe;
 }
 
 /* Blog */
 
-header h6 {
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	width:70%;
-}
+
 article.post {
 	border: 1px solid #ddd;
 	margin: .5em;
 	padding: .5em;
+}
+.article-lead {
+
 }
 .post h3 {
 	font-weight: 500;
@@ -40,22 +25,17 @@ article.post {
 		font-size: 1.4em
 	}
 }
-.post h6 {
-	border-top: thin solid #ddd;
-	border-bottom: thin solid #ddd;
-}
 .post, .post-item {
 	background: #ffffff;
-	border: thin solid #fafafa;
+	border: thin solid #666;
 	margin: 0;
 	padding: 1em;
 }
 .post img {
 	border: thin solid transparent;
-	border-radius: 50%;
 	float: left;
 	height: 8em;
-	margin: .5em;
+	margin: 0 .5em 0 0;
 	width: 8em;
 }
 .post-item img {
