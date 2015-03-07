@@ -1,41 +1,48 @@
 /* Realskin */
 
-/* Navigation tabs */
-
+@media (max-width: 767px) {
+	#header h1 {
+		font-size: 2.5em
+	}
+}
 main {
 	background: #fefefe;
 }
 
 /* Blog */
 
-
-article.post {
+.article-post {
+	background: #ffffff;
 	border: 1px solid #ddd;
-	margin: .5em;
-	padding: .5em;
+	border-radius: .25em;
+	margin: 1em 0;
+	padding: 1em;
 }
-.article-lead {
-
-}
-.post h3 {
-	font-weight: 500;
+.article-post h3 {
+	font-weight: 400;
 }
 @media (max-width: 481px) {
-	.post h3 {
+	.article-post h3 {
 		font-size: 1.4em
 	}
 }
-.post, .post-item {
-	background: #ffffff;
-	border: thin solid #666;
-	margin: 0;
-	padding: 1em;
+.article-post h6 {
+	border-left: 1.2em solid currentColor;
+	color: #666;
+	font-weight: 300;
 }
-.post img {
+.article-post .excerpt {
+	font-size: 1em;
+	font-weight: 200;
+	letter-spacing: .01em;
+	line-height: 1.6em;
+	margin-top: 1.6em;
+}
+.article-post .excerpt img {
 	border: thin solid transparent;
-	float: left;
+	float: right;
 	height: 8em;
-	margin: 0 .5em 0 0;
+	margin: 0 0 0 .5em;
 	width: 8em;
 }
 .post-item img {
@@ -76,7 +83,7 @@ article.post {
 .blogger-labels a:hover {
 	background: #dd0000;
 }
-.post .blogger-labels {
+.article-post .blogger-labels {
 	display: none;
 }
 .article-title {
