@@ -1,22 +1,43 @@
 /* Realskin */
 
+/* header */
+
 @media (max-width: 767px) {
 	#header h1 {
 		font-size: 2.5em
 	}
 }
-main {
-	background: #fefefe;
+.icn-menu, .icn-search {
+	background-size: 2em;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	margin: auto;
+	height: 2em;
+	width: 2em;
+}
+.icn-menu {
+	background-image: url('http://codi.comunistes.cat/src/png/iching-heaven.png');
+}
+.icn-search {
+	background-image: url('http://codi.comunistes.cat/src/png/search.png');
+}
+.tab-active .icn-menu, .tab-active .icn-search {
+	background-image: url('http://codi.comunistes.cat/src/png/close.png');
 }
 
 /* Blog */
+
+main {
+	background: #fefefe;
+}
 
 .article-post {
 	background: #ffffff;
 	border: 1px solid #ddd;
 	border-radius: .25em;
 	margin: 1em 0;
-	padding: 1em;
+	padding: 0 1em 1.6em;
 }
 .article-post h3 {
 	font-weight: 400;
@@ -43,6 +64,8 @@ main {
 	float: right;
 	height: 8em;
 	margin: 0 0 0 .5em;
+	object-fit: cover;
+	object-position: center;
 	width: 8em;
 }
 .post-item img {
