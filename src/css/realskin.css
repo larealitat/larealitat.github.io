@@ -2,11 +2,6 @@
 
 /* header */
 
-@media (max-width: 767px) {
-	#header h1 {
-		font-size: 2.5em
-	}
-}
 .icn-menu, .icn-search {
 	background-size: 2em;
 	background-position: center;
@@ -24,6 +19,21 @@
 }
 .tab-active .icn-menu, .tab-active .icn-search {
 	background-image: url('http://codi.comunistes.cat/src/png/close.png');
+}
+@media (max-width: 767px) {
+	.header-slim {
+		height: 5em;
+	}
+	.icn-menu, .icn-search{
+		background-size: 1em;
+	}
+	#header h1 {
+		margin-top: .75em;
+	}
+	#header .idpanel {
+		max-height: 20em;
+		overflow: auto;
+	}
 }
 
 /* Blog */
