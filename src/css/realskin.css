@@ -63,7 +63,6 @@ main {
 	letter-spacing: .02em;
 }
 .post-date {
-	border-bottom: thin solid currentColor;
 	color: #999;
 	font-size: .8em;
 	font-weight: 300;
