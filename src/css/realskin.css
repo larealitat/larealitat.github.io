@@ -4,7 +4,7 @@
 
 .icn-menu {
 	background-image: url('http://codi.comunistes.cat/src/png/iching-heaven.png');
-	background-size: 2em;
+	background-size: 1.6em;
 	background-position: center;
 	background-repeat: no-repeat;
 	display: block;
@@ -12,9 +12,9 @@
 	height: 2em;
 	width: 2em;
 }
-#blog-header .form-search, #blog-header h1 {
+#blog-header h1 {
 	font-size: 2em;
-	margin-top: .5em;
+	margin-top: .4em;
 }
 .form-google {
 	margin-top: 1.2em;
@@ -27,8 +27,8 @@
 }
 .form-google .terms {
 	background-image: url('http://codi.comunistes.cat/src/png/search.png');
-	background-size: 2em;
-	background-position: center;
+	background-size: 1.5em;
+	background-position: top center;
 	background-repeat: no-repeat;
 	border: none;
 }
