@@ -50,9 +50,8 @@
 	<!-- Page content -->
 	<div class="page" id="page">
 	
-		<header id="blog-header" class="header-slim paper base universe fixed top anm-fadeIn slow">
+		<header id="blog-header" class="header-app base universe">
 			<div class="content">
-
 				<div class="thumb-3">
 					<a href="#sitemap" title="" class="button-icon unify black circled icon"><span class="icn-menu"></span></a>
 				</div>
@@ -66,24 +65,26 @@
 						<input type="submit" name="sa" class="search" value="·"> 
 					</form>
 				</div>
-				<hr class="no-margin">
-				
 			</div>
 		</header>
-		<div class="white-space level-7"></div>		
+		<div id="white-space"></div>		
 	
 		<MainOrArchivePage>
-		<nav>
-			<div class="content">
-				<a href="<$BlogUrl$>" title="Portada">realitat</a>
-				<a href="<$BlogUrl$>search/label/Editorial" title="Articles Editorials">Editorial</a>
-				<a href="<$BlogUrl$>search/label/Local" title="Articles de realitat Local">Local</a>
-				<a href="<$BlogUrl$>search/label/Nacional" title="Articles de realitat Nacional">Nacional</a>
-				<a href="<$BlogUrl$>search/label/Internacional" title="Articles de realitat Internacional">Internacional</a>
-				<a href="<$BlogUrl$>search/label/Moviment Obrer" title="Articles de realitat del Moviment Obrer">Moviment Obrer</a>
-				<a href="<$BlogUrl$>search/label/Moviment Socials" title="Articles de realitat de Moviments Socials">Moviment Socials</a>
-				<a href="<$BlogUrl$>search/label/Històrica" title="Articles de realitat Històrica">Històrica</a>
-				<a href="<$BlogUrl$>search/label/Coneixement" title="Articles de realitat de Coneixement">Coneixement</a>
+		<nav class="paper">
+			<div class="content universe">
+				<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
+				<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
+				<div id="nav-collapse" class="togglecollapsed">
+					<a href="<$BlogUrl$>" title="Portada">realitat</a>
+					<a href="<$BlogUrl$>search/label/Editorial" title="Articles Editorials">Editorial</a>
+					<a href="<$BlogUrl$>search/label/Local" title="Articles de realitat Local">Local</a>
+					<a href="<$BlogUrl$>search/label/Nacional" title="Articles de realitat Nacional">Nacional</a>
+					<a href="<$BlogUrl$>search/label/Internacional" title="Articles de realitat Internacional">Internacional</a>
+					<a href="<$BlogUrl$>search/label/Moviment Obrer" title="Articles de realitat del Moviment Obrer">Moviment Obrer</a>
+					<a href="<$BlogUrl$>search/label/Moviment Socials" title="Articles de realitat de Moviments Socials">Moviment Socials</a>
+					<a href="<$BlogUrl$>search/label/Històrica" title="Articles de realitat Històrica">Històrica</a>
+					<a href="<$BlogUrl$>search/label/Coneixement" title="Articles de realitat de Coneixement">Coneixement</a>
+				</div>
 			</div>
 		</nav>
 		<main id="blog-content" class="anm-fadeIn">
