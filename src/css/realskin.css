@@ -59,7 +59,7 @@ main {
 	padding: 1em 1em 2em;
 }
 .post-title {
-	font-weight: 200;
+	font-weight: 400;
 	letter-spacing: .02em;
 }
 .post-date {
@@ -75,7 +75,7 @@ main {
 	border: thin solid transparent;
 	float: right;
 	height: 8em;
-	margin: 0 0 0 .5em;
+	margin: 0 .5em 0 .5em;
 	object-fit: cover;
 	object-position: center;
 	width: 8em;
