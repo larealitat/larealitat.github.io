@@ -26,19 +26,18 @@
 
 /* Blog */
 
-main {
-	background: #fefefe;
-}
-
 .post {
 	background: #ffffff;
+	border: none;
+	border-bottom: thin solid #999;
+	padding: 1em 1em 2em;
 }
 .post-title {
 	font-weight: 200;
 	letter-spacing: .02em;
 }
 .post-date {
-	border-top: thin solid currentColor;
+	border-bottom: thin solid currentColor;
 	color: #999;
 	font-size: .8em;
 	font-weight: 300;
