@@ -2,7 +2,8 @@
 
 /* header */
 
-.icn-menu, .icn-search {
+.icn-menu {
+	background-image: url('http://codi.comunistes.cat/src/png/iching-heaven.png');
 	background-size: 2em;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -11,28 +12,15 @@
 	height: 2em;
 	width: 2em;
 }
-.icn-menu {
-	background-image: url('http://codi.comunistes.cat/src/png/iching-heaven.png');
+.form-search {
+	margin-top: 1em;
 }
-.icn-search {
-	background-image: url('http://codi.comunistes.cat/src/png/search.png');
-}
-.tab-active .icn-menu, .tab-active .icn-search {
-	background-image: url('http://codi.comunistes.cat/src/png/close.png');
-}
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.header-slim {
-		height: 5em;
+		height: 4.2em;
 	}
-	.icn-menu, .icn-search{
-		background-size: 1em;
-	}
-	#header h1 {
-		margin-top: .75em;
-	}
-	#header .idpanel {
-		max-height: 20em;
-		overflow: auto;
+	.white-space.level-7 {
+		max-height: 5em !important;
 	}
 }
 
@@ -42,34 +30,24 @@ main {
 	background: #fefefe;
 }
 
-.article-post {
+.post {
 	background: #ffffff;
-	border: 1px solid #ddd;
-	border-radius: .25em;
-	margin: 1em 0;
-	padding: 0 1em 1.6em;
 }
-.article-post h3 {
-	font-weight: 400;
-}
-@media (max-width: 481px) {
-	.article-post h3 {
-		font-size: 1.4em
-	}
-}
-.article-post h6 {
-	border-left: 1.2em solid currentColor;
-	color: #666;
-	font-weight: 300;
-}
-.article-post .excerpt {
-	font-size: 1em;
+.post-title {
 	font-weight: 200;
-	letter-spacing: .01em;
-	line-height: 1.6em;
-	margin-top: 1.6em;
+	letter-spacing: .02em;
 }
-.article-post .excerpt img {
+.post-date {
+	border-top: thin solid currentColor;
+	color: #999;
+	font-size: .8em;
+	font-weight: 300;
+	text-align: right;
+}
+.post-excerpt {
+	margin-top: 1em;
+}
+.post-excerpt img {
 	border: thin solid transparent;
 	float: right;
 	height: 8em;
@@ -82,6 +60,11 @@ main {
 	border: thin solid transparent;
 	display: block;
 	margin: 0 auto 1em;
+}
+
+.article-title {
+	font-weight: bold;  
+	font-weight: 500;  
 }
 
 /* Blogger labels */
@@ -116,12 +99,8 @@ main {
 .blogger-labels a:hover {
 	background: #dd0000;
 }
-.article-post .blogger-labels {
+.post .blogger-labels {
 	display: none;
-}
-.article-title {
-	font-weight: bold;  
-	font-weight: 500;  
 }
 
 /* Twitter timeline */
@@ -171,11 +150,9 @@ main {
 /* Responsive hacks */
 
 @media (max-width: 768px) {
-
 	footer {
 		text-align: center;
 	}
-
 }
 
 /* Prev/next */
