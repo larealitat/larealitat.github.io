@@ -19,9 +19,6 @@
 .form-google {
 	margin-top: 1.1em;
 	position: absolute;
-	right: 0;
-	text-align: center;
-	width: 280px;
 }
 .form-google input {
 	border-radius: 1em;
