@@ -50,7 +50,7 @@
 	<!-- Page content -->
 	<div class="page" id="page">
 	
-		<header id="blog-header" class="header-app base universe">
+		<header id="blog-header" class="fixed top header-app base universe">
 			<div class="content">
 				<div class="thumb-3">
 					<a href="#sitemap" title="" class="button-icon unify black circled icon anm-zoomInLeft delay-2000"><span class="icn-menu"></span></a>
@@ -65,9 +65,12 @@
 						<input type="submit" name="sa" class="search" value="·"> 
 					</form>
 				</div>
+				<hr class="no-margin">
 			</div>
 		</header>
-		<div id="white-space"></div>		
+		<header class="header-app flat black">
+			<p class="universe">"Les coses són senceres allò que aparenten, i darrera d'elles... no hi ha res". <i>Jean-Paul Sartre</i></p>
+		</header>		
 	
 		<MainOrArchivePage>
 		<nav class="paper anm-fadeIn delay-500 slow">
@@ -75,15 +78,15 @@
 				<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
 				<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
 				<div id="nav-collapse" class="togglecollapsed">
-					<a href="<$BlogUrl$>" title="Portada" class="white-hover black">Realitat</a>
-					<a href="<$BlogUrl$>search/label/Editorial" title="Realitat: Editorials" class="white-hover grey">Editorial</a>
-					<a href="<$BlogUrl$>search/label/Local" title="Realitat: Local" class="white-hover green">Local</a>
-					<a href="<$BlogUrl$>search/label/Nacional" title="Realitat: Nacional" class="white-hover yellow">Nacional</a>
-					<a href="<$BlogUrl$>search/label/Internacional" title="Realitat: Internacional" class="white-hover orange">Internacional</a>
-					<a href="<$BlogUrl$>search/label/Moviment Obrer" title="Realitat: Moviment Obrer" class="white-hover red">Mov Obrer</a>
-					<a href="<$BlogUrl$>search/label/Moviment Socials" title="Realitat: Moviments Socials" class="white-hover violet">Mov Socials</a>
-					<a href="<$BlogUrl$>search/label/Històrica" title="Realitat: Història" class="white-hover blue">Història</a>
-					<a href="<$BlogUrl$>search/label/Coneixement" title="Realitat: Coneixement" class="white-hover turquoise">Coneixement</a>
+					<a href="<$BlogUrl$>" title="Portada">Realitat</a>
+					<a href="<$BlogUrl$>search/label/Editorial" title="Realitat: Editorials">Editorial</a>
+					<a href="<$BlogUrl$>search/label/Local" title="Realitat: Local">Local</a>
+					<a href="<$BlogUrl$>search/label/Nacional" title="Realitat: Nacional">Nacional</a>
+					<a href="<$BlogUrl$>search/label/Internacional" title="Realitat: Internacional">Internacional</a>
+					<a href="<$BlogUrl$>search/label/Moviment Obrer" title="Realitat: Moviment Obrer">Mov Obrer</a>
+					<a href="<$BlogUrl$>search/label/Moviment Socials" title="Realitat: Moviments Socials">Mov Socials</a>
+					<a href="<$BlogUrl$>search/label/Històrica" title="Realitat: Història">Història</a>
+					<a href="<$BlogUrl$>search/label/Coneixement" title="Realitat: Coneixement">Coneixement</a>
 				</div>
 			</div>
 		</nav>
@@ -95,7 +98,7 @@
 					</div>
 				</div>
 				<div class="cell-6">
-					<h2 class="universe"><small>Articles</small></h2>
+					<h2 class="universe thin"><small>Articles</small></h2>
 					<Blogger>
 						<article class="post anm-fadeIn delay-500 slow" id="<$BlogItemNumber$>">
 							<h3 class="post-title"><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
@@ -124,7 +127,6 @@
 			<div class="content">
 				<div class="prev-next"><$BlogPaginationLinks$></div>
 				<Blogger>
-					<h6 class="anm-fadeIn delay-500"><strong><a href="<$BlogUrl$>" title="<$BlogTitle$>">Article</a></strong></h6>
 					<h1 id="article-title" class="anm-zoomInDown delay-100"><$BlogItemTitle$></h1>
 					<h2 id=article-data" class="s anm-moveFromBottomFade delay-900"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h2>
 				</Blogger>
@@ -180,45 +182,81 @@
 		</main>
 		</ItemPage>
 		
-		<section id="sitemap" class="flat black anm-fadeIn delay-500 slow">
+		<section id="sitemap" class="soft-metal black anm-fadeIn delay-500 slow">
 			<div class="content universe">
-				<header class="">
-					<h2><a href="<$BlogUrl$>" title=">$BlogTitle$>">Realitat</a></h2>
-					<p class="lead">Òrgan d'expressió de Comunistes de Catalunya</p>
-				</header>
-				<div class="">
-					<a class="button flat black" href="<$BlogUrl$>search/label/Editorial" title="Realitat: Editorials">Editorials</a>
-					<a class="button flat green" href="<$BlogUrl$>search/label/Local" title="Realitat: Local">Local</a>
-					<a class="button flat turquoise" href="<$BlogUrl$>search/label/Nacional" title="Realitat: Nacional">Nacional</a>
-					<a class="button flat blue" href="<$BlogUrl$>search/label/Internacional" title="Realitat: Internacional">Internacional</a>
-					<a class="button flat violet" href="<$BlogUrl$>search/label/Moviments Socials" title="Realitat: Moviments Socials">Moviments Socials</a>
-					<a class="button flat red" href="<$BlogUrl$>search/label/Moviment Obrer" title="Realitat: Moviment Obrer">Moviment Obrer</a>
-					<a class="button flat orange" href="<$BlogUrl$>search/label/Història" title="Realitat: Història">Història</a>
-					<a class="button flat yellow" href="<$BlogUrl$>search/label/Coneixement" title="Realitat: Coneixement">Coneixement</a>
+				<h2 class="xxl"><a href="<$BlogUrl$>" title=">$BlogTitle$>"><$BlogTitle$></a></h2>
+				<p class="lead"><$BlogDescription$></p>
+				<hr>
+				<div class="cell-8 pushed-2">
+					<blockquote class="book-quote">
+						<p>Les coses són senceres allò que aparenten, i darrera d'elles... no hi ha res.</p>
+						<cite>Jean-Paul Sartre</cite>
+					</blockquote>
 				</div>
 				<hr>
-				<footer>
-					<h5>Realitat</h5>
+				<div class="cell-3">
+					<h5 class="">Seccions</h5>
+					<nav class="">
+						<ul>
+							<li><a href="<$BlogUrl$>" title="Realitat: Portada">Portada</a></li>
+							<li><a href="<$BlogUrl$>search/label/Editorial" title="Realitat: Editorials">Editorials</a></li>
+							<li><a href="<$BlogUrl$>search/label/Local" title="Realitat: Local">Local</a></li>
+							<li><a href="<$BlogUrl$>search/label/Nacional" title="Realitat: Nacional">Nacional</a></li>
+							<li><a href="<$BlogUrl$>search/label/Internacional" title="Realitat: Internacional">Internacional</a></li>
+							<li><a href="<$BlogUrl$>search/label/Moviments Socials" title="Realitat: Moviments Socials">Mov Socials</a></li>
+							<li><a href="<$BlogUrl$>search/label/Moviment Obrer" title="Realitat: Moviment Obrer">Mov Obrer</a></li>
+							<li><a href="<$BlogUrl$>search/label/Història" title="Realitat: Història">Història</a></li>
+							<li><a href="<$BlogUrl$>search/label/Coneixement" title="Realitat: Coneixement">Coneixement</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="cell-3">
+					<h5 class="">Temes</h5>
+					<nav class="">
+						<ul>
+							<li><a href="<$BlogUrl$>search/label/#ClasseTreballadora" title="Realitat: #ClasseTreballadora">#ClasseTreballadora</a></li>
+							<li><a href="<$BlogUrl$>search/label/#UnitatPopular" title="Realitat: #UnitatPopular ">#UnitatPopular </a></li>
+							<li><a href="<$BlogUrl$>search/label/#EscolaPública" title="Realitat: #EscolaPública">#EscolaPública</a></li>
+							<li><a href="<$BlogUrl$>search/label/#SalutPública" title="Realitat: #SalutPública">#SalutPública</a></li>
+							<li><a href="<$BlogUrl$>search/label/#RepúblicaCatalana" title="Realitat: #RepúblicaCatalana">#RepúblicaCatalana </a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="cell-3">
+					<h5 class="">Destacats</h5>
+					<nav class="">
+						<ul>
+							<li><a href="<$BlogUrl$>" title="Què és Realitat?">Què és Realitat?</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="cell-3">
+					<h5 class="">Xarxes</h5>
 					<div class="button-centered">
-						<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a>
-						<a href="http://www.twitter.com/larealitat" class="button-icon circled lines soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
-						<a href="http://www.facebook.com/larealitat" class="button-icon circled lines blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
+						<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br>
+						<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br>
+						<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a> <br>
 					</div>
-					<adress class="">
-						<span class="location symbol-gear">carrer Liuva, 39-45, Barcelona</span>  
-						<span class="website symbol-hyperlink"><a href="http://realitat.cat" title="www.realitat.cat">www.realitat.cat</a></span> 
-						<span class="email symbol-email"><a href="mailto:info@realitat.cat" title="Escriu">info@realitat.cat</a></span> 
-						<span class="phone symbol-blackphone"><a href="tel:+0034933184282" title="truca">(0034) 93 318 42 82</a></span> 
-					</adress>
-				</footer>
+				</div>
+				<hr class="xg">
 			</div>
 		</section>
 
-		<footer id="terms-footer" class="flat black anm-fadeIn delay-500 slow">
-			<div class="content s">
+		<footer id="adress-footer" class="universe flat hard-grey anm-fadeIn delay-500 slow">
+			<div class="content">
+				<adress class="">
+					<span class="location symbol-gear">carrer Liuva, 39-45, Barcelona</span>  
+					<span class="website symbol-hyperlink"><a href="http://realitat.cat" title="www.realitat.cat">www.realitat.cat</a></span> 
+					<span class="email symbol-email"><a href="mailto:info@realitat.cat" title="Escriu">info@realitat.cat</a></span> 
+					<span class="phone symbol-blackphone"><a href="tel:+0034933184282" title="truca">(0034) 93 318 42 82</a></span> 
+				</adress>
+			</div>
+		</footer>
+		
+		<footer id="terms-footer" class="universe flat black anm-fadeIn delay-500 slow">
+			<div class="content">
 				<span class="license symbol-copyright"> 2014 Comunistes de Catalunya. <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">Reconeixement - No comercial - Compartir igual (By-nc-sa)</a> </span>  
 				<span class="legal symbol-justice"><a href="http://codi.comunistes.cat/organitzacio/avislegal.html" title="Informació legal">Avís legal</a></span> 
-				<span class="legal symbol-radioactive"><a href="http://codi.comunistes.cat" title="Informació sobre el codi font">Codi font</a></span> 
 			</div>
 		</footer>
 
