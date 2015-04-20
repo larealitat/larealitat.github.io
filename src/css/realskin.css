@@ -42,7 +42,7 @@
 	position: -webkit-sticky;
 	position: -moz-sticky;
 	position: sticky;
-	z-index: 10;
+	z-index: 110;
 }
 
 /* Main */ 
