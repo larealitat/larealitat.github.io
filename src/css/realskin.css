@@ -1,5 +1,6 @@
 /* Realskin */
 
+
 /* header */
 
 #blog-header {
@@ -8,7 +9,6 @@
 #blog-header h1 {
 	font-size: 5em;
 	line-height: .5em;
-
 }
 
 
@@ -17,7 +17,6 @@
 #blog-menu {
 	background: #ffffff;
 	box-shadow: 0 0 .1em rgba(0,0,0,.5);
-	padding: .5em 0;
 	position: -webkit-sticky;
 	position: -moz-sticky;
 	position: sticky;
@@ -50,17 +49,20 @@ main {
 
 .post {
 	border: none;
-	border-bottom: thin solid #999;
+	border-bottom: thin solid #cccccc;
 	padding: 1em 1em 2em;
 }
 .post-title {
-	font-weight: 400;
-	letter-spacing: .02em;
+	font-weight: 200;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
 }
 .post-date {
 	color: #999;
 	font-size: .8em;
 	font-weight: 300;
+	margin-right: 1em;
 	text-align: right;
 }
 .post-excerpt {
@@ -70,7 +72,7 @@ main {
 	border: thin solid transparent;
 	float: right;
 	height: 8em;
-	margin: 0 .5em 0 .5em;
+	margin: .5em;
 	object-fit: cover;
 	object-position: center;
 	width: 8em;
@@ -218,4 +220,12 @@ main {
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
 	content: '>';
+}
+
+
+/* Links */
+
+.post-excerpt a,
+.article-body a {
+	color: #dd0000 !important;
 }
