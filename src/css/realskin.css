@@ -36,14 +36,6 @@
 .form-search .terms:focus+[type='submit'] {
 	display: inline;
 }
-#article-menu {
-	background: #ffffff;
-	box-shadow: 0 0 .1em rgba(0,0,0,.5);
-	position: -webkit-sticky;
-	position: -moz-sticky;
-	position: sticky;
-	z-index: 110;
-}
 
 /* Main */ 
 
