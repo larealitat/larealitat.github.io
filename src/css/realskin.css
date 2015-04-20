@@ -10,7 +10,6 @@
 	line-height: .5em;
 }
 
-
 /* Menu */
 
 #blog-menu {
@@ -87,6 +86,7 @@ main {
 	border: thin solid transparent;
 	display: block;
 	margin: 0 auto 1em;
+	width: 98%;
 }
 .post-excerpt a,
 .article-body a {
@@ -171,14 +171,6 @@ main {
 	float: none !important;
 	height: auto !important;
 	width: 100% !important;
-}
-
-/* Responsive hacks */
-
-@media (max-width: 768px) {
-	footer {
-		text-align: center;
-	}
 }
 
 /* Prev/next */
