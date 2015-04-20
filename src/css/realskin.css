@@ -45,6 +45,14 @@ main {
 
 /* Blog */
 
+#follow-us,
+#share-us {
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: sticky;
+	top: 2em;
+	z-index: 10;
+}
 .post {
 	border: none;
 	border-bottom: thin solid #cccccc;

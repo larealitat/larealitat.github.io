@@ -81,7 +81,7 @@
 		<main id="blog-content" class="">
 			<div class="content">
 				<div class="cell-3 hidden-phone">
-					<aside class="aside-tools base">
+					<aside id="follow-us" class="aside-tools base">
 						<h2 class="universe thin"><small>Segueix-nos</small></h2>
 						<div class="button-centered s">
 							<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a>
@@ -102,7 +102,7 @@
 					<hr>
 				</div>
 				<div class="cell-3">
-					<aside class="aside-tools base">
+					<aside id="share-us" class="aside-tools base">
 						<h2 class="universe thin"><small>Comparteix</small></h2>
 						<div class="button-centered s">
 							<a href="http://twitter.com/?status=<$BlogURL$>" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a>
@@ -118,6 +118,28 @@
 		
 		
 		<ItemPage>
+		<nav id="blog-menu" class="">
+			<div class="content universe">
+				<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
+				<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
+				<div id="nav-collapse" class="togglecollapsed">
+					<a href="<$BlogUrl$>" title="Portada"><b>Realitat</b></a>
+					<a href="<$BlogUrl$>search/label/Editorial" title="Realitat: Editorials">Editorial</a>
+					<a href="<$BlogUrl$>search/label/Local" title="Realitat: Local">Local</a>
+					<a href="<$BlogUrl$>search/label/Nacional" title="Realitat: Nacional">Nacional</a>
+					<a href="<$BlogUrl$>search/label/Internacional" title="Realitat: Internacional">Internacional</a>
+					<a href="<$BlogUrl$>search/label/Moviment Obrer" title="Realitat: Moviment Obrer">Mov Obrer</a>
+					<a href="<$BlogUrl$>search/label/Moviment Socials" title="Realitat: Moviments Socials">Mov Socials</a>
+					<a href="<$BlogUrl$>search/label/Històrica" title="Realitat: Història">Història</a>
+					<a href="<$BlogUrl$>search/label/Coneixement" title="Realitat: Coneixement">Coneixement</a>
+						<form class="form-search" action="http://www.google.com/cse"> 
+							<input type="hidden" name="cx" value="007620493827235173837:iw6nd8cvpza"> 
+							<input type="text" name="q" class="terms squared" placeholder="cerca"> 
+							<input type="submit" name="sa" class="search" value="·"> 
+						</form>
+				</div>
+			</div>
+		</nav>
 		<header id="article-header" class="universe">
 			<div class="content">
 				<div class="prev-next"><$BlogPaginationLinks$></div>
@@ -130,7 +152,7 @@
 		<main id="article-content" class="">
 			<div class="content">
 				<div class="cell-3 hidden-phone">
-					<aside class="aside-tools base">
+					<aside id="follow-us" class="aside-tools base">
 						<h2 class="universe thin"><small>Segueix-nos</small></h2>
 						<div class="button-centered s">
 							<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a>
@@ -169,7 +191,7 @@
 					</Blogger>
 				</div>
 				<div class="cell-3">
-					<aside class="aside-tools base">
+					<aside id="share-us" class="aside-tools base">
 						<h2 class="universe thin"><small>Comparteix</small></h2>
 						<div class="button-centered s">
 							<Blogger>
