@@ -81,7 +81,7 @@
 		<main id="blog-content" class="">
 			<div class="content">
 				<div class="cell-3 hidden-phone">
-					<aside id="follow-us" class="aside-tools base">
+					<aside class="aside-tools base">
 						<h2 class="universe thin"><small>Segueix-nos</small></h2>
 						<div class="button-centered s">
 							<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a>
@@ -102,7 +102,7 @@
 					<hr>
 				</div>
 				<div class="cell-3">
-					<aside id="share-us" class="aside-tools base">
+					<aside class="aside-tools base">
 						<h2 class="universe thin"><small>Comparteix</small></h2>
 						<div class="button-centered s">
 							<a href="http://twitter.com/?status=<$BlogURL$>" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a>
@@ -149,10 +149,20 @@
 				</Blogger>
 			</div>
 		</header>
+		<nav id="article-menu" class="">
+			<div class="content universe">
+				<Blogger><a href="<$BlogItemPermalinkUrl$>" title="Enllaç: <$BlogItemPermalinkUrl$>"><$BlogItemPermalinkUrl$></a></Blogger>
+				<Blogger>
+					<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="lines soft-blue" title="Comparteix a Twitter">Tw</a>
+					<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="lines blue" title="Comparteix a Facebook">Fb</a>
+					<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="lines red" title="Comparteix a Google +">G+</a>
+				</Blogger>
+			</div>
+		</nav>
 		<main id="article-content" class="">
 			<div class="content">
 				<div class="cell-3 hidden-phone">
-					<aside id="follow-us" class="aside-tools base">
+					<aside class="aside-tools base">
 						<h2 class="universe thin"><small>Segueix-nos</small></h2>
 						<div class="button-centered s">
 							<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a>
@@ -191,15 +201,13 @@
 					</Blogger>
 				</div>
 				<div class="cell-3">
-					<aside id="share-us" class="aside-tools base">
-						<h2 class="universe thin"><small>Comparteix</small></h2>
-						<div class="button-centered s">
-							<Blogger>
-								<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a>
-								<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon lines blue" title="Comparteix a Facebook">Fb</a>
-								<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon lines red" title="Comparteix a Google +">G+</a>
-							</Blogger>
-						</div>
+					<aside class="aside-tools base">
+						<h2 class="universe thin"><small>Anteriors</small></h2>
+						<nav><BloggerPreviousItems>
+							<ul>
+								<li><a href="<$BlogItemPermalinkURL$>" title="<$BlogItemTitle$>"><$BlogPreviousItemTitle$></a></li>
+							</ul>
+						</BloggerPreviousItems></nav>
 					</aside>
 				</div>
 				<hr>
