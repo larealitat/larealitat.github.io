@@ -36,6 +36,15 @@
 .form-search .terms:focus+[type='submit'] {
 	display: inline;
 }
+#article-menu {
+	background: #ffffff;
+	box-shadow: 0 0 .1em rgba(0,0,0,.5);
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: sticky;
+	top: 2.5em;
+	z-index: 10;
+}
 
 /* Main */ 
 
@@ -45,14 +54,6 @@ main {
 
 /* Blog */
 
-#article-menu {
-	background: #ffffff;
-	position: -webkit-sticky;
-	position: -moz-sticky;
-	position: sticky;
-	top: 2.4em;
-	z-index: 10;
-}
 .post {
 	border: none;
 	border-bottom: thin solid #cccccc;
