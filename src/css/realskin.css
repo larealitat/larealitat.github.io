@@ -52,10 +52,15 @@ main {
 }
 .post-title, 
 .article-title {
+	border-left: .5em solid transparent;
 	font-weight: 200;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	hyphens: none;
+	padding: 0 0 0 .5em;
+}
+.post-title:hover {
+	border-left: .5em solid #dd0000;
 }
 .post-date,
 .article-date {
@@ -64,14 +69,14 @@ main {
 	font-weight: 300;
 	margin-right: 1em;
 }
-.post-date
+.post-date {
 	text-align: right;
 }
 .post-excerpt {
 	margin-top: 1em;
 }
 .post-excerpt img {
-	border: thin solid transparent;
+	border: thin solid #ddd;
 	float: right;
 	height: 8em;
 	margin: .5em;
@@ -83,7 +88,7 @@ main {
 	text-align: justify;
 }
 .article-body img {
-	border: thin solid transparent;
+	border: thin solid #ddd;
 	display: block;
 	margin: 0 auto 1em;
 	width: auto;
