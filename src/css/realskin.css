@@ -57,7 +57,8 @@ main {
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	hyphens: none;
-	padding: 0 0 0 .5em;
+	margin-left: -.75em; 
+	padding: 0 0 0 .25em;
 }
 .post-title:hover {
 	border-left: .5em solid #dd0000;
