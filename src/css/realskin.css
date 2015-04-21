@@ -93,6 +93,14 @@ main {
 .article-body a {
 	color: #dd0000 !important;
 }
+.post-excerpt a:hover,
+.article-body a:hover {
+	text-decoration: underline overline !important;
+}
+.post-excerpt a:visited,
+.article-body a:visited {
+	color: #3AB16C !important;
+}
 
 /* Blogger labels */
 
