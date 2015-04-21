@@ -86,7 +86,8 @@ main {
 	border: thin solid transparent;
 	display: block;
 	margin: 0 auto 1em;
-	width: 98%;
+	width: auto;
+	max-width: 98%;
 }
 .post-excerpt a,
 .article-body a {
@@ -189,7 +190,6 @@ main {
 	width: 2em;
 	position: absolute;
 	text-decoration: none;
-	top: -.25em;
 	z-index: 1000;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1),
@@ -197,10 +197,10 @@ main {
 	visibility: hidden;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1) {
-	left: 2em; right: auto;
+	left: .5em; right: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
-	right: 2em; left: auto;
+	right: .5em; left: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
