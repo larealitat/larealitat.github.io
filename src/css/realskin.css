@@ -8,11 +8,11 @@
 #blog-header h1 {
 	font-size: 5em;
 	line-height: .5em;
-	margin-bottom: .25em;
+	margin-bottom: 0;
 }
 #blog-header .lead {
 	font-size: .9em;
-	margin: 0 auto .25em;
+	margin: -1em auto 1em;
 }
 
 /* Menu */
