@@ -92,13 +92,7 @@ main {
 	float: right;
 	height: 8em;
 	margin: .5em;
-	-webkit-object-fit: cover;
-	-moz-object-fit: cover;
-	-o-object-fit: cover;
 	object-fit: cover;
-	-webkit-object-position: center;
-	-moz-object-position: center;
-	-o-object-position: center;
 	object-position: center;
 	width: 8em;
 }
