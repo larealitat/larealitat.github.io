@@ -215,6 +215,7 @@ main {
 	width: 2em;
 	position: absolute;
 	text-decoration: none;
+	top: -.25em;
 	z-index: 1000;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1),
@@ -222,10 +223,10 @@ main {
 	visibility: hidden;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1) {
-	left: .1em; right: auto;
+	left: 0; right: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
-	right: .1em; left: auto;
+	right: 0; left: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
