@@ -2,7 +2,7 @@
 layout: default
 ---
 
-		<header id="page-header" class="flat soft-granate universe">
+		<header id="page-header" class="">
 			<h5 class="anm-fadeIn thin symbol-radioactive"><a href="{{ site.url }}" title="{{ site.name }}"> {{ site.name }} </a></h5>
 			<h1 class="anm-zoomInDown delay-500">{{ page.title }}</h1>
 			<p>Escrit el {{ page.date | date: "%e / %m / %Y" }}</p>
@@ -10,29 +10,11 @@ layout: default
 		
 		<main id="content">
 			<div class="content anm-moveFromBottomFade delay-200">
-			
-				<div class="white-space"></div>
 
-				<div class="cell-2 universe">
-					<div class="button-centered">
-						<div class="sharing-buttons"></div>
-						<hr>
-					</div>
-				</div>
-				
-				<div class="cell-8">
+				<div class="cell-8 pushed-2">
 					{{ content }}
 				</div>
-				
-				<div class="cell-2 universe">
-					<div class="button-centered">
-						<a href="http://comunistes.cat/organitzacio/info.html" class="button-icon circled flat green anm-zoomInLeft delay-500" title="Sol·licita'ns o envia'ns informació"> Info </a><br class="hidden-phone">
-						<a href="http://comunistes.cat/organitzacio/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-600" title="Col·labora amb el PCC"> Actua </a><br class="hidden-phone">
-						<a href="http://comunistes.cat/organitzacio/milita.html" class="button-icon circled flat red anm-zoomInRight delay-700" title="Milita amb nosaltres"> Milita </a><br>
-					</div>
-					<hr>
-				</div>
-				
+
 				<hr>
 				
 			</div>
