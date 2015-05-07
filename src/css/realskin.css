@@ -105,6 +105,13 @@ main {
 	object-position: center;
 	width: 8em;
 }
+.post:first-child .post-excerpt img,
+.post .post-excerpt img.poster {
+	float: none;
+	height: auto;
+	margin: 0;
+	width: 100%;
+}
 .article-body {
 	text-align: justify;
 }
