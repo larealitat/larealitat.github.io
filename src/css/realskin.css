@@ -33,13 +33,7 @@
 /* Menu */
 
 #blog-menu {
-	background: #ffffff;
-	box-shadow: 0 0 .1em rgba(0,0,0,.5);
-	position: -webkit-sticky;
-	position: -moz-sticky;
-	position: sticky;
-	top: 0;
-	z-index: 100;
+
 }
 .form-search {
 	margin-right: 1em;
