@@ -120,6 +120,9 @@ main {
 .article-body a {
 	color: #3AB16C !important;
 }
+.post-excerpt a[href*='jpg'] {
+	pointer-events: none;
+}
 .post-excerpt a:hover,
 .article-body a:hover {
 	text-decoration: underline overline !important;
