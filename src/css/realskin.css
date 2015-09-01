@@ -107,6 +107,8 @@ main {
 	width: 100%;
 }
 .article-body {
+	font-size: 1.2em;
+	line-height: 1.6em;
 	text-align: justify;
 }
 .article-body img {
