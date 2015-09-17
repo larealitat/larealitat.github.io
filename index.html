@@ -38,17 +38,19 @@ layout: default
 						<h2 class="universe thin"><small>Segueix-nos</small></h2>
 						<div class="button-centered s">
 							<a href="http://bloc.realitat.cat/feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
-							<a href="https://github.com/ComunistesdeCatalunya" class="button-icon circled violet anm-scaleUp" title="Comunistes de Catalunya a Github"> Git </a><br class="hidden-phone">
+							<a href="https://github.com/ComunistesdeCatalunya" class="button-icon circled lines violet anm-scaleUp" title="Comunistes de Catalunya a Github"> Git </a><br class="hidden-phone">
 							<a href="http://www.twitter.com/larealitat" class="button-icon circled lines soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br class="hidden-phone">
 							<a href="http://www.facebook.com/larealitat" class="button-icon circled lines blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
 						</div>
 					</aside>
 				</div>
 				<div class="cell-8">
+					  {% for post in site.posts %}
 						<article class="post">
 							<h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
 							<div class="post-excerpt">{{ post.content | truncatewords:50}}</div>
 						</article>
+					  {% endfor %}
 					<hr>
 				</div>
 				<div class="cell-2">
