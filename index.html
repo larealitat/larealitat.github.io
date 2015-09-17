@@ -2,43 +2,65 @@
 layout: default
 ---
 
-	<header id="page-header" class="base universe">
-		<h1 class="symbol-radioactive anm-zoomInDown delay-200">{{ site.name }}</h1>
-		<p class="universe thin l anm-fadeIn delay-200">{{ site.description }}</p>
-	</header>	
-
-	<main id="content">
-		<div class="content">
-
-			<div class="white-space"></div>
-
-			<div class="cell-2">
-				<div class="button-centered">
-					<a href="https://github.com/ComunistesdeCatalunya" class="button-icon circled metal-soft anm-scaleUp" title="Comunistes de Catalunya a Github">Git</a><br class="hidden-phone">
+		<header id="blog-header" class="base universe anm-fadeIn delay-200">
+			<div class="content">
+					<h1><a href="http://bloc.realitat.cat/" title="<$BlogDescription$>">
+						{{ site.name }}
+						<span class="icon s"><svg version="1.1" id="red-star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <polygon fill="#E31619" points="256.621,49.32 322.126,182.047 468.599,203.331 362.609,306.645 387.631,452.525 256.621,383.65 125.611,452.525 150.632,306.645 44.643,203.331 191.116,182.047 "/> </svg></span>
+					</a></h1>
+					<p class="lead">{{ site.description }}</p>
+			</div>
+		</header>
+		<nav id="blog-menu" class="base paper sticky anm-fadeIn delay-600">
+			<div class="content universe">
+				<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
+				<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
+				<div id="nav-collapse" class="togglecollapsed">
+					<a href="http://bloc.realitat.cat/" title="Portada"><b>Realitat</b></a>
+					<a href="http://bloc.realitat.cat/search/label/Editorial" title="Realitat: Editorials">Editorial</a>
+					<a href="http://bloc.realitat.cat/search/label/Local" title="Realitat: Local">Local</a>
+					<a href="http://bloc.realitat.cat/search/label/Nacional" title="Realitat: Nacional">Nacional</a>
+					<a href="http://bloc.realitat.cat/search/label/Internacional" title="Realitat: Internacional">Internacional</a>
+					<a href="http://bloc.realitat.cat/search/label/Història" title="Realitat: Història">Història</a>
+					<a href="http://bloc.realitat.cat/search/label/Coneixement" title="Realitat: Coneixement">Coneixement</a>
+						<form class="form-search" action="http://www.google.com/cse"> 
+							<input type="hidden" name="cx" value="007620493827235173837:p9bytcfv9gu"> 
+							<input type="text" name="q" class="terms squared" placeholder="cerca"> 
+							<input type="submit" name="sa" class="search" value="·"> 
+						</form>
 				</div>
-				<hr>
 			</div>
-				
-			<div class="cell-8">
-			  {% for post in site.posts %}
-				<article class="universe anm-moveFromBottomFade delay-200">    
-				  <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}#page-header" title="{{ post.title }}">{{ post.title }}</a></h2>
-				  <p>{{ post.content | truncatewords:50}}</p>
-				  <div class="button-centered"><a href="{{ site.baseurl }}{{ post.url }}" class="button lines grey l anm-scaleUp delay-500"> Llegir més </a></div>
-				</article>
-			  {% endfor %}
-			  <hr>
-			</div>
-		
-			<div class="cell-2">
-				<div class="button-centered">
-					<a href="http://bloc.realitat.cat/feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
-					<a href="http://www.twitter.com/larealitat" class="button-icon circled lines soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br class="hidden-phone">
-					<a href="http://www.facebook.com/larealitat" class="button-icon circled lines blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
+		</nav>
+		<main id="blog-content" class="anm-fadeIn delay-1000">
+			<div class="content">
+				<div class="cell-2 hidden-phone">
+					<aside class="aside-tools base">
+						<h2 class="universe thin"><small>Segueix-nos</small></h2>
+						<div class="button-centered s">
+							<a href="http://bloc.realitat.cat/feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
+							<a href="https://github.com/ComunistesdeCatalunya" class="button-icon circled violet anm-scaleUp" title="Comunistes de Catalunya a Github"> Git </a><br class="hidden-phone">
+							<a href="http://www.twitter.com/larealitat" class="button-icon circled lines soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br class="hidden-phone">
+							<a href="http://www.facebook.com/larealitat" class="button-icon circled lines blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
+						</div>
+					</aside>
 				</div>
-				<hr>
+				<div class="cell-8">
+						<article class="post">
+							<h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
+							<div class="post-excerpt">{{ post.content | truncatewords:50}}</div>
+						</article>
+					<hr>
+				</div>
+				<div class="cell-2">
+					<aside class="aside-tools base">
+						<h2 class="universe thin"><small>Comparteix</small></h2>
+						<div class="button-centered s">
+							<a href="http://twitter.com/?status=http://codi.realitat.cat/" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a> <br class="hidden-phone">
+							<a href="http://www.facebook.com/sharer.php?u=http://codi.realitat.cat/&t=<$BlogItemTitle$>" class="button-icon lines blue" title="Comparteix a Facebook">Fb</a> <br class="hidden-phone">
+							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://codi.realitat.cat/" class="button-icon lines red" title="Comparteix a Google +">G+</a>
+						</div>
+					</aside>
+				</div>
+				<hr class="no-margin">
 			</div>
-			<hr>
-				
-		</div><!-- /.content -->
-	</main>
+		</main>
