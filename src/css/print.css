@@ -33,6 +33,9 @@ body {
 	width: 100%;
 	word-break: break-word;
 }
+title {
+	display: none;
+}
 br, hr {
 	margin: 12pt 0 0;
 }
