@@ -4,7 +4,7 @@
 
 @page {
   size: A4 portrait;
-  margin: 1cm;
+  margin: 1.5cm 1cm;
 }
 @page {
   @bottom-center { 
@@ -39,6 +39,9 @@ br, hr {
 header, footer {
 	margin: 12pt auto;
 	padding: 12pt 0;
+}
+main {
+	margin: 0;
 }
 header {
 	border-bottom: 1pt solid #333 !important;
