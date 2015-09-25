@@ -20,24 +20,38 @@ body {
 	background: white;
 	color: #000;
 	font-size: 12pt; 
-	font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, Georgia, ‘Times New Roman’, serif; 
+	font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 	line-height: 1.5em;
 }
 * {
 	background: transparent;
+	border: none !important;
 	clear: both;
 	color: #000;
 	display: block;
 	font-size: 12pt; 
-	font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, Georgia, ‘Times New Roman’, serif; 
+	font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 	line-height: 1.5em;
 	margin: 0 0 1pt;
 	padding: 0;
 	width: 100%;
 	word-break: break-word;
 }
-h1 { font-size: 22pt; }
-h2 { font-size: 20pt; }
+.page {
+
+}
+header, footer {
+	margin: 16pt auto;
+	padding: 16pt 0;
+}
+header {
+	border-bottom: thin solid #333 !important;
+}
+footer {
+	border-top: thin solid #333 !important;
+}
+h1 { font-size: 32pt; }
+h2 { font-size: 24pt; }
 h3 { font-size: 18pt; }
 h4 { font-size: 16pt; }
 h5 { font-size: 14pt; }
@@ -69,16 +83,19 @@ a, a:link, a:visited {
 	font-weight: bold; 
 	text-decoration: underline; 
 }
-a:after { 
+.article-body a:after { 
 	content: " (" attr(href) ") "; 
 }
 img, figure {
 	display: block;
 	margin: 1em auto;
 	width: 80%;
-    page-break-before: auto;
-    page-break-after: auto;
-    page-break-inside: avoid;
+	page-break-before: auto;
+	page-break-after: auto;
+	page-break-inside: avoid;
+}
+header a, footer a {
+	text-decoration: none !important;
 }
 #header,
 #header-site,
@@ -97,6 +114,7 @@ script,
 style,
 .no-js,
 .pagination,
+aside,
 [class*='blogger'],
 [class*='prev'],
 [class*='next'],
@@ -150,4 +168,18 @@ th { border: 1px solid #ddd; display: table-cell; width: auto; }
 }
 .prose {
 	text-align: justify;
+}
+#cookieChoiceInfo {
+	display: none !important;
+}
+#cookieChoiceInfo .cookie-choices-text {
+	color: #fff;
+	font-size: 14px !important;
+	line-height: 1em !important;
+}
+.cookie-choices-button {
+	border: thin solid #fff;
+	border-radius: 24px !important;
+	font-size: 10px !important;
+	padding: 8px !important;
 }
