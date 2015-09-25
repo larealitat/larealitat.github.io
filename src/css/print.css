@@ -33,9 +33,6 @@ body {
 	width: 100%;
 	word-break: break-word;
 }
-title {
-	display: none;
-}
 br, hr {
 	margin: 12pt 0 0;
 }
@@ -43,18 +40,15 @@ header, footer {
 	margin: 12pt auto;
 	padding: 12pt 0;
 }
-main {
-	margin: 0;
-}
 header {
 	border-bottom: 1pt solid #333 !important;
 }
 footer {
 	border-top: 1pt solid #333 !important;
 }
-h1 { font-size: 32pt; }
-h2 { font-size: 24pt; }
-h3 { font-size: 18pt; }
+h1 { font-size: 40pt; }
+h2 { font-size: 32pt; }
+h3 { font-size: 24pt; }
 h4 { font-size: 16pt; }
 h5 { font-size: 14pt; }
 h6 { font-size: 12pt; }
@@ -65,8 +59,6 @@ h3,
 h4,
 h5,
 h6 {
-	border-bottom: thin solid #333;
-	line-height: 1.25em;
 	page-break-after: avoid;
 }
 h1,
@@ -90,6 +82,7 @@ a, a:link, a:visited {
 	clear: both;
 	content: " (" attr(href) ") "; 
 	font-size: 6pt;
+	margin: 6pt auto;
 }
 img, figure {
 	display: block;
@@ -105,6 +98,8 @@ img, figure {
 header a, footer a {
 	text-decoration: none !important;
 }
+#cookieChoiceInfo,
+.blogger-labels,
 #header,
 #header-site,
 #footer,
@@ -116,6 +111,7 @@ embed,
 form,
 iframe,
 input,
+title,
 nav,
 progress,
 script,
@@ -130,7 +126,7 @@ aside,
 [class*='button'],
 [class*='dialog'],
 [class*='menu'] {
-	display: none;
+	display: none !important;
 }
 pre {
 	border: 1px solid #ddd;
@@ -176,18 +172,4 @@ th { border: 1px solid #ddd; display: table-cell; width: auto; }
 }
 .prose {
 	text-align: justify;
-}
-#cookieChoiceInfo {
-	display: none !important;
-}
-#cookieChoiceInfo .cookie-choices-text {
-	color: #fff;
-	font-size: 14px !important;
-	line-height: 1em !important;
-}
-.cookie-choices-button {
-	border: thin solid #fff;
-	border-radius: 24px !important;
-	font-size: 10px !important;
-	padding: 8px !important;
 }
