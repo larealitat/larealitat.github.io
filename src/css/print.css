@@ -44,11 +44,11 @@ body {
 	word-break: break-word;
 }
 br, hr {
-	margin: 18pt 0 0;
+	margin: 12pt 0 0;
 }
 header, footer {
-	margin: 18pt auto;
-	padding: 18pt 0;
+	margin: 12pt auto;
+	padding: 12pt 0;
 }
 header {
 	border-bottom: thin solid #333 !important;
