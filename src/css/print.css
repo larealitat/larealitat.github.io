@@ -43,12 +43,12 @@ body {
 	width: 100%;
 	word-break: break-word;
 }
-.page {
-
+br, hr {
+	margin: 18pt 0 0;
 }
 header, footer {
-	margin: 16pt auto;
-	padding: 16pt 0;
+	margin: 18pt auto;
+	padding: 18pt 0;
 }
 header {
 	border-bottom: thin solid #333 !important;
