@@ -12,13 +12,13 @@
     content: counter(page);
   }
   @bottom-left {
-    content:  string(doctitle);
+    display: none;
   }
   @top-right { 
-    content: www.realitat.cat;
+    display: none;
   }
   @top-left {
-    content: ;
+    display: none;
   }
 }
 
