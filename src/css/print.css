@@ -4,21 +4,11 @@
 
 @page {
   size: A4 portrait;
-  margin: 0;
+  margin: 1cm;
 }
 @page {
-  @bottom-right { 
-    border-top: .25pt solid #666;
+  @bottom-center { 
     content: counter(page);
-  }
-  @bottom-left {
-    display: none;
-  }
-  @top-right { 
-    display: none;
-  }
-  @top-left {
-    display: none;
   }
 }
 
@@ -28,7 +18,6 @@ body {
 	font-size: 12pt; 
 	font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 	line-height: 1.5em;
-    margin: 1cm;
 }
 * {
 	background: transparent;
@@ -52,10 +41,10 @@ header, footer {
 	padding: 12pt 0;
 }
 header {
-	border-bottom: thin solid #333 !important;
+	border-bottom: 1pt solid #333 !important;
 }
 footer {
-	border-top: thin solid #333 !important;
+	border-top: 1pt solid #333 !important;
 }
 h1 { font-size: 32pt; }
 h2 { font-size: 24pt; }
