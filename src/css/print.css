@@ -1,9 +1,6 @@
 /* Hipertextos print.css */
 /* by Acozar - www.hipertextos.net */
 
-h1 { 
-  string-set: doctitle content(); 
-}
 @page {
   color: transparent;
   size: A4 portrait;
@@ -12,9 +9,6 @@ h1 {
 @page {
   @bottom-center { 
     content: counter(page);
-  }
-  @bottom-left { 
-    content: string(doctitle);
   }
 }
 
@@ -89,6 +83,7 @@ a, a:link, a:visited {
 	text-decoration: underline; 
 }
 .article-body a:after {
+	display: block;
 	clear: both;
 	content: " (" attr(href) ") "; 
 	font-size: 6pt;
