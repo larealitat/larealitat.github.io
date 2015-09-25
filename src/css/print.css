@@ -4,7 +4,7 @@
 
 @page {
   size: A4 portrait;
-  margin: 1cm;
+  margin: 0;
 }
 @page {
   @bottom-right { 
@@ -28,6 +28,7 @@ body {
 	font-size: 12pt; 
 	font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 	line-height: 1.5em;
+    margin: 1cm;
 }
 * {
 	background: transparent;
