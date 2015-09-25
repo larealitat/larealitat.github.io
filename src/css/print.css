@@ -1,8 +1,11 @@
 /* Hipertextos print.css */
 /* by Acozar - www.hipertextos.net */
 
-
+h1 { 
+  string-set: doctitle content(); 
+}
 @page {
+  color: transparent;
   size: A4 portrait;
   margin: 1.5cm 1cm;
 }
@@ -52,9 +55,6 @@ header {
 footer {
 	border-top: 1pt solid #333 !important;
 }
-h1 { 
-  string-set: doctitle content(); 
-}
 h1 { font-size: 32pt; }
 h2 { font-size: 24pt; }
 h3 { font-size: 18pt; }
@@ -88,8 +88,10 @@ a, a:link, a:visited {
 	font-weight: bold; 
 	text-decoration: underline; 
 }
-.article-body a:after { 
+.article-body a:after {
+	clear: both;
 	content: " (" attr(href) ") "; 
+	font-size: 6pt;
 }
 img, figure {
 	display: block;
