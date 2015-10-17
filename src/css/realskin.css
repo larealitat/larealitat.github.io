@@ -97,8 +97,6 @@ main {
 	margin: .5em;
 	object-fit: cover;
 	object-position: center;
-	-webkit-object-fit: cover;
-	-webkit-object-position: center;
 	width: 15em;
 }
 .post:first-child .post-excerpt img,
@@ -248,10 +246,10 @@ main {
 	visibility: hidden;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1) {
-	left: 0; right: auto;
+	right: 0; left: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
-	right: 0; left: auto;
+	left: 0; right: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
