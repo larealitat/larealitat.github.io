@@ -266,7 +266,7 @@ main {
 	content: '<';
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after,
-.prev-next .blog-paging-control-container .blog-paging-control:only-child {
+.prev-next .blog-paging-control-container .blog-paging-control:only-child:after {
 	content: '>';
 }
 
