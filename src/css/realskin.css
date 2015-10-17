@@ -245,11 +245,12 @@ main {
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
 	visibility: hidden;
 }
-.prev-next .blog-paging-control-container .blog-paging-control:nth-child(1) {
-	right: 0; left: auto;
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(1),
+.prev-next .blog-paging-control-container .blog-paging-control:only-child {
+	left: 0; right: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
-	left: 0; right: auto;
+	right: 0; left: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
