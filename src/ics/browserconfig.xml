@@ -6,7 +6,11 @@
       <square150x150logo src="/src/ics/mstile-150x150.png"/>
       <square310x310logo src="/src/ics/mstile-310x310.png"/>
       <wide310x150logo src="/src/ics/mstile-310x150.png"/>
+<<<<<<< HEAD
       <TileColor>#ffffff</TileColor>
+=======
+      <TileColor>#b91d47</TileColor>
+>>>>>>> ComunistesdeCatalunya/master
     </tile>
   </msapplication>
 </browserconfig>

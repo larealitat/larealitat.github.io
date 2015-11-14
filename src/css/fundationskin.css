@@ -1,4 +1,4 @@
-/* Realskin */
+/* Fundationskin */
 
 /* header */
 
@@ -34,10 +34,17 @@
 
 #blog-menu {
 
+<<<<<<< HEAD:src/css/realskin.css
 }
 .form-search {
 	margin-right: 1em;
 }
+=======
+}
+.form-search {
+	margin-right: 1em;
+}
+>>>>>>> ComunistesdeCatalunya/master:src/css/fundationskin.css
 .form-search input {
 	border: thin solid #dddddd;
 	font-weight: 200;
@@ -92,6 +99,7 @@ main {
 }
 .post-excerpt img {
 	border: thin solid #ddd;
+<<<<<<< HEAD:src/css/realskin.css
 	float: right;
 	height: 10em;
 	margin: .5em;
@@ -119,6 +127,17 @@ main {
 	line-height: 1.6em;
 	text-align: justify;
 }
+=======
+	height: auto;
+	margin: .5em;
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+}
+.article-body {
+	text-align: justify;
+}
+>>>>>>> ComunistesdeCatalunya/master:src/css/fundationskin.css
 .article-body img {
 	border: thin solid #ddd;
 	display: block;
@@ -248,8 +267,12 @@ main {
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1) {
 	left: 0; right: auto;
 }
+<<<<<<< HEAD:src/css/realskin.css
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2),
 .prev-next .blog-paging-control-container .blog-paging-control:only-child {
+=======
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
+>>>>>>> ComunistesdeCatalunya/master:src/css/fundationskin.css
 	right: 0; left: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
@@ -270,6 +293,7 @@ main {
 	content: '>';
 }
 
+<<<<<<< HEAD:src/css/realskin.css
 .pagination {
 	clear: both;
 	margin: 3em 0 1em;
@@ -308,3 +332,5 @@ main {
 	font-size: 10px !important;
 	padding: 8px !important;
 }
+=======
+>>>>>>> ComunistesdeCatalunya/master:src/css/fundationskin.css
