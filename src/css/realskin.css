@@ -270,6 +270,26 @@ main {
 	content: '>';
 }
 
+.pagination {
+	clear: both;
+	margin: 3em 0 1em;
+}
+.pagination a {
+	visibility: hidden;
+}
+.pagination a:after {
+	border: thick solid #666;
+	border-radius: 2em;
+	padding: .75em 1em;
+	visibility: visible;
+}
+.pagination a:nth-child(1):after {
+	content: '< Següent';
+}
+.pagination a:nth-child(2):after {
+	content: ' Anterior >';
+}
+
 /* Cookies info */
 
 #cookieChoiceInfo {
