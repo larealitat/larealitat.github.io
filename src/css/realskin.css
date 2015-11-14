@@ -286,7 +286,8 @@ main {
 .pagination a:nth-child(1):after {
 	content: '< Següent';
 }
-.pagination a:nth-child(2):after {
+.pagination a:nth-child(2):after,
+.pagination a:only-child:after {
 	content: ' Anterior >';
 }
 
