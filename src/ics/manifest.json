@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
 	"name": "realitat*",
-=======
-	"name": "Comunistes.cat",
->>>>>>> ComunistesdeCatalunya/master
 	"icons": [
 		{
 			"src": "\/src\/ics\/android-chrome-36x36.png",
@@ -42,10 +38,6 @@
 			"density": "4.0"
 		}
 	],
-<<<<<<< HEAD
 	"start_url": "http:\/\/realitat.cat",
-=======
-	"start_url": "http:\/\/comunistes.cat",
->>>>>>> ComunistesdeCatalunya/master
 	"display": "standalone"
 }
