@@ -259,8 +259,10 @@ main {
 .pagination {
 	clear: both;
 	margin: 3em 0 1em;
+	text-align: center;
 }
 .pagination a {
+	margin: 0 -3em 0;
 	visibility: hidden;
 }
 .pagination a:after {
