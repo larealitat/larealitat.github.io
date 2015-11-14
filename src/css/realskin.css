@@ -88,13 +88,16 @@ main {
 	text-align: right;
 }
 .post-excerpt {
+	font-weight: 200;
+	font-size: 1.2em;
+	line-height: 1.6em;
 	margin-top: 1em;
 }
 .post-excerpt img {
 	border: thin solid #eee;
 	float: none;
 	height: auto;
-	margin: 0;
+	margin: 0 0 1em;
 	width: 100%;
 }
 .article-body {
