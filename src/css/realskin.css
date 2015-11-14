@@ -91,28 +91,11 @@ main {
 	margin-top: 1em;
 }
 .post-excerpt img {
-	border: thin solid #ddd;
-	float: right;
-	height: 10em;
-	margin: .5em;
-	object-fit: cover;
-	object-position: center;
-	width: 10em;
-}
-.post:first-child .post-excerpt img,
-.post .post-excerpt img.poster {
+	border: thin solid #eee;
 	float: none;
 	height: auto;
 	margin: 0;
 	width: 100%;
-}
-@media (max-width: 481px) {
-	.post-excerpt img {
-		float: none;
-		height: auto;
-		margin: 0;
-		width: 100%;
-	}
 }
 .article-body {
 	font-size: 1.2em;
