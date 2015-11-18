@@ -240,8 +240,9 @@ main {
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
-	border: 1px solid #ddd;
+	border: thick solid #ccc;
 	border-radius: 50%;
+	color: #bbb;
 	display: block;
 	font-weight: bold;
 	height: 2em;
@@ -277,6 +278,7 @@ main {
 .pagination a:only-child:after {
 	content: ' Anterior >';
 }
+.blog-paging-control:hover,
 .pagination a:hover:after {
 	background: #ee0000;
 	border: thick solid #eee;
