@@ -279,11 +279,10 @@ main {
 .pagination a:only-child:after {
 	content: ' Anterior >';
 }
-.blog-paging-control:hover,
 .pagination a:hover:after {
 	background: #ee0000;
 	border: thick solid #eee;
-	color: #ddd;
+	color: #fff;
 }
 
 /* Cookies info */
