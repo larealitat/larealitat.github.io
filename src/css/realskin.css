@@ -257,17 +257,16 @@ main {
 }
 
 .pagination {
-	clear: both;
-	margin: 3em 0 1em;
-	text-align: center;
+	margin: 3em auto 1em;
 }
 .pagination a {
-	margin: 0 -3em 0;
 	visibility: hidden;
 }
 .pagination a:after {
-	border: thick solid #666;
+	border: thick solid #ccc;
 	border-radius: 2em;
+	color: #bbb;
+	margin-left: -5em;
 	padding: .75em 1em;
 	visibility: visible;
 }
@@ -277,6 +276,11 @@ main {
 .pagination a:nth-child(2):after,
 .pagination a:only-child:after {
 	content: ' Anterior >';
+}
+.pagination a:hover:after {
+	background: #ee0000;
+	border: thick solid #eee;
+	color: #ddd;
 }
 
 /* Cookies info */
