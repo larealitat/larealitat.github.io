@@ -64,6 +64,14 @@ main {
 	border-bottom: thin solid #cccccc;
 	padding: 1em 1em 2em;
 }
+.post-title {
+	font-size: 3em;
+}
+@media (max-width: 768px) {
+	.post-title {
+		font-size: 1.5em;
+	}
+}
 .post-title, 
 .article-title {
 	border-left: .5em solid transparent;
