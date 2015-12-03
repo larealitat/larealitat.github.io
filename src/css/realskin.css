@@ -184,7 +184,7 @@ main {
 .main-box {
 	display: none;
 }
-@document url('http://bloc.realitat.cat/') {
+@document url('http://bloc.realitat.cat') {
 	.main-box {
 		display: block;
 	}
