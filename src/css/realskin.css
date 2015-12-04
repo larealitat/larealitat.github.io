@@ -179,53 +179,6 @@ main {
 	margin: 0 auto;
 }
 
-/* Mainbox */
-
-.main-box {
-	display: none;
-}
-@document url('http://bloc.realitat.cat') {
-	.main-box {
-		display: block;
-	}
-}
-
-/* Feeds */
-
-[class*='feed'] {
-	padding: 0;
-}
-[class*='feed'] .button-profile {
-	float: left;
-	margin: -.5em 1em 1em 0;
-}
-[class*='feed'] header {
-	border: none;
-}
-.feed article {
-	clear: both;
-	height: 16em;
-	overflow: hidden;
-}
-.feed-large article {
-	height: 32em;
-	overflow: hidden;
-}
-.feed-image article {
-	height: auto;
-}
-.feed-small header,
-.feed-image header,
-.feed-large header {
-	display: none
-}
-.feed article img {
-	border-radius: 0px !important;
-	float: none !important;
-	height: auto !important;
-	width: 100% !important;
-}
-
 /* Prev/next */
 
 .prev-next,
