@@ -111,10 +111,11 @@ main {
 .post-excerpt a:last-of-type {
 	background-color: #3AB16C;
 	color: #fff;
-	white-space: nowrap
+	display: block;
 	margin: 1em 0;
 	padding: .25em 1em;
 	text-decoration: none;
+	width: 16em;
 }
 .article-body {
 	font-size: 1.2em;
