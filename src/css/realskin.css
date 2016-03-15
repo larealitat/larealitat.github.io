@@ -268,9 +268,13 @@ main {
 }
 .pagination a:hover:after,
 .prev-next .blog-paging-control-container .blog-paging-control:hover:after {
-	background: #ee0000;
+	background: #3AB16C;
 	border: thin solid #eee;
 	color: #fff;
+}
+.pagination a:visited:hover:after,
+.prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
+	background: #dd0000;
 }
 
 /* Cookies info */
