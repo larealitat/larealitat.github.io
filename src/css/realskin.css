@@ -112,10 +112,12 @@ main {
 	background-color: #3AB16C;
 	color: #fff;
 	display: block;
+	height: 2em;
 	margin: 1em 0;
 	padding: .25em 1em;
 	text-decoration: none;
-	width: 12em;
+	text-overflow: truncate;
+	width: 4em;
 }
 .post-excerpt a:last-of-type:visited {
 	background-color: #dd0000;
