@@ -108,10 +108,15 @@ main {
 	margin: 0 0 1em;
 	width: 100%;
 }
+.post-excerpt a:last-of-type {
+	background-color: #3AB16C;
+	color: #fff;
+	padding: .25em 1em;
+	text-decoration: none;
+}
 .article-body {
 	font-size: 1.2em;
 	line-height: 1.6em;
-	text-align: justify;
 }
 .article-body img {
 	border: thin solid #ddd;
@@ -120,18 +125,17 @@ main {
 	width: auto;
 	max-width: 98%;
 }
-.post-excerpt a,
 .article-body a {
 	color: #3AB16C !important;
 }
-.post-excerpt a[href*='jpg'] {
+.post-excerpt a[href*='jpg'],
+.post-excerpt a[href*='jpeg'],
+.post-excerpt a[href*='gif'],
+.post-excerpt a[href*='png'] {
 	pointer-events: none;
 }
-.post-excerpt a:hover,
-.article-body a:hover {
-	text-decoration: underline overline !important;
-}
 .post-excerpt a:visited,
+.post-excerpt a:last-of-typevisited,
 .article-body a:visited {
 	color: #dd0000 !important;
 }
@@ -167,6 +171,7 @@ main {
 .blogger-labels a:hover {
 	background: #dd0000;
 	color: #fff !important;
+	text-decoration: none !important;
 }
 .post .blogger-labels {
 	display: none;
@@ -211,12 +216,13 @@ main {
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
-	border: thick solid #ccc;
+	border: thin solid #ccc;
 	border-radius: 50%;
 	color: #bbb;
 	display: block;
 	font-size: 1.2em;
-	font-weight: bold;
+	font-weight: normal;
+	line-height: 1.6em;
 	height: 2em;
 	width: 2em;
 	visibility: visible;
@@ -236,9 +242,10 @@ main {
 	visibility: hidden;
 }
 .pagination a:after {
-	border: thick solid #ccc;
+	border: thin solid #333;
 	border-radius: 2em;
-	color: #bbb;
+	color: #333;
+	font-weight: normal;
 	margin-left: -5em;
 	padding: .75em 1em;
 	visibility: visible;
@@ -250,27 +257,34 @@ main {
 .pagination a:only-child:after {
 	content: ' Anterior >';
 }
-.pagination a:hover:after {
+.pagination a:hover:after,
+.prev-next .blog-paging-control-container .blog-paging-control:hover:after {
 	background: #ee0000;
-	border: thick solid #eee;
+	border: thin solid #eee;
 	color: #fff;
 }
 
 /* Cookies info */
 
 #cookieChoiceInfo {
-	background-color: rgba(0,0,0,0.5) !important;
+	background-color: #fff !important;
+	background-color: rgba(255,255,255,0.8) !important;
 	top: auto !important;
 	bottom: 0px !important;
 }
 #cookieChoiceInfo .cookie-choices-text {
-	color: #fff;
+	color: #000;
 	font-size: 14px !important;
 	line-height: 1em !important;
 }
 .cookie-choices-button {
 	border: thin solid #fff;
 	border-radius: 24px !important;
+	color: green !important;
 	font-size: 10px !important;
-	padding: 8px !important;
+	padding: 12px 24px !important;
+}
+.cookie-choices-button:nth-child(2) {
+	background: green;
+	color: #ffffff !important;
 }
