@@ -113,7 +113,8 @@ main {
 	color: #fff;
 	display: block;
 	height: 2em;
-	margin: 1em auto;
+	margin: 1em auto 0;
+	overflow: hidden;
 	padding: .25em 1em;
 	text-decoration: none;
 	text-overflow: truncate;
@@ -288,11 +289,11 @@ main {
 .cookie-choices-button {
 	border: thin solid #fff;
 	border-radius: 24px !important;
-	color: green !important;
+	color: #3AB16C !important;
 	font-size: 10px !important;
 	padding: 12px 24px !important;
 }
 .cookie-choices-button:nth-child(2) {
-	background: green;
+	background: #3AB16C;
 	color: #ffffff !important;
 }
