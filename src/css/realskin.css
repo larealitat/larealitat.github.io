@@ -111,7 +111,7 @@ main {
 .post-excerpt a:last-of-type {
 	background-color: #3AB16C;
 	color: #fff;
-	clear: both;
+	white-space: nowrap
 	margin: 1em 0;
 	padding: .25em 1em;
 	text-decoration: none;
