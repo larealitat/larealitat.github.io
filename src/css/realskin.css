@@ -120,9 +120,6 @@ main {
 	text-overflow: truncate;
 	width: 4em;
 }
-.post-excerpt a:last-of-type:visited {
-	background-color: #dd0000;
-}
 .article-body {
 	font-size: 1.2em;
 	line-height: 1.6em;
@@ -144,7 +141,7 @@ main {
 	pointer-events: none;
 }
 .post-excerpt a:visited,
-.post-excerpt a:last-of-typevisited,
+.post-excerpt a:last-of-type:visited,
 .article-body a:visited {
 	color: #dd0000 !important;
 }
