@@ -75,7 +75,7 @@ main {
 .post-title, 
 .article-title {
 	border-left: .5em solid transparent;
-	font-weight: 200;
+	font-weight: 600;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	hyphens: none;
