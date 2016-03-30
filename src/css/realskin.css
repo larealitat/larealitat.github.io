@@ -141,9 +141,12 @@ main {
 	pointer-events: none;
 }
 .post-excerpt a:visited,
-.post-excerpt a:last-of-type:visited,
 .article-body a:visited {
 	color: #dd0000 !important;
+}
+.post-excerpt a:last-of-type:visited {
+	background-color: #dd0000;
+	color: #fff;
 }
 
 /* Blogger labels */
