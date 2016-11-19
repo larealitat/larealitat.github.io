@@ -58,8 +58,11 @@ main {
 	padding: 0;
 }
 
-.post-excerpt {
-
+.post-title {
+	border-bottom: 1px solid #ccc;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0;
 }
 .post-excerpt img {
 	margin: 0 0 1em;
