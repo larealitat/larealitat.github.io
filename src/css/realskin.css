@@ -88,6 +88,12 @@ main {
 	color: #fff;
 	margin: -2em 0;
 }
+.article body {
+	padding: .5em;
+}
+.article-body img {
+	width: 100%;
+}
 .article-body a {
 	color: #3AB16C !important;
 }
