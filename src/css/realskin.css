@@ -54,12 +54,12 @@
 main {
 	padding: 0;
 }
-header {
+header,
+nav,
+.post,
+.article-body {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
-}
-.post {
-	background: #fff;
 }
 .post-title {
 	font-size: 1.5em;
@@ -91,7 +91,6 @@ header {
 	margin: -2em 0;
 }
 .article-body {
-	background: #fff;
 	font-size: 1.2em;
 	line-height: 1.6em;
 	padding: 1em;
