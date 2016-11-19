@@ -65,9 +65,11 @@ main {
 	margin: 0;
 }
 .post-excerpt img {
-	margin: 0 0 1em;
+	margin: 0;
 	pointer-events: none;
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .post-excerpt a:last-of-type {
 	background-color: #3AB16C;
@@ -84,7 +86,7 @@ main {
 .post .button-icon {
 	background-color: #3AB16C;
 	color: #fff;
-	margin: -1.2em 0;
+	margin: -2em 0;
 }
 .article-body a {
 	color: #3AB16C !important;
