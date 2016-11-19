@@ -51,22 +51,24 @@
 /* Blog */
 
 
-main {
-	padding: 0;
-}
 header,
-nav,
+nav:not(.pagination),
 .post,
 .article-body {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
 .post {
-	border: 1px solid #ccc;
+	border: 1px solid #ccc !important;
 }
 .post-title {
-	font-size: 1.5em;
-	font-weight: bold;
+	font-size: 1.2em;
+	font-weight: 600;
+	margin: 0;
+}
+.post-date {
+	color: #666;
+	font-size: .8em;
 	margin: 0;
 }
 .post-excerpt img {
