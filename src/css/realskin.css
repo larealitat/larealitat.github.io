@@ -55,7 +55,7 @@
 }
 main {
 	background-color: transparent;
-	margin: 0;
+	padding: 0;
 }
 .post {
 	border: none;
