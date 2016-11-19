@@ -71,11 +71,14 @@ nav:not(.pagination),
 	font-size: .8em;
 	margin: 0;
 }
+.post-excerpt {
+	height: 8em;
+	overflow: hidden;
+}
 .post-excerpt img {
 	margin: 0;
 	pointer-events: none;
 	width: 100%;
-	height: 100%;
 	object-fit: cover;
 }
 .post-excerpt a:last-of-type {
@@ -206,7 +209,7 @@ nav:not(.pagination),
 	display: block;
 	font-size: 1.2em;
 	font-weight: normal;
-	line-height: 1.6em;
+	line-height: 1.8em;
 	height: 2em;
 	width: 2em;
 	visibility: visible;
@@ -242,11 +245,17 @@ nav:not(.pagination),
 .pagination a:only-child:after {
 	content: ' Anterior >';
 }
+.prev-next .blog-paging-control-container .blog-paging-control:hover:after {
+	color: #3AB16C;
+	border-color: currentColor;
+}
 .pagination a:hover:after,
 .pagination a:visited:hover:after,
 .post a.button-icon:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
-	background: #000;
+	background: #fff;
+	color: #dd0000;
+	border-color: currentColor;
 }
 .pagination a:visited:after,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
