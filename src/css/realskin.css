@@ -72,6 +72,7 @@ nav:not(.pagination),
 	margin: 0;
 }
 .post-excerpt {
+	text-align: center;
 	height: 8em;
 	overflow: hidden;
 }
@@ -80,6 +81,10 @@ nav:not(.pagination),
 	pointer-events: none;
 	width: 100%;
 	object-fit: cover;
+}
+.post:hover .post-excerpt img {
+	min-width: 150%;
+	margin: -25% -25% 0;
 }
 .post-excerpt a:last-of-type {
 	background-color: #3AB16C;
