@@ -88,6 +88,7 @@ header {
 	margin: -2em 0;
 }
 .article-body {
+	background: #fff;
 	font-size: 1.2em;
 	line-height: 1.6em;
 	padding: 1em;
