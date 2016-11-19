@@ -117,31 +117,18 @@ nav:not(.pagination),
 		min-width: 100%;
 	}
 }
-.article-body a {
-	color: #3AB16C !important;
-}
-.post-excerpt a:visited,
-.article-body a:visited {
-	color: #dd0000 !important;
-}
-.post-excerpt a:last-of-type:visited,
-.post a.button-icon:visited {
-	background-color: #dd0000;
-	color: #fff !important;
-}
 
 /* Blogger labels */
 
 .blogger-labels {
 	display: block;
 	clear: both;
-	color: #333;
 	font-size: 0;
 	margin: 12px 0 0;
 	text-align: center;
 }
 .blogger-labels:before {
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid currentColor;
 	display: block;
 	content: 'Etiquetes';
 	font-size: 16px;
@@ -157,11 +144,6 @@ nav:not(.pagination),
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	hyphens: none;
-}
-.blogger-labels a:hover {
-	background: #dd0000;
-	color: #fff !important;
-	text-decoration: none !important;
 }
 .post .blogger-labels {
 	display: none;
@@ -206,7 +188,7 @@ nav:not(.pagination),
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
-	border: thin solid #aaa;
+	border: thin solid currentColor;
 	border-radius: 50%;
 	color: #aaa;
 	display: block;
@@ -224,6 +206,8 @@ nav:not(.pagination),
 .prev-next .blog-paging-control-container .blog-paging-control:only-child:after {
 	content: '>';
 }
+
+/* Pagination */
 
 .pagination {
 	margin: 3em auto 1em;
@@ -248,24 +232,32 @@ nav:not(.pagination),
 
 /* Colors */ 
 
+.blogger-labels a:hover,
 .post a.button-icon,
 .pagination a:after {
 	background: #3AB16C;
 	border: thin solid #eee;
-	color: #fff;
+	color: #fff !important;
 }
+.blogger-labels a,
+.article-body a,
 .pagination a:hover:after,
 .pagination a:visited:hover:after,
 .post a.button-icon:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:hover:after {
 	background: #fff;
-	color: #3AB16C;
+	color: #3AB16C !important;
 	border-color: currentColor;
 }
+.post-excerpt a:last-of-type:visited,
+.post a.button-icon:visited,
+.blogger-labels a:visited:hover,
 .pagination a:visited:after {
 	background: #dd0000;
-	color: #fff;
+	color: #fff !important;
 }
+.post-excerpt a:visited,
+.article-body a:visited,
 .pagination a:visited:hover:after,
 .post a.button-icon:visited:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
