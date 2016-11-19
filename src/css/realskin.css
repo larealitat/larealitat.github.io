@@ -32,9 +32,6 @@
 
 /* Menu */
 
-#blog-menu {
-
-}
 .form-search {
 	margin-right: 1em;
 }
@@ -49,12 +46,6 @@
 }
 .form-search .terms:focus+[type='submit'] {
 	display: inline;
-}
-
-/* Main */ 
-
-main {
-	background: #fff;
 }
 
 /* Blog */
