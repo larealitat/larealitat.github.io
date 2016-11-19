@@ -56,7 +56,7 @@ main {
 }
 header,
 nav,
-.post,
+article,
 .article-body {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
