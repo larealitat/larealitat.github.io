@@ -56,10 +56,13 @@ main {
 }
 header,
 nav,
-article,
+.post,
 .article-body {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
+}
+.post {
+	border: 1px solid #ccc;
 }
 .post-title {
 	font-size: 1.5em;
