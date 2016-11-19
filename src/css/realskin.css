@@ -203,9 +203,10 @@ main {
 	visibility: hidden;
 }
 .pagination a:after {
-	border: thin solid #333;
+	background: #3AB16C;
+	border: thin solid #eee;
+	color: #fff;
 	border-radius: 2em;
-	color: #333;
 	font-weight: normal;
 	margin-left: -5em;
 	padding: .75em 1em;
@@ -219,12 +220,12 @@ main {
 	content: ' Anterior >';
 }
 .pagination a:hover:after,
-.prev-next .blog-paging-control-container .blog-paging-control:hover:after {
-	background: #3AB16C;
-	border: thin solid #eee;
-	color: #fff;
-}
 .pagination a:visited:hover:after,
+.post a.button-icon:hover,
+.prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
+	background: #000;
+}
+.pagination a:visited:after,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
 	background: #dd0000;
 }
