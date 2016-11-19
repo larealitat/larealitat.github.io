@@ -78,6 +78,11 @@ main {
 	text-overflow: truncate;
 	width: 4em;
 }
+.post .button-icon {
+	background-color: #3AB16C;
+	color: #fff;
+	margin: -1.2em 0;
+}
 .article-body a {
 	color: #3AB16C !important;
 }
@@ -85,7 +90,8 @@ main {
 .article-body a:visited {
 	color: #dd0000 !important;
 }
-.post-excerpt a:last-of-type:visited {
+.post-excerpt a:last-of-type:visited,
+.post a.button-icon:visited {
 	background-color: #dd0000;
 	color: #fff !important;
 }
