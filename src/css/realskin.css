@@ -33,7 +33,7 @@
 /* Menu */
 
 .form-search {
-
+	text-align: center;
 }
 .form-search input {
 	border: thin solid #dddddd;
