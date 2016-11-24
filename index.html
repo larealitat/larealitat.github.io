@@ -22,9 +22,12 @@ layout: default
 			<div class="content">
 				<h2 class="universe thin"><small>Articles</small></h2>
 				{% for post in site.posts %}
-						<article class="post">
+						<article class="magazine">
+							<a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a>
 							<h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
 							<div class="post-excerpt">{{ post.content | truncatewords:50}}</div>
+							<a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}"> + </a>
+							<div class="button-centered"><a class="button-icon s circled" href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">+</a></div>
 						</article>
 				{% endfor %}
 				<hr>

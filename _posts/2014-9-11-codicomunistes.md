@@ -1,6 +1,7 @@
 ---
 layout: post
 title: El codi dels i les Comunistes
+thumbnail: thumbs/comuniquemlarealitat.jpg
 ---
 
 <blockquote class="book-quote l">el món és ple de problemes fascinants esperant a ser resolts <cite>Proverbi hacker</cite></blockquote><hr>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Avís legal
+thumbnail: thumbs/analitzemlarealitat.jpg
 ---
 
 ### Titularitat
