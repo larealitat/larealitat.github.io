@@ -59,7 +59,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 		<div>
 			<input class="block" id="Field6" name="Field6" type="url" value="" tabindex="6"       />
 		</div>
-		<p id="instruct6">Pots fer servir alguns dels serveis gratuïts com <a href="http://www.wetransfer.com">www.wetransfer.com</a>, <a href="http://www.dropbox.com">www.dropbox.com/a> o <a href="http://www.drive.google.com">www.drive.google.com/a> per a fer-nos arribar fotografies o vídeos. Enganxa aquí l'enllaç.</p>
+		<p id="instruct6">Pots fer servir alguns dels serveis gratuïts com <a href="http://www.wetransfer.com">www.wetransfer.com</a>, <a href="http://www.dropbox.com">www.dropbox.com</a> o <a href="http://www.drive.google.com">www.drive.google.com</a> per a fer-nos arribar fotografies o vídeos. Enganxa aquí l'enllaç.</p>
 	</div> 
 	<div class="buttons ">
 		<div>
