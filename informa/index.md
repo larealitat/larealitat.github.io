@@ -15,7 +15,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 		<div>
 			<input id="Field5" name="Field5" type="email" spellcheck="false" value="" tabindex="2" required />
 		</div>
-		<p id="instruct5"><small>Proporciona'ns un correu electrònic de contacte.</small></p>
+		<p id="instruct5">Proporciona'ns un correu electrònic de contacte.</p>
 	</div>
 	<div id="foli1" class="cell notranslate">
 		<label id="title1" for="Field1">
@@ -59,7 +59,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 		<div>
 			<input id="Field6" name="Field6" type="url" value="" tabindex="6"       />
 		</div>
-		<p id="instruct6"><small>Pots fer servir alguns dels serveis gratuïts com www.wetransfer.com, www.dropbox.com o www.drive.google.com per a fer-nos arribar fotografies o vídeos. Enganxa aquí l'enllaç.</small></p>
+		<p id="instruct6">Pots fer servir alguns dels serveis gratuïts com www.wetransfer.com, www.dropbox.com o www.drive.google.com per a fer-nos arribar fotografies o vídeos. Enganxa aquí l'enllaç.</p>
 	</div> 
 	<div class="buttons ">
 		<div>
