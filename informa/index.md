@@ -4,7 +4,7 @@ title: Informa'ns de la realitat
 thumbnail: /thumbs/transformemlarealitat.jpg
 ---
 
-<form id="form3" name="form3" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://comunistescat.wufoo.com.mx/forms/q1o2xzol08eyl2y/#public">
+<form class="l" id="form3" name="form3" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://comunistescat.wufoo.com.mx/forms/q1o2xzol08eyl2y/#public">
   
 <div>
 	<div id="foli5" class="cell notranslate">
