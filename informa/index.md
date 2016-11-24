@@ -14,7 +14,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			<span id="req_5" class="req">*</span>
 		</label>
 		<div>
-			<input id="Field5" name="Field5" type="email" spellcheck="false" class="field text large" value="" tabindex="1" required />
+			<input id="Field5" name="Field5" type="email" spellcheck="false" value="" tabindex="2" required />
 		</div>
 		<p class="instruct" id="instruct5"><small>Proporciona'ns un correu electrònic de contacte.</small></p>
 	</div>
@@ -24,7 +24,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			<span id="req_1" class="req">*</span>
 		</label>
 		<div>
-			<input id="Field1" name="Field1" type="text" class="field text large" value="" tabindex="2" onkeyup="" required />
+			<input id="Field1" name="Field1" type="text" value="" tabindex="2" onkeyup="" required />
 		</div>
 	</div>
 	<div id="foli2" class="cell notranslate">
@@ -33,7 +33,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			<span id="req_2" class="req">*</span>
 		</label>
 		<div>
-			<textarea id="Field2" name="Field2" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="3" onkeyup="" required></textarea>
+			<textarea id="Field2" name="Field2" spellcheck="true" rows="10" cols="50" tabindex="3" onkeyup="" required></textarea>
 		</div>
 	</div>
 	<div id="foli3" class="cell notranslate">
@@ -42,7 +42,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			<span id="req_3" class="req">*</span>
 		</label>
 		<div>
-			<textarea id="Field3" name="Field3" class="field textarea large" spellcheck="true" rows="10" cols="50" tabindex="4" onkeyup="" required></textarea>
+			<textarea id="Field3" name="Field3" spellcheck="true" rows="10" cols="50" tabindex="4" onkeyup="" required></textarea>
 		</div>
 	</div>
 	<div id="foli4" class="cell notranslate">
@@ -50,7 +50,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			Enllaç a la font de la informació (si s'escau)
 		</label>
 		<div>
-			<input id="Field4" name="Field4" type="url" class="field text large" value="" tabindex="5" />
+			<input id="Field4" name="Field4" type="url" value="" tabindex="5" />
 		</div>
 	</div>
 	<div id="foli6" class="cell notranslate">
@@ -58,7 +58,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			Enllaç a recursos fotogràfics o multimèdia
 		</label>
 		<div>
-			<input id="Field6" name="Field6" type="url" class="field text large" value="" tabindex="6"       />
+			<input id="Field6" name="Field6" type="url" value="" tabindex="6"       />
 		</div>
 		<p class="instruct" id="instruct6"><small>Pots fer servir alguns dels serveis gratuïts com www.wetransfer.com, www.dropbox.com o www.drive.google.com per a fer-nos arribar fotografies o vídeos. Enganxa aquí l'enllaç.</small></p>
 	</div> 
