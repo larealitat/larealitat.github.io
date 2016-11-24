@@ -100,6 +100,32 @@
 
 		<!-- Scripts
 		================================================== -->
+	<script src="{{ site.baseurl }}/src/js/jquery.js" type="text/javascript"></script>
+	<script src="{{ site.baseurl }}/src/js/components.js" type="text/javascript"></script>
+	
+	<script>
+		// Viewer
+		$('#viewer-resume').click(function(){
+			$('#viewer').removeClass();
+			$('#viewer').addClass('resume');
+		});
+		$('#viewer-listed').click(function(){
+			$('#viewer').removeClass();
+			$('#viewer').addClass('listed');
+		});
+		$('#viewer-gallery').click(function(){
+			$('#viewer').removeClass();
+			$('#viewer').addClass('gallery');
+		});
+		$('#viewer-mosaic').click(function(){
+			$('#viewer').removeClass();
+			$('#viewer').addClass('mosaic');
+		});
+		$('#viewer-full').click(function(){
+			$('#viewer').removeClass();
+			$('#viewer').addClass('full');
+		});
+	</script>
 		{% include analytics.html %}
 		
 	</body>

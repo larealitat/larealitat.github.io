@@ -20,7 +20,13 @@ layout: default
 		
 		<main>
 			<div class="content">
-				<div id="viewer" class="">
+				<nav class="nav-inline">
+					<a id="view-listed" href="#controller" title="Listed view">Listed</a>
+					<a id="view-gallery" href="#controller" title="Gallery view">Gallery</a>
+					<a id="view-resume" href="#controller" title="Resume view">Resume</a>
+					<a id="view-full" href="#controller" title="Full view">Full</a>
+				</nav>
+				<div id="viewer" class="resume">
 					<h2 class="universe thin"><small>Articles</small></h2>
 					{% for post in site.posts %}
 							<article class="magazine">
