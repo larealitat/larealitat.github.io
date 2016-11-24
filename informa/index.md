@@ -13,9 +13,9 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			<span id="req_5" class="req">*</span>
 		</label>
 		<div>
-			<input id="Field5" name="Field5" type="email" spellcheck="false" value="" tabindex="1" required />
+			<input class="block" id="Field5" name="Field5" type="email" spellcheck="false" value="" tabindex="1" required />
 		</div>
-		<p id="instruct5">Proporciona'ns un correu electrònic de contacte.</p>
+		<p id="instruct1">Proporciona'ns un correu electrònic de contacte.</p>
 	</div>
 	<div id="foli1" class="cell notranslate">
 		<label id="title1" for="Field1">
@@ -23,7 +23,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			<span id="req_1" class="req">*</span>
 		</label>
 		<div>
-			<input id="Field1" name="Field1" type="text" value="" tabindex="2" onkeyup="" required />
+			<input class="block" id="Field1" name="Field1" type="text" value="" tabindex="2" onkeyup="" required />
 		</div>
 	</div>
 	<div id="foli2" class="cell notranslate">
@@ -49,7 +49,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			Enllaç a la font de la informació (si s'escau)
 		</label>
 		<div>
-			<input id="Field4" name="Field4" type="url" value="" tabindex="5" />
+			<input class="block" id="Field4" name="Field4" type="url" value="" tabindex="5" />
 		</div>
 	</div>
 	<div id="foli6" class="cell notranslate">
@@ -57,7 +57,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			Enllaç a recursos fotogràfics o multimèdia
 		</label>
 		<div>
-			<input id="Field6" name="Field6" type="url" value="" tabindex="6"       />
+			<input class="block" id="Field6" name="Field6" type="url" value="" tabindex="6"       />
 		</div>
 		<p id="instruct6">Pots fer servir alguns dels serveis gratuïts com <a href="http://www.wetransfer.com">www.wetransfer.com</a>, <a href="http://www.dropbox.com">www.dropbox.com/a> o <a href="http://www.drive.google.com">www.drive.google.com/a> per a fer-nos arribar fotografies o vídeos. Enganxa aquí l'enllaç.</p>
 	</div> 
