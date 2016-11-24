@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Avís legal
 thumbnail: thumbs/analitzemlarealitat.jpg
 ---
