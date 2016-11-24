@@ -13,7 +13,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			<span id="req_5" class="req">*</span>
 		</label>
 		<div>
-			<input id="Field5" name="Field5" type="email" spellcheck="false" value="" tabindex="2" required />
+			<input id="Field5" name="Field5" type="email" spellcheck="false" value="" tabindex="1" required />
 		</div>
 		<p id="instruct5">Proporciona'ns un correu electrònic de contacte.</p>
 	</div>
@@ -59,7 +59,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 		<div>
 			<input id="Field6" name="Field6" type="url" value="" tabindex="6"       />
 		</div>
-		<p id="instruct6">Pots fer servir alguns dels serveis gratuïts com www.wetransfer.com, www.dropbox.com o www.drive.google.com per a fer-nos arribar fotografies o vídeos. Enganxa aquí l'enllaç.</p>
+		<p id="instruct6">Pots fer servir alguns dels serveis gratuïts com <a href="http://www.wetransfer.com">www.wetransfer.com</a>, <a href="http://www.dropbox.com">www.dropbox.com/a> o <a href="http://www.drive.google.com">www.drive.google.com/a> per a fer-nos arribar fotografies o vídeos. Enganxa aquí l'enllaç.</p>
 	</div> 
 	<div class="buttons ">
 		<div>
