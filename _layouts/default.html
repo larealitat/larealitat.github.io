@@ -49,7 +49,28 @@
   
 		<div class="page" id="page">
 		
-			{{ content }}
+		<nav class="sticky">
+			<div class="content">
+				<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
+				<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
+				<div id="nav-collapse" class="togglecollapsed">
+					<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
+					<span class="closed">
+					<a href="http://pdf.realitat.cat" title="Versió impresa de la realitat* en PDF">Versió impresa</a>
+					<a href="http://codi.realitat.cat/columnes.html" title="Columnes de la realitat*">Columnes</a>
+					<a href="http://codi.realitat.cat/info.html" title="Informació sobre la realitat*">Info</a>
+					<a href="http://codi.realitat.cat/subscripcio.html" title="Subscripció a la realitat*">Subscripció</a>
+					</span>
+					<form class="form-search" action="http://www.google.com/cse"> 
+						<input type="hidden" name="cx" value="007620493827235173837:p9bytcfv9gu"> 
+						<input type="text" name="q" class="terms squared" placeholder="cerca"> 
+						<input type="submit" name="sa" class="search" value="·"> 
+					</form>
+				</div>
+			</div>
+		</nav>
+		
+		{{ content }}
 			
 		<section id="site-quote" class="flat grey">
 			<div class="content universe">
