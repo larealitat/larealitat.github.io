@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Avís legal
-thumbnail: thumbs/analitzemlarealitat.jpg
+thumbnail: /thumbs/analitzemlarealitat.jpg
 ---
 
 ### Titularitat

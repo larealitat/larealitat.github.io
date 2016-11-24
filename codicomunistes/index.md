@@ -1,8 +1,10 @@
 ---
 layout: page
 title: El codi dels i les Comunistes
-thumbnail: thumbs/comuniquemlarealitat.jpg
+thumbnail: /thumbs/comuniquemlarealitat.jpg
 ---
+
+<img src="thumbs/comuniquemlarealitat.jpg" alt="Comuniquem la realitat">
 
 <blockquote class="book-quote l">el món és ple de problemes fascinants esperant a ser resolts <cite>Proverbi hacker</cite></blockquote><hr>
 
