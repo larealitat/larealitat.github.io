@@ -3,7 +3,7 @@ layout: default
 ---
 
 		<a class="absolute top left button-icon xs circled unify visible-phone" href="{{ site.baseurl }}" title="{{ site.name }}"><img src="http://codi.realitat.cat/src/ics/favicon-32x32.png" alt="realitat"></a>		
-		<header id="article-header" class="universe" style="background:url('{{ post.thumbnail }}') no-repeat fixed top center;">
+		<header id="article-header" class="universe">
 			<div class="content">
 				<Blogger>
 					<h1 class="article-title">{{ page.title }}</h1>
@@ -24,6 +24,7 @@ layout: default
 					</div>
 				</div>
 				<div class="cell-6">
+					<a href="{{ thumbnail }}" title="Ampliar la imatge"><img src="{{ thumbnail }}" alt=""></a>
 					{{ content }}
 				</div>
 				<div class="cell-3 sticky-2">

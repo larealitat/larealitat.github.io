@@ -24,6 +24,7 @@ layout: default
 					</div>
 				</div>
 				<div class="cell-6">
+					<a href="{{ thumbnail }}" title="Ampliar la imatge"><img src="{{ thumbnail }}" alt=""></a>
 					{{ content }}
 				</div>
 				<div class="cell-3 sticky-2">
@@ -37,15 +38,15 @@ layout: default
 					<h2 class="universe thin"><small>Comparteix</small></h2>
 					<div class="button-centered s">
 						<Blogger>
-							<a href="http://twitter.com/?status={{ page.url }}" class="button-icon hover-white soft-blue" title="Comparteix a Twitter">Tw</a> <br class="hidden-phone">
-							<a href="http://www.facebook.com/sharer.php?u={{ page.url }}&t={{ page.title }}" class="button-icon hover-white blue" title="Comparteix a Facebook">Fb</a> <br class="hidden-phone">
-							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url={{ page.url }}" class="button-icon hover-white red" title="Comparteix a Google +">G+</a>
+							<a href="http://twitter.com/?status={{ site.baseurl }}{{ post.url }}" class="button-icon hover-white soft-blue" title="Comparteix a Twitter">Tw</a> <br class="hidden-phone">
+							<a href="http://www.facebook.com/sharer.php?u={{ site.baseurl }}{{ post.url }}&t={{ page.title }}" class="button-icon hover-white blue" title="Comparteix a Facebook">Fb</a> <br class="hidden-phone">
+							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url={{ site.baseurl }}{{ post.url }}" class="button-icon hover-white red" title="Comparteix a Google +">G+</a>
 						</Blogger>
 					</div>
 					<h2 class="universe thin"><small>Tradueix</small></h2>
 					<div class="button-centered s">
 						<Blogger>
-							<a class="button-icon hover-white sky" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u={{ page.url }}" target="blank" title="Translate with Google Translate">Idioma</a>
+							<a class="button-icon hover-white sky" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u={{ site.baseurl }}{{ post.url }}" target="blank" title="Translate with Google Translate">Idioma</a>
 						</Blogger>
 					</div>
 				</div>
