@@ -14,7 +14,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			<span id="req_5" class="req">*</span>
 		</label>
 		<div>
-			<input id="Field5" name="Field5" type="email" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="1"       required />
+			<input id="Field5" name="Field5" type="email" spellcheck="false" class="field text large" value="" tabindex="1" required />
 		</div>
 		<p class="instruct" id="instruct5"><small>Proporciona'ns un correu electrònic de contacte.</small></p>
 	</div>
@@ -24,7 +24,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			<span id="req_1" class="req">*</span>
 		</label>
 		<div>
-			<input id="Field1" name="Field1" type="text" class="field text large" value="" maxlength="255" tabindex="2" onkeyup=""       required />
+			<input id="Field1" name="Field1" type="text" class="field text large" value="" tabindex="2" onkeyup="" required />
 		</div>
 	</div>
 	<div id="foli2" class="notranslate">
@@ -50,7 +50,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			Enllaç a la font de la informació (si s'escau)
 		</label>
 		<div>
-			<input id="Field4" name="Field4" type="url" class="field text large" value="" maxlength="255" tabindex="5" />
+			<input id="Field4" name="Field4" type="url" class="field text large" value="" tabindex="5" />
 		</div>
 	</div>
 	<div id="foli6" class="notranslate">
@@ -58,7 +58,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 			Enllaç a recursos fotogràfics o multimèdia
 		</label>
 		<div>
-			<input id="Field6" name="Field6" type="url" class="field text large" value="" maxlength="255" tabindex="6"       />
+			<input id="Field6" name="Field6" type="url" class="field text large" value="" tabindex="6"       />
 		</div>
 		<p class="instruct" id="instruct6"><small>Pots fer servir alguns dels serveis gratuïts com www.wetransfer.com, www.dropbox.com o www.drive.google.com per a fer-nos arribar fotografies o vídeos. Enganxa aquí l'enllaç.</small></p>
 	</div> 
@@ -67,7 +67,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 	        <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Envia" />
 	    </div>
 	</div>
-	<div class="hide">
+	<div class="closed">
 		<label for="comment">Do Not Fill This Out</label>
 		<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
 		<input type="hidden" id="idstamp" name="idstamp" value="zGuOlKRslgmdX7UkOnAl5+Q02WAMbCIkfcz9Z2ouG/I=" />
