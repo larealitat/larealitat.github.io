@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: El codi dels i les Comunistes
 thumbnail: thumbs/comuniquemlarealitat.jpg
 ---
