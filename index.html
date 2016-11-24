@@ -19,32 +19,24 @@ layout: default
 		</header>
 		
 		<main>
-			<div class="content">
-				<nav class="nav-inline">
-					<a id="view-listed" href="#controller" title="Listed view">Listed</a>
-					<a id="view-gallery" href="#controller" title="Gallery view">Gallery</a>
-					<a id="view-resume" href="#controller" title="Resume view">Resume</a>
-					<a id="view-full" href="#controller" title="Full view">Full</a>
-				</nav>
-				<div id="viewer" class="resume">
-					<h2 class="universe thin"><small>Articles</small></h2>
-					{% for post in site.posts %}
-							<article class="magazine">
-								<a class="article-thumb" href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a>
-								<h3 class="article-title"><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
-								<div class="article-excerpt">{{ post.content | truncatewords:50}}</div>
-								<div class="button-centered"><a class="button-icon s article-button circled" href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">+</a></div>
-							</article>
-					{% endfor %}
-					<hr>
-					<aside class="unify black">
-						<h2 class="universe thin"><small>Comparteix</small></h2>
-						<div class="button-centered s">
-							<a href="http://twitter.com/?status=http://codi.realitat.cat/" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a> 
-							<a href="http://www.facebook.com/sharer.php?u=http://codi.realitat.cat/&t={{ site.title }}" class="button-icon lines blue" title="Comparteix a Facebook">Fb</a> 
-							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://codi.realitat.cat/" class="button-icon lines red" title="Comparteix a Google +">G+</a>
-						</div>
-					</aside>
-				</div>
+			<div class="content resume">
+				<h2 class="universe thin"><small>Articles</small></h2>
+				{% for post in site.posts %}
+						<article class="magazine">
+							<a class="article-thumb" href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a>
+							<h3 class="article-title"><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
+							<div class="article-excerpt">{{ post.content | truncatewords:50}}</div>
+							<div class="button-centered"><a class="button-icon s article-button circled" href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">+</a></div>
+						</article>
+				{% endfor %}
+				<hr>
+				<aside class="unify black">
+					<h2 class="universe thin"><small>Comparteix</small></h2>
+					<div class="button-centered s">
+						<a href="http://twitter.com/?status=http://codi.realitat.cat/" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a> 
+						<a href="http://www.facebook.com/sharer.php?u=http://codi.realitat.cat/&t={{ site.title }}" class="button-icon lines blue" title="Comparteix a Facebook">Fb</a> 
+						<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://codi.realitat.cat/" class="button-icon lines red" title="Comparteix a Google +">G+</a>
+					</div>
+				</aside>
 			</div>
 		</main>
