@@ -23,15 +23,9 @@ layout: default
 				<h2 class="universe thin"><small>Articles</small></h2>
 				{% for post in site.posts %}
 						<article>
-							<div class="col-gr">
-								<div class="cell-primary">
-									<a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a>
-								</div>
-								<div class="cell-primary">
-									<h3 class="article-title"><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
-									<div class="article-excerpt">{{ post.content | truncatewords:50}}</div>
-								</div>
-							</div>
+							<a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a>
+							<h3 class="article-title"><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
+							<div class="article-excerpt">{{ post.content | truncatewords:50}}</div>
 							<div class="button-centered"><a class="button-icon s article-button circled" href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">+</a></div>
 						</article>
 						<hr>
