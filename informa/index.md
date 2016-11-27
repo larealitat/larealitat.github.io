@@ -15,7 +15,7 @@ thumbnail: /thumbs/transformemlarealitat.jpg
 		<div>
 			<input class="rounded anm-fadeIn delay-2000 block" id="Field5" name="Field5" type="email" spellcheck="false" value="" tabindex="1" required />
 		</div>
-		<p id="instruct1">Proporciona'ns un correu electrònic de contacte.</p>
+		<p id="instruct1" class="anm-fadeIn delay2000">Proporciona'ns un correu electrònic de contacte.</p>
 	</div>
 	<div id="foli1" class="cell notranslate">
 		<label id="title1" for="Field1" class="anm-fadeIn delay-1500">
