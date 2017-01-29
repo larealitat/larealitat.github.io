@@ -59,7 +59,8 @@ nav:not(.pagination),
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
-.post {
+.post,
+.feed-box {
 	border: 1px solid #ccc !important;
 }
 .post-title {
