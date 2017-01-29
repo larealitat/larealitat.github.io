@@ -61,6 +61,7 @@
 				<div id="nav-collapse" class="togglecollapsed">
 					<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
 					<a href="<$BlogUrl$>" title="Notícies de la realitat*">Notícies</a>
+					<a href="http://miquelangelsoria.realitat.cat" title="Columna literària de Miquel Àngel Soria">Les Arrels</a>
 					<form class="form-search" action="http://www.google.com/cse"> 
 						<input type="hidden" name="cx" value="007620493827235173837:p9bytcfv9gu"> 
 						<input type="text" name="q" class="terms squared" placeholder="cerca"> 
@@ -89,16 +90,17 @@
 		<nav class="sticky">
 			<div class="content">
 				<input class="toggletrigger" type="checkbox" id="mob-nav2" name="mob-nav2" aria-hidden="true" hidden>
-				<label for="mob-nav2" class="toggle">+ <span class="caret"></span></label>
+				<label for="mob-nav2" class="toggle">Tema <span class="caret"></span></label>
 				<div id="nav-collapse" class="togglecollapsed">
-					<a href="<$BlogUrl$>" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
-					<a href="<$BlogUrl$>search/label/Editorial" title="Realitat: Editorials">Editorial</a>
-					<a href="<$BlogUrl$>search/label/Local" title="Realitat: Local">Local</a>
-					<a href="<$BlogUrl$>search/label/Nacional" title="Realitat: Nacional">Nacional</a>
-					<a href="<$BlogUrl$>search/label/Internacional" title="Realitat: Internacional">Internacional</a>
-					<a href="<$BlogUrl$>search/label/Història" title="Realitat: Història">Història</a>
-					<a href="<$BlogUrl$>search/label/Coneixement" title="Realitat: Coneixement">Coneixement</a>
-					<a href="<$BlogUrl$>search/label/Entrevistes" title="Realitat: Entrevistes">Entrevistes</a>
+					<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
+					<a href="<$BlogUrl$>" title="Notícies de la realitat*: Tots els temes">Notícies</a>
+					<a href="<$BlogUrl$>search/label/Humanisme" title="Notícies de la realitat*: Humanisme">Humanisme</a>
+					<a href="<$BlogUrl$>search/label/Economia" title="Notícies de la realitat*: Economia">Economia</a>
+					<a href="<$BlogUrl$>search/label/Política" title="Notícies de la realitat*: Política">Política</a>
+					<a href="<$BlogUrl$>search/label/Ciència" title="Notícies de la realitat*: Ciència">Ciència</a>
+					<a href="<$BlogUrl$>search/label/Tecnologia" title="Notícies de la realitat*: Tecnologia">Tecnologia</a>
+					<a href="<$BlogUrl$>search/label/Arts" title="Notícies de la realitat*: Arts">Arts</a>
+					<a href="<$BlogUrl$>search/label/Història" title="Notícies de la realitat*: Història">Història</a>
 				</div>
 			</div>
 		</nav>
@@ -107,15 +109,19 @@
 			<div class="content">
 				<div class="cell-6">
 					<h2 class="universe thin"><small>Notícies</small></h2>
-					<Blogger>
-						<article class="post" id="<$BlogItemNumber$>">
-							<header><h3 class=""><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
-							<h6 class=""><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></h6></header>
-							<div class=""><$BlogItemBody$></div>
-						</article>
-					</Blogger>
+					<div class="news">
+						<Blogger>
+							<article id="<$BlogItemNumber$>">
+								<header>
+									<h3><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+									<h6><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></h6>
+								</header>
+								<div><$BlogItemBody$></div>
+							</article>
+						</Blogger>
+					</div>
 					<hr class="no-margin">
-					<h2 class="universe thin"><small>Més articles</small></h2>
+					<h2 class="universe thin"><small>Més notícies</small></h2>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>
 				</div>

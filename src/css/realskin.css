@@ -52,39 +52,39 @@
 
 
 header,
-nav:not(.pagination),
-.post,
-.article-body,
-.feed-box {
+nav:not(.pagination) {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
-.post,
+.news article,
+.articles article,
 .feed-box {
+	background: #fff;
 	border: 1px solid #ccc !important;
+	margin-bottom: 1em;
 }
-.post-title {
+.articles article h3 {
 	font-size: 1.2em;
 	font-weight: 600;
 	margin: 0;
 }
-.post-date {
+.articles article h6 {
 	color: #666;
 	font-size: .8em;
 	margin: 0;
 }
-.post-excerpt {
+.articles article div {
 	text-align: center;
 	height: 8em;
 	overflow: hidden;
 }
-.post-excerpt img {
+.articles article div img {
 	margin: 0;
 	pointer-events: none;
 	width: 100%;
 	object-fit: cover;
 }
-.post-excerpt a:last-of-type {
+.articles article div a:last-of-type {
 	background-color: #3AB16C;
 	color: #fff;
 	display: block;
@@ -96,26 +96,26 @@ nav:not(.pagination),
 	text-overflow: truncate;
 	width: 4em;
 }
-.post .button-icon {
+.articles article .button-icon {
 	font-weight: bold;
 	margin: -2em 0;
 }
-.article-title {
+.articles article div {
 	font-weight: 600;
 	padding-top: 1em;
 }
-.article-body {
+.articles article h3 {
 	font-size: 1.2em;
 	line-height: 1.6em;
 	padding: 1em;
 }
-.article-body img,
-.article-body .starred {
+.articles article div img,
+.articles article div .starred {
 	margin: 0 -10%;
 	min-width: 120%;
 }
 @media (max-width: 768px) {
-	.article-body img {
+	.articles article div img {
 		margin: 0;
 		min-width: 100%;
 	}
@@ -148,7 +148,8 @@ nav:not(.pagination),
 	-moz-hyphens: none;
 	hyphens: none;
 }
-.post .blogger-labels {
+.articles article .blogger-labels,
+.news article .blogger-labels {
 	display: none;
 }
 
@@ -226,7 +227,7 @@ nav:not(.pagination),
 	visibility: visible;
 }
 .pagination a:nth-child(1):after {
-	content: '< Següent';
+	content: '< Posterior';
 }
 .pagination a:nth-child(2):after,
 .pagination a:only-child:after {
@@ -236,33 +237,33 @@ nav:not(.pagination),
 /* Colors */ 
 
 .blogger-labels a:hover,
-.post a.button-icon,
+.articles article a.button-icon,
 .pagination a:after {
 	background: #3AB16C;
 	border: thin solid #eee;
 	color: #fff !important;
 }
 .blogger-labels a,
-.article-body a,
+.articles article div a,
 .pagination a:hover:after,
 .pagination a:visited:hover:after,
-.post a.button-icon:hover,
+.articles article a.button-icon:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:hover:after {
 	background: #fff;
 	color: #3AB16C !important;
 	border-color: currentColor;
 }
-.post-excerpt a:last-of-type:visited,
-.post a.button-icon:visited,
+.articles article div a:last-of-type:visited,
+.articles article a.button-icon:visited,
 .blogger-labels a:visited:hover,
 .pagination a:visited:after {
 	background: #dd0000;
 	color: #fff !important;
 }
-.post-excerpt a:visited,
-.article-body a:visited,
+.articles article div a:visited,
+.articles article a:visited,
 .pagination a:visited:hover:after,
-.post a.button-icon:visited:hover,
+.articles article a.button-icon:visited:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
 	background: #fff;
 	color: #dd0000 !important;
