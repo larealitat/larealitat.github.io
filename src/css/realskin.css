@@ -270,12 +270,12 @@ nav:not(.pagination),
 /* RSS */
 
 .scroll-pane {}
-.fw-feed-item-url { background: #fff; border: 1px solid #aaa; padding: .5em;}
+.fw-feed-item { background: #fff; border: 1px solid #aaa; clear: both; display: block;  padding: .5em; width: 100% }
 .fw-feed-item-image-module { float: left; width: 25%; }
 .fw-feed-item-image {}
 .fw-feed-item-image img { width: 100%;}
 .fw-feed-item-content-module { float: left; width: 75%; }
-.fw-feed-item-title { font-size: 2em; line-height. 1.6em; }
+.fw-feed-item-title { font-size: 2em; line-height: 1.6em; }
 .fw-feed-item-description { fon-size: 1em; line-height: 1.6em; }
 .fw-feed-item-date,
 .fw-feed-item-link { display: none; }
