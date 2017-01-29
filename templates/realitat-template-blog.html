@@ -73,21 +73,21 @@
 <MainOrArchivePage>
 		<header class="universe">
 			<div class="content">
+				<hr>
 				<a href="<$BlogUrl$>" title="Realitat"><img src="http://codi.realitat.cat/src/img/header-realitat.jpg" alt="realitat*"></a>
-				<h1 class="closed">realitat<b class="unify red">*</b></h1>
-				<p class="lead closed">donar a l'esperança fonament científic</p>
-				<div class="button-centered absolute bottom">
+				<div class="button-centered absolute right top">
 					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled hover-white orange xs" target="blank" title="Segueix-nos amb RSS"> <b>RSS</b> </a> 
 					<a href="http://www.twitter.com/larealitat" class="button-icon circled hover-white soft-blue xs" target="blank" title="Segueix-nos a Twitter"> <b>Tw</b> </a>
 					<a href="http://www.facebook.com/larealitat" class="button-icon circled hover-white blue xs" target="blank" title="Segueix-nos a Facebook"> <b>Fb</b> </a>
 					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled hover-white red xs" target="blank" title="Segueix-nos a Google +"> <b>G+</b> </a>
 				</div>
-				<div class="white-space"></div>
+				<h1 class="closed">realitat<b class="unify red">*</b></h1>
+				<p class="lead closed">donar a l'esperança fonament científic</p>
 			</div>
 		</header>
 		
 		<nav class="sticky">
-			<div class="content universe">
+			<div class="content">
 				<input class="toggletrigger" type="checkbox" id="mob-nav2" name="mob-nav2" aria-hidden="true" hidden>
 				<label for="mob-nav2" class="toggle">+ <span class="caret"></span></label>
 				<div id="nav-collapse" class="togglecollapsed">
@@ -105,17 +105,13 @@
 
 		<main>
 			<div class="content">
-				<div class="cell-2">
-				
-				</div>
 				<div class="cell-6">
-					<h2 class="universe thin"><small>Articles</small></h2>
+					<h2 class="universe thin"><small>Notícies</small></h2>
 					<Blogger>
-						<article class="panel" id="<$BlogItemNumber$>">
+						<article class="post" id="<$BlogItemNumber$>">
 							<header><h3 class=""><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
 							<h6 class=""><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></h6></header>
 							<div class=""><$BlogItemBody$></div>
-							<div class="button-centered"><a class="button-icon s circled" href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>">+</a></div>
 						</article>
 					</Blogger>
 					<hr class="no-margin">
@@ -123,8 +119,11 @@
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>
 				</div>
-				<div class="cell-4">
-					<script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="8098/"></script> 
+				<div class="cell-6">
+					<h2 class="universe thin"><small>Articles</small></h2>
+					<div class="panel feed-box">
+						<script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="8098/"></script> 
+					</div>
 				</div>
 				<hr>
 			</div>

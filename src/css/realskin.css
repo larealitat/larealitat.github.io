@@ -54,7 +54,8 @@
 header,
 nav:not(.pagination),
 .post,
-.article-body {
+.article-body,
+.feed-box {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
