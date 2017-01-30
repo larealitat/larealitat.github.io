@@ -64,6 +64,10 @@ nav:not(.pagination) {
 	margin-bottom: 1em;
 }
 .articles article h3 {
+	height: 4.5em;
+	overflow: hidden;
+	padding: .5em .5em 0;
+	text-overflow: truncate;
 	font-size: 1.2em;
 	font-weight: 600;
 	margin: 0;
@@ -71,17 +75,19 @@ nav:not(.pagination) {
 .articles article h6 {
 	color: #666;
 	font-size: .8em;
-	margin: 0;
+	margin: 0 0 .5em
 }
 .articles article div {
-	text-align: center;
-	height: 8em;
+	max-height: 22em;
+	margin: .1em 0 2em;
 	overflow: hidden;
+	padding: .25em;
+	width: 100%;
 }
 .articles article div img {
 	margin: 0;
 	pointer-events: none;
-	width: 100%;
+	max-width: 100%;
 	object-fit: cover;
 }
 .articles article div a:last-of-type {
@@ -100,17 +106,17 @@ nav:not(.pagination) {
 	font-weight: bold;
 	margin: -2em 0;
 }
-.articles article div {
+.item article div {
 	font-weight: 600;
 	padding-top: 1em;
 }
-.articles article h3 {
+.item article h3 {
 	font-size: 1.2em;
 	line-height: 1.6em;
 	padding: 1em;
 }
-.articles article div img,
-.articles article div .starred {
+.item article div img,
+.item article div .starred {
 	margin: 0 -10%;
 	min-width: 120%;
 }

@@ -111,14 +111,17 @@
 		<main>
 			<div class="content gallery">
 				<h2 class="universe thin"><small>Articles</small></h2>
-				<Blogger>
-					<article class="post panel" id="<$BlogItemNumber$>">
-						<header><h3 class="post-title level-4"><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
-						<h6 class="post-date"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></h6></header>
-						<div class="post-excerpt"><$BlogItemBody$></div>
-						<div class="button-centered"><a class="button-icon s circled" href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>">+</a></div>
-					</article>
-				</Blogger>
+					<div class="articles">
+						<Blogger>
+							<article id="<$BlogItemNumber$>">
+								<h3><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+								<h6><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
+								<div>
+									<$BlogItemBody$>
+								</div>
+							</article>
+						</Blogger>
+					</div>
 				<hr class="no-margin">
 				<h2 class="universe thin"><small>Més articles</small></h2>
 				<nav class="pagination"><$BlogPaginationLinks$></nav>
