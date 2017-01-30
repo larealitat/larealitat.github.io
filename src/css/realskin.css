@@ -78,33 +78,22 @@ nav:not(.pagination) {
 	margin: 0 0 .5em
 }
 .articles article div {
-	max-height: 22em;
-	margin: .1em 0 2em;
+	border-bottom: 1px solid #ddd;
+	max-height: 12em;
+	margin: 0 0 -1.6em;
 	overflow: hidden;
-	padding: .25em;
+	padding: .25em .25em .75em;
 	width: 100%;
 }
 .articles article div img {
+	height: 12em;
 	margin: 0;
 	pointer-events: none;
-	max-width: 100%;
+	width: 100%;
 	object-fit: cover;
-}
-.articles article div a:last-of-type {
-	background-color: #3AB16C;
-	color: #fff;
-	display: block;
-	height: 2em;
-	margin: 1em auto 0;
-	overflow: hidden;
-	padding: .25em 1em;
-	text-decoration: none;
-	text-overflow: truncate;
-	width: 4em;
 }
 .articles article .button-icon {
 	font-weight: bold;
-	margin: -2em 0;
 }
 .item article div {
 	font-weight: 600;
