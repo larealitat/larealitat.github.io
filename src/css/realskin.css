@@ -95,22 +95,22 @@ nav:not(.pagination) {
 .articles article .button-icon {
 	font-weight: bold;
 }
-.item article div {
+.article-title  {
 	font-weight: 600;
 	padding-top: 1em;
 }
-.item article h3 {
+.article-content {
 	font-size: 1.2em;
 	line-height: 1.6em;
 	padding: 1em;
 }
-.item article div img,
-.item article div .starred {
+.article-content img,
+.article-content .starred {
 	margin: 0 -10%;
 	min-width: 120%;
 }
 @media (max-width: 768px) {
-	.articles article div img {
+	.article-content img {
 		margin: 0;
 		min-width: 100%;
 	}
@@ -256,7 +256,7 @@ nav:not(.pagination) {
 	color: #fff !important;
 }
 .articles article div a:visited,
-.item article a:visited,
+.article-content a:visited,
 .pagination a:visited:hover:after,
 .articles article a.button-icon:visited:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
