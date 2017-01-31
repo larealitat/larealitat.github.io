@@ -63,6 +63,10 @@ nav:not(.pagination) {
 	border: 1px solid #ccc !important;
 	margin-bottom: 1em;
 }
+.news article header,
+.articles article header {
+	padding: 0;
+}
 .articles article h3 {
 	height: 4.5em;
 	overflow: hidden;
@@ -242,6 +246,7 @@ nav:not(.pagination) {
 .articles article div a,
 .pagination a:hover:after,
 .pagination a:visited:hover:after,
+.news article div a,
 .articles article a.button-icon:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:hover:after {
 	background: #fff;
@@ -257,6 +262,7 @@ nav:not(.pagination) {
 }
 .articles article div a:visited,
 .article-content a:visited,
+.news article a:visited,
 .pagination a:visited:hover:after,
 .articles article a.button-icon:visited:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
