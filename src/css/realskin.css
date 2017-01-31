@@ -65,7 +65,7 @@ nav:not(.pagination) {
 }
 .news article header,
 .articles article header {
-	padding: 0 0,25em;
+	padding: .25em .25em 0;
 }
 .articles article h3 {
 	height: 4.5em;
