@@ -75,6 +75,11 @@ nav:not(.pagination) {
 	font-weight: 600;
 	margin: 0;
 }
+.news article h3 a,
+.articles article h3 a {
+	font-weight: 800;
+}
+.news article h3 a:hover,
 .articles article h3 a:hover {
 	text-decoration: underline;
 }
