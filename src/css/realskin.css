@@ -75,6 +75,9 @@ nav:not(.pagination) {
 	font-weight: 600;
 	margin: 0;
 }
+.articles article h3 a:hover {
+	text-decoration: underline;
+}
 .articles article h6 {
 	color: #666;
 	font-size: .8em;
@@ -262,7 +265,7 @@ nav:not(.pagination) {
 }
 .articles article div a:visited,
 .article-content a:visited,
-.news article a:visited,
+.news article div a:visited,
 .pagination a:visited:hover:after,
 .articles article a.button-icon:visited:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
