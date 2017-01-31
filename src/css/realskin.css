@@ -58,7 +58,7 @@ nav:not(.pagination) {
 }
 .news article,
 .articles article,
-.feed-box {
+.sections {
 	background: #fff;
 	border: 1px solid #ccc !important;
 	margin-bottom: 1em;
