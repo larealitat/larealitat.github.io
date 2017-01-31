@@ -84,6 +84,7 @@ nav:not(.pagination) {
 	padding: .25em .25em .75em;
 	width: 100%;
 }
+.news article div img,
 .articles article div img {
 	height: 12em;
 	margin: 0;
