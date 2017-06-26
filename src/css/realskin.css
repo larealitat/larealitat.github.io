@@ -68,10 +68,11 @@ nav:not(.pagination) {
 	padding: .25em .25em 0;
 }
 .articles article h3 {
-	height: 4.5em;
+	height: 4em;
 	overflow: hidden;
 	text-overflow: truncate;
-	font-size: 1.2em;
+	font-size: 1.5em;
+	font-weight: 600;
 	margin: 0;
 }
 .articles article h6 {
