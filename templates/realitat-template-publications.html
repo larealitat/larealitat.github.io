@@ -76,9 +76,11 @@
 <MainOrArchivePage>
 		<header id="blog-header" class="anm-fadeIn delay-100">
 			<div class="content">
-				<a href="<$BlogUrl$>" title="Realitat" class="level-5"><img src="http://codi.realitat.cat/src/img/header-realitat-editorial.jpg" alt="realitat*"></a>
+				<a href="<$BlogUrl$>" title="Realitat" class="level-6"><img src="http://codi.realitat.cat/src/img/header-realitat-publicacions.png" alt="realitat*"></a>
 				<h1 class="closed"><$BlogTitle$></h1>
+				<p class="lead closed"><$BlogDescription$></p>
 				<div class="button-centered absolute right top hidden-phone">
+					<br>
 					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled hover-white orange xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos amb RSS"> <b>RSS</b> </a> 
 					<a href="http://www.twitter.com/larealitat" class="button-icon circled hover-white soft-blue xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos a Twitter"> <b>Tw</b> </a>
 					<a href="http://www.facebook.com/larealitat" class="button-icon circled hover-white blue xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos a Facebook"> <b>Fb</b> </a>
@@ -90,9 +92,10 @@
 		<nav class="sticky anm-fadeIn delay-200">
 			<div class="content">
 				<input class="toggletrigger" type="checkbox" id="mob-nav2" name="mob-nav2" aria-hidden="true" hidden>
-				<label for="mob-nav2" class="toggle">Tema <span class="caret"></span></label>
+				<label for="mob-nav2" class="toggle">Tipus <span class="caret"></span></label>
 				<div id="nav-collapse" class="togglecollapsed">
 					<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
+					<a href="<$BlogUrl$>" title="Totes les publicacions en PDF">Tot</a>
 					<a href="<$BlogUrl$>search/label/Números" title="Números de la realitat* en PDF">Números</a>
 					<a href="<$BlogUrl$>search/label/Documents" title="Documents de la realitat* en PDF">Documents</a>
 				</div>
@@ -106,27 +109,6 @@
 			<a href="https://plus.google.com/115185630100620701614" class="button-icon circled hover-white red xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos a Google +"> <b>G+</b> </a>
 		</div>
 		
-		<main id="main" class="anm-fadeIn delay-1000">
-			<div class="content gallery">
-					<Blogger>
-						<article id="<$BlogItemNumber$>">
-								<div class="article-thumb"><a href="<$blogItemPermalinkUrl$>" title="<$BlogItemPermalinkUrl$>"><$BlogItemBody$></a></div>
-								<h3 class="article-title"><a href="<$blogItemPermalinkUrl$>" title="<$BlogItemPermalinkUrl$>"><$BlogItemTitle$></a></h3>
-						</article>
-					</Blogger>
-				<hr>
-				<h4 class="universe">Més imatges</h4>
-				<nav class="pagination"><$BlogPaginationLinks$></nav>
-				<hr>
-				<div class="button-centered">
-					<a href="http://comunistes.cat/organitzacio/info.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a>
-					<a href="http://comunistes.cat/organitzacio/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb Comunistes de Catalunya"> Actua </a>
-					<a href="http://comunistes.cat/organitzacio/milita.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
-				</div>
-				<hr>
-			</div>
-		</main>
-
 		<main>
 			<div class="content gallery">
 					<Blogger>
@@ -138,12 +120,6 @@
 				<hr>
 				<h4 class="universe">Més publicacions</h4>
 				<nav class="pagination"><$BlogPaginationLinks$></nav>
-				<hr>
-				<div class="button-centered">
-					<a href="http://twitter.com/?status=<$BlogURL$>" class="button-icon hover-white soft-blue" title="Comparteix a Twitter">Tw</a> <br class="hidden-phone">
-					<a href="http://www.facebook.com/sharer.php?u=<$BlogURL$>&t=<$BlogItemTitle$>" class="button-icon hover-white blue" title="Comparteix a Facebook">Fb</a> <br class="hidden-phone">
-					<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogURL$>" class="button-icon hover-white red" title="Comparteix a Google +">G+</a>
-				</div>
 				<hr>
 			</div>
 		</main>
@@ -177,10 +153,10 @@
 							<$BlogItemBody$>
 						</div>
 						<hr>
-						<p class="universe"><a href="<$BlogItemUrl$>" title="Veure la font en una nova pàgina" target="blank"><$BlogItemUrl$></a></p>
+						<div class="button-centered"><a href="<$BlogItemUrl$>" data-link="Descarrega!" target="blank" class="button flat violet rounded xl button-slideTop">Versió PDF</a></div>
 						<hr>
 					</Blogger>
-					<h2 class="universe thin"><small>Més articles</small></h2>
+					<h2 class="universe thin"><small>Més publicacions</small></h2>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>
 					<aside class="aside-tools universe base">
@@ -251,22 +227,19 @@
 					<h2><small>edita</small></h2>
 					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image anm-moveFromTopFade"><img src="http://codi.comunistes.cat/logo/logocomunistes-base-negative.png" alt="Comunistes de Catalunya"></a>
 					<p class="lead">Comunistes de Catalunya</p>
-					<p>
-
-					</p>
 			</div>
 		</section>
 				
 		<footer id="terms-footer" class="universe flat black">
 			<div class="content">
 				<p>
-					<span class="license symbol-copyright"> 2015 <a href="http://comunistes.cat" title="www.comunistes.cat">Comunistes de Catalunya</a></span> | 
-					<span class="symbol-recycle2"><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">(By-nc-sa)</a> </span> |
-					<span class="symbol-chess-black-rook"><adress>carrer Liuva, 39-45, Barcelona</adress> | <span class="symbol-blackphone"><a href="tel:+34933184282" title=""Truca'ns">(0034) 93 318 42 82</a></span>  | 
-					<span class="email symbol-email"><a href="mailto:info@realitat.cat" title="Escriu-nos">info@realitat.cat</a></span> |
-					<span class="symbol-registered">Dipòsit legal: B-46492-88</span> |
-					<span class="legal symbol-justice"><a href="http://codi.realitat.cat/avislegal/" title="Informació legal">Avís legal</a></span> |
-					<span class="legal symbol-gear"><a href="http://codi.realitat.cat/codicomunistes/" title="Informació legal">Codi font</a></span>  |
+					<span class="license symbol-copyright"> 2015 <a href="http://comunistes.cat" title="www.comunistes.cat">Comunistes de Catalunya</a></span> 
+					<span class="symbol-recycle2"><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">(By-nc-sa)</a> </span> 
+					<span class="symbol-chess-black-rook"><adress><a href="https://www.google.es/maps/place/Carrer+de+Liuva,+39,+08030+Barcelona/@41.431129,2.1898449,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4bcda8f9c3317:0x2023f150cbd667ba!8m2!3d41.431129!4d2.1920336" title="Plànol">carrer Liuva, 39-45, Barcelona</a></adress> | <span class="symbol-blackphone"><a href="tel:+34933184282" title=""Truca'ns">(0034) 93 318 42 82</a></span>  
+					<span class="email symbol-email"><a href="mailto:info@realitat.cat" title="Escriu-nos">info@realitat.cat</a></span> 
+					<span class="symbol-registered"> Dipòsit legal: B-46492-88</span> 
+					<span class="legal symbol-justice"><a href="http://codi.realitat.cat/avislegal/" title="Informació legal">Avís legal</a></span> 
+					<span class="legal symbol-gear"><a href="http://codi.realitat.cat/codicomunistes/" title="Informació legal">Codi font</a></span>  
 				</p>
 				<hr>
 			</div>
