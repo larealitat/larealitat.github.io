@@ -27,23 +27,16 @@
 		<!-- Site Feed -->
 		<link rel="alternate" type="application/rss+xml" title="rss" href="{{ site.baseurl }}/feed.xml">
 		<!-- Page Icons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/src/ics/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/src/ics/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/src/ics/favicon-16x16.png">
+		<link rel="manifest" href="{{ site.baseurl }}/src/ics/manifest.json">
+		<link rel="mask-icon" href="{{ site.baseurl }}/src/ics/safari-pinned-tab.svg" color="#dd0000">
 		<link rel="shortcut icon" href="{{ site.baseurl }}/src/ics/favicon.ico">
-		<link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/src/ics/apple-touch-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/src/ics/apple-touch-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/src/ics/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/src/ics/apple-touch-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/src/ics/apple-touch-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/src/ics/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/src/ics/apple-touch-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/src/ics/apple-touch-icon-152x152.png">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/src/ics/favicon-196x196.png" sizes="196x196">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/src/ics/favicon-160x160.png" sizes="160x160">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/src/ics/favicon-96x96.png" sizes="96x96">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/src/ics/favicon-16x16.png" sizes="16x16">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/src/ics/favicon-32x32.png" sizes="32x32">
-		<meta name="msapplication-TileColor" content="#dddddd">
-		<meta name="msapplication-TileImage" content="{{ site.baseurl }}/src/ics/mstile-144x144.png">
+		<meta name="apple-mobile-web-app-title" content="realitat*">
+		<meta name="application-name" content="realitat*">
 		<meta name="msapplication-config" content="{{ site.baseurl }}/src/ics/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
   
@@ -54,13 +47,9 @@
 				<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
 				<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
 				<div id="nav-collapse" class="togglecollapsed">
-					<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
-					<span class="closed">
-					<a href="http://pdf.realitat.cat" title="Versió impresa de la realitat* en PDF">Versió impresa</a>
-					<a href="http://codi.realitat.cat/columnes.html" title="Columnes de la realitat*">Columnes</a>
-					<a href="http://codi.realitat.cat/info.html" title="Informació sobre la realitat*">Info</a>
-					<a href="http://codi.realitat.cat/subscripcio.html" title="Subscripció a la realitat*">Subscripció</a>
-					</span>
+					<a href="<$BlogUrl$>" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
+					<a href="http://miquelangelsoria.realitat.cat" title="Columna literària de Miquel Àngel Soria">Les Arrels</a>
+					<a href="http://alfonsalesquerra.realitat.cat" title="Columna cultural amb classe">Al fons a l'esquerra</a>
 					<form class="form-search" action="http://www.google.com/cse"> 
 						<input type="hidden" name="cx" value="007620493827235173837:p9bytcfv9gu"> 
 						<input type="text" name="q" class="terms squared" placeholder="cerca"> 
@@ -72,28 +61,52 @@
 		
 		{{ content }}
 			
-		<section id="site-quote" class="flat grey">
+		<section id="site-map" class="shallow soft-grey">
 			<div class="content universe">
-				<h2><a href="http://www.realitat.cat" title="www.realitat.cat">www.realitat.cat</a></h2>
-				<div class="cell-6 pushed-3">
-					<blockquote class="book-quote">
-						<p>Les coses són senceres allò que aparenten, i darrera d'elles... no hi ha res.</p>
-						<cite>Jean-Paul Sartre</cite>
-					</blockquote>
-				</div>
+				<hr>
+				<blockquote class="book-quote l">
+					<p>Les coses són senceres allò que aparenten, i darrera d'elles... no hi ha res.</p>
+					<cite>Jean-Paul Sartre</cite>
+				</blockquote>
 				<hr class="no-margin">
 			</div>
 		</section>
 		
+		<section id="site-map" class="flat grey">
+			<div class="content universe">
+				<h2><a href="http://realitat.cat" title="www.realitat.cat">realitat<span class="unify red">*</span></a></h2>
+					<p class="lead">donar a l'esperança fonament científic</p>
+					<ul class="list-unlisted">
+						<li><a href="http://bloc.realitat.cat" title="Bloc de la realitat*">Bloc</a></li>
+						<li><a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions</a></li>
+						<li><a href="http://lesarrels.realitat.cat" title="la Columna de Miquel Àngel Soria a la realitat*">les Arrels</a></li>
+						<li><a href="http://alfonsalesquerra.realitat.cat" title="la Columna de Cultura amb classe a la realitat*">Al fons a l'esquerra</a></li>
+					</ul>
+				<hr class="no-margin">
+			</div>
+		</section>
+		
+		<section id="site-author" class="flat hard-grey">
+			<div class="content universe">
+					<h2><small>edita</small></h2>
+					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image anm-moveFromTopFade"><img src="http://codi.comunistes.cat/logo/logocomunistes-base-negative.png" alt="Comunistes de Catalunya"></a>
+					<p class="lead">Comunistes de Catalunya</p>
+			</div>
+		</section>
+				
 		<footer id="terms-footer" class="universe flat black">
 			<div class="content">
-				<span class="license symbol-copyright"> 2015 <a href="http://comunistes.cat" title="www.comunistes.cat">Comunistes de Catalunya</a> <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">(By-nc-sa)</a> </span>  
-				<span class="email symbol-email"><a href="mailto:info@realitat.cat" title="Escriu">info@realitat.cat</a></span> 
-				<span class="legal symbol-justice"><a href="http://codi.realitat.cat/avislegal/" title="Informació legal">Avís legal</a></span> 
-				<span class="legal symbol-gear"><a href="http://codi.realitat.cat/codicomunistes/" title="Informació legal">Codi font</a></span> 
+				<p>
+					<span class="license symbol-copyright"> 2015 <a href="http://comunistes.cat" title="www.comunistes.cat">Comunistes de Catalunya</a></span> 
+					<span class="symbol-recycle2"><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">(By-nc-sa)</a> </span> 
+					<span class="symbol-chess-black-rook"><adress><a href="https://www.google.es/maps/place/Carrer+de+Liuva,+39,+08030+Barcelona/@41.431129,2.1898449,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4bcda8f9c3317:0x2023f150cbd667ba!8m2!3d41.431129!4d2.1920336" title="Plànol">carrer Liuva, 39-45, Barcelona</a></adress> | <span class="symbol-blackphone"><a href="tel:+34933184282" title=""Truca'ns">(0034) 93 318 42 82</a></span>  
+					<span class="email symbol-email"><a href="mailto:info@realitat.cat" title="Escriu-nos">info@realitat.cat</a></span> 
+					<span class="symbol-registered"> Dipòsit legal: B-46492-88</span> 
+					<span class="legal symbol-justice"><a href="http://codi.realitat.cat/avislegal/" title="Informació legal">Avís legal</a></span> 
+					<span class="legal symbol-gear"><a href="http://codi.realitat.cat/codicomunistes/" title="Informació legal">Codi font</a></span>  
+				</p>
 				<hr>
 			</div>
-			<div class="white-space"></div>
 		</footer>
 
 		</div><!-- /#page -->
