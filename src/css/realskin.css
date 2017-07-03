@@ -90,7 +90,7 @@ nav:not(.pagination) {
 }
 .news article div img,
 .articles article div img {
-	background: url('view-source:http://codi.realitat.cat/src/ics/apple-touch-icon.gif') no-repeat center;
+	background: url('view-source:http://codi.realitat.cat/src/ics/realitat-loader.gif') no-repeat center;
 	height: 12em;
 	margin: 0;
 	pointer-events: none;
