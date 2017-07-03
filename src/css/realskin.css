@@ -75,7 +75,7 @@ nav:not(.pagination) {
 	font-weight: 500;
 	margin: 0;
 }
-.articles article h3 a:hover {
+.articles article h3:hover {
 	text-decoration: underline;
 }
 .articles article h6 {
