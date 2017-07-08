@@ -121,8 +121,11 @@ nav:not(.pagination) {
 	margin: 0 -10%;
 	min-width: 120%;
 }
-.bot-post h3{
+.bot-post h3 {
 	padding: 0px;
+}
+.bot-post h3 a {
+	color: #111;
 }
 .bot-post blockquote {
 	display: none;
