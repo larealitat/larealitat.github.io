@@ -121,6 +121,20 @@ nav:not(.pagination) {
 	margin: 0 -10%;
 	min-width: 120%;
 }
+.bot-post h3{
+	padding: 0px;
+}
+.bot-post blockquote {
+	display: none;
+	margin: 0;
+	visibility: hidden;
+}
+.bot-post .panel-inside {
+	border: thin solid #ddd;
+}
+.bot-post .button {
+	display: block;
+}
 @media (max-width: 768px) {
 	.article-content img {
 		margin: 0;
