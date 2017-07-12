@@ -57,17 +57,17 @@ nav:not(.pagination) {
 	border-bottom: 1px solid #ccc;
 }
 .news article,
-.articles article,
+.gallery article,
 .sections {
 	background: #fff;
 	border: 1px solid #ccc !important;
 	margin-bottom: 1em;
 }
 .news article header,
-.articles article header {
+.gallery article header {
 	padding: .25em .25em 0;
 }
-.articles article h3 {
+.gallery article h3 {
 	height: 4em;
 	overflow: hidden;
 	text-overflow: truncate;
@@ -75,15 +75,15 @@ nav:not(.pagination) {
 	font-weight: 500;
 	margin: 0;
 }
-.articles article h3:hover {
+.gallery article h3:hover {
 	text-decoration: underline;
 }
-.articles article h6 {
+.gallery article h6 {
 	color: #666;
 	font-size: .8em;
 	margin: 0 0 .5em
 }
-.articles article div {
+.gallery article div {
 	border-bottom: 1px solid #ddd;
 	max-height: 12em;
 	margin: 0 0 -1.6em;
@@ -91,20 +91,14 @@ nav:not(.pagination) {
 	padding: .25em .25em .75em;
 	width: 100%;
 }
-.news article div img,
-.articles article div img {
+.gallery article div img {
 	height: 12em;
 	margin: 0;
 	pointer-events: none;
 	width: 100%;
 	object-fit: cover;
 }
-.news article div img,
-.articles article div img,
-.article-content img {
-	background: url('http://codi.realitat.cat/src/ics/realitat-loader.gif') no-repeat center;
-}
-.articles article .button-icon {
+.gallery article .button-icon {
 	font-weight: bold;
 }
 .article-title  {
@@ -121,28 +115,13 @@ nav:not(.pagination) {
 	margin: 0 -10%;
 	min-width: 120%;
 }
-.bot-post h3 {
-	padding: 0px;
-}
-.bot-post h3 a {
-	color: #111;
-}
-.bot-post blockquote {
-	display: none;
-	margin: 0;
-	visibility: hidden;
-}
-.bot-post .panel-inside {
-	border: thin solid #ddd;
-}
-.bot-post .button {
-	display: block;
-}
-@media (max-width: 768px) {
-	.article-content img {
-		margin: 0;
-		min-width: 100%;
-	}
+
+7* Background images */
+
+.news article div img,
+.gallery article div img,
+.article-content img {
+	background: url('http://codi.realitat.cat/src/ics/realitat-loader.gif') no-repeat center;
 }
 
 /* Blogger labels */
