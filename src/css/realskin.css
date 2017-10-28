@@ -164,7 +164,8 @@ nav:not(.pagination) {
 .twitter-panel {
 	background-color: #ddd;
 	border: 1px solid #ccc;
-	padding: 4px;
+	margin: 2px;
+	padding: 2px;
 }
 .twitter-timeline {
 	display: block;
