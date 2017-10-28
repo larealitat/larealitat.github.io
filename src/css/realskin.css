@@ -162,8 +162,10 @@ nav:not(.pagination) {
 /* Twitter timeline */
 
 .twitter-timeline {
+	border: 1px solid #ddd;
 	display: block;
 	margin: 0 auto;
+	padding: 4px;
 }
 
 /* Prev/next */
