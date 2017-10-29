@@ -173,6 +173,9 @@ nav:not(.pagination) {
 	display: block;
 	margin: 0 auto;
 }
+.tw-tools {
+	padding: 6px;
+}
 
 /* Prev/next */
 
