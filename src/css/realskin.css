@@ -94,7 +94,8 @@ nav:not(.pagination) {
 	padding: .25em .25em .75em;
 	width: 100%;
 }
-.gallery article div img {
+.gallery article div img,
+.news article div img {
 	height: 12em;
 	margin: 0;
 	pointer-events: none;
@@ -119,7 +120,7 @@ nav:not(.pagination) {
 	min-width: 120%;
 }
 
-7* Background images */
+/* Background images */
 
 .news article div img,
 .gallery article div img,
