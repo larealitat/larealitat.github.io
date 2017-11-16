@@ -61,7 +61,7 @@ nav:not(.pagination) {
 .news {
 	padding: 0 1em;
 }
-.mosaic article {
+.starred article {
 	width: 47.9999999999%;
 }
 .gallery article > div,
