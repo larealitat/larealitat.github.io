@@ -90,7 +90,7 @@ nav:not(.pagination) {
 
 article {
 	background: #fff;
-	border: 1px solid #bbb;
+	border: 1px solid #bbb !important;
 	margin-bottom: 2.6em;
 	padding: 0;
 }
@@ -153,8 +153,7 @@ article header h6 {
 	-moz-hyphens: none;
 	hyphens: none;
 }
-.articles article .blogger-labels,
-.news article .blogger-labels {
+article .blogger-labels {
 	display: none;
 }
 
@@ -253,35 +252,30 @@ article header h6 {
 /* Colors */ 
 
 .blogger-labels a:hover,
-.articles article a.button-icon,
+article .button-icon,
 .pagination a:after {
 	background: #3AB16C;
 	border: thin solid #eee;
 	color: #fff !important;
 }
 .blogger-labels a,
-.articles article div a,
 .pagination a:hover:after,
 .pagination a:visited:hover:after,
-.news article div a,
-.articles article a.button-icon:hover,
+article .button-icon:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:hover:after {
 	background: #fff;
 	color: #3AB16C !important;
 	border-color: currentColor;
 }
-.articles article div a:last-of-type:visited,
-.articles article a.button-icon:visited,
+article .button-icon:visited,
 .blogger-labels a:visited:hover,
 .pagination a:visited:after {
 	background: #dd0000;
 	color: #fff !important;
 }
-.articles article div a:visited,
+article .button-icon:visited:hover,
 .article-content a:visited,
-.news article div a:visited,
 .pagination a:visited:hover:after,
-.articles article a.button-icon:visited:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
 	background: #fff;
 	color: #dd0000 !important;
