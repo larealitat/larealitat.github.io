@@ -64,11 +64,11 @@ nav:not(.pagination) {
 .sections {
 	background: #fff;
 	border: 1px solid #ccc !important;
-	margin-bottom: 1em;
+	margin-bottom: 1.6em;
 }
 .news article header,
 .gallery article header {
-	padding: .25em .25em 0;
+	padding: .5em .1em 0;
 }
 .gallery article h3 {
 	height: 4em;
@@ -86,21 +86,21 @@ nav:not(.pagination) {
 	font-size: .8em;
 	margin: 0 0 .5em
 }
-.gallery article div {
-	border-bottom: 1px solid #ddd;
-	max-height: 12em;
-	margin: 0 0 -1.6em;
+.gallery article > div {
+	font-weight: 200;
+	max-height: 8em;
+	margin: 0 0 -1.2em;
 	overflow: hidden;
-	padding: .25em .25em .75em;
 	width: 100%;
 }
 .gallery article div img,
 .news article div img {
-	height: 12em;
-	margin: 0;
+	height: 8em;
+	margin: 0 0 1em;
 	pointer-events: none;
 	width: 100%;
 	object-fit: cover;
+	object-position: top;
 }
 .gallery article .button-icon {
 	font-weight: bold;
