@@ -62,41 +62,42 @@ nav:not(.pagination) {
 	padding: 0 1em;
 }
 
-.gallery article > div {
+.gallery article > div,
+.news article > div {
 	font-weight: 200;
 	max-height: 12em;
-	margin: 0 0 -1.85em;
 	overflow: hidden;
 	width: 100%;
 }
+.gallery article > div,
+.news article > div {
+	margin: 0 0 -1.85em;
+}
 .gallery article div img,
 .news article div img {
+	display: block;
 	height: 12em;
 	pointer-events: none;
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
 }
-
+.news article div img {
+	height: 12em;
+}
 
 /* Article */
 
 article {
 	background: #fff;
-	border: 1px solid #ddd !important;
+	border: 1px solid #bbb;
 	margin-bottom: 2.6em;
-}
-article header,
-article header {
-	padding: .5em .1em 0;
+	padding: 0;
 }
 article header h3 {
 	height: 4em;
 	overflow: hidden;
-	text-overflow: truncate;
-	font-size: 1.5em;
-	font-weight: 500;
-	margin: 0;
+	font-weight: 600;
 }
 article header h3:hover {
 	text-decoration: underline;

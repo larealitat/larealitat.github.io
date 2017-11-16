@@ -64,7 +64,7 @@
 <MainOrArchivePage>
 		<header id="blog-header" class="anm-fadeIn delay-100">
 			<div class="content">
-				<a href="<$BlogUrl$>" title="Realitat" class="level-5"><img src="http://codi.realitat.cat/src/img/header-realitat-noticies.jpg" alt="realitat*"></a>
+				<a href="<$BlogUrl$>" title="Realitat" class="level-7"><img src="http://codi.realitat.cat/src/img/header-realitat-noticies.jpg" alt="realitat*"></a>
 				<h1 class="closed"><$BlogTitle$></h1>
 				<div class="button-centered absolute right top hidden-phone">
 					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled hover-white orange xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos amb RSS"> <b>RSS</b> </a> 
@@ -104,7 +104,7 @@
 		<main clas="anm-fadeIn delay-300">
 			<div class="content">
 				<div class="cell-6">
-					<h2 class="universe thin"><small>Notícies</small></h2>
+					<h2 class="universe"><small>Notícies</small></h2>
 					<div class="news">
 						<Blogger>
 							<article id="<$BlogItemNumber$>">
@@ -113,16 +113,17 @@
 									<h6><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></h6>
 								</header>
 								<div><$BlogItemBody$></div>
+								<div class="button-centered"><a class="button-icon s circled" href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>">+</a></div>
 							</article>
 						</Blogger>
 					</div>
 					<hr class="no-margin">
-					<h2 class="universe thin"><small>Més notícies</small></h2>
+					<h2 class="universe"><small>Més notícies</small></h2>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>
 				</div>
 				<div class="cell-6">
-					<h2 class="universe thin"><small>Articles</small></h2>
+					<h2 class="universe"><small>Articles</small></h2>
 					<div class="news" id="rss-feeds"></div>
 					<hr>
 				</div>
@@ -242,7 +243,7 @@
 		  {
 			limit: 10,
 			dateFormat: 'D [de] MMMM',
-			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}<br><a href="{url}">M&eacute;s informaci&oacute; &gt;&gt;</a></div></article>'
+			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}</div><div class="button-centered"><a class="button-icon s circled" href="{url}">+</a></div></article>'
 		  })
 		})
 	</script>
