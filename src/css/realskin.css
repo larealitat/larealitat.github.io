@@ -63,8 +63,8 @@ nav:not(.pagination) {
 .gallery article,
 .sections {
 	background: #fff;
-	border: 1px solid #ccc !important;
-	margin-bottom: 1.6em;
+	border: 1px solid #ddd !important;
+	margin-bottom: 2.6em;
 }
 .news article header,
 .gallery article header {
@@ -88,15 +88,14 @@ nav:not(.pagination) {
 }
 .gallery article > div {
 	font-weight: 200;
-	max-height: 8em;
-	margin: 0 0 -1.2em;
+	max-height: 10em;
+	margin: 0 0 -1.85em;
 	overflow: hidden;
 	width: 100%;
 }
 .gallery article div img,
 .news article div img {
-	height: 8em;
-	margin: 0 0 1em;
+	height: 10em;
 	pointer-events: none;
 	width: 100%;
 	object-fit: cover;
