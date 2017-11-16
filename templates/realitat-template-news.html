@@ -233,8 +233,18 @@
     <!-- Scripts
     ================================================== -->
 	<script src="http://codi.realitat.cat/src/js/ga-realitat.js" type="text/javascript"></script>
-	<script src="http://codi.realitat.cat/src/js/jquery.js"></script>
-	<script src="http://codi.realitat.cat/src/js/moment.min.js"></script>
-	<script src="http://codi.realitat.cat/src/js/jquery.rss.min.js"></script>
+	<script src="http://codi.realitat.cat/src/js/jquery.js" type="text/javascript"></script>
+	<script src="http://codi.realitat.cat/src/js/moment.min.js" type="text/javascript"></script>
+	<script src="http://codi.realitat.cat/src/js/jquery.rss.min.js" type="text/javascript"></script>
+	<script>
+		jQuery(function($) {
+		  $("#rss-feeds").rss("http://bloc.realitat.cat/feeds/posts/default",
+		  {
+			limit: 10,
+			dateFormat: 'D [de] MMMM',
+			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}<br><a href="{url}">M&eacute;s informaci&oacute; &gt;&gt;</a></div></article>'
+		  })
+		})
+	</script>
   </body>
 </html>

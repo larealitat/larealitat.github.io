@@ -17,7 +17,6 @@
 #site-nav {
 	z-index: 20;
 }
-
 @media (max-width: 768px) {
 	#article-header h1 {
 		padding: 1em;
@@ -33,7 +32,7 @@
 	}
 }
 
-/* Menu */
+/* Formsearch */
 
 .form-search {
 	text-align: center;
@@ -51,8 +50,8 @@
 	display: inline;
 }
 
-/* Blog */
 
+/* News and gallery */
 
 header,
 nav:not(.pagination) {
@@ -62,33 +61,7 @@ nav:not(.pagination) {
 .news {
 	padding: 0 1em;
 }
-.news article,
-.gallery article,
-.sections {
-	background: #fff;
-	border: 1px solid #ddd !important;
-	margin-bottom: 2.6em;
-}
-.news article header,
-.gallery article header {
-	padding: .5em .1em 0;
-}
-.gallery article h3 {
-	height: 4em;
-	overflow: hidden;
-	text-overflow: truncate;
-	font-size: 1.5em;
-	font-weight: 500;
-	margin: 0;
-}
-.gallery article h3:hover {
-	text-decoration: underline;
-}
-.gallery article h6 {
-	color: #666;
-	font-size: .8em;
-	margin: 0 0 .5em
-}
+
 .gallery article > div {
 	font-weight: 200;
 	max-height: 12em;
@@ -104,9 +77,38 @@ nav:not(.pagination) {
 	object-fit: cover;
 	object-position: center;
 }
-.gallery article .button-icon {
-	font-weight: bold;
+
+
+/* Article */
+
+article {
+	background: #fff;
+	border: 1px solid #ddd !important;
+	margin-bottom: 2.6em;
 }
+article header,
+article header {
+	padding: .5em .1em 0;
+}
+article header h3 {
+	height: 4em;
+	overflow: hidden;
+	text-overflow: truncate;
+	font-size: 1.5em;
+	font-weight: 500;
+	margin: 0;
+}
+article header h3:hover {
+	text-decoration: underline;
+}
+article header h6 {
+	color: #666;
+	font-size: .8em;
+	margin: 0 0 .5em
+}
+
+/* Article page */
+
 .article-title  {
 	font-weight: 600;
 	padding-top: 1em;
@@ -122,13 +124,6 @@ nav:not(.pagination) {
 	min-width: 120%;
 }
 
-/* Background images */
-
-.news article div img,
-.gallery article div img,
-.article-content img {
-	background: url('http://codi.realitat.cat/src/ics/realitat-loader.gif') no-repeat center;
-}
 
 /* Blogger labels */
 
