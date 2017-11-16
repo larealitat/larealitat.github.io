@@ -59,6 +59,9 @@ nav:not(.pagination) {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
+.news {
+	padding: 0 1em;
+}
 .news article,
 .gallery article,
 .sections {
