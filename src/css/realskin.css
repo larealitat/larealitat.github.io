@@ -58,34 +58,37 @@ nav:not(.pagination) {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
-.news {
+.news,
+.thumbnails {
 	padding: 0 1em;
 }
-.starred article {
+.thumbnails article {
+	float: left;
+	margin: 0 1% 2.5em;
 	width: 47.9999999999%;
 }
 .gallery article > div,
-.news article > div {
+.news article > div,
+.thumbnails article > div {
 	font-weight: 200;
 	max-height: 12em;
 	overflow: hidden;
 	width: 100%;
 }
 .gallery article > div,
-.news article > div {
+.news article > div,
+.thumbnails article > div {
 	margin: 0 0 -1.85em;
 }
 .gallery article div img,
-.news article div img {
+.news article div img,
+.thumbnails article div img {
 	display: block;
 	height: 12em;
 	pointer-events: none;
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
-}
-.news article div img {
-	height: 12em;
 }
 
 /* Article */
@@ -255,35 +258,32 @@ article header h6 {
 /* Colors */ 
 
 .blogger-labels a:hover,
-.articles article a.button-icon,
+article a.button-icon,
 .pagination a:after {
 	background: #3AB16C;
 	border: thin solid #eee;
 	color: #fff !important;
 }
 .blogger-labels a,
-.articles article div a,
+article div a,
 .pagination a:hover:after,
 .pagination a:visited:hover:after,
-.news article div a,
-.articles article a.button-icon:hover,
+article a.button-icon:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:hover:after {
 	background: #fff;
 	color: #3AB16C !important;
 	border-color: currentColor;
 }
-.articles article div a:last-of-type:visited,
-.articles article a.button-icon:visited,
+article a.button-icon:visited,
 .blogger-labels a:visited:hover,
 .pagination a:visited:after {
 	background: #dd0000;
 	color: #fff !important;
 }
-.articles article div a:visited,
 .article-content a:visited,
-.news article div a:visited,
+article div a:visited,
 .pagination a:visited:hover:after,
-.articles article a.button-icon:visited:hover,
+article a.button-icon:visited:hover,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
 	background: #fff;
 	color: #dd0000 !important;
