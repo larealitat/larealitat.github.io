@@ -112,6 +112,11 @@ article header h6 {
 	font-size: .8em;
 	margin: 0 0 .5em
 }
+@media (max-width: 1200px) {
+	article header h3 {
+		font-size: 1em;
+	}
+}
 
 /* Article page */
 
