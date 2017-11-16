@@ -90,6 +90,15 @@ nav:not(.pagination) {
 	object-fit: cover;
 	object-position: center;
 }
+@media (max-width: 1200px) {
+	.thumbnails article {
+		
+	}
+	.thumbnails article div,
+	.thumbnails article div img {
+		height: 3.8em;
+	}
+}
 
 /* Article */
 
@@ -319,3 +328,5 @@ article a.button-icon:visited:hover,
 	background: #3AB16C;
 	color: #ffffff !important;
 }
+
+/* The End */
