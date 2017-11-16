@@ -109,6 +109,7 @@ article {
 	padding: 0;
 }
 article header h3 {
+	font-size: 1.4em;
 	height: 4em;
 	overflow: hidden;
 	font-weight: 600;
