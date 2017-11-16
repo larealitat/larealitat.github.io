@@ -104,8 +104,8 @@
 		<main clas="anm-fadeIn delay-300">
 			<div class="content">
 				<div class="cell-6">
-					<h2 class="universe thin"><small>Versió en proves</small></h2>
-					<div class="news anm-fadeIn delay-500">
+					<h2 class="universe thin"><small>Notícies</small></h2>
+					<div class="news">
 						<Blogger>
 							<article id="<$BlogItemNumber$>">
 								<header>
@@ -123,15 +123,9 @@
 				</div>
 				<div class="cell-6">
 					<h2 class="universe thin"><small>Articles</small></h2>
-					<section class="panel sections anm-fadeIn delay-1500">
-						<script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="8098/"></script> 
-						<hr>
-					</section>
-					<h2 class="universe thin"><small>les Arrels</small></h2>
-					<section class="panel sections anm-fadeIn delay-1500">
-						<script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="8642/"></script>
-						<hr>
-					</section>
+					<div class="news">
+						<div id="rss-feeds"></div>
+					</div>
 				</div>
 				<hr>
 			</div>
@@ -240,5 +234,8 @@
     <!-- Scripts
     ================================================== -->
 	<script src="http://codi.realitat.cat/src/js/ga-realitat.js" type="text/javascript"></script>
+	<script src="http://codi.realitat.cat/src/js/jquery.js"></script>
+	<script src="http://codi.realitat.cat/src/js/moment.min.js"></script>
+	<script src="http://codi.realitat.cat/src/js/jquery.rss.min.js"></script>
   </body>
 </html>
