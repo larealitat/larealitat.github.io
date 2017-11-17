@@ -273,7 +273,7 @@ article header h6 {
 /* Colors */ 
 
 .blogger-labels a:hover,
-article a.button-icon,
+article a.button-icon:hover,
 .pagination a:after {
 	background: #3AB16C;
 	border: thin solid #eee;
@@ -283,13 +283,13 @@ article a.button-icon,
 article div a,
 .pagination a:hover:after,
 .pagination a:visited:hover:after,
-article a.button-icon:hover,
+article a.button-icon,
 .prev-next .blog-paging-control-container .blog-paging-control:hover:after {
 	background: #fff;
 	color: #3AB16C !important;
 	border-color: currentColor;
 }
-article a.button-icon:visited,
+article a.button-icon:visited:hover,
 .blogger-labels a:visited:hover,
 .pagination a:visited:after {
 	background: #dd0000;
@@ -298,7 +298,7 @@ article a.button-icon:visited,
 .article-content a:visited,
 article div a:visited,
 .pagination a:visited:hover:after,
-article a.button-icon:visited:hover,
+article a.button-icon:visited,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
 	background: #fff;
 	color: #dd0000 !important;
