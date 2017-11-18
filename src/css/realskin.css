@@ -315,7 +315,7 @@ article a.button-icon,
 .prev-next .blog-paging-control-container .blog-paging-control:hover:after {
 	background: #fff;
 	color: #3AB16C !important;
-	border-color: currentColor;
+	border-color: currentColor !important;
 }
 article a.button-icon:visited:hover,
 .blogger-labels a:visited:hover,
@@ -330,7 +330,7 @@ article a.button-icon:visited,
 .prev-next .blog-paging-control-container .blog-paging-control:visited:hover:after {
 	background: #fff;
 	color: #dd0000 !important;
-	border-color: currentColor;
+	border-color: currentColor !important;
 }
 
 /* Cookies info */
