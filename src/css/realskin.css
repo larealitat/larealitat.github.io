@@ -2,7 +2,8 @@
 
 /* header */
 
-#blog-header {
+#blog-header,
+#article-header {
 	border: none;
 	padding: 0;
 }
