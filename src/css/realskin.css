@@ -78,6 +78,7 @@ nav:not(.pagination) {
 .thumbnails {
 	padding: 0 1em;
 }
+.archive article:hover,
 .gallery article:hover,
 .news article:hover,
 .thumbnails article:hover {
@@ -87,6 +88,9 @@ nav:not(.pagination) {
 	float: left;
 	margin: 0 1% 2.5em;
 	width: 47.9999999999%;
+}
+.archive article {
+	margin: 0 .5em 2em;
 }
 .gallery article > div,
 .news article > div,
