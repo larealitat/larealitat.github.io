@@ -21,13 +21,14 @@
 }
 #article-nav strong {
 	display: inline-block;
+	font-weight: 200;
 	margin: 0 0 -.5em;
 	height: 1.6em;
 	overflow: hidden;
 	text-transform: none;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	max-width: 480px;
+	max-width: 460px;
 }
 @media (max-width: 768px) {
 	#article-header h1 {
