@@ -215,7 +215,8 @@ article div img {
 	color: #333;
 	margin: 5px;
 }
-.twitter-timeline {
+.twitter-timeline,
+.twitter-tweet {
 	display: block;
 	margin: 0 auto;
 }
