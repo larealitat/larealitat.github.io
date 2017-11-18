@@ -19,10 +19,23 @@
 #site-nav {
 	border: none;
 }
+#article-nav strong {
+	display: inline-block;
+	margin: 0 0 -.5em;
+	height: 1.6em;
+	overflow: hidden;
+	text-transform: none;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 480px;
+}
 @media (max-width: 768px) {
 	#article-header h1 {
 		padding: 1em;
 	}
+	#article-nav {
+		display: none;
+	} 
 }
 
 @media (max-width: 481px) {
