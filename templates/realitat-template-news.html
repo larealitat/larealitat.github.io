@@ -132,6 +132,15 @@
 					<h2 class="title universe"><small><a href="http://alfonsalesquerra.realitat.cat" title="La columna de cultura amb classe de la realitat*">al Fons a l'Esquerra: cultura amb classe</a></small></h2>
 					<div class="thumbnails" id="rss-alfonsalesquerra"></div>
 					<hr>
+					<h2 class="title universe"><small>Arxiu</small></h2>
+					<ul class="list-group level-15 scrollable">
+						<script type="text/javascript"> 								
+							var archives = new Array(); 
+							<BloggerArchives> archives[archives.length] = new Array('<$BlogArchiveURL$>', '<$BlogArchiveName$>');</BloggerArchives> 									
+							for (var i=archives.length-1;i>=0;i--) 
+							{ document.write('<li><a href=\"' + archives[i][0] + '\">' + archives[i][1] + '</a></li>'); } 
+						</script>
+					</ul>
 				</div>
 				<hr>
 			</div>
@@ -215,7 +224,7 @@
 		<a class="absolute top left button-icon xs circled unify visible-phone" href="<$BlogUrl$>" title="<$BlogTitle$>"><img src="http://codi.realitat.cat/src/ics/favicon-32x32.png" alt="realitat"></a>		
 		<header id="article-header" class="universe anm-fadeIn">
 			<div class="content">
-				<div class="prev-next"><$BlogPaginationLinks$></div>
+				<div class="prev-next anm-fadeIn delay-3000"><$BlogPaginationLinks$></div>
 				<Blogger>
 					<h1 class="article-title"><$BlogItemTitle$></h1>
 					<h6 class="article-date"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
@@ -229,9 +238,9 @@
 				<strong><Blogger><$BlogItemTitle$></Blogger></strong>
 			</div>
 		</nav>
-		<main class="anm-rotatePullTop delay-2000">
+		<main class="anm-rotatePullTop delay-1500">
 			<div class="content">
-				<div class="cell-3 sticky-2 hidden-phone universe anm-fadeIn slow delay-1000">
+				<div class="cell-3 sticky-2 hidden-phone universe anm-scaleUpDown delay-3000">
 					<h2 class="thin"><small>Segueix-nos</small></h2>
 					<div class="button-centered s">
 						<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled hover-white orange" target="blank" title="<$BlogTitle$> amb RSS"> RSS </a> <br>
@@ -253,17 +262,17 @@
 					<h2 class="universe thin"><small>Més articles</small></h2>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>
-					<aside class="aside-tools universe base">
+					<div class="universe">
 						<h2 class="thin"><small>Anteriors</small></h2>
-						<nav><BloggerPreviousItems>
-							<ul>
+						<ul class="list-group level-15 scrollable">
+							<BloggerPreviousItems>
 								<li><a href="<$BlogItemPermalinkURL$>" title="<$BlogItemTitle$>"><$BlogPreviousItemTitle$></a></li>
-							</ul>
-						</BloggerPreviousItems></nav>
-					</aside>
+							</BloggerPreviousItems>
+						</ul>
+					</div>
 					<hr>
 				</div>
-				<div class="cell-3 sticky-2 anm-fadeIn slow delay-1000">
+				<div class="cell-3 sticky-2 anm-scaleUpDown delay-3000">
 					<h2 class="universe thin visible-phone"><small>Segueix-nos</small></h2>
 					<div class="button-centered visible-phone s">
 						<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled hover-white orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
@@ -293,7 +302,7 @@
 </ItemPage>
 
 		
-		<section id="site-map" class="">
+		<section id="site-map" class="anm-fadeIn delay-3000">
 			<div class="content universe">
 				<div class="cell-6 pushed-3"><a href="http://www.realitat.cat" title="Realitat"><img src="http://codi.realitat.cat/src/img/header-realitat-big.png" alt="realitat*"></a></div>
 				<hr class="no-margin">
@@ -321,7 +330,7 @@
 			</div>
 		</section>
 		
-		<section id="site-author" class="flat hard-grey">
+		<section id="site-author" class="flat hard-grey anm-fadeIn delay-3000">
 			<div class="content universe">
 					<h2><small>edita</small></h2>
 					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image anm-moveFromTopFade"><img src="http://codi.comunistes.cat/logo/logocomunistes-base-negative.png" alt="Comunistes de Catalunya"></a>
@@ -329,7 +338,7 @@
 			</div>
 		</section>
 				
-		<section id="site-map" class="flat black">
+		<section id="site-map" class="flat black anm-fadeIn delay-3000">
 			<div class="content universe">
 				<hr>
 				<blockquote class="book-quote l">
@@ -340,7 +349,7 @@
 			</div>
 		</section>
 		
-		<footer id="terms-footer" class="universe flat black">
+		<footer id="terms-footer" class="universe flat black anm-fadeIn delay-3000">
 			<div class="content">
 				<p>
 					<span class="license symbol-copyright"> 2015 <a href="http://comunistes.cat" title="www.comunistes.cat">Comunistes de Catalunya</a></span> 

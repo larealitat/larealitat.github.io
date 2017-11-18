@@ -241,6 +241,16 @@ article div img {
 	padding: 6px;
 }
 
+/* List group */
+
+.list-group a {
+	height: 3em;
+	line-height: 3em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
 /* Prev/next */
 
 .prev-next,
