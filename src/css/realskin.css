@@ -365,6 +365,20 @@ article a.button-icon:visited:hover,
 	background: #dd0000;
 	color: #fff !important;
 }
+article a.button-icon:focus,
+.blogger-labels a:focus,
+.pagination a:focus {
+	background: #ffffff !important;
+	color: #3AB16C !important;
+	outline: 0;
+}
+article a.button-icon:visited:focus,
+.blogger-labels a:visited:focus,
+.pagination a:visited:focus {
+	background: #ffffff !important;
+	color: #dd0000 !important;
+	outline: 0;
+}
 
 /* Cookies info */
 
