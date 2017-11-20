@@ -1,46 +1,64 @@
 ---
 layout: default
 ---
-
-		<header class="universe">
-			<div class="content">
-				<div class="cell-6 pushed-3"><a href="<$BlogUrl$>" title="Realitat"><img src="http://codi.realitat.cat/src/img/header-realitat-big.png" alt="realitat*"></a></div>
-				<hr class="no-margin">
-				<h1 class="closed">realitat<b class="unify red">*</b></h1>
-				<p class="lead closed">donar a l'esperança fonament científic</p>
-				<div class="button-centered absolute bottom">
-					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled hover-white orange xs" target="blank" title="Segueix-nos amb RSS"> <b>RSS</b> </a> 
-					<a href="http://www.twitter.com/larealitat" class="button-icon circled hover-white soft-blue xs" target="blank" title="Segueix-nos a Twitter"> <b>Tw</b> </a>
-					<a href="http://www.facebook.com/larealitat" class="button-icon circled hover-white blue xs" target="blank" title="Segueix-nos a Facebook"> <b>Fb</b> </a>
-					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled hover-white red xs" target="blank" title="Segueix-nos a Google +"> <b>G+</b> </a>
-					<a href="https://github.com/ComunistesdeCatalunya" class="button-icon circled hover-white violet xs" title="Comunistes de Catalunya a Github"> <b>Git</b> </a>
+		
+		<header id="blog-header" class="anm-fadeIn">
+			<div class="content universe">
+				<a href="<$BlogUrl$>" title="Realitat" class="level-7"><img src="http://codi.realitat.cat/src/img/header-realitat-noticies.jpg" alt="realitat*"></a>
+				<h1 class="closed">realitat*</h1>
+				<div class="button-centered xs anm-moveFromBottomFade delay-4000">
+					<a href="http://bloc.realitat.cat/feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> 
+					<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a> 
+					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
+					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
+					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
 				</div>
-				<div class="white-space"></div>
 			</div>
 		</header>
 		
-		<main>
+		<nav class="universe sticky anm-moveFromLeftFade delay-100 slow" id="page-nav">
+			<div class="content anm-fadeIn delay-2000">
+				<input class="toggletrigger" type="checkbox" id="mob-nav2" name="mob-nav2" aria-hidden="true" hidden>
+				<label for="mob-nav2" class="toggle">Tema <span class="caret"></span></label>
+				<div id="nav-collapse" class="togglecollapsed">
+					<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
+				</div>
+			</div>
+		</nav>
+		
+		<main clas="anm-fadeIn delay-1500">
 			<div class="content">
-				<div class="cell-10 pushed-1">
-					<h2 class="universe thin"><small>Articles</small></h2>
-					{% for post in site.posts %}
-							<article class="magazine">
-								<a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a>
-								<h3 class="article-title"><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
-								<div class="article-excerpt">{{ post.content | truncatewords:50}}</div>
-								<div class="button-centered"><a class="button-icon s article-button circled" href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">+</a></div>
+				<div class="cell-6 anm-fadeIn delay-2000">
+					<h2 class="universe"><small>Notícies</small></h2>
+					<div class="news">
+						{% for post in site.posts %}
+							<article>
+								<header>
+									<h3><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
+									<h6>{{ post.date }}</h6>
+								</header>
+								<div>{{ post.content | truncatewords:50}}</div>
+								<strong class="reverse"><a class="button-icon s circled" href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">+</a></strong>
 							</article>
 							<hr>
-					{% endfor %}
+						{% endfor %}
+					</div>
 					<hr>
-					<aside class="unify black">
-						<h2 class="universe thin"><small>Comparteix</small></h2>
-						<div class="button-centered s">
-							<a href="http://twitter.com/?status=http://codi.realitat.cat/" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a> 
-							<a href="http://www.facebook.com/sharer.php?u=http://codi.realitat.cat/&t={{ site.title }}" class="button-icon lines blue" title="Comparteix a Facebook">Fb</a> 
-							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://codi.realitat.cat/" class="button-icon lines red" title="Comparteix a Google +">G+</a>
-						</div>
-					</aside>
 				</div>
+				<div class="cell-6 anm-fadeIn delay-2000">
+					<h2 class="title universe"><small><a href="http://bloc.realitat.cat" title="Bloc de la realitat*">Darrers articles</a></small></h2>
+					<div class="thumbnails" id="rss-realitat"></div>
+					<hr>
+					<h2 class="title universe"><small><a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions en PDF</a></small></h2>
+					<div class="thumbnails" id="rss-publicacions"></div>
+					<hr>
+					<h2 class="title universe"><small><a href="http://miquelangelsoria.realitat.cat" title="La columna de Miquel Àngel Soria a la realitat*">les Arrels: la columna de Miquel Àngel Soria</a></small></h2>
+					<div class="thumbnails" id="rss-lesarrels"></div>
+					<hr>
+					<h2 class="title universe"><small><a href="http://alfonsalesquerra.realitat.cat" title="La columna de cultura amb classe de la realitat*">al Fons a l'Esquerra: cultura amb classe</a></small></h2>
+					<div class="thumbnails" id="rss-alfonsalesquerra"></div>
+					<hr>
+				</div>
+				<hr>
 			</div>
 		</main>

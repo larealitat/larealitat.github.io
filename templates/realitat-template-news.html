@@ -26,6 +26,7 @@
 		<meta name="twitter:description" content="#larealitat">
 		</Blogger>
 		</ItemPage>
+		<meta name="twitter:image" content="http://codi.realitat.cat/src/png/iconrealitat.jpg" />
 		<!-- Screen styles -->
 		<link href="http://codi.realitat.cat/src/css/styles.css" rel="stylesheet" media="screen">
 		<link href="http://codi.realitat.cat/src/css/anime.css" rel="stylesheet" media="screen">
@@ -83,12 +84,12 @@
 			<div class="content universe">
 				<a href="<$BlogUrl$>" title="Realitat" class="level-7"><img src="http://codi.realitat.cat/src/img/header-realitat-noticies.jpg" alt="realitat*"></a>
 				<h1 class="closed"><$BlogTitle$></h1>
-				<div class="button-centered anm-moveFromBottomFade delay-4000">
-					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat orange xs" target="blank" title="<$BlogTitle$> amb RSS"> <b>RSS</b> </a> 
-					<a href="https://t.me/larealitat" class="button-icon circled flat sky xs" target="blank" title="Segueix-nos a Telegram"> <b>Telegr</b> </a>
-					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue xs" target="blank" title="Segueix-nos a Twitter"> <b>Tw</b> </a>
-					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue xs" target="blank" title="Segueix-nos a Facebook"> <b>Fb</b> </a>
-					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red xs" target="blank" title="Segueix-nos a Google +"> <b>G+</b> </a>
+				<div class="button-centered xs anm-moveFromBottomFade delay-4000">
+					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> 
+					<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a> 
+					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
+					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
+					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
 				</div>
 			</div>
 		</header>
@@ -166,11 +167,11 @@
 				<a href="<$BlogUrl$>" title="Realitat" class="level-7"><img src="http://codi.realitat.cat/src/img/header-realitat-noticies.jpg" alt="realitat*"></a>
 				<h1 class="closed"><$BlogTitle$></h1>
 				<div class="button-centered anm-moveFromBottomFade delay-4000">
-					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat orange xs" target="blank" title="<$BlogTitle$> amb RSS"> <b>RSS</b> </a> 
-					<a href="https://t.me/larealitat" class="button-icon circled flat sky xs" target="blank" title="Segueix-nos a Telegram"> <b>Telegr</b> </a>
-					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue xs" target="blank" title="Segueix-nos a Twitter"> <b>Tw</b> </a>
-					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue xs" target="blank" title="Segueix-nos a Facebook"> <b>Fb</b> </a>
-					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red xs" target="blank" title="Segueix-nos a Google +"> <b>G+</b> </a>
+					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br>
+					<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a> <br>
+					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a><br>
+					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a><br>
+					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
 				</div>
 			</div>
 		</header>
@@ -274,6 +275,24 @@
 					</Blogger>
 					<h2 class="universe thin"><small>Més articles</small></h2>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
+					<hr>
+					<Blogger>
+						<BlogItemCommentsEnabled>
+						<aside id="comment-form">
+						   <h4 class="universe"><$BlogItemCommentCount$> Comentari(s):</h4>
+						   <BlogItemComments>
+								<a name="<$BlogCommentNumber$>"></a>
+								<div class="conversation-a">
+									<p><strong><$BlogCommentAuthor$> ha dit:</strong><br /><$BlogCommentBody$></p>
+									<p>at <a href="#<$BlogCommentNumber$>"><$BlogCommentDateTime$></a><$BlogCommentDeleteIcon$></p>
+								</div>
+								<hr />
+							</BlogItemComments>
+						   <div class="button-centered"><a class="button-icon flat green" title="Publica un comentari" href="<$BlogItemCommentCreate$>" <$BlogItemCommentFormOnClick$>+</a></div>
+						</aside>
+						<hr>
+						</BlogItemCommentsEnabled>
+					</Blogger>
 					<hr>
 					<div class="universe">
 						<h2 class="thin"><small>Anteriors</small></h2>

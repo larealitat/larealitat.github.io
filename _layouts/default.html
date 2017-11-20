@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="{{ site.description }}">
 		<meta name="keywords" content="{{ site.name }}">
-		<meta name="author" content="Redacció Realitat">
+		<meta name="author" content="{{ site.author }}">
 		<!-- Metadata: GeoTags -->
 		<meta name="geo.region" content="{{ site.region }}">
 		<meta name="geo.placename" content="{{ site.placename }}">
@@ -27,94 +27,36 @@
 		<!-- Site Feed -->
 		<link rel="alternate" type="application/rss+xml" title="rss" href="{{ site.baseurl }}/feed.xml">
 		<!-- Page Icons -->
-		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/src/ics/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/src/ics/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/src/ics/favicon-16x16.png">
-		<link rel="manifest" href="{{ site.baseurl }}/src/ics/manifest.json">
-		<link rel="mask-icon" href="{{ site.baseurl }}/src/ics/safari-pinned-tab.svg" color="#dd0000">
-		<link rel="shortcut icon" href="{{ site.baseurl }}/src/ics/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="http://codi.realitat.cat/src/ics/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="http://codi.realitat.cat/src/ics/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="http://codi.realitat.cat/src/ics/favicon-16x16.png">
+		<link rel="manifest" href="http://codi.realitat.cat/src/ics/manifest.json">
+		<link rel="mask-icon" href="http://codi.realitat.cat/src/ics/safari-pinned-tab.svg" color="#dd0000">
+		<link rel="shortcut icon" href="http://codi.realitat.cat/src/ics/favicon.ico">
 		<meta name="apple-mobile-web-app-title" content="realitat*">
 		<meta name="application-name" content="realitat*">
-		<meta name="msapplication-config" content="{{ site.baseurl }}/src/ics/browserconfig.xml">
+		<meta name="msapplication-config" content="http://codi.realitat.cat/src/ics/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
   
+  		<!-- /#page -->
 		<div class="page" id="page">
 		
-		<nav class="sticky">
-			<div class="content">
-				<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
-				<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
-				<div id="nav-collapse" class="togglecollapsed">
-					<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
-					<a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions</a>
-					<a href="http://miquelangelsoria.realitat.cat" title="Columna literària de Miquel Àngel Soria">Les Arrels</a>
-					<a href="http://alfonsalesquerra.realitat.cat" title="Columna cultural amb classe">Al fons a l'esquerra</a>
-					<form class="form-search" action="http://www.google.com/cse"> 
-						<input type="hidden" name="cx" value="007620493827235173837:p9bytcfv9gu"> 
-						<input type="text" name="q" class="terms squared" placeholder="cerca"> 
-						<input type="submit" name="sa" class="search" value="·"> 
-					</form>
-				</div>
-			</div>
-		</nav>
+		{% include nav.html %}
 		
 		{{ content }}
 			
-		<section id="site-map" class="shallow soft-grey">
-			<div class="content universe">
-				<hr>
-				<blockquote class="book-quote l">
-					<p>Les coses són senceres allò que aparenten, i darrera d'elles... no hi ha res.</p>
-					<cite>Jean-Paul Sartre</cite>
-				</blockquote>
-				<hr class="no-margin">
-			</div>
-		</section>
-		
-		<section id="site-map" class="flat grey">
-			<div class="content universe">
-				<h2><a href="http://realitat.cat" title="www.realitat.cat">realitat<span class="unify red">*</span></a></h2>
-					<p class="lead">donar a l'esperança fonament científic</p>
-					<ul class="list-unlisted">
-						<li><a href="http://bloc.realitat.cat" title="Bloc de la realitat*">Bloc</a></li>
-						<li><a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions</a></li>
-						<li><a href="http://lesarrels.realitat.cat" title="la Columna de Miquel Àngel Soria a la realitat*">les Arrels</a></li>
-						<li><a href="http://alfonsalesquerra.realitat.cat" title="la Columna de Cultura amb classe a la realitat*">Al fons a l'esquerra</a></li>
-					</ul>
-				<hr class="no-margin">
-			</div>
-		</section>
-		
-		<section id="site-author" class="flat hard-grey">
-			<div class="content universe">
-					<h2><small>edita</small></h2>
-					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image anm-moveFromTopFade"><img src="http://codi.comunistes.cat/logo/logocomunistes-base-negative.png" alt="Comunistes de Catalunya"></a>
-					<p class="lead">Comunistes de Catalunya</p>
-			</div>
-		</section>
-				
-		<footer id="terms-footer" class="universe flat black">
-			<div class="content">
-				<p>
-					<span class="license symbol-copyright"> 2015 <a href="http://comunistes.cat" title="www.comunistes.cat">Comunistes de Catalunya</a></span> 
-					<span class="symbol-recycle2"><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">(By-nc-sa)</a> </span> 
-					<span class="symbol-chess-black-rook"><adress><a href="https://www.google.es/maps/place/Carrer+de+Liuva,+39,+08030+Barcelona/@41.431129,2.1898449,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4bcda8f9c3317:0x2023f150cbd667ba!8m2!3d41.431129!4d2.1920336" title="Plànol">carrer Liuva, 39-45, Barcelona</a></adress> | <span class="symbol-blackphone"><a href="tel:+34933184282" title=""Truca'ns">(0034) 93 318 42 82</a></span>  
-					<span class="email symbol-email"><a href="mailto:info@realitat.cat" title="Escriu-nos">info@realitat.cat</a></span> 
-					<span class="symbol-registered"> Dipòsit legal: B-46492-88</span> 
-					<span class="legal symbol-justice"><a href="http://codi.realitat.cat/avislegal/" title="Informació legal">Avís legal</a></span> 
-					<span class="legal symbol-gear"><a href="http://codi.realitat.cat/codicomunistes/" title="Informació legal">Codi font</a></span>  
-				</p>
-				<hr>
-			</div>
-		</footer>
+		{% include footer.html %}
 
 		</div><!-- /#page -->
+		
+		{% include dialog.html %}
 
 		<!-- Scripts
 		================================================== -->
 		{% include analytics.html %}
+		{% include scripts.html %}
 		
 	</body>
 </html>

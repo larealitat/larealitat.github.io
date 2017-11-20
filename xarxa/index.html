@@ -41,16 +41,19 @@
 	<!-- Page content -->
 	<div class="page" id="page">
 	
-		<nav class="sticky anm-fadeIn">
+		<nav class="anm-fadeIn delay-1000" id="site-nav">
 			<div class="content">
 				<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
 				<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
 				<div id="nav-collapse" class="togglecollapsed">
-					<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
+					<a href="http://www.realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
+					<a href="http://bloc.realitat.cat" title="Bloc d'articles de la realitat*">Articles</a>
+					<a href="http://noticies.realitat.cat" title="Notícies de la realitat*">Notícies</a>
 					<a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions</a>
-					<a href="http://codi.realitat.cat/xarxa/" title="Xarxa de la realitat*"><b>Xarxa</b></a>
-					<a href="http://miquelangelsoria.realitat.cat" title="Columna literària de Miquel Àngel Soria">Les Arrels</a>
-					<a href="http://alfonsalesquerra.realitat.cat" title="Columna cultural amb classe">Al fons a l'esquerra</a>
+					<a href="http://miquelangelsoria.realitat.cat" title="La columna literària de Miquel Àngel Soria a la realitat*">Les Arrels</a>
+					<a href="http://alfonsalesquerra.realitat.cat" title="La columna cultural amb classe de la realitat*">Al fons a l'esquerra</a>
+					<a href="http://codi.realitat.cat/xarxa/" title="Xarxa de la realitat*"><b class="unify grey">Xarxa</b></a>
+					<a class="button-modal" href="#contact-forms" title="Ajuda'ns a conèixer i transformar la realitat*">Col·labora!</a>
 					<form class="form-search" action="http://www.google.com/cse"> 
 						<input type="hidden" name="cx" value="007620493827235173837:p9bytcfv9gu"> 
 						<input type="text" name="q" class="terms squared" placeholder="cerca"> 
@@ -60,27 +63,22 @@
 			</div>
 		</nav>
 
-		<header id="blog-header" class="anm-fadeIn delay-100">
-			<div class="content">
-				<div class="button-centered visible-phone">
-					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled hover-white orange xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos amb RSS"> <b>RSS</b> </a> 
-					<a href="http://www.twitter.com/larealitat" class="button-icon circled hover-white soft-blue xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos a Twitter"> <b>Tw</b> </a>
-					<a href="http://www.facebook.com/larealitat" class="button-icon circled hover-white blue xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos a Facebook"> <b>Fb</b> </a>
-					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled hover-white red xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos a Google +"> <b>G+</b> </a>
-				</div>
-				<a href="<$BlogUrl$>" title="Realitat" class="level-5"><img src="http://codi.realitat.cat/src/img/header-realitat-xarxa.png" alt="realitat*"></a>
-				<h1 class="closed">breus de la realitat*</h1>
-				<div class="button-centered absolute right top hidden-phone">
-					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled hover-white orange xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos amb RSS"> <b>RSS</b> </a> 
-					<a href="http://www.twitter.com/larealitat" class="button-icon circled hover-white soft-blue xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos a Twitter"> <b>Tw</b> </a>
-					<a href="http://www.facebook.com/larealitat" class="button-icon circled hover-white blue xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos a Facebook"> <b>Fb</b> </a>
-					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled hover-white red xs anm-moveFromRightFade delay-2000" target="blank" title="Segueix-nos a Google +"> <b>G+</b> </a>
+		<header id="blog-header" class="anm-fadeIn">
+			<div class="content universe">
+				<a href="<$BlogUrl$>" title="Realitat" class="level-7"><img src="http://codi.realitat.cat/src/img/header-realitat-xarxa.jpg" alt="xarxa de la realitat*"></a>
+				<h1 class="closed"><$BlogTitle$></h1>
+				<div class="button-centered xs anm-moveFromBottomFade delay-4000">
+					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> 
+					<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a> 
+					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
+					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
+					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
 				</div>
 			</div>
 		</header>
 
-		<nav class="sticky nav-inline">
-			<div class="content">
+		<nav class="nav-inline universe sticky anm-moveFromLeftFade delay-100 slow" id="page-nav">
+			<div class="content anm-fadeIn delay-2000">
 				<a class="idtrigger" href="index.html"><b>#larealitat</b></a>
 				<a class="idtrigger" href="organitzacions.html">Organitzacions</a>
 				<a class="idtrigger" href="persones.html">Persones</a>
@@ -91,7 +89,7 @@
 			</div>
 		</nav>
 		
-		<main clas="anm-fadeIn delay-300">
+		<main clas="anm-fadeIn delay-1500">
 			<div class="content">          
 				<div id="main-home">
 					<h2 class="title universe">Transformem #larealitat</h2>
@@ -119,7 +117,43 @@
 			</div>
 		</main>
 
-		<section id="site-map" class="flat black">
+		<section id="site-map" class="anm-fadeIn delay-3000">
+			<div class="content universe">
+				<div class="cell-6 pushed-3"><a href="http://www.realitat.cat" title="Realitat"><img src="http://codi.realitat.cat/src/img/header-realitat-big.png" alt="realitat*"></a></div>
+				<hr class="no-margin">
+				<ul class="list-unlisted">
+					<li><a href="http://www.realitat.cat" title="www.realitat.cat">www.realitat.cat</a></li>
+					<li><a href="http://bloc.realitat.cat" title="Bloc d'articles de la realitat*">Articles</a></li>
+					<li><a href="http://noticies.realitat.cat" title="Notícies de la realitat*">Notícies</a></li>
+					<li><a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions</a></li>
+					<li><a href="http://lesarrels.realitat.cat" title="les Arrels: la Columna literària de Miquel Àngel Soria a la realitat*">les Arrels</a></li>
+					<li><a href="http://alfonsalesquerra.realitat.cat" title="Al fons a l'esquerra: la Columna de Cultura amb classe a la realitat*">Al fons a l'esquerra</a></li>
+					<li><a href="http://codi.realitat.cat/xarxa/" title="Xarxa de la realitat*">Xarxa</a></li>
+					<li>
+						<i class="unify grey hidden-phone">@larealitat a:</i> 
+						<a href="http://www.twitter.com/larealitat" title="Perfil a Twitter de la realitat*">Twitter</a> | 
+						<a href="http://www.facebook.com/larealitat" title="Pàgina a Facebook de la realitat*">Facebook</a> | 
+						<a href="https://plus.google.com/115185630100620701614" title="Pàgina a Google + de la realitat*">Google +</a> | 
+						<a href="https://t.me/larealitat" title="Canal a Telegram de la realitat*">Telegram</a></li>
+					<li>
+						<i class="unify grey">Informa'ns:</i> 
+						<a href="https://goo.gl/forms/YeMlhwCIJxPgfF312" title="Formulari de Convocatòries">de Convocatòries</a> | 
+						<a href="https://goo.gl/forms/kteTkMpTzvrGNS3K3" title="Formulari de Notícies">de Notícies</a>
+					</li>
+				</ul>
+				<hr class="no-margin">
+			</div>
+		</section>
+		
+		<section id="site-author" class="flat hard-grey anm-fadeIn delay-3000">
+			<div class="content universe">
+					<h2><small>edita</small></h2>
+					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image anm-moveFromTopFade"><img src="http://codi.comunistes.cat/logo/logocomunistes-base-negative.png" alt="Comunistes de Catalunya"></a>
+					<p class="lead">Comunistes de Catalunya</p>
+			</div>
+		</section>
+				
+		<section id="site-map" class="flat black anm-fadeIn delay-3000">
 			<div class="content universe">
 				<hr>
 				<blockquote class="book-quote l">
@@ -130,29 +164,7 @@
 			</div>
 		</section>
 		
-		<section id="site-map" class="">
-			<div class="content universe">
-				<div class="cell-6 pushed-3"><a href="<$BlogUrl$>" title="Realitat"><img src="http://codi.realitat.cat/src/img/header-realitat-big.png" alt="realitat*"></a></div>
-				<hr class="no-margin">
-				<ul class="list-unlisted">
-					<li><a href="http://bloc.realitat.cat" title="Bloc de la realitat*">Bloc</a></li>
-					<li><a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions</a></li>
-					<li><a href="http://lesarrels.realitat.cat" title="la Columna de Miquel Àngel Soria a la realitat*">les Arrels</a></li>
-					<li><a href="http://alfonsalesquerra.realitat.cat" title="la Columna de Cultura amb classe a la realitat*">Al fons a l'esquerra</a></li>
-				</ul>
-				<hr class="no-margin">
-			</div>
-		</section>
-		
-		<section id="site-author" class="flat hard-grey">
-			<div class="content universe">
-					<h2><small>edita</small></h2>
-					<a href="http://comunistes.cat" title="www.comunistes.cat" class="button-image anm-moveFromTopFade"><img src="http://codi.comunistes.cat/logo/logocomunistes-base-negative.png" alt="Comunistes de Catalunya"></a>
-					<p class="lead">Comunistes de Catalunya</p>
-			</div>
-		</section>
-				
-		<footer id="terms-footer" class="universe flat black">
+		<footer id="terms-footer" class="universe flat black anm-fadeIn delay-3000">
 			<div class="content">
 				<p>
 					<span class="license symbol-copyright"> 2015 <a href="http://comunistes.cat" title="www.comunistes.cat">Comunistes de Catalunya</a></span> 
@@ -169,9 +181,40 @@
 
 	</div><!-- /#page -->
    
+	<!-- Dialog -->
+	<div class="jdialog closed rounded anm-moveFromTopEase slow" id="contact-forms">
+		<div class="content">
+			<section class="col-3 universe">
+				<a class="idtrigger button-close" href="#contact-forms">X</a>
+				<h3 class="title">Col·labora!</h3>
+				<div class="cell">
+					<a class="button flat green" href="https://goo.gl/forms/oKkJ9BMiLR5Vu0D13" target="blank" title="Formulari de Contacte">Formulari de Contacte</a>
+					<p>Contacta amb la redacció de la realitat*</p>
+				</div>
+				<div class="cell">
+					<a class="button flat green" href="https://goo.gl/forms/YeMlhwCIJxPgfF312" target="blank" title="Informa'ns de Convocatòries">Formulari de Convocatòries</a>
+					<p>Fes-nos arribar convocatòries d'actes i mobilitzacions</p>
+				</div>
+				<div class="cell">
+					<a class="button flat green" href="https://goo.gl/forms/kteTkMpTzvrGNS3K3" target="blank" title="Fes-nos arribar Notícies i articles">Formulari de Notícies</a>
+					<p>Informa'ns d'allò que passa al teu voltant</p>
+				</div>
+				<hr>
+				<p class="lead">ajuda'ns a conèixer i transformar la realitat*</p>
+			</section>
+		</div>
+	</div>
+   
     <!-- Scripts
     ================================================== -->
 	<script src="http://codi.realitat.cat/src/js/ga-realitat.js" type="text/javascript"></script>
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script src="http://codi.realitat.cat/src/js/jquery.js" type="text/javascript"></script>
+	<script>
+		$('.button-modal, .jdialog .button-close').click(function(){
+			var currentDialog = $(this).attr('href');
+			$(currentDialog).toggleClass('closed anime anm-moveFromTop');
+		});
+	</script>
   </body>
 </html>

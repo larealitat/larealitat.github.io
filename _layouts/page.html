@@ -3,49 +3,58 @@ layout: default
 ---
 
 		<a class="absolute top left button-icon xs circled unify visible-phone" href="{{ site.baseurl }}" title="{{ site.name }}"><img src="http://codi.realitat.cat/src/ics/favicon-32x32.png" alt="realitat"></a>		
-		<header id="article-header" class="universe">
+		<header id="article-header" class="universe anm-fadeIn">
 			<div class="content">
-				<Blogger>
-					<h1 class="article-title">{{ page.title }}</h1>
-				</Blogger>
+				<h1 class="article-title">{{ page.title }}</h1>
+				<h6 class="article-date">Escrit el {{ page.date | date: "%e / %m / %Y" }}</h6>
 			</div>
 		</header>
-		<main>
+		<nav class="sticky universe anm-moveFromLeftFade delay-200 slow" id="article-nav">
+			<div class="content anm-fadeIn delay-2000">
+				<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b> /</a>
+				<a href="{{ site.baseurl }}" title="{{ site.title }}">{{ site.title }} /</a>
+				<strong>{{ page.title }}</strong>
+			</div>
+		</nav>
+		<main class="anm-rotatePullTop delay-1500">
 			<div class="content">
-				<div class="cell-3 hidden-phone universe">
+				<div class="cell-3 sticky-2 hidden-phone universe anm-scaleUpDown delay-3000">
 					<h2 class="thin"><small>Segueix-nos</small></h2>
 					<div class="button-centered s">
-						<a href="{{ site.baseurl }}/feed.xml" class="button-icon circled hover-white orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br>
-						<a href="http://www.twitter.com/larealitat" class="button-icon circled hover-white soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br>
-						<a href="http://www.facebook.com/larealitat" class="button-icon circled hover-white blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>  <br>
-						<a href="https://plus.google.com/115185630100620701614" class="button-icon circled hover-white red" target="blank" title="Segueix-nos a Google +"> G+ </a> <br>
-						<a href="https://github.com/ComunistesdeCatalunya" class="button-icon circled hover-white violet" title="Comunistes de Catalunya a Github"> Git </a>
+						<a href="{{ site.baseurl }}/feed.xml" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br>
+						<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a>  <br>
+						<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br>
+						<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>  <br>
+						<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
 					</div>
 				</div>
 				<div class="cell-6">
-					<a href="{{ page.thumbnail }}" title="Ampliar la imatge"><img src="{{ page.thumbnail }}" alt=""></a>
-					{{ content }}
+					<div class="article-content">
+						{{ content }}
+					</div>
+					<hr>
 				</div>
-				<div class="cell-3 sticky-2">
+				<div class="cell-3 sticky-2 anm-scaleUpDown delay-3000">
 					<h2 class="universe thin visible-phone"><small>Segueix-nos</small></h2>
 					<div class="button-centered visible-phone s">
-						<a href="{{ site.baseurl }}/feed.xml" class="button-icon circled hover-white orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
-						<a href="http://www.twitter.com/larealitat" class="button-icon circled hover-white soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br class="hidden-phone">
-						<a href="http://www.facebook.com/larealitat" class="button-icon circled hover-white blue" target="blank" title="Segueix-nos a Facebook"> Fb </a> <br class="hidden-phone">
-						<a href="https://plus.google.com/115185630100620701614" class="button-icon circled hover-white red" target="blank" title="Segueix-nos a Google +"> G+ </a>
+						<a href="{{ site.baseurl }}/feed.xml" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
+						<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a>  <br class="hidden-phone">
+						<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br class="hidden-phone">
+						<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a> <br class="hidden-phone">
+						<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
 					</div>
 					<h2 class="universe thin"><small>Comparteix</small></h2>
 					<div class="button-centered s">
 						<Blogger>
-							<a href="http://twitter.com/?status={{ site.baseurl }}{{ page.url }}" class="button-icon hover-white soft-blue" title="Comparteix a Twitter">Tw</a> <br class="hidden-phone">
-							<a href="http://www.facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}&t={{ page.title }}" class="button-icon hover-white blue" title="Comparteix a Facebook">Fb</a> <br class="hidden-phone">
-							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url={{ site.baseurl }}{{ page.url }}" class="button-icon hover-white red" title="Comparteix a Google +">G+</a>
+							<a href="http://twitter.com/?status={{ site.baseurl }}{{ page.url }}" class="button-icon flat soft-blue" title="Comparteix a Twitter">Tw</a> <br class="hidden-phone">
+							<a href="http://www.facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}&t={{ page.title }}" class="button-icon flat blue" title="Comparteix a Facebook">Fb</a> <br class="hidden-phone">
+							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url={{ site.baseurl }}{{ page.url }}" class="button-icon flat red" title="Comparteix a Google +">G+</a>
 						</Blogger>
 					</div>
 					<h2 class="universe thin"><small>Tradueix</small></h2>
 					<div class="button-centered s">
 						<Blogger>
-							<a class="button-icon hover-white sky" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u={{ site.baseurl }}{{ page.url }}" target="blank" title="Translate with Google Translate">Idioma</a>
+							<a class="button-icon flat sky anm-fadeIn delay-1800" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u={{ site.baseurl }}{{ page.url }}" target="blank" title="Translate with Google Translate">Idioma</a>
 						</Blogger>
 					</div>
 				</div>
