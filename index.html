@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pagefeeds
 ---
 		
 		<header id="blog-header" class="anm-fadeIn">
@@ -28,7 +28,7 @@ layout: default
 		
 		<main clas="anm-fadeIn delay-1500">
 			<div class="content">
-				<div class="cell-6 anm-fadeIn delay-2000">
+				<div class="cell-12 anm-fadeIn delay-2000">
 					<h2 class="universe"><small>Notícies</small></h2>
 					<div class="news">
 						{% for post in site.posts %}
@@ -43,6 +43,16 @@ layout: default
 							<hr>
 						{% endfor %}
 					</div>
+					<hr>
+				</div>
+			</div>
+		</main>
+		
+		<section>		
+			<div class="content">
+				<div class="cell-6 anm-fadeIn delay-2000">
+					<h2 class="title universe"><small><a href="http://bloc.realitat.cat" title="Notícies de la realitat*">Notícies</a></small></h2>
+					<div class="thumbnails" id="rss-noticies"></div>
 					<hr>
 				</div>
 				<div class="cell-6 anm-fadeIn delay-2000">
@@ -61,4 +71,4 @@ layout: default
 				</div>
 				<hr>
 			</div>
-		</main>
+		</section>
