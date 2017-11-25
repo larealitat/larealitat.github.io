@@ -33,7 +33,7 @@ layout: pagefeeds
 					{% for post in site.posts %}
 						<article>
 							<header>
-								<h3><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+								<h2><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 								<h6><a href="{{ post.externalLink }}">{{ post.shortDescription }}</a></h6>
 							</header>
 							<div><img src="{{ post.image }}" alt="{{ post.title }}"> {{ post.content | truncatewords:50}}</div>
