@@ -46,7 +46,7 @@
 		{% include nav.html %}
 		
 		<a class="absolute top left button-icon xs circled unify visible-phone" href="{{ site.baseurl }}" title="{{ site.name }}"><img src="http://codi.realitat.cat/src/ics/favicon-32x32.png" alt="realitat"></a>		
-		<header id="article-header" class="header-banner flat black universe anm-fadeIn" style="background-image:url('{{ post.image }}');">
+		<header id="article-header" class="header-banner flat black universe anm-fadeIn" style="background-image:url('{{ page.image }}');">
 			<div class="content">
 				<div class="prev-next anm-fadeIn delay-3000">
 					  {% if page.previous.url %}
@@ -71,7 +71,7 @@
 			<div class="content anm-fadeIn delay-3000">
 				<div class="gallery">
 					<h2 class="title">Selecció d'articles</h2>
-					<div id="{{ post.feedID }}"></div>
+					<div id="{{ page.feedID }}"></div>
 				</div>
 				<hr class="no-margin">
 			</div>
@@ -113,7 +113,7 @@
 	<script src="http://codi.realitat.cat/src/js/jquery.rss.min.js" type="text/javascript"></script>
 	<script>
 		jQuery(function($) {
-		  $("{{ post.feedID }}").rss("{{ post.feedUrl }}",
+		  $("{{ page.feedID }}").rss("{{ page.feedUrl }}",
 		  {
 			limit: 10,
 			dateFormat: 'D [de] MMMM',
