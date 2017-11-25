@@ -54,14 +54,19 @@
 						<a href="{{page.next.url}}">{{page.next.title}}</a>
 					  {% endif %}
 				</div>
-				<h1 class="article-title">{{ page.title }}</h1>
-				<h6 class="article-date">Escrit el {{ page.date | date: "%e / %m / %Y" }}</h6>
-				<div class="button-centered xs anm-moveFromBottomFade delay-4000">
+				<div class="button-centered xs anm-moveFromTopFade delay-4000">
 					<a href="{{ site.baseurl }}/feed.xml" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> 
 					<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a> 
 					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
 					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
 					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
+				</div>
+				<h1 class="article-title">{{ page.title }}</h1>
+				<h6 class="article-date">Escrit el {{ page.date | date: "%e / %m / %Y" }}</h6>
+				<div class="button-centered xs anm-moveFromBottomFade delay-4000">
+					<a href="http://twitter.com/?status={{ site.baseurl }}{{ page.url }}" class="button-icon flat soft-blue" title="Comparteix a Twitter">Tw</a> 
+					<a href="http://www.facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}&t={{ page.title }}" class="button-icon flat blue" title="Comparteix a Facebook">Fb</a> 
+					<a href="https://plusone.google.com/_/+1/confirm?hl=en&url={{ site.baseurl }}{{ page.url }}" class="button-icon flat red" title="Comparteix a Google +">G+</a>
 				</div>
 			</div>
 		</header>
