@@ -112,7 +112,7 @@
 	<script src="http://codi.realitat.cat/src/js/jquery.rss.min.js" type="text/javascript"></script>
 	<script>
 		jQuery(function($) {
-		  $("{{ page.feedID }}").rss("{{ page.feedURL }}",
+		  $("#{{ page.feedID }}").rss("{{ page.feedURL }}",
 		  {
 			limit: 10,
 			dateFormat: 'D [de] MMMM',
