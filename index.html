@@ -33,11 +33,11 @@ layout: pagefeeds
 					{% for post in site.posts %}
 						<article>
 							<header>
-								<h3><a href="{{ site.baseurl }}{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a></h3>
+								<h3><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
 								<h6><a href="{{ post.externalLink }}">{{ post.shortDescription }}</a></h6>
 							</header>
-							<div><img src="{{ post.imageUrl }}" alt="{{ post.title }}"> {{ post.content | truncatewords:50}}</div>
-							<strong class="reverse"><a class="button-icon s circled" href="{{ site.baseurl }}{{ post.externalLink }}" title="Article: {{ post.title }}">+</a></strong>
+							<div><img src="{{ post.image }}" alt="{{ post.title }}"> {{ post.content | truncatewords:50}}</div>
+							<strong class="reverse"><a class="button-icon s circled" href="{{ post.externalLink }}" title="{{ post.title }}">+</a></strong>
 						</article>
 						<hr class="no-margin">
 					{% endfor %}

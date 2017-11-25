@@ -1,8 +1,50 @@
----
-layout: default
----
-
-
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+		<meta charset="utf-8">
+		<!-- Metadata: Basic -->
+		<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="{{ site.description }}">
+		<meta name="keywords" content="{{ site.name }}">
+		<meta name="author" content="{{ site.author }}">
+		<!-- Metadata: GeoTags -->
+		<meta name="geo.region" content="{{ site.region }}">
+		<meta name="geo.placename" content="{{ site.placename }}">
+		<meta name="geo.position" content="{{ site.langitudelongitude }}">
+		<meta name="ICBM" content="{{ site.langitudelongitude }}">
+		<!-- Screen styles -->
+		<link href="{{ site.baseurl }}/src/css/styles.css" rel="stylesheet" media="screen">
+		<link href="{{ site.baseurl }}/src/css/anime.css" rel="stylesheet" media="screen">
+		<link href="{{ site.baseurl }}/src/css/realskin.css" rel="stylesheet" media="screen">
+		<!-- Print styles -->
+		<link href="{{ site.baseurl }}/src/css/print.css" rel="stylesheet" media="print">
+		<!-- If iexplorer :( -->
+		<!--[if lt IE 9]><script src="{{ site.baseurl }}/src/js/html5shiv.js"></script><![endif]-->
+		<!--[if IE]><link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/src/css/iexplorer.css" /><![endif]-->
+		<!-- If JS disabled -->
+		<noscript><link href="{{ site.baseurl }}/src/css/noscript.css" rel="stylesheet" media="screen"></noscript>
+		<!-- Site Feed -->
+		<link rel="alternate" type="application/rss+xml" title="rss" href="{{ site.baseurl }}/feed.xml">
+		<!-- Page Icons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="http://codi.realitat.cat/src/ics/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="http://codi.realitat.cat/src/ics/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="http://codi.realitat.cat/src/ics/favicon-16x16.png">
+		<link rel="manifest" href="http://codi.realitat.cat/src/ics/manifest.json">
+		<link rel="mask-icon" href="http://codi.realitat.cat/src/ics/safari-pinned-tab.svg" color="#dd0000">
+		<link rel="shortcut icon" href="http://codi.realitat.cat/src/ics/favicon.ico">
+		<meta name="apple-mobile-web-app-title" content="realitat*">
+		<meta name="application-name" content="realitat*">
+		<meta name="msapplication-config" content="http://codi.realitat.cat/src/ics/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body>
+  
+  		<!-- /#page -->
+		<div class="page" id="page">
+		
+		{% include nav.html %}
+		
 		<a class="absolute top left button-icon xs circled unify visible-phone" href="{{ site.baseurl }}" title="{{ site.name }}"><img src="http://codi.realitat.cat/src/ics/favicon-32x32.png" alt="realitat"></a>		
 		<header id="article-header" class="universe anm-fadeIn">
 			<div class="content">
@@ -27,34 +69,43 @@ layout: default
 		</nav>
 		<main class="anm-rotatePullTop delay-1500">
 			<div class="content anm-fadeIn delay-3000">
-						<img src="{{ post.image }}" alt="{{ post.title }}">
-						<br>
 						{{ content }}
-						<br>
-				</div>
 				<hr class="no-margin">
 			</div>
 		</main>
-		<div class="absolute bottom left">
+		<div class="absolute bottom left right">
 			<div class="content">
 				<div class="cell-6 universe anm-scaleUpDown delay-3000">
 					<div class="button-centered s">
-						<a href="{{ site.baseurl }}/feed.xml" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br>
-						<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a>  <br>
-						<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br>
-						<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>  <br>
+						<a href="{{ site.baseurl }}/feed.xml" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> 
+						<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a> 
+						<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
+						<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
 						<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
 					</div>
 				</div>
 				<div class="cell-6 universe anm-scaleUpDown delay-3000">
 					<div class="button-centered s">
-							<a href="http://twitter.com/?status={{ site.baseurl }}{{ page.url }}" class="button-icon flat soft-blue" title="Comparteix a Twitter">Tw</a> <br class="hidden-phone">
-							<a href="http://www.facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}&t={{ page.title }}" class="button-icon flat blue" title="Comparteix a Facebook">Fb</a> <br class="hidden-phone">
+							<a href="http://twitter.com/?status={{ site.baseurl }}{{ page.url }}" class="button-icon flat soft-blue" title="Comparteix a Twitter">Tw</a> 
+							<a href="http://www.facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}&t={{ page.title }}" class="button-icon flat blue" title="Comparteix a Facebook">Fb</a> 
 							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url={{ site.baseurl }}{{ page.url }}" class="button-icon flat red" title="Comparteix a Google +">G+</a>
-
 							<a class="button-icon flat sky anm-fadeIn delay-1800" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u={{ site.baseurl }}{{ page.url }}" target="blank" title="Translate with Google Translate">Idioma</a>
 					</div>
 				</div>
 				<hr class="no-margin">
 			</div>
 		</div>
+			
+		{% include footer.html %}
+
+		</div><!-- /#page -->
+		
+		{% include dialog.html %}
+
+		<!-- Scripts
+		================================================== -->
+		{% include analytics.html %}
+		{% include scripts.html %}
+		
+	</body>
+</html>
