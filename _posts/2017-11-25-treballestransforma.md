@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-selection
 title: El treball es transforma, l'explotació continua
 shortDescription: Selecció d'articles
 externalLink: http://bloc.realitat.cat/search/label/Fragmentaci%C3%B3%20productiva
