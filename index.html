@@ -39,11 +39,8 @@ layout: pagefeeds
 							<div><img src="{{ post.image }}" alt="{{ post.title }}"> {{ post.content | truncatewords:50}}</div>
 							<strong class="reverse"><a class="button-icon s circled" href="{{ post.externalLink }}" title="{{ post.title }}">+</a></strong>
 						</article>
-						<hr class="no-margin">
 					{% endfor %}
 				</div>
-				<hr class="no-margin">
-
 				<div class="cell-6 anm-fadeIn delay-2000">
 					<h2 class="panel title universe"><small><a href="http://noticies.realitat.cat" title="Notícies de la realitat*">Notícies de la realitat<em class="unify red">*</em></a></small></h2>
 					<div class="thumbnails" id="rss-noticies"></div>
