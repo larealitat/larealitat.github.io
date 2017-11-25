@@ -67,7 +67,7 @@
 }
 
 
-/* News and gallery */
+/* Articles */
 
 header,
 nav:not(.pagination) {
@@ -103,7 +103,8 @@ nav:not(.pagination) {
 .mainstream article div img,
 .gallery article div img,
 .news article div img,
-.thumbnails article div img {
+.thumbnails article div img,
+.feed-resume > img {
 	display: block;
 	height: 12em;
 	width: 100%;
@@ -127,12 +128,8 @@ nav:not(.pagination) {
 	height: 8em;
 	margin: .5em 1em .5em .5em;
 	width: 8em;
-
 }
 @media (max-width: 1200px) {
-	.thumbnails article {
-		
-	}
 	.thumbnails article div,
 	.thumbnails article div img {
 		height: 3.8em;
