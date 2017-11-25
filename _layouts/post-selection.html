@@ -26,9 +26,15 @@ layout: default
 			</div>
 		</nav>
 		<main class="anm-rotatePullTop delay-1500">
+			<div class="content anm-fadeIn delay-3000">
+						{{ content }}
+				</div>
+				<hr class="no-margin">
+			</div>
+		</main>
+		<div class="absolute bottom left">
 			<div class="content">
-				<div class="cell-3 sticky-2 hidden-phone universe anm-scaleUpDown delay-3000">
-					<h2 class="thin"><small>Segueix-nos</small></h2>
+				<div class="cell-6 universe anm-scaleUpDown delay-3000">
 					<div class="button-centered s">
 						<a href="{{ site.baseurl }}/feed.xml" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br>
 						<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a>  <br>
@@ -37,32 +43,15 @@ layout: default
 						<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
 					</div>
 				</div>
-				<div class="cell-6">
-					<div class="article-content">
-						{{ content }}
-					</div>
-					<hr>
-				</div>
-				<div class="cell-3 sticky-2 anm-scaleUpDown delay-3000">
-					<h2 class="universe thin visible-phone"><small>Segueix-nos</small></h2>
-					<div class="button-centered visible-phone s">
-						<a href="{{ site.baseurl }}/feed.xml" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
-						<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a>  <br class="hidden-phone">
-						<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br class="hidden-phone">
-						<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a> <br class="hidden-phone">
-						<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
-					</div>
-					<h2 class="universe thin"><small>Comparteix</small></h2>
+				<div class="cell-6 universe anm-scaleUpDown delay-3000">
 					<div class="button-centered s">
 							<a href="http://twitter.com/?status={{ site.baseurl }}{{ page.url }}" class="button-icon flat soft-blue" title="Comparteix a Twitter">Tw</a> <br class="hidden-phone">
 							<a href="http://www.facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}&t={{ page.title }}" class="button-icon flat blue" title="Comparteix a Facebook">Fb</a> <br class="hidden-phone">
 							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url={{ site.baseurl }}{{ page.url }}" class="button-icon flat red" title="Comparteix a Google +">G+</a>
-					</div>
-					<h2 class="universe thin"><small>Tradueix</small></h2>
-					<div class="button-centered s">
+
 							<a class="button-icon flat sky anm-fadeIn delay-1800" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u={{ site.baseurl }}{{ page.url }}" target="blank" title="Translate with Google Translate">Idioma</a>
 					</div>
 				</div>
 				<hr class="no-margin">
 			</div>
-		</main>
+		</div>

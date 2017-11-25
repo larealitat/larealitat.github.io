@@ -166,11 +166,11 @@
 			<div class="content universe">
 				<a href="<$BlogUrl$>" title="Realitat" class="level-7"><img src="http://codi.realitat.cat/src/img/header-realitat-noticies.jpg" alt="realitat*"></a>
 				<h1 class="closed"><$BlogTitle$></h1>
-				<div class="button-centered anm-moveFromBottomFade delay-4000">
-					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br>
-					<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a> <br>
-					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a><br>
-					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a><br>
+				<div class="button-centered xs anm-moveFromBottomFade delay-4000">
+					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> 
+					<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a> 
+					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
+					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
 					<a href="https://plus.google.com/115185630100620701614" class="button-icon circled flat red" target="blank" title="Segueix-nos a Google +"> G+ </a>
 				</div>
 			</div>
@@ -331,6 +331,45 @@
 				<hr class="no-margin">
 			</div>
 		</main>
+		<!-- More content -->
+		<nav class="sticky line-top white">
+			<div class="content">
+				<input class="toggletrigger" type="checkbox" id="mob-nav2" name="mob-nav2" aria-hidden="true" hidden>
+				<label for="mob-nav2" class="toggle">Menú <span class="caret"></span></label>
+				<div id="nav-collapse" class="togglecollapsed">
+					<a href="http://www.realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
+					<a href="http://bloc.realitat.cat" title="Bloc d'articles de la realitat*">Articles</a>
+					<a href="http://noticies.realitat.cat" title="Notícies de la realitat*"><b class="unify grey">Notícies</b></a>
+					<a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions</a>
+					<a href="http://miquelangelsoria.realitat.cat" title="La columna literària de Miquel Àngel Soria a la realitat*">Les Arrels</a>
+					<a href="http://alfonsalesquerra.realitat.cat" title="La columna cultural amb classe de la realitat*">Al fons a l'esquerra</a>
+					<a href="http://codi.realitat.cat/xarxa/" title="Xarxa de la realitat*">Xarxa</a>
+					<a class="button-modal" href="#contact-forms" title="Ajuda'ns a conèixer i transformar la realitat*">Col·labora!</a>
+					<form class="form-search" action="http://www.google.com/cse"> 
+						<input type="hidden" name="cx" value="007620493827235173837:p9bytcfv9gu"> 
+						<input type="text" name="q" class="terms squared" placeholder="cerca"> 
+						<input type="submit" name="sa" class="search" value="·"> 
+					</form>
+			</div>
+		</nav>
+		<section id="" class="">
+			<div class="content">
+				<div class="cell-6 anm-fadeIn delay-2000">
+					<h2 class="title universe"><small><a href="http://noticies.realitat.cat" title="Notícies de la realitat*">Articles</a></small></h2>
+					<div class="thumbnails" id="rss-realitat"></div>
+					<hr>
+				</div>
+				<div class="cell-6 anm-fadeIn delay-2000">
+					<h2 class="title universe"><small><a href="http://bloc.realitat.cat" title="Bloc de la realitat*">Notícies</a></small></h2>
+					<div class="thumbnails" id="rss-noticies"></div>
+					<hr>
+					<h2 class="title universe"><small><a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions en PDF</a></small></h2>
+					<div class="thumbnails" id="rss-publicacions"></div>
+					<hr>
+				</div>
+				<hr>
+			</div>
+		</section>
 </ItemPage>
 
 		
@@ -430,6 +469,7 @@
 	<script src="http://codi.realitat.cat/src/js/moment.min.js" type="text/javascript"></script>
 	<script src="http://codi.realitat.cat/src/js/jquery.rss.min.js" type="text/javascript"></script>
 	<script>
+<MainOrArchivePage>
 		jQuery(function($) {
 		  $("#rss-realitat").rss("http://bloc.realitat.cat/feeds/posts/default",
 		  {
@@ -462,6 +502,41 @@
 			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}</div><strong class="reverse"><a class="button-icon s circled" href="{url}">+</a></strong></article>'
 		  })
 		})
+</MainOrArchivePage>
+<ItemPage>
+		jQuery(function($) {
+		  $("#rss-realitat").rss("http://bloc.realitat.cat/feeds/posts/default",
+		  {
+			limit: 8,
+			dateFormat: 'D [de] MMMM',
+			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}</div><strong class="reverse"><a class="button-icon s circled" href="{url}">+</a></strong></article>'
+		  })
+		})
+		jQuery(function($) {
+		  $("#rss-noticies").rss("http://noticies.realitat.cat/feeds/posts/default",
+		  {
+			limit: 4,
+			dateFormat: 'D [de] MMMM',
+			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}</div><strong class="reverse"><a class="button-icon s circled" href="{url}">+</a></strong></article>'
+		  })
+		})
+		jQuery(function($) {
+		  $("#rss-alfonsalesquerra").rss("http://alfonsalesquerra.realitat.cat/feeds/posts/default",
+		  {
+			limit: 2,
+			dateFormat: 'D [de] MMMM',
+			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}</div><strong class="reverse"><a class="button-icon s circled" href="{url}">+</a></strong></article>'
+		  })
+		})
+		jQuery(function($) {
+		  $("#rss-publicacions").rss("http://publicacions.realitat.cat/feeds/posts/default",
+		  {
+			limit: 2,
+			dateFormat: 'D [de] MMMM',
+			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}</div><strong class="reverse"><a class="button-icon s circled" href="{url}">+</a></strong></article>'
+		  })
+		})
+</ItemPage>
 		$('.button-modal, .jdialog .button-close').click(function(){
 			var currentDialog = $(this).attr('href');
 			$(currentDialog).toggleClass('closed anime anm-moveFromTop');

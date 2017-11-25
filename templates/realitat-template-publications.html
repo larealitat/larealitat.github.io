@@ -113,8 +113,12 @@
 			<div class="content gallery anm-fadeIn delay-2000">
 					<Blogger>
 						<article id="<$BlogItemNumber$>">
-								<div class="article-thumb"><a href="<$blogItemPermalinkUrl$>" title="<$BlogItemPermalinkUrl$>"><$BlogItemBody$></a></div>
-								<h3 class="article-title"><a href="<$blogItemPermalinkUrl$>" title="<$BlogItemPermalinkUrl$>"><$BlogItemTitle$></a></h3>
+							<header>
+								<h3><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+								<h6><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></h6>
+							</header>
+							<div><$BlogItemBody$></div>
+							<strong class="reverse"><a class="button-icon s circled" href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>">+</a></strong>
 						</article>
 					</Blogger>
 				<hr>
