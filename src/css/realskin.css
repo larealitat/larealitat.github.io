@@ -74,15 +74,10 @@ nav:not(.pagination) {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
+.mainstream,
 .news,
 .thumbnails {
 	padding: 0 1em;
-}
-.archive article:hover,
-.gallery article:hover,
-.news article:hover,
-.thumbnails article:hover {
-	box-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 .thumbnails article {
 	float: left;
@@ -92,6 +87,10 @@ nav:not(.pagination) {
 .archive article {
 	margin: 0 .5em 2em;
 }
+.mainstream article {
+	text-align: center;
+}
+.mainstream article > div,,
 .gallery article > div,
 .news article > div,
 .thumbnails article > div {
@@ -101,6 +100,7 @@ nav:not(.pagination) {
 	pointer-events: none;
 	width: 100%;
 }
+.mainstream article div img,
 .gallery article div img,
 .news article div img,
 .thumbnails article div img {
@@ -110,6 +110,7 @@ nav:not(.pagination) {
 	object-fit: cover;
 	object-position: center;
 }
+.mainstream article > strong,
 .archive article > strong,
 .gallery article > strong,
 .news article > strong,
@@ -145,6 +146,9 @@ article {
 	border: 1px solid #bbb !important;
 	margin-bottom: 2.6em;
 	padding: 0;
+}
+article:hover {
+	box-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 article header h3 {
 	font-size: 1.2em;
