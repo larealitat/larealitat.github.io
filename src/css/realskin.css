@@ -74,7 +74,6 @@ nav:not(.pagination) {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
-.mainstream,
 .news,
 .thumbnails {
 	padding: 0 1em;
@@ -88,6 +87,7 @@ nav:not(.pagination) {
 	margin: 0 .5em 2em;
 }
 .mainstream article {
+	margin: 0;
 	text-align: center;
 }
 .mainstream article header {
