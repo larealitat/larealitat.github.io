@@ -90,6 +90,9 @@ nav:not(.pagination) {
 .mainstream article {
 	text-align: center;
 }
+.mainstream article header {
+	padding: 0;
+}
 .mainstream article > div,
 .gallery article > div,
 .news article > div,
