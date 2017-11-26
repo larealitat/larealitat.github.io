@@ -33,7 +33,7 @@ layout: pagefeeds
 					{% for post in site.posts %}
 						<article>
 							<header>
-								<h2><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+								<h2><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><b>{{ post.title }}</b></a></h2>
 								<h6><a href="{{ post.externalLink }}">{{ post.shortDescription }}</a></h6>
 							</header>
 							<div><img src="{{ post.image }}" alt="{{ post.title }}"> {{ post.content | truncatewords:50}}</div>
@@ -42,12 +42,12 @@ layout: pagefeeds
 					{% endfor %}
 				</div>
 				<div class="cell-6 anm-fadeIn delay-2000">
-					<h2 class="panel title universe"><small><a href="http://noticies.realitat.cat" title="Notícies de la realitat*">Notícies de la realitat<em class="unify red">*</em></a></small></h2>
+					<h2 class="title universe"><small><a href="http://noticies.realitat.cat" title="Notícies de la realitat*">Notícies de la realitat<em class="unify red">*</em></a></small></h2>
 					<div class="thumbnails" id="rss-noticies"></div>
 					<hr>
 				</div>
 				<div class="cell-6 anm-fadeIn delay-2000">
-					<h2 class="panel title universe"><small><a href="http://bloc.realitat.cat" title="Bloc de la realitat*">Articles de la realitat<em class="unify red">*</em></a></small></h2>
+					<h2 class="title universe"><small><a href="http://bloc.realitat.cat" title="Bloc de la realitat*">Articles de la realitat<em class="unify red">*</em></a></small></h2>
 					<div class="thumbnails" id="rss-realitat"></div>
 					<hr>
 					<h2 class="title universe"><small><a href="http://publicacions.realitat.cat" title="Publicacions de la realitat*">Publicacions en PDF</a></small></h2>
