@@ -104,7 +104,7 @@ nav:not(.pagination) {
 .gallery article div img,
 .news article div img,
 .thumbnails article div img,
-.feed-resume > img {
+.feed-resume img {
 	display: block;
 	height: 12em;
 	width: 100%;
