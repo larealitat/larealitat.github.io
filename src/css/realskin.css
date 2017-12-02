@@ -130,6 +130,7 @@ nav:not(.pagination) {
 	float: left;
 	height: 8em;
 	margin: .5em 1em .5em .5em;
+	object-fit: cover;
 	width: 8em;
 }
 @media (max-width: 1200px) {
