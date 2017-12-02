@@ -39,7 +39,7 @@ layout: pagefeeds
 								<h6><a href="{{ post.externalLink }}">{{ post.shortDescription }}</a></h6>
 							</header>
 							<div><img src="{{ post.image }}" alt="{{ post.title }}"> {{ post.content | truncatewords:50}}</div>
-							<strong class="reverse"><a class="button-icon s circled" href="{{ post.externalLink }}" title="{{ post.title }}">+</a></strong>
+							<strong class="reverse"><a class="button-icon s circled" href="{{ post.url }}" title="{{ post.title }}">+</a></strong>
 						</article>
 					{% endfor %}
 				</div>
