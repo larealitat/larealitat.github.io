@@ -34,7 +34,7 @@ layout: pagefeeds
 					{% for post in site.posts %}
 						<article>
 							<header>
-								<h2><a href="{{ post.externalLink }}" title="{{ post.title }}"><b>{{ post.title }}</b></a></h2>
+								<h3><a href="{{ post.externalLink }}" title="{{ post.title }}"><b>{{ post.title }}</b></a></h3>
 							</header>
 							<div><img src="{{ post.image }}" alt="{{ post.title }}"> {{ post.content | truncatewords:50}}</div>
 							<strong class="reverse"><a class="button-icon s circled" href="{{ post.externalLink }}" title="{{ post.title }}">+</a></strong>
