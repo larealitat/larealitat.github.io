@@ -30,6 +30,19 @@ layout: pagefeeds
 		</nav>
 		
 		<main clas="anm-fadeIn delay-1500">
+			<div class="content  anm-fadeIn delay-2000">			
+				<div class="cell-6 anm-fadeIn delay-2000">
+					<h2 class="title universe"><small><a href="http://bloc.realitat.cat" title="Bloc de la realitat*">Articles de la realitat<em class="unify red">*</em></a></small></h2>
+					<div class="thumbnails" id="rss-realitat"></div>
+					<hr>
+				</div>
+				<div class="cell-6 anm-fadeIn delay-2000">
+					<h2 class="title universe"><small><a href="http://noticies.realitat.cat" title="Notícies de la realitat*">Notícies de la realitat<em class="unify red">*</em></a></small></h2>
+					<div class="thumbnails" id="rss-noticies"></div>
+					<hr>
+				</div>
+				<hr>
+			</div>
 			<div class="content anm-fadeIn delay-2000">
 				<div class="thumbnails">
 					{% for post in site.posts %}
@@ -43,18 +56,5 @@ layout: pagefeeds
 					{% endfor %}
 					<hr>
 				</div>
-			</div>
-			<div class="content  anm-fadeIn delay-2000">			
-				<div class="cell-6 anm-fadeIn delay-2000">
-					<h2 class="title universe"><small><a href="http://bloc.realitat.cat" title="Bloc de la realitat*">Articles de la realitat<em class="unify red">*</em></a></small></h2>
-					<div class="thumbnails" id="rss-realitat"></div>
-					<hr>
-				</div>
-				<div class="cell-6 anm-fadeIn delay-2000">
-					<h2 class="title universe"><small><a href="http://noticies.realitat.cat" title="Notícies de la realitat*">Notícies de la realitat<em class="unify red">*</em></a></small></h2>
-					<div class="thumbnails" id="rss-noticies"></div>
-					<hr>
-				</div>
-				<hr>
 			</div>
 		</main>
