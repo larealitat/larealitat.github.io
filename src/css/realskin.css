@@ -74,11 +74,6 @@ nav:not(.pagination) {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
-.news,
-.archive {
-	margin: 0 auto;
-	width: 62%;
-}
 .thumbnails {
 	padding: 0 1em;
 }
