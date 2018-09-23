@@ -75,6 +75,9 @@ nav:not(.pagination) {
 	border-bottom: 1px solid #ccc;
 }
 .news,
+.archive {
+	margin: 0 19%;
+}
 .thumbnails {
 	padding: 0 1em;
 }
@@ -88,7 +91,6 @@ nav:not(.pagination) {
 }
 .mainstream article {
 	margin: 0;
-	text-align: center;
 }
 .mainstream article header {
 	padding: 0;
