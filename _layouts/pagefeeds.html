@@ -63,7 +63,7 @@
 		jQuery(function($) {
 		  $("#rss-realitat").rss("http://bloc.realitat.cat/feeds/posts/default",
 		  {
-			limit: 12,
+			limit: 6,
 			dateFormat: 'D [de] MMMM',
 			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}</div><strong class="reverse"><a class="button-icon s circled" href="{url}">+</a></strong></article>'
 		  })
@@ -71,7 +71,7 @@
 		jQuery(function($) {
 		  $("#rss-noticies").rss("http://noticies.realitat.cat/feeds/posts/default",
 		  {
-			limit: 12,
+			limit: 6,
 			dateFormat: 'D [de] MMMM',
 			entryTemplate:'<article><header><h3><a href="{url}">{title}</a></h3><h6>{date}</h6></header><div>{teaserImage}{shortBodyPlain}</div><strong class="reverse"><a class="button-icon s circled" href="{url}">+</a></strong></article>'
 		  })
