@@ -76,7 +76,8 @@ nav:not(.pagination) {
 }
 .news,
 .archive {
-	margin: 0 19%;
+	margin: 0 auto;
+	width: 62%;
 }
 .thumbnails {
 	padding: 0 1em;
