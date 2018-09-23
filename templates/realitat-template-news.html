@@ -114,7 +114,7 @@
 			<div class="content anm-fadeIn delay-2000">
 				<div class="cell-6 pushed-3">
 					<div class="news">
-						<h2 class="universe thin"><small>Articles</small></h2>
+						<h2 class="universe thin"><small>Notícies</small></h2>
 							<Blogger>
 								<article id="<$BlogItemNumber$>">
 									<header>
@@ -173,7 +173,7 @@
 			<div class="content archive anm-fadeIn delay-2000">
 				<div class="cell-6 pushed-3">
 					<div class="news">
-						<h2 class="universe thin"><small>Articles</small></h2>
+						<h2 class="universe thin"><small>Arxiu de notícies</small></h2>
 							<Blogger>
 								<article id="<$BlogItemNumber$>">
 									<header>
@@ -201,8 +201,8 @@
 			<div class="content">
 				<div class="prev-next anm-fadeIn delay-3000"><$BlogPaginationLinks$></div>
 				<Blogger>
-					<h1 class="article-title"><$BlogItemTitle$></h1>
-					<h6 class="article-date"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
+					<h1 class="article-title" id="article-title"><$BlogItemTitle$></h1>
+					<h6 class="article-date" id="article-date"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
 				</Blogger>
 			</div>
 		</header>
@@ -227,7 +227,7 @@
 				</div>
 				<div class="cell-6">
 					<Blogger>
-						<div class="article-content">
+						<div class="article-content" id="article-body">
 							<$BlogItemBody$>
 						</div>
 						<hr>
