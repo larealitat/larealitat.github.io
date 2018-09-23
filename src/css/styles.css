@@ -2654,6 +2654,11 @@ div { /* block */ }
 .pushed-11 {
 	margin-left: 91.66666666%;
 }
+@media (max-width: 768px) {
+	[class*='pushed'] {
+		margin:left: 0;
+	}
+}
 
 /* Magazine columns (dividing one box in columns with column-count attribute) */
 
