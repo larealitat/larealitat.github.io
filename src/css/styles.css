@@ -4630,6 +4630,14 @@ a[class*='depth'],
 	top: 0;
 	z-index: 10;
 }
+[class*='sticky']:-moz-full-screen,
+[class*='persist']:-moz-full-screen,
+[class*='sticky']:-webkit-full-screen,
+[class*='persist']:-webkit-full-screen,
+[class*='sticky']:full-screen,
+[class*='persist']:full-screen {
+	display: none;
+}
 [class*='persist'],
 .fixed {
 	position: fixed;
