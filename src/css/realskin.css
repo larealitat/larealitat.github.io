@@ -74,9 +74,6 @@ nav:not(.pagination) {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
-.thumbnails {
-	padding: 0 1em;
-}
 .thumbnails article {
 	float: left;
 	margin: 0 1% 2.5em;
