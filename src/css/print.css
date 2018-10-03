@@ -86,9 +86,9 @@ img, figure {
 	page-break-inside: avoid;
 }
 article img, .article-body figure {
-	width: 100%;
-	max-width: 100%;
-	height: auto;
+	width: 100% !important;
+	max-width: 100% !important;
+	height: auto !important;
 }
 header a, footer a {
 	text-decoration: none !important;
