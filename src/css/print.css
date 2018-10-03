@@ -86,8 +86,12 @@ img, figure {
 	page-break-inside: avoid;
 }
 article img, .article-body figure {
-	width: 100% !important;
+	display: block !important;
+	float: none !important;
+	margin: 0 auto !important;
+	width: 80% !important;
 	max-width: 100% !important;
+	max-width: 15cm !important;
 	height: auto !important;
 }
 header a, footer a {
