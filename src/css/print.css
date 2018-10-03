@@ -97,7 +97,9 @@ header a, footer a {
 #blog-header,
 #site-map,
 #terms-footer,
-#contact-forms
+#contact-forms,
+.list-group,
+h2.thin,
 button,
 dialog,
 embed,
