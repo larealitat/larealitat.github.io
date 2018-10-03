@@ -85,7 +85,7 @@ img, figure {
 	page-break-after: auto;
 	page-break-inside: avoid;
 }
-.article-body img, .article-body figure {
+article img, .article-body figure {
 	width: 100%;
 }
 header a, footer a {
@@ -94,10 +94,10 @@ header a, footer a {
 #cookieChoiceInfo,
 .blogger-labels,
 #header,
-#header-site,
-#footer,
-#footer-social,
-#footer-terms,
+#blog-header,
+#site-map,
+#terms-footer,
+#contact-forms
 button,
 dialog,
 embed,
