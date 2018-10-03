@@ -87,6 +87,8 @@ img, figure {
 }
 article img, .article-body figure {
 	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 header a, footer a {
 	text-decoration: none !important;
