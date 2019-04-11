@@ -74,6 +74,18 @@ nav:not(.pagination) {
 	background: #ffffff;
 	border-bottom: 1px solid #ccc;
 }
+article header:before {
+	display: block;
+	color: #dd0000;
+	content: '*';
+	height: 24px;
+	font-size:24px;
+	line-height: 24px;
+	width: 24px;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
 .thumbnails article {
 	float: left;
 	margin: 0 1% 2.5em;
@@ -89,14 +101,7 @@ nav:not(.pagination) {
 	padding: 0;
 }
 .news article header:before {
-	display: block;
-	color: #dd0000;
-	content: '*';
-	height: 24px;
-	width: 24px;
-	position: absolute;
-	top: -12px;
-	right: -12px;
+	color: #666666;
 }
 .mainstream article > div,
 .gallery article > div,
