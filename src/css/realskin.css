@@ -89,8 +89,7 @@ nav:not(.pagination) {
 	padding: 0;
 }
 .news article {
-	border-left: transparent;
-	border-right: transparent;
+	border-radius: 8px 24px;
 }
 .mainstream article > div,
 .gallery article > div,
