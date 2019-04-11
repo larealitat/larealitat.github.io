@@ -83,8 +83,8 @@ article header:before {
 	line-height: 48px;
 	width: 48px;
 	position: absolute;
-	top: -12px;
-	left: -12px;
+	top: 0px;
+	left: 0px;
 }
 .thumbnails article {
 	float: left;
