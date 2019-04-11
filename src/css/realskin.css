@@ -90,7 +90,12 @@ nav:not(.pagination) {
 }
 .news article,
 .news article header {
-	border-radius: 32px 0;
+	-webkit-border-radius: 32px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius: 32px;
+	-moz-border-radius-topright: 0;
+	border-radius: 32px;
+	border-top-right-radius: 0;
 }
 .mainstream article > div,
 .gallery article > div,
