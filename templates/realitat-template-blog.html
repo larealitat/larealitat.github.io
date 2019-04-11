@@ -77,7 +77,7 @@
 			</div>
 		</nav>
 
-<MainOrArchivePage>
+<MainPage>
 		<header class="universe" id="blog-header">
 			<div class="content universe">
 				<a href="<$BlogUrl$>" title="Realitat" class="level-7"><img src="http://codi.realitat.cat/src/img/header-realitat-bloc.jpg" alt="realitat*"></a>
@@ -138,7 +138,74 @@
 				<hr>
 			</div>
 		</main>
-</MainOrArchivePage>
+</MainPage>
+
+<ArchivePage>
+		<header id="blog-header" class="anm-fadeIn">
+			<div class="content universe">
+				<a href="<$BlogUrl$>" title="Realitat" class="level-7"><img src="http://codi.realitat.cat/src/img/header-realitat-noticies.jpg" alt="realitat*"></a>
+				<h1 class="closed"><$BlogTitle$></h1>
+				<div class="button-centered xs anm-moveFromBottomFade delay-4000">
+					<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled flat orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> 
+					<a href="https://t.me/larealitat" class="button-icon circled flat sky" target="blank" title="Segueix-nos a Telegram"> Telegr </a> 
+					<a href="http://www.twitter.com/larealitat" class="button-icon circled flat soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a>
+					<a href="http://www.facebook.com/larealitat" class="button-icon circled flat blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
+				</div>
+			</div>
+		</header>
+		
+		<nav class="universe sticky anm-moveFromLeftFade delay-100 slow" id="page-nav">
+			<div class="content anm-fadeIn delay-2000">
+				<input class="toggletrigger" type="checkbox" id="mob-nav2" name="mob-nav2" aria-hidden="true" hidden>
+				<label for="mob-nav2" class="toggle">Tema <span class="caret"></span></label>
+				<div id="nav-collapse" class="togglecollapsed">
+					<a href="http://realitat.cat" title="www.realitat.cat"><b>realitat<em class="unify red">*</em></b></a>
+					<a href="<$BlogUrl$>" title="Notícies de la realitat*: Tots els temes">Notícies</a>
+					<a href="<$BlogUrl$>search/label/Món" title="Notícies de la realitat*: Món">Món</a>
+					<a href="<$BlogUrl$>search/label/Catalunya" title="Notícies de la realitat*: Catalunya">Catalunya</a>
+					<a href="<$BlogUrl$>search/label/Municipis" title="Notícies de la realitat*: Municipis">Municipis</a>
+					<a href="<$BlogUrl$>search/label/Ciència" title="Notícies de la realitat*: Ciència">Ciència</a>
+					<a href="<$BlogUrl$>search/label/Tecnologia" title="Notícies de la realitat*: Tecnologia">Tecnologia</a>
+					<a href="<$BlogUrl$>search/label/Cultura" title="Notícies de la realitat*: Cultura">Cultura</a>
+					<a href="<$BlogUrl$>search/label/Història" title="Notícies de la realitat*: Història">Història</a>
+				</div>
+			</div>
+		</nav>
+		
+		<main clas="anm-fadeIn delay-1500">
+			<div class="content archive anm-fadeIn delay-2000">
+				<div class="cell-6 pushed-3">
+					<div class="news">
+						<h2 class="universe thin"><small>Arxiu de notícies</small></h2>
+							<Blogger>
+								<article id="<$BlogItemNumber$>">
+									<header>
+										<h3><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+										<h6><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></h6>
+									</header>
+									<div><$BlogItemBody$></div>
+									<strong class="reverse"><a class="button-icon s circled" href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>">+</a></strong>
+								</article>
+							</Blogger>
+						<hr class="no-margin">
+						<h2 class="universe thin"><small>Més articles</small></h2>
+						<nav class="pagination"><$BlogPaginationLinks$></nav>
+						<hr>
+					</div>
+				</div>
+				<hr>
+				<div class="universe">
+					<h2 class="thin"><small>Arxiu</small></h2>
+					<ul class="list-group level-15 scrollable">
+						<BloggerArchives>
+							<li><a href="<$BlogArchiveURL$>" title="<$BlogArchiveName$>"><$BlogArchiveName$></a></li>
+						</BloggerArchives>
+					</ul>
+				</div>
+				<hr>
+			</div>
+		</main>
+</ArchivePage>
 
 
 <ItemPage>
