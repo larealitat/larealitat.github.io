@@ -88,6 +88,10 @@ nav:not(.pagination) {
 .mainstream article header {
 	padding: 0;
 }
+.news article {
+	border-left: transparent;
+	border-right: transparent;
+}
 .mainstream article > div,
 .gallery article > div,
 .news article > div,
