@@ -134,7 +134,7 @@ nav:not(.pagination) {
 @media (max-width: 1200px) {
 	.thumbnails article div,
 	.thumbnails article div img {
-		height: 3.8em;
+		height: 4.2em;
 	}
 }
 
