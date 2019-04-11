@@ -95,7 +95,8 @@ nav:not(.pagination) {
 	-o-border-top-left-radius: 32px;
 	border-top-left-radius: 32px;
 }
-.news article {
+.news article,
+.news article > div {
 	-webkit-border-bottom-left-radius: 32px;
 	-moz-border-bottom-left-radius: 32px;
 	-o-border-bottom-left-radius: 32px;
