@@ -88,8 +88,15 @@ nav:not(.pagination) {
 .mainstream article header {
 	padding: 0;
 }
-.news article header {
-	border-top: 4px solid #dd0000;
+.news article header:before {
+	display: block;
+	color: #dd0000;
+	content: '*';
+	height: 24px;
+	width: 24px;
+	position: absolute;
+	top: -12px;
+	right: -12px;
 }
 .mainstream article > div,
 .gallery article > div,
