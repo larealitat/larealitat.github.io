@@ -88,9 +88,8 @@ nav:not(.pagination) {
 .mainstream article header {
 	padding: 0;
 }
-.news article {
-	border-top: 2px solid #dd0000;
-	overflow: hidden;
+.news article header {
+	border-top: 4px solid #dd0000;
 }
 .mainstream article > div,
 .gallery article > div,
