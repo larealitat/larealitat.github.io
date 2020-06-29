@@ -89,7 +89,9 @@ nav:not(.pagination) {
 	padding: 0;
 }
 .news article,
-.news article header {
+.news article header,
+.column article,
+.column article header {
 	-webkit-border-top-left-radius: 32px;
 	-moz-border-top-left-radius: 32px;
 	-o-border-top-left-radius: 32px;

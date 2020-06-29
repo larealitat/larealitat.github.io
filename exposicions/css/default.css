@@ -1,0 +1,185 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Alegreya+SC:700|Cutive+Mono);
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+	font-family: "Helvetica Neue", HelveticaNeue, Helvetica, "Segoe UI", "Roboto", Arial, sans-serif;
+    background: #810606;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    overflow: hidden;
+    height: 100%;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.container > h1 {
+	z-index: 9999;
+	font-weight: 400;
+	padding: 50px 20px;
+	text-align: center;
+}
+@media (max-height: 700px) {
+	.container > h1 {
+		display: none;
+	}
+}
+.js .container > h1 {
+	position: fixed;
+	-webkit-backface-visibility: hidden;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #f0f0f0;
+	padding: 20px;
+	font-size: 24px;
+}
+
+.container > h1 a {
+	font-size: 24px;
+	font-family: Georgia;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0 0 0 10px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.container > h1 a:hover,
+.container > h1 a.demo-current {
+	color: #222;
+}
+
+/* Header Style */
+.codrops-top {
+	line-height: 20px;
+	font-size: 16px;
+	z-index: 9999;
+	background: rgba(255,255,255,0.4);
+	padding-top: 14px;
+	padding-left: 50px;
+    padding-right: 50px;
+}
+
+.js .codrops-top {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: transparent;
+}
+
+.codrops-top a {
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	color: rgba(0,0,0,0.7);
+	display: inline-block;
+}
+.codrops-top .red {
+	color: #dd0000;
+}
+.codrops-top a:hover {
+	color: #000;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+
+/* Logout logo */
+
+.logout {
+  cursor: pointer;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  z-index:10;
+}
+.logout .doorway {
+  perspective: 100px;
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  background-color: #fff;
+}
+.logout .doorway .door {
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  transform-origin: right center;
+  width: 100%;
+  height: 100%;
+  background-color: #afafaf;
+}
+.logout .arrow {
+  transition: right 1s;
+  position: absolute;
+  background-color: #fff;
+  width: 20px;
+  height: 10px;
+  top: 20px;
+  right: 0;
+}
+.logout .arrow:before {
+  display: block;
+  content: "";
+  height: 0;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #fff;
+  border-bottom: 15px solid transparent;
+}
+.logout:hover .door {
+  transform: rotateY(-45deg);
+}
+.logout:hover .arrow {
+  right: 50px;
+}
+
